@@ -147,6 +147,9 @@ options:
   --scene <a,b>     leaks: only these scenes
   --guide <id,...>  leaks: the guides the guide scene shows (default a few)
   --jobs <n>        leaks: runs at a time (default one per core)
+  --update-baseline leaks: write tools/lib/i18n/leaks-baseline.json: add the
+                    names no source has that the runs showed in English,
+                    drop the entries that no longer show
   --slack <n>       fit: measure every glyph n times wider (1.15: about the
                     client's own font)
   --pack <dir>      guides: the guide pack (default our guides/)
@@ -522,19 +525,33 @@ async function runLeaks(opts, positional) {
 		jobs,
 		onResult: opts.json ? null : (r) => console.error(`${r.locale} ${r.scene}: ${r.skipped ? `skipped (${r.skipped})` : `${plural(r.leaks.length, 'English text')}${r.errors.length ? `, ${plural(r.errors.length, 'error')}` : ''}`}`),
 	});
-	const leaks = results.reduce((n, r) => n + (r.leaks ? r.leaks.length : 0), 0);
 	const errors = results.flatMap((r) => (r.errors || []).map((e) => ({ locale: r.locale, scene: r.scene, ...e })));
+	if (opts.updateBaseline) {
+		if (errors.length) throw new Error(`${plural(errors.length, 'scene error')}: fix them before the baseline is written`);
+		const before = L.loadBaseline();
+		const next = L.updatedBaseline(results, before);
+		const count = (b) => Object.values(b.entries).reduce((n, e) => n + Object.keys(e).length, 0);
+		fs.writeFileSync(L.BASELINE_FILE, `${JSON.stringify(next, null, '\t')}\n`);
+		const left = results.reduce((n, r) => n + (r.leaks || []).filter((l) => !l.names.length).length, 0);
+		console.log(`${rel(L.BASELINE_FILE)}: ${count(before)} -> ${count(next)} names; ${plural(left, 'English text')} it cannot take (not a missing name: fix the code or translation)`);
+		return left ? 1 : 0;
+	}
+	const leaks = results.reduce((n, r) => n + (r.leaks ? r.leaks.length : 0), 0);
+	const stale = L.staleBaseline(results);
 	const groups = L.groupBySource(results);
+	const failed = leaks || errors.length || stale.length;
 	if (opts.json) {
 		console.log(JSON.stringify({
-			ok: !leaks && !errors.length,
-			runs: results.map((r) => ({ locale: r.locale, scene: r.scene, skipped: r.skipped || undefined, texts: r.texts, leaks: r.leaks ? r.leaks.length : undefined })),
+			ok: !failed,
+			runs: results.map((r) => ({ locale: r.locale, scene: r.scene, skipped: r.skipped || undefined, texts: r.texts, leaks: r.leaks ? r.leaks.length : undefined, baselined: r.baselined ? r.baselined.length : undefined })),
 			errors,
+			stale: stale.map((s) => ({ locale: s.locale, name: s.key, scenes: s.entry.scenes })),
 			groups: groups.map((g) => ({ source: g.source, label: g.key, entries: [...g.entries].map(([words, e]) => ({ words, locales: Object.fromEntries(e.locales), scenes: [...e.scenes], sites: [...e.sites] })) })),
 		}, null, 1));
-		return leaks || errors.length ? 1 : 0;
+		return failed ? 1 : 0;
 	}
 	for (const e of errors) console.log(`error: ${e.locale} ${e.scene}: ${e.scene === e.error ? '' : `${e.scene}: `}${e.error.split('\n')[0]}`);
+	for (const s of stale) console.log(`stale: ${rel(L.BASELINE_FILE)}: ${s.locale} ${s.key} no longer shows in English (${s.entry.scenes.join(', ')}): remove it, or run with --update-baseline`);
 	for (const g of groups) {
 		console.log(`\n${g.key} (${plural(g.entries.size, 'text')})`);
 		for (const [words, e] of g.entries) {
@@ -545,8 +562,8 @@ async function runLeaks(opts, positional) {
 		}
 	}
 	const ran = results.filter((r) => !r.skipped);
-	console.log(`\n${ran.length} of ${plural(results.length, 'run')} (${plural(chosen.length, 'locale')}, ${plural(scenes.length, 'scene')}): ${leaks ? `${plural(leaks, 'English text')} from ${plural(groups.length, 'source')}` : 'no English left'}${errors.length ? `, ${plural(errors.length, 'scene error')}` : ''}`);
-	return leaks || errors.length ? 1 : 0;
+	console.log(`\n${ran.length} of ${plural(results.length, 'run')} (${plural(chosen.length, 'locale')}, ${plural(scenes.length, 'scene')}): ${leaks ? `${plural(leaks, 'English text')} from ${plural(groups.length, 'source')}` : 'no English left'}${errors.length ? `, ${plural(errors.length, 'scene error')}` : ''}${stale.length ? `, ${plural(stale.length, 'stale baseline entry')}` : ''}`);
+	return failed ? 1 : 0;
 }
 
 // --- guide texts (tools/lib/i18n/guides.js) ----------------------------------
@@ -660,7 +677,7 @@ function runGuides(opts, positional) {
 
 async function run(argv) {
 	const { opts, positional, error } = parseArgs(argv, {
-		flags: ['--json', '--markdown', '--no-questie', '--no-tables', '--offline'],
+		flags: ['--json', '--markdown', '--no-questie', '--no-tables', '--offline', '--update-baseline'],
 		options: ['--ding', '--pfquest', '--guides', '--questdb', '--codex', '--travel', '--chokepoints', '--out', '--build', '--sources', '--slack', '--addon', '--pack', '--data', '--scene', '--guide', '--jobs'],
 	});
 	const [sub, ...rest] = positional;

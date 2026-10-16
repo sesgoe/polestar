@@ -4,7 +4,8 @@
 		"A word one of the locale's own texts already uses (its interface translations, names pack or guide texts) needs no entry.",
 		"products: names that stay as they are in every language. terms: abbreviations and key names every client shows in English.",
 		"patterns: JavaScript regular expressions for links, slash commands and format directives.",
-		"locales: per locale, names the game itself keeps in English on that client. Entries match whole words, case and all."
+		"locales: per locale, names the game itself keeps in English on that client. Entries match whole words, case and all.",
+		"The Western clients (German, Spanish, French, Portuguese) keep a few instance names in English: Zul'Gurub; Mazzranache is the same name in German."
 	],
 	"products": [
 		"Polestar",
@@ -60,5 +61,22 @@
 		"the bug report's details block, written for the maintainers": "```[\\s\\S]*?(?:```|$)",
 		"a format directive": "%\\d*\\$?[-+ #0]*\\d*(?:\\.\\d+)?[a-zA-Z]"
 	},
-	"locales": {}
+	"locales": {
+		"deDE": [
+			"Zul'Gurub",
+			"Mazzranache"
+		],
+		"esES": [
+			"Zul'Gurub"
+		],
+		"esMX": [
+			"Zul'Gurub"
+		],
+		"frFR": [
+			"Zul'Gurub"
+		],
+		"ptBR": [
+			"Zul'Gurub"
+		]
+	}
 }

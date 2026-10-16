@@ -7,10 +7,12 @@
 // a zone with collect goals and a profession guide, every tooltip on it;
 // every Options page and tab; the guide picker; and, where the Codex and the
 // quest database are built, Lookup, Dungeons and Rares. A Latin word of three
-// or more letters left on screen that is none of the locale's own words and
-// not on tools/lib/i18n/leaks-allow.json fails the test, named with its scene
-// and the line that set it. `node tools/polestar.js i18n leaks` runs every
-// scene in every locale.
+// or more letters left on screen that is none of the locale's own words, not
+// on tools/lib/i18n/leaks-allow.json and not a name no source has in the
+// language (tools/lib/i18n/leaks-baseline.json) fails the test, named with
+// its scene and the line that set it; so does a baseline name that no longer
+// shows in English in scenes that all ran. `node tools/polestar.js i18n leaks`
+// runs every scene in every locale.
 
 const { test } = require('node:test');
 const assert = require('node:assert/strict');
@@ -24,10 +26,6 @@ const describe = (r, l) => `${r.locale} ${r.scene}, ${l.scenes[0]}: "${l.text.le
 const runs = L.findLeaks(LOCALES, SCENES);
 runs.catch(() => {}); // each test awaits it and fails on its error
 
-// English the shipped names packs and code still show on next (the report of
-// `node tools/polestar.js i18n leaks`): listed, not failing, until fixed.
-const PENDING = 'English still on screen on next: names missing from the names packs, names shown without asking Polestar.Names';
-
 for (const scene of SCENES) {
 	const mine = async (t) => {
 		const list = (await runs).filter((r) => r.scene === scene);
@@ -40,11 +38,16 @@ for (const scene of SCENES) {
 		assert.deepEqual(errors, [], 'a scene stopped with an error, so it did not show everything');
 		for (const r of list) assert.ok(r.texts > 10, `${r.locale} ${scene}: only ${r.texts} texts`);
 	});
-	test(`${scene}: every word on screen is in the client's language (${LOCALES.join(', ')})`, { todo: PENDING }, async (t) => {
+	test(`${scene}: every word on screen is in the client's language (${LOCALES.join(', ')})`, async (t) => {
 		const leaks = (await mine(t)).flatMap((r) => r.leaks.map((l) => describe(r, l)));
 		assert.equal(leaks.length, 0, `English on screen:\n${leaks.join('\n')}`);
 	});
 }
+
+test(`the baseline lists only names that still show in English (${LOCALES.join(', ')}, the scenes above)`, async () => {
+	const stale = L.staleBaseline(await runs).map((s) => `${s.locale} ${s.key} (${s.entry.scenes.join(', ')})`);
+	assert.deepEqual(stale, [], 'these names no longer show in English: remove them from tools/lib/i18n/leaks-baseline.json');
+});
 
 // The check itself: English the code puts up is found, with its scene; the
 // locale's own words (German shares the Latin alphabet), the client's names,

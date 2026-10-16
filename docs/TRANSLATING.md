@@ -126,7 +126,8 @@ for your language from
   language and lists the English it leaves on screen, grouped by where it
   came from ("English left on screen" below). `--scene guide,options` runs
   only those scenes, `--guide <id>,...` puts other guides in the guide
-  window, `--json` prints one document.
+  window, `--json` prints one document, `--update-baseline` rewrites the
+  baseline (below).
 
 ## For developers
 
@@ -183,13 +184,26 @@ repeats it. Each finding names its source:
 - **English in the code**: a literal or a data text that does not go through
   `L`.
 
-It fails (exit 1) on any finding or a scene that stops with an error.
+A name no source of `i18n names` has in a language (mostly Forever's own
+NPCs, objects and items; the client shows its own once the player has seen
+it) cannot be fixed in Polestar: `tools/lib/i18n/leaks-baseline.json` lists
+them per language as `"kind:id"` with a reason and the scenes they show in.
+A text whose only English is such names is no finding.
+
+It fails (exit 1) on any finding, on a scene that stops with an error, and on
+a baseline entry that no longer shows in English in scenes that all ran
+with the Codex and quest database built (so the file only shrinks: remove the entry, or run with `--update-baseline`,
+which also adds the names a new guide or a smaller names addon leaves in
+English, and never takes English from the code or an untranslated text).
 `npm test` runs a part of it (`tests/i18n-leaks.test.js`: Russian and
 Simplified Chinese; the guide window on three guides, Options, the picker,
 and Lookup, Dungeons and Rares where the Codex and quest database are
-built); CI runs every scene in every language. A text that is right to show
-in Latin letters goes on the allow list with the reason in its group, never
-to make a finding go away.
+built); CI runs every scene in every language (the scenes that need the
+locally built Codex or quest database skip there). A text that is right to
+show in Latin letters goes on the allow list with the reason in its group,
+never to make a finding go away. Developer output stays English on purpose:
+the guide lines `/polestar where` prints and the details block of a bug
+report, both read by maintainers, are on the allow list.
 
 ## Game names
 

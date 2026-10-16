@@ -305,6 +305,15 @@ function A.hookPolestar()
 	if not ns or ns.__leaks then return end
 	ns.__leaks = true
 	local Names = ns.Names
+	-- A name Names had none for, with the Codex's English when it has one.
+	local function missed(kind, id)
+		local key = kind .. ":" .. tostring(id)
+		if type(nmiss[key]) == "string" then return end
+		local C = ns.Codex
+		local ok, en = false, nil
+		if C and C.Name and C.IsLoaded and C.IsLoaded() then ok, en = pcall(C.Name, kind, id) end
+		nmiss[key] = (ok and type(en) == "string" and en ~= "") and en or true
+	end
 	local add = Names.Add
 	function Names.Add(loc, kind, t)
 		if type(t) == "table" then for _, v in pairs(t) do own(v) end end
@@ -316,7 +325,7 @@ function A.hookPolestar()
 			local k = kind:lower()
 			Names[kind] = function(id, ...)
 				local v = f(id, ...)
-				if v == nil and id ~= nil then nmiss[k .. ":" .. tostring(id)] = true end
+				if v == nil and id ~= nil then missed(k, id) end
 				return v
 			end
 		end
@@ -325,7 +334,7 @@ function A.hookPolestar()
 		local f = Names[fn]
 		Names[fn] = function(kind, id, ...)
 			local v = f(kind, id, ...)
-			if v == nil and kind and id ~= nil then nmiss[tostring(kind) .. ":" .. tostring(id)] = true end
+			if v == nil and kind and id ~= nil then missed(tostring(kind), id) end
 			return v
 		end
 	end
@@ -499,7 +508,7 @@ function A.dump()
 		for k, v in pairs(g.names) do if type(v) == "string" and v:find("%a%a%a") then english[k] = english[k] or v end end
 	end
 	for key in pairs(nmiss) do
-		local en = english[key]
+		local en = english[key] or (type(nmiss[key]) == "string" and nmiss[key] or nil)
 		if en then sources[#sources + 1] = { kind = "name", name = key, english = en, match = en } end
 	end
 	for key, en in pairs(english) do
@@ -515,17 +524,25 @@ function A.dump()
 			if not vocab[lw] and not seenW[lw] then seenW[lw] = true; flagged[#flagged + 1] = w end
 		end
 		if #flagged > 0 then
-			-- The source whose English it holds the most of (the first on a tie).
-			local best
+			-- The source whose English it holds the most of (the first on a
+			-- tie), and every missed name it holds (for the baseline).
+			local best, names = nil, {}
 			for _, s in ipairs(sources) do
-				if (not best or #s.match > #best.match) and plain:find(s.match, 1, true) then best = s end
+				if plain:find(s.match, 1, true) then
+					if not best or #s.match > #best.match then best = s end
+					if s.kind == "name" and #names < 12 then names[#names + 1] = { name = s.name, english = s.english } end
+				end
 			end
-			out[#out + 1] = { kind = e.kind, text = e.text, plain = plain, words = flagged, site = e.site, scenes = e.scenes, from = best }
+			out[#out + 1] = { kind = e.kind, text = e.text, plain = plain, words = flagged, site = e.site, scenes = e.scenes, from = best, names = names }
 		end
 	end
 	local missedNames = {}
-	for k in pairs(nmiss) do missedNames[#missedNames + 1] = k end
+	local missedEnglish = {}
+	for k, v in pairs(nmiss) do
+		missedNames[#missedNames + 1] = k
+		if type(v) == "string" then missedEnglish[k] = v end
+	end
 	table.sort(missedNames)
 	-- LEAKS.all: every text as well (to see what a scene shows).
-	emit({ leaks = true, locale = LOCALE, candidates = out, texts = #texts, all = LEAKS.all and texts or nil, errors = errors, missedNames = missedNames })
+	emit({ leaks = true, locale = LOCALE, candidates = out, texts = #texts, all = LEAKS.all and texts or nil, errors = errors, missedNames = missedNames, missedEnglish = next(missedEnglish) and missedEnglish or nil })
 end

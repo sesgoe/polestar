@@ -27,6 +27,7 @@ const { LOCALE_CODES } = require('./locales');
 const ADDON = path.join(ROOT, 'addon');
 const DATA = path.join(ROOT, 'data', 'forever');
 const ALLOW_FILE = path.join(__dirname, 'leaks-allow.json');
+const BASELINE_FILE = path.join(__dirname, 'leaks-baseline.json');
 const DETECTOR = path.join(__dirname, 'leaks.lua');
 
 const S = (s) => JSON.stringify(s);
@@ -34,6 +35,8 @@ const luaList = (a) => `{ ${a.map(S).join(', ')} }`;
 
 // The data packs built on the developer's machine (not in a clone).
 const built = (name) => fs.existsSync(path.join(ADDON, name, `${name}.toc`));
+// The Codex and the quest database are built (a developer's machine, not CI).
+const fullData = () => built('Polestar_Codex') && built('Polestar_QuestDB');
 const NEEDS = {
 	codex: () => (built('Polestar_Codex') ? false : 'addon/Polestar_Codex is not built (node tools/polestar.js codex build)'),
 	questdb: () => (built('Polestar_QuestDB') ? false : 'addon/Polestar_QuestDB is not built (node tools/polestar.js questdb build)'),
@@ -452,12 +455,18 @@ function dataTable(kind) {
 	if (!(kind in dataCache)) {
 		const f = path.join(DATA, DATA_FILES[kind]);
 		const names = {};
-		if (fs.existsSync(f)) for (const [id, v] of Object.entries(JSON.parse(fs.readFileSync(f, 'utf8')))) if (v && (v.name || v.title)) names[id] = v.name || v.title;
+		const doc = fs.existsSync(f) ? JSON.parse(fs.readFileSync(f, 'utf8')) : {};
+		if (kind === 'encounter') {
+			// Dungeon encounters: the bosses of codex/instances.json.
+			for (const inst of Object.values(doc)) for (const b of (inst && inst.bosses) || []) if (b.encounter && b.name) names[b.encounter] = b.name;
+		} else {
+			for (const [id, v] of Object.entries(doc)) if (v && (v.name || v.title)) names[id] = v.name || v.title;
+		}
 		dataCache[kind] = names;
 	}
 	return dataCache[kind];
 }
-const DATA_FILES = { npc: 'npcs.json', object: 'objects.json', item: 'items.json', quest: 'quests.json' };
+const DATA_FILES = { npc: 'npcs.json', object: 'objects.json', item: 'items.json', quest: 'quests.json', encounter: 'codex/instances.json' };
 
 // The English the reference data gives the missed names: { "kind:id": name }.
 function dataNames(keys) {
@@ -521,19 +530,90 @@ function sourceOf(c, names, classify, missed) {
 	return { kind: 'code', where };
 }
 
-// One run's leaks: its candidates less what the allow list allows, each
-// with its source (`classify`: also by the reference data's names, when
-// built). -> { locale, scene, texts, leaks, errors }
-function checkRun(locale, name, dump, allow = loadAllow(), { classify = true } = {}) {
-	const pending = [];
-	for (const c of list(dump.candidates)) {
-		const words = leakWords(c.plain, list(c.words), allow, locale);
-		if (words.length) pending.push({ c, words });
-	}
+// --- baseline -----------------------------------------------------------------
+
+// Names no source has in a language (leaks-baseline.json): { reasons, entries:
+// { [locale]: { ["kind:id"]: { reason, scenes } } } }. A text whose English
+// is only such names is no leak; an entry whose scenes all ran in its locale
+// without it showing is stale (the file only shrinks).
+function loadBaseline(file = BASELINE_FILE) {
+	if (!fs.existsSync(file)) return { reasons: {}, entries: {} };
+	const raw = JSON.parse(fs.readFileSync(file, 'utf8'));
+	for (const code of Object.keys(raw.entries || {})) if (!LOCALE_CODES.includes(code)) throw new Error(`${path.relative(ROOT, file)}: unknown locale "${code}"`);
+	return { about: raw.about, reasons: raw.reasons || {}, entries: raw.entries || {} };
+}
+
+const cutAll = (s, en) => s.split(en).join(' ');
+
+// One run's leaks: its candidates less what the allow list allows and the
+// baseline's names, each with its source (`classify`: also by the reference
+// data's names, when built). -> { locale, scene, texts, leaks, errors,
+// baselined: ["kind:id" the baseline let through] }
+function checkRun(locale, name, dump, allow = loadAllow(), { classify = true, baseline = loadBaseline() } = {}) {
 	const missed = new Set(list(dump.missedNames));
-	const names = classify && pending.length ? dataNames(missed) : {};
-	const leaks = pending.map(({ c, words }) => ({ text: c.text.replace(/\s+/g, ' ').trim(), words, kind: c.kind, site: list(c.site), scenes: list(c.scenes), source: sourceOf(c, names, classify, missed) }));
-	return { locale, scene: name, texts: dump.texts, leaks, errors: list(dump.errors) };
+	const english = { ...(classify ? dataNames(missed) : {}), ...(dump.missedEnglish || {}) };
+	const known = (baseline.entries || {})[locale] || {};
+	const used = new Set();
+	const leaks = [];
+	for (const c of list(dump.candidates)) {
+		let words = leakWords(c.plain, list(c.words), allow, locale);
+		if (!words.length) continue;
+		// The missed names the text holds, the longest first.
+		const held = new Map(list(c.names).map((n) => [n.name, n.english]));
+		for (const [key, en] of Object.entries(english)) if (!held.has(key) && c.plain.includes(en)) held.set(key, en);
+		const names = [...held].sort((a, b) => b[1].length - a[1].length);
+		let rest = c.plain, all = c.plain;
+		const hit = [];
+		for (const [key, en] of names) {
+			all = cutAll(all, en);
+			if (known[key]) { rest = cutAll(rest, en); hit.push(key); }
+		}
+		words = leakWords(rest, words, allow, locale);
+		if (!words.length) { for (const k of hit) used.add(k); continue; }
+		// Missed names alone: what the baseline may take (`--update-baseline`).
+		const onlyNames = names.length > 0 && leakWords(all, words, allow, locale).length === 0;
+		leaks.push({ text: c.text.replace(/\s+/g, ' ').trim(), words, kind: c.kind, site: list(c.site), scenes: list(c.scenes), source: sourceOf(c, english, classify, missed), names: onlyNames ? names.map(([k]) => k) : [] });
+	}
+	return { locale, scene: name, texts: dump.texts, leaks, errors: list(dump.errors), baselined: [...used], fullData: fullData() };
+}
+
+// Baseline entries no run let through though every scene they show in ran in
+// their locale with the locally built data packs (without the Codex and the
+// quest database a scene shows fewer names, so it proves nothing stale):
+// [{ locale, key, entry }].
+function staleBaseline(results, baseline = loadBaseline()) {
+	const ran = new Set(results.filter((r) => !r.skipped && r.fullData).map((r) => `${r.locale}\u0000${r.scene}`));
+	const used = new Set(results.flatMap((r) => (r.baselined || []).map((k) => `${r.locale}\u0000${k}`)));
+	const out = [];
+	for (const [locale, entries] of Object.entries(baseline.entries)) {
+		for (const [key, entry] of Object.entries(entries)) {
+			const scenes = list(entry.scenes);
+			if (scenes.length && scenes.every((s) => ran.has(`${locale}\u0000${s}`)) && !used.has(`${locale}\u0000${key}`)) out.push({ locale, key, entry });
+		}
+	}
+	return out;
+}
+
+// The baseline after these runs: stale entries gone, every name-only leak
+// (missed names no source has) added with the scenes it showed in.
+function updatedBaseline(results, baseline = loadBaseline(), reason = 'no-source') {
+	const entries = JSON.parse(JSON.stringify(baseline.entries));
+	for (const s of staleBaseline(results, baseline)) delete entries[s.locale][s.key];
+	const add = (locale, key, scene) => {
+		const e = ((entries[locale] = entries[locale] || {})[key] = entries[locale][key] || { reason, scenes: [] });
+		if (!e.scenes.includes(scene)) e.scenes.push(scene);
+		e.scenes.sort();
+	};
+	for (const r of results) {
+		for (const k of r.baselined || []) add(r.locale, k, r.scene);
+		for (const l of r.leaks || []) for (const k of l.names) add(r.locale, k, r.scene);
+	}
+	const sorted = {};
+	for (const locale of Object.keys(entries).sort()) {
+		const keys = Object.keys(entries[locale]).sort((a, b) => a.localeCompare(b, 'en', { numeric: true }));
+		if (keys.length) sorted[locale] = Object.fromEntries(keys.map((k) => [k, entries[locale][k]]));
+	}
+	return { about: baseline.about, reasons: baseline.reasons, entries: sorted };
 }
 
 // --- many runs ----------------------------------------------------------------
@@ -552,6 +632,7 @@ async function findLeaks(locales, scenes, { guides = [], jobs, onResult } = {}) 
 	const { spawn } = require('node:child_process');
 	for (const s of scenes) if (!SCENES[s]) throw new Error(`unknown scene "${s}": one of ${SCENE_NAMES.join(', ')}`);
 	const allow = loadAllow();
+	const baseline = loadBaseline();
 	const work = [];
 	for (const scene of scenes) for (const locale of locales) work.push({ locale, scene });
 	const results = new Array(work.length);
@@ -567,7 +648,7 @@ async function findLeaks(locales, scenes, { guides = [], jobs, onResult } = {}) 
 		child.stderr.on('data', (d) => (err += d));
 		child.on('close', (code) => {
 			if (code !== 0) return fail(new Error(`${locale} ${scene}: ${err.trim() || `exit ${code}`}`));
-			ok(checkRun(locale, scene, JSON.parse(out), allow));
+			ok(checkRun(locale, scene, JSON.parse(out), allow, { baseline }));
 		});
 	});
 	const lane = async () => {
@@ -610,7 +691,7 @@ function groupBySource(results) {
 	return [...groups.values()].sort((a, b) => b.entries.size - a.entries.size || a.key.localeCompare(b.key));
 }
 
-module.exports = { SCENES, SCENE_NAMES, GUIDES, ALLOW_FILE, loadAllow, leakWords, runScene, checkRun, findLeaks, groupBySource, guideIds };
+module.exports = { SCENES, SCENE_NAMES, GUIDES, ALLOW_FILE, BASELINE_FILE, loadAllow, loadBaseline, leakWords, runScene, checkRun, staleBaseline, updatedBaseline, findLeaks, groupBySource, guideIds };
 
 // One locale and scene as the Lua side's JSON, for findLeaks:
 // node leaks.js <locale> <scene> [<guide id>...]
