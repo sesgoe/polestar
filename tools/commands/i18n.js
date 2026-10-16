@@ -29,7 +29,18 @@ function addons(opts, { one = false } = {}) {
 	return one ? [ADDONS.Polestar] : Object.values(ADDONS);
 }
 
-const usage = `usage: node tools/polestar.js i18n <status|check|sync|keys|import|fit|names|guides> [options]
+// Words wrapped to 79 columns, every line indented `indent` spaces.
+function wrapWords(text, indent) {
+	const lines = [];
+	let line = '';
+	for (const w of text.split(' ')) {
+		if (line && indent + line.length + 1 + w.length > 79) { lines.push(line); line = w; } else line = line ? `${line} ${w}` : w;
+	}
+	if (line) lines.push(line);
+	return lines.map((l) => ' '.repeat(indent) + l).join('\n');
+}
+
+const usage = `usage: node tools/polestar.js i18n <status|check|sync|keys|import|fit|leaks|names|guides> [options]
 
 Polestar's interface translations (docs/TRANSLATING.md): one file per
 locale, addon/Polestar/Locales/<locale>.lua, and the same for the Recorder,
@@ -74,6 +85,22 @@ unless --addon names the other.
                              same way in English (a long guide or item name)
                              is left out. Fails (exit 1) when a locale has
                              any. CJK is measured 1em wide.
+  i18n leaks [<locale>...]   runs the addon on the client stub in each locale
+                             (or those named) with its shipped translations,
+                             names pack and guide texts, the client's own
+                             names as placeholders, through every scene (or
+                             those --scene names), and lists the English left
+                             on screen: a Latin word of 3+ letters in a text,
+                             tooltip, chat line or menu that none of the
+                             locale's own texts uses and
+                             tools/lib/i18n/leaks-allow.json does not allow,
+                             grouped by where it came from (an untranslated
+                             interface string or guide text, a name missing
+                             from the names pack, a name Polestar.Names was
+                             not asked for, English in the code). Fails (exit
+                             1) on any, or on a scene that errors. Scenes
+                             (--scene; default all):
+${wrapWords(require('../lib/i18n/leaks').SCENE_NAMES.join(', ') + '.', 29)}
   i18n names [<locale>...]   builds the names addons addon/Polestar_Names_<locale>:
                              the names of quests, NPCs, objects, items,
                              instances, encounters, factions and flight points
@@ -116,7 +143,10 @@ unless --addon names the other.
                              for naming only their goal.
 
 options:
-  --json            status, check, keys, names, fit, guides: one JSON document on stdout
+  --json            status, check, keys, names, fit, leaks, guides: one JSON document on stdout
+  --scene <a,b>     leaks: only these scenes
+  --guide <id,...>  leaks: the guides the guide scene shows (default a few)
+  --jobs <n>        leaks: runs at a time (default one per core)
   --slack <n>       fit: measure every glyph n times wider (1.15: about the
                     client's own font)
   --pack <dir>      guides: the guide pack (default our guides/)
@@ -479,6 +509,46 @@ async function runFit(opts, positional) {
 	return failed ? 1 : 0;
 }
 
+// English left on screen in each locale (tools/lib/i18n/leaks.js).
+async function runLeaks(opts, positional) {
+	const L = require('../lib/i18n/leaks');
+	const chosen = locales(positional);
+	const scenes = opts.scene ? opts.scene.split(',').map((s) => s.trim()).filter(Boolean) : L.SCENE_NAMES;
+	const guides = opts.guide ? opts.guide.split(',').map((s) => s.trim()).filter(Boolean) : [];
+	const jobs = opts.jobs === undefined ? undefined : Number(opts.jobs);
+	if (jobs !== undefined && !(jobs >= 1)) throw new Error(`--jobs ${opts.jobs}: a number of 1 or more`);
+	const results = await L.findLeaks(chosen, scenes, {
+		guides,
+		jobs,
+		onResult: opts.json ? null : (r) => console.error(`${r.locale} ${r.scene}: ${r.skipped ? `skipped (${r.skipped})` : `${plural(r.leaks.length, 'English text')}${r.errors.length ? `, ${plural(r.errors.length, 'error')}` : ''}`}`),
+	});
+	const leaks = results.reduce((n, r) => n + (r.leaks ? r.leaks.length : 0), 0);
+	const errors = results.flatMap((r) => (r.errors || []).map((e) => ({ locale: r.locale, scene: r.scene, ...e })));
+	const groups = L.groupBySource(results);
+	if (opts.json) {
+		console.log(JSON.stringify({
+			ok: !leaks && !errors.length,
+			runs: results.map((r) => ({ locale: r.locale, scene: r.scene, skipped: r.skipped || undefined, texts: r.texts, leaks: r.leaks ? r.leaks.length : undefined })),
+			errors,
+			groups: groups.map((g) => ({ source: g.source, label: g.key, entries: [...g.entries].map(([words, e]) => ({ words, locales: Object.fromEntries(e.locales), scenes: [...e.scenes], sites: [...e.sites] })) })),
+		}, null, 1));
+		return leaks || errors.length ? 1 : 0;
+	}
+	for (const e of errors) console.log(`error: ${e.locale} ${e.scene}: ${e.scene === e.error ? '' : `${e.scene}: `}${e.error.split('\n')[0]}`);
+	for (const g of groups) {
+		console.log(`\n${g.key} (${plural(g.entries.size, 'text')})`);
+		for (const [words, e] of g.entries) {
+			const [locale, text] = [...e.locales][0];
+			console.log(`  ${words}  [${[...e.locales.keys()].join(' ')}]`);
+			console.log(`    ${locale}: ${text.length > 160 ? `${text.slice(0, 157)}...` : text}`);
+			console.log(`    in ${[...e.scenes][0]}${e.scenes.size > 1 ? ` and ${e.scenes.size - 1} more` : ''}; set at ${[...e.sites][0] || '?'}`);
+		}
+	}
+	const ran = results.filter((r) => !r.skipped);
+	console.log(`\n${ran.length} of ${plural(results.length, 'run')} (${plural(chosen.length, 'locale')}, ${plural(scenes.length, 'scene')}): ${leaks ? `${plural(leaks, 'English text')} from ${plural(groups.length, 'source')}` : 'no English left'}${errors.length ? `, ${plural(errors.length, 'scene error')}` : ''}`);
+	return leaks || errors.length ? 1 : 0;
+}
+
 // --- guide texts (tools/lib/i18n/guides.js) ----------------------------------
 
 // The pack (--pack, else ours) compiled in memory, with its tokenised texts.
@@ -591,7 +661,7 @@ function runGuides(opts, positional) {
 async function run(argv) {
 	const { opts, positional, error } = parseArgs(argv, {
 		flags: ['--json', '--markdown', '--no-questie', '--no-tables', '--offline'],
-		options: ['--ding', '--pfquest', '--guides', '--questdb', '--codex', '--travel', '--chokepoints', '--out', '--build', '--sources', '--slack', '--addon', '--pack', '--data'],
+		options: ['--ding', '--pfquest', '--guides', '--questdb', '--codex', '--travel', '--chokepoints', '--out', '--build', '--sources', '--slack', '--addon', '--pack', '--data', '--scene', '--guide', '--jobs'],
 	});
 	const [sub, ...rest] = positional;
 	if (error || !sub) {
@@ -605,6 +675,7 @@ async function run(argv) {
 		if (sub === 'keys') return runKeys(opts);
 		if (sub === 'import') return runImport(opts, rest);
 		if (sub === 'fit') return await runFit(opts, rest);
+		if (sub === 'leaks') return await runLeaks(opts, rest);
 		if (sub === 'names') return await runNames(opts, rest);
 		if (sub === 'guides') return runGuides(opts, rest);
 	} catch (e) {
@@ -615,4 +686,4 @@ async function run(argv) {
 	return 2;
 }
 
-module.exports = { name: 'i18n', summary: 'interface translations (status, check, sync, keys, import, fit), guide texts (guides) and the names addons (names)', usage, run };
+module.exports = { name: 'i18n', summary: 'interface translations (status, check, sync, keys, import, fit, leaks), guide texts (guides) and the names addons (names)', usage, run };

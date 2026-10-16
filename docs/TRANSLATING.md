@@ -122,6 +122,11 @@ for your language from
   descriptions wrap, controls size to their text), and a text this still
   lists is a layout bug to report, not yours to shorten. `--slack 1.15`
   measures about as wide as the game's own font.
+- `node tools/polestar.js i18n leaks [<locale>...]` runs the addon in each
+  language and lists the English it leaves on screen, grouped by where it
+  came from ("English left on screen" below). `--scene guide,options` runs
+  only those scenes, `--guide <id>,...` puts other guides in the guide
+  window, `--json` prints one document.
 
 ## For developers
 
@@ -139,6 +144,52 @@ the display can ask `Polestar.Names` for it. A game term the client names
 `L`, and its English value goes in `tests/lua/wow_stub.lua`. Tests that need a
 translated client fake a language Polestar does not ship:
 `fakeLocale('itIT', { ... })` (`tests/helpers/locale.js`).
+
+## English left on screen
+
+`node tools/polestar.js i18n leaks` checks that nothing English reaches the
+screen on a client in another language, so a new feature cannot add English
+unnoticed. It runs the addon on the client stub (`tests/lua`) in each
+language with the shipped translations, names addon and guide texts, and has
+the client answer in "its language": every name the client itself gives
+(quest titles, item, zone, map, area, spell, faction, class and race names,
+the player's name) comes back as a placeholder holding no word. Scenes then
+drive the windows: the guide window step by step with every tooltip, all
+guides, the welcome, the picker, Options, Lookup, Dungeons, Rares, talents,
+the journey planner, Polestar's tooltip lines, every slash command, the world
+map and alerts, and the Recorder. Every text the addons put up is recorded
+(font strings and buttons, tooltips, chat, popups, menus) with its scene and
+the line that set it.
+
+A word of three or more Latin letters is English left on screen unless one
+of the language's own texts already uses it (its interface translations, its
+names addon or its guide texts: German and French share the alphabet, and a
+name the game keeps in English is in the names addon) or
+`tools/lib/i18n/leaks-allow.json` allows it: product names (Polestar,
+Discord, TomTom...), terms every client shows in English (XP, PvP, Shift),
+patterns for links, slash commands, guide ids and format directives, and per
+language the names the game itself keeps in English on that client. What a
+scene types (a search, a command's arguments) does not count where a text
+repeats it. Each finding names its source:
+
+- **interface string not translated**: a key the language's file leaves
+  empty (`i18n sync`, then translate it);
+- **guide text not translated**: a guide text its texts file leaves empty
+  (`i18n guides sync`);
+- **name missing from the names pack**: `Polestar.Names` was asked and had no
+  name, so the guide's English showed (`i18n names`);
+- **English name, Polestar.Names not asked**: the code shows a name from a
+  guide or the data without asking `Polestar.Names` for it by its id;
+- **English in the code**: a literal or a data text that does not go through
+  `L`.
+
+It fails (exit 1) on any finding or a scene that stops with an error.
+`npm test` runs a part of it (`tests/i18n-leaks.test.js`: Russian and
+Simplified Chinese; the guide window on three guides, Options, the picker,
+and Lookup, Dungeons and Rares where the Codex and quest database are
+built); CI runs every scene in every language. A text that is right to show
+in Latin letters goes on the allow list with the reason in its group, never
+to make a finding go away.
 
 ## Game names
 
