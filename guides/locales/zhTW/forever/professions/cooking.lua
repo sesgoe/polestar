@@ -74,8 +74,8 @@ return {
 	-- Step 17: Goretusk Liver Pie: ingredients
 	-- {item:724} Goretusk Liver Pie
 	["{item:724}: ingredients"] = "{item:724}：材料",
-	-- {npc:547} Great Goretusk · {zone:1436} Westfall
-	["{npc:547} (35%), Goretusk (34%) in {zone:1436}, or wherever the arrow points"] = "{zone:1436}的{npc:547}（35%）、血牙野豬（34%），或箭頭指向的地方",
+	-- {npc:547} Great Goretusk · {npc:157} Goretusk · {zone:1436} Westfall
+	["{npc:547} (35%), {npc:157} (34%) in {zone:1436}, or wherever the arrow points"] = "{zone:1436}的{npc:547}（35%）、{npc:157}（34%），或箭頭指向的地方",
 
 	-- Step 18: Goretusk Liver Pie (50-100)
 	-- {item:724} Goretusk Liver Pie · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
@@ -160,8 +160,8 @@ return {
 	-- Step 35: Crispy Lizard Tail: ingredients
 	-- {item:5479} Crispy Lizard Tail
 	["{item:5479}: ingredients"] = "{item:5479}：材料",
-	-- {zone:1413} The Barrens
-	["Thunderhead (59%), Owatanka (35%) in {zone:1413}, or wherever the arrow points"] = "{zone:1413}的電角蜥蜴（59%）、奧瓦坦卡（35%），或箭頭指向的地方",
+	-- {npc:3239} Thunderhead · {zone:1413} The Barrens
+	["{npc:3239} (59%), Owatanka (35%) in {zone:1413}, or wherever the arrow points"] = "{zone:1413}的{npc:3239}（59%）、奧瓦坦卡（35%），或箭頭指向的地方",
 
 	-- Step 36: Crispy Lizard Tail (100-125)
 	-- {item:5479} Crispy Lizard Tail · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
