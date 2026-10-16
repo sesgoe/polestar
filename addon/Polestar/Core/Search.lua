@@ -195,8 +195,13 @@ local function localised()
 end
 
 -- A Codex entity's name in the client's language, or nil; never asks the
--- server (Names.Cached).
+-- server (Names.Cached). A dungeon or raid by its map (Names.Instance).
 local function localName(kind, id)
+	if kind == "instance" then
+		local C = ns.Codex
+		local inst = C and C.Instance and C.Instance(id)
+		return inst and type(inst.map) == "number" and ns.Names.Instance(inst.map) or nil
+	end
 	local nk = NAMES_KIND[kind]
 	if not nk or type(id) ~= "number" then return nil end
 	if nk == "zone" then return ns.Compat.GetMapName(id) end

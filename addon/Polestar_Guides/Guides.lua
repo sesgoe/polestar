@@ -33708,8 +33708,8 @@ do
 					title = "Forever's new dungeons",
 					note = "{area:16919} and {area:153} are new in Forever. Their bosses, levels and Legacy bracket are not in our data, so tick them off yourself.",
 					goals = {
-						{ t = "kill", target = "the final boss of Hall of Thanes" },
-						{ t = "kill", target = "the final boss of Ruins of Lordaeron" },
+						{ t = "kill", target = "the final boss of {area:16919}" },
+						{ t = "kill", target = "the final boss of {area:153}" },
 					},
 				},
 				{

@@ -144,7 +144,9 @@ local function localisePage(p)
 			if type(q.item) == "number" and q.itemName then q.itemName = N.Item(q.item) or q.itemName end
 		end
 	end
-	-- An attunement named after its goal quest takes that quest's title.
+	-- An attunement named after its goal quest takes that quest's title; one
+	-- named otherwise (The Dread Citadel, its quests "The Dread Citadel -
+	-- Naxxramas") takes its first goal quest's name in the client's language.
 	local goalStep = {}
 	for _, a in ipairs(p.attunement) do
 		local g = type(a.goal) == "table" and a.goal[1]
@@ -160,7 +162,11 @@ local function localisePage(p)
 			end
 		end
 	end
-	for a, s in pairs(goalStep) do a.name = s.title end
+	for _, a in ipairs(p.attunement) do
+		local g = a.kind == "attunement" and type(a.goal) == "table" and a.goal[1]
+		if goalStep[a] then a.name = goalStep[a].title
+		elseif type(g) == "number" then a.name = N.Quest(g) or a.name end
+	end
 end
 
 -- key -> page | nil, compiled from its source in an empty environment.

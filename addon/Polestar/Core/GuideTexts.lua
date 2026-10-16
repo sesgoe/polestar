@@ -2,7 +2,8 @@
 -- "Guide texts".
 --
 -- A compiled guide's prose (its title, why, pitch, pros, cons and reward
--- words; each step's title and tip; each goal's note and text) holds the
+-- words; each step's title and tip; each goal's note and text, and a kill of no
+-- NPC's target in words) holds the
 -- game's names as tokens, {kind:id} (tools/lib/dsl/tokens.js), and the
 -- guide's `names` give each token's English. RegisterGuide hands every guide
 -- here before escaping it, and each text is then shown as:
@@ -140,7 +141,11 @@ local function collect(def, fields)
 	for _, step in ipairs(def.steps) do
 		for _, f in ipairs(STEP_FIELDS) do add(step, f) end
 		for _, goal in ipairs(step.goals) do
-			if type(goal) == "table" then for _, f in ipairs(GOAL_FIELDS) do add(goal, f) end end
+			if type(goal) == "table" then
+				for _, f in ipairs(GOAL_FIELDS) do add(goal, f) end
+				-- A kill of no NPC names its target in words.
+				if goal.t == "kill" and goal.npc == nil then add(goal, "target") end
+			end
 		end
 	end
 end

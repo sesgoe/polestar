@@ -353,7 +353,7 @@ function A.hookPolestar()
 			for _, r in ipairs(type(def.reward) == "table" and def.reward or {}) do if type(r) == "table" then add(r.text) end end
 			for _, step in ipairs(type(def.steps) == "table" and def.steps or {}) do
 				add(step.title); add(step.note)
-				for _, g in ipairs(type(step.goals) == "table" and step.goals or {}) do if type(g) == "table" then add(g.note); add(g.text) end end
+				for _, g in ipairs(type(step.goals) == "table" and step.goals or {}) do if type(g) == "table" then add(g.note); add(g.text); if g.t == "kill" and g.npc == nil then add(g.target) end end end
 			end
 			-- The goals name their quest, NPC, object, item, spell, faction and zone.
 			local names = {}

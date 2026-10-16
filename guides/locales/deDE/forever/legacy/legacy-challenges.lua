@@ -69,10 +69,18 @@ return {
 	-- Step 12: PvP: honor ranks
 	["PvP: honor ranks"] = "PvP: Ehrenränge",
 	["Ranks 3, 7, 10, 13 and 14 are a point each. Polestar cannot read your highest rank yet, so tick each one off yourself. Forever's honor rules for reaching a rank have not been published in detail; in Classic, ranks come from your weekly honor standing, and 13-14 take many weeks of top standing."] = "Die Ränge 3, 7, 10, 13 und 14 sind je einen Punkt wert. Polestar kann deinen höchsten Rang noch nicht lesen, hak also jeden selbst ab. Die Ehrenregeln von Forever für das Erreichen eines Rangs sind nicht im Detail veröffentlicht; in Classic kommen Ränge aus deiner wöchentlichen Ehrenplatzierung, und 13-14 brauchen viele Wochen Spitzenplatzierung.",
+	["enemy players for honor until PvP Rank 3"] = "feindliche Spieler für Ehre bis zum PvP-Rang 3",
+	["enemy players for honor until PvP Rank 7"] = "feindliche Spieler für Ehre bis zum PvP-Rang 7",
+	["enemy players for honor until PvP Rank 10"] = "feindliche Spieler für Ehre bis zum PvP-Rang 10",
+	["enemy players for honor until PvP Rank 13"] = "feindliche Spieler für Ehre bis zum PvP-Rang 13",
+	["enemy players for honor until PvP Rank 14"] = "feindliche Spieler für Ehre bis zum PvP-Rang 14",
 
 	-- Step 13: PvP: Field of Honor
 	["PvP: Field of Honor"] = "PvP: Field of Honor",
 	["The Field of Honor PvP season has weekly journey quests; finishing the ones for weeks 4, 7 and 10 is a point each. These quests are new in Forever and not in our data, so tick each one off yourself."] = "Die PvP-Saison Field of Honor hat wöchentliche Reisequests; die für die Wochen 4, 7 und 10 abzuschließen ist je einen Punkt wert. Diese Quests sind neu in Forever und nicht in unseren Daten, hak also jede selbst ab.",
+	["enemy players and finish the Field of Honor week 4 journey quest"] = "feindliche Spieler und schließe die Reisequest der Woche 4 des Ehrenfelds ab",
+	["enemy players and finish the Field of Honor week 7 journey quest"] = "feindliche Spieler und schließe die Reisequest der Woche 7 des Ehrenfelds ab",
+	["enemy players and finish the Field of Honor week 10 journey quest"] = "feindliche Spieler und schließe die Reisequest der Woche 10 des Ehrenfelds ab",
 
 	-- Step 14: Adventure: explore the world map
 	["Adventure: explore the world map"] = "Abenteuer: die Weltkarte erkunden",
@@ -145,6 +153,10 @@ return {
 	["Forever's new dungeons"] = "Neue Dungeons von Forever",
 	-- {area:16919} Hall of Thanes · {area:153} Ruins of Lordaeron
 	["{area:16919} and {area:153} are new in Forever. Their bosses, levels and Legacy bracket are not in our data, so tick them off yourself."] = "{area:16919} und {area:153} sind neu in Forever. Ihre Bosse, Stufen und Vermächtnis-Bereiche sind nicht in unseren Daten, hak sie also selbst ab.",
+	-- {area:16919} Hall of Thanes
+	["the final boss of {area:16919}"] = "den Endboss von {area:16919}",
+	-- {area:153} Ruins of Lordaeron
+	["the final boss of {area:153}"] = "den Endboss von {area:153}",
 
 	-- Step 22: Raids: Onyxia
 	-- {npc:10184} Onyxia
@@ -155,10 +167,12 @@ return {
 	-- Step 23: Raids: Hyjal Summit
 	["Raids: Hyjal Summit"] = "Schlachtzüge: Hyjalgipfel",
 	["All 13 Hyjal Summit bosses are a point. Hyjal Summit is a new Forever raid; its bosses are not in our data, so tick it off once all 13 are down."] = "Alle 13 Bosse des Hyjalgipfels sind einen Punkt wert. Der Hyjalgipfel ist ein neuer Forever-Schlachtzug; seine Bosse sind nicht in unseren Daten, hak ihn also ab, sobald alle 13 besiegt sind.",
+	["all 13 Hyjal Summit bosses"] = "alle 13 Bosse des Hyjalgipfels",
 
 	-- Step 24: Raids: Barrow Deeps
 	["Raids: Barrow Deeps"] = "Schlachtzüge: Barrow Deeps",
 	["All 8 Barrow Deeps bosses are a point. Barrow Deeps is a new Forever raid; its bosses are not in our data, so tick it off once all 8 are down."] = "Alle 8 Bosse der Barrow Deeps sind einen Punkt wert. Barrow Deeps ist ein neuer Forever-Schlachtzug; seine Bosse sind nicht in unseren Daten, hak ihn also ab, sobald alle 8 besiegt sind.",
+	["all 8 Barrow Deeps bosses"] = "alle 8 Bosse der Hügelgrabtiefen",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.
 	-- ["The {npc:16042} questline is a point. It is the level 60 dungeon-set chain: {npc:16013} ({zone:1455}) or {npc:16012} ({zone:1454}) send you through In Search of Anthion and Anthion's Parting Words to {npc:16033} at {area:254}, whose Three Kings of Flame, the Left and Right Pieces of {item:22048}, Final Preparations and Mea Culpa, {npc:16042} end with {quest:8996}. {quest:8997} then leads to the class Saving the Best for Last quests."] = "Die Questreihe um {npc:16042} ist einen Punkt wert. Es ist die Questreihe für das Dungeonset der Stufe 60: {npc:16013} ({zone:1455}) oder {npc:16012} ({zone:1454}) schicken dich über Suche nach Anthion und Anthions Abschiedsworte zu {npc:16033} am {area:254}, dessen Die drei Könige der Flammen, das linke und rechte Stück von {item:22048}, Letzte Vorbereitungen und Mea Culpa, {npc:16042} mit {quest:8996} enden. {quest:8997} führt dann zu den Klassenquests Das Beste gibt's zum Schluss.",

@@ -69,10 +69,18 @@ return {
 	-- Step 12: PvP: honor ranks
 	["PvP: honor ranks"] = "JcJ: rangos de honor",
 	["Ranks 3, 7, 10, 13 and 14 are a point each. Polestar cannot read your highest rank yet, so tick each one off yourself. Forever's honor rules for reaching a rank have not been published in detail; in Classic, ranks come from your weekly honor standing, and 13-14 take many weeks of top standing."] = "Los rangos 3, 7, 10, 13 y 14 valen un punto cada uno. Polestar aún no puede leer tu rango más alto, así que márcalos tú mismo. Las reglas de honor de Forever para alcanzar un rango no se han publicado en detalle; en Classic, los rangos dependen de tu posición semanal de honor, y 13-14 requieren muchas semanas en lo más alto.",
+	["enemy players for honor until PvP Rank 3"] = "jugadores enemigos por honor hasta el rango JcJ 3",
+	["enemy players for honor until PvP Rank 7"] = "jugadores enemigos por honor hasta el rango JcJ 7",
+	["enemy players for honor until PvP Rank 10"] = "jugadores enemigos por honor hasta el rango JcJ 10",
+	["enemy players for honor until PvP Rank 13"] = "jugadores enemigos por honor hasta el rango JcJ 13",
+	["enemy players for honor until PvP Rank 14"] = "jugadores enemigos por honor hasta el rango JcJ 14",
 
 	-- Step 13: PvP: Field of Honor
 	["PvP: Field of Honor"] = "JcJ: Field of Honor",
 	["The Field of Honor PvP season has weekly journey quests; finishing the ones for weeks 4, 7 and 10 is a point each. These quests are new in Forever and not in our data, so tick each one off yourself."] = "La temporada JcJ Field of Honor tiene misiones de progreso semanales; completar las de las semanas 4, 7 y 10 vale un punto cada una. Estas misiones son nuevas en Forever y no están en nuestros datos, así que márcalas tú mismo.",
+	["enemy players and finish the Field of Honor week 4 journey quest"] = "jugadores enemigos y completa la misión de travesía de la semana 4 del Campo de Honor",
+	["enemy players and finish the Field of Honor week 7 journey quest"] = "jugadores enemigos y completa la misión de travesía de la semana 7 del Campo de Honor",
+	["enemy players and finish the Field of Honor week 10 journey quest"] = "jugadores enemigos y completa la misión de travesía de la semana 10 del Campo de Honor",
 
 	-- Step 14: Adventure: explore the world map
 	["Adventure: explore the world map"] = "Aventura: explora el mapa del mundo",
@@ -145,6 +153,10 @@ return {
 	["Forever's new dungeons"] = "Los nuevos calabozos de Forever",
 	-- {area:16919} Hall of Thanes · {area:153} Ruins of Lordaeron
 	["{area:16919} and {area:153} are new in Forever. Their bosses, levels and Legacy bracket are not in our data, so tick them off yourself."] = "{area:16919} y {area:153} son nuevos en Forever. Sus jefes, niveles y rango de Legado no están en nuestros datos, así que márcalos tú mismo.",
+	-- {area:16919} Hall of Thanes
+	["the final boss of {area:16919}"] = "jefe final de {area:16919}",
+	-- {area:153} Ruins of Lordaeron
+	["the final boss of {area:153}"] = "jefe final de {area:153}",
 
 	-- Step 22: Raids: Onyxia
 	-- {npc:10184} Onyxia
@@ -155,10 +167,12 @@ return {
 	-- Step 23: Raids: Hyjal Summit
 	["Raids: Hyjal Summit"] = "Bandas: Hyjal Summit",
 	["All 13 Hyjal Summit bosses are a point. Hyjal Summit is a new Forever raid; its bosses are not in our data, so tick it off once all 13 are down."] = "Los 13 jefes de Hyjal Summit valen un punto. Hyjal Summit es una nueva banda de Forever; sus jefes no están en nuestros datos, así que márcala cuando caigan los 13.",
+	["all 13 Hyjal Summit bosses"] = "todos los 13 jefes de la Cima Hyjal",
 
 	-- Step 24: Raids: Barrow Deeps
 	["Raids: Barrow Deeps"] = "Bandas: Barrow Deeps",
 	["All 8 Barrow Deeps bosses are a point. Barrow Deeps is a new Forever raid; its bosses are not in our data, so tick it off once all 8 are down."] = "Los 8 jefes de Barrow Deeps valen un punto. Barrow Deeps es una nueva banda de Forever; sus jefes no están en nuestros datos, así que márcala cuando caigan los 8.",
+	["all 8 Barrow Deeps bosses"] = "todos los 8 jefes de las Profundidades de los Túmulos",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.
 	-- ["The {npc:16042} questline is a point. It is the level 60 dungeon-set chain: {npc:16013} ({zone:1455}) or {npc:16012} ({zone:1454}) send you through In Search of Anthion and Anthion's Parting Words to {npc:16033} at {area:254}, whose Three Kings of Flame, the Left and Right Pieces of {item:22048}, Final Preparations and Mea Culpa, {npc:16042} end with {quest:8996}. {quest:8997} then leads to the class Saving the Best for Last quests."] = "La cadena de misiones de {npc:16042} vale un punto. Es la cadena del conjunto de calabozo de nivel 60: {npc:16013} ({zone:1455}) o {npc:16012} ({zone:1454}) te envían por Buscando a Anthion y La despedida de Anthion hasta {npc:16033} en {area:254}, cuyas Tres reyes de Fuego, las partes izquierda y derecha de {item:22048}, Últimos preparativos y Mea Culpa, {npc:16042} terminan con {quest:8996}. Después {quest:8997} lleva a las misiones de clase Guardar lo mejor para el final.",

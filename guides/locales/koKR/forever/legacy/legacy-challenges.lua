@@ -69,10 +69,18 @@ return {
 	-- Step 12: PvP: honor ranks
 	["PvP: honor ranks"] = "PvP: 명예 계급",
 	["Ranks 3, 7, 10, 13 and 14 are a point each. Polestar cannot read your highest rank yet, so tick each one off yourself. Forever's honor rules for reaching a rank have not been published in detail; in Classic, ranks come from your weekly honor standing, and 13-14 take many weeks of top standing."] = "계급 3, 7, 10, 13, 14는 각각 1점입니다. Polestar는 아직 최고 계급을 읽을 수 없으니 직접 하나씩 체크하십시오. Forever의 계급 달성 명예 규칙은 자세히 공개되지 않았습니다. 클래식에서는 주간 명예 순위로 계급이 정해지며, 13-14계급은 여러 주 동안 최상위 순위를 유지해야 합니다.",
+	["enemy players for honor until PvP Rank 3"] = "PvP 계급 3까지 명예를 위해 적 플레이어",
+	["enemy players for honor until PvP Rank 7"] = "PvP 계급 7까지 명예를 위해 적 플레이어",
+	["enemy players for honor until PvP Rank 10"] = "PvP 계급 10까지 명예를 위해 적 플레이어",
+	["enemy players for honor until PvP Rank 13"] = "PvP 계급 13까지 명예를 위해 적 플레이어",
+	["enemy players for honor until PvP Rank 14"] = "PvP 계급 14까지 명예를 위해 적 플레이어",
 
 	-- Step 13: PvP: Field of Honor
 	["PvP: Field of Honor"] = "PvP: Field of Honor",
 	["The Field of Honor PvP season has weekly journey quests; finishing the ones for weeks 4, 7 and 10 is a point each. These quests are new in Forever and not in our data, so tick each one off yourself."] = "Field of Honor PvP 시즌에는 주간 여정 퀘스트가 있으며, 4, 7, 10주차 퀘스트를 마치면 각각 1점입니다. 이 퀘스트들은 Forever에 새로 추가되어 우리 데이터에 없으니 직접 하나씩 체크하십시오.",
+	["enemy players and finish the Field of Honor week 4 journey quest"] = "적 플레이어 (명예의 전장 4주차 여정 퀘스트 완료)",
+	["enemy players and finish the Field of Honor week 7 journey quest"] = "적 플레이어 (명예의 전장 7주차 여정 퀘스트 완료)",
+	["enemy players and finish the Field of Honor week 10 journey quest"] = "적 플레이어 (명예의 전장 10주차 여정 퀘스트 완료)",
 
 	-- Step 14: Adventure: explore the world map
 	["Adventure: explore the world map"] = "모험: 세계 지도 탐험",
@@ -145,6 +153,10 @@ return {
 	["Forever's new dungeons"] = "Forever의 새 던전",
 	-- {area:16919} Hall of Thanes · {area:153} Ruins of Lordaeron
 	["{area:16919} and {area:153} are new in Forever. Their bosses, levels and Legacy bracket are not in our data, so tick them off yourself."] = "{area:16919}와(과) {area:153}은(는) Forever에 새로 추가되었습니다. 우두머리, 레벨, 유산 구간이 우리 데이터에 없으니 직접 체크하십시오.",
+	-- {area:16919} Hall of Thanes
+	["the final boss of {area:16919}"] = "{area:16919} 최종 우두머리",
+	-- {area:153} Ruins of Lordaeron
+	["the final boss of {area:153}"] = "{area:153} 최종 우두머리",
 
 	-- Step 22: Raids: Onyxia
 	-- {npc:10184} Onyxia
@@ -155,10 +167,12 @@ return {
 	-- Step 23: Raids: Hyjal Summit
 	["Raids: Hyjal Summit"] = "공격대: Hyjal Summit",
 	["All 13 Hyjal Summit bosses are a point. Hyjal Summit is a new Forever raid; its bosses are not in our data, so tick it off once all 13 are down."] = "Hyjal Summit 우두머리 13명을 모두 처치하면 1점입니다. Hyjal Summit은(는) Forever의 새 공격대이며 우두머리가 우리 데이터에 없으니, 13명을 모두 처치하면 직접 체크하십시오.",
+	["all 13 Hyjal Summit bosses"] = "하이잘 정상의 우두머리 13명 전원",
 
 	-- Step 24: Raids: Barrow Deeps
 	["Raids: Barrow Deeps"] = "공격대: Barrow Deeps",
 	["All 8 Barrow Deeps bosses are a point. Barrow Deeps is a new Forever raid; its bosses are not in our data, so tick it off once all 8 are down."] = "Barrow Deeps 우두머리 8명을 모두 처치하면 1점입니다. Barrow Deeps은(는) Forever의 새 공격대이며 우두머리가 우리 데이터에 없으니, 8명을 모두 처치하면 직접 체크하십시오.",
+	["all 8 Barrow Deeps bosses"] = "고분 심연의 우두머리 8명 전원",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.
 	-- ["The {npc:16042} questline is a point. It is the level 60 dungeon-set chain: {npc:16013} ({zone:1455}) or {npc:16012} ({zone:1454}) send you through In Search of Anthion and Anthion's Parting Words to {npc:16033} at {area:254}, whose Three Kings of Flame, the Left and Right Pieces of {item:22048}, Final Preparations and Mea Culpa, {npc:16042} end with {quest:8996}. {quest:8997} then leads to the class Saving the Best for Last quests."] = "{npc:16042} 퀘스트 라인은 1점입니다. 레벨 60 던전 세트 연계 퀘스트입니다. {npc:16013}({zone:1455}) 또는 {npc:16012}({zone:1454})이(가) 안시온 찾기와 안시온의 작별 인사를 거쳐 {area:254}의 {npc:16033}에게 보냅니다. 그의 세 고위 정령의 불꽃, {item:22048}의 왼쪽 조각과 오른쪽 조각, 마지막 준비, 군주 발타라크여, 내 탓이오.를 거쳐 {quest:8996}(으)로 {npc:16042} 퀘스트 라인이 끝납니다. 그다음 {quest:8997}이(가) 직업별 은혜의 보답 퀘스트로 이어집니다.",

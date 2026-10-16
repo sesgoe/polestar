@@ -69,10 +69,18 @@ return {
 	-- Step 12: PvP: honor ranks
 	["PvP: honor ranks"] = "PvP：榮譽等級",
 	["Ranks 3, 7, 10, 13 and 14 are a point each. Polestar cannot read your highest rank yet, so tick each one off yourself. Forever's honor rules for reaching a rank have not been published in detail; in Classic, ranks come from your weekly honor standing, and 13-14 take many weeks of top standing."] = "等級3、7、10、13和14各值1點。Polestar目前還無法讀取你的最高等級，所以請自行逐一勾選。Forever達到各等級的榮譽規則尚未詳細公布；在經典版中，等級取決於你每週的榮譽排名，13-14級需要好幾週的頂尖排名。",
+	["enemy players for honor until PvP Rank 3"] = "敵對玩家以獲取榮譽，直到PvP軍階3級",
+	["enemy players for honor until PvP Rank 7"] = "敵對玩家以獲取榮譽，直到PvP軍階7級",
+	["enemy players for honor until PvP Rank 10"] = "敵對玩家以獲取榮譽，直到PvP軍階10級",
+	["enemy players for honor until PvP Rank 13"] = "敵對玩家以獲取榮譽，直到PvP軍階13級",
+	["enemy players for honor until PvP Rank 14"] = "敵對玩家以獲取榮譽，直到PvP軍階14級",
 
 	-- Step 13: PvP: Field of Honor
 	["PvP: Field of Honor"] = "PvP：Field of Honor",
 	["The Field of Honor PvP season has weekly journey quests; finishing the ones for weeks 4, 7 and 10 is a point each. These quests are new in Forever and not in our data, so tick each one off yourself."] = "Field of Honor PvP賽季有每週的歷程任務；完成第4、7和10週的任務各值1點。這些任務是Forever新增的，不在我們的資料中，所以請自行逐一勾選。",
+	["enemy players and finish the Field of Honor week 4 journey quest"] = "敵對玩家，並完成榮譽戰場第4週的旅程任務",
+	["enemy players and finish the Field of Honor week 7 journey quest"] = "敵對玩家，並完成榮譽戰場第7週的旅程任務",
+	["enemy players and finish the Field of Honor week 10 journey quest"] = "敵對玩家，並完成榮譽戰場第10週的旅程任務",
 
 	-- Step 14: Adventure: explore the world map
 	["Adventure: explore the world map"] = "冒險：探索世界地圖",
@@ -145,6 +153,10 @@ return {
 	["Forever's new dungeons"] = "Forever的新地城",
 	-- {area:16919} Hall of Thanes · {area:153} Ruins of Lordaeron
 	["{area:16919} and {area:153} are new in Forever. Their bosses, levels and Legacy bracket are not in our data, so tick them off yourself."] = "{area:16919}和{area:153}是Forever新增的。它們的首領、等級和傳承分組不在我們的資料中，所以請自行勾選。",
+	-- {area:16919} Hall of Thanes
+	["the final boss of {area:16919}"] = "{area:16919}的最終首領",
+	-- {area:153} Ruins of Lordaeron
+	["the final boss of {area:153}"] = "{area:153}的最終首領",
 
 	-- Step 22: Raids: Onyxia
 	-- {npc:10184} Onyxia
@@ -155,10 +167,12 @@ return {
 	-- Step 23: Raids: Hyjal Summit
 	["Raids: Hyjal Summit"] = "團隊：Hyjal Summit",
 	["All 13 Hyjal Summit bosses are a point. Hyjal Summit is a new Forever raid; its bosses are not in our data, so tick it off once all 13 are down."] = "擊敗Hyjal Summit的全部13個首領值1點。Hyjal Summit是Forever新增的團隊副本；它的首領不在我們的資料中，所以全部13個首領都倒下後請自行勾選。",
+	["all 13 Hyjal Summit bosses"] = "海加爾山的全部13個首領",
 
 	-- Step 24: Raids: Barrow Deeps
 	["Raids: Barrow Deeps"] = "團隊：Barrow Deeps",
 	["All 8 Barrow Deeps bosses are a point. Barrow Deeps is a new Forever raid; its bosses are not in our data, so tick it off once all 8 are down."] = "擊敗Barrow Deeps的全部8個首領值1點。Barrow Deeps是Forever新增的團隊副本；它的首領不在我們的資料中，所以全部8個首領都倒下後請自行勾選。",
+	["all 8 Barrow Deeps bosses"] = "古墓深淵的全部8個首領",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.
 	-- ["The {npc:16042} questline is a point. It is the level 60 dungeon-set chain: {npc:16013} ({zone:1455}) or {npc:16012} ({zone:1454}) send you through In Search of Anthion and Anthion's Parting Words to {npc:16033} at {area:254}, whose Three Kings of Flame, the Left and Right Pieces of {item:22048}, Final Preparations and Mea Culpa, {npc:16042} end with {quest:8996}. {quest:8997} then leads to the class Saving the Best for Last quests."] = "{npc:16042}任務線值1點。這是60級地城套裝任務鏈：{npc:16013}（{zone:1455}）或{npc:16012}（{zone:1454}）會帶你完成「尋找安希恩」和「安希恩的離別感言」，前往{area:254}的{npc:16033}，他的「烈焰三巨頭」、「瓦薩拉克護符的左半塊」和「瓦薩拉克護符的右半塊」（{item:22048}）、「最後的準備」和「Mea Culpa」，以及{npc:16042}，最後以{quest:8996}結束。{quest:8997}接著會引導至各職業的「最後的獎賞」任務。",

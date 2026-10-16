@@ -56,6 +56,8 @@
 		"a slash command and what follows it": "(?<![\\p{L}\\p{N}])/[a-z][a-z0-9]*(?:(?:, ?| )(?:[a-z][a-z0-9-]*|<[^>]*>|\\d+))*",
 		"a licence": "\\bGPL-3\\.0(?:-only|-or-later)?|\\bCC BY(?:-SA)? \\d\\.\\d",
 		"a locale code": "\\b(?:de|en|es|fr|it|ko|pt|ru|zh)(?:DE|US|GB|ES|MX|FR|IT|KR|BR|RU|CN|TW)\\b",
+		"guide lines /polestar where prints, in the guide format's own words": "\\bzone map \\d+|\\bgoto -?[\\d.]+,-?[\\d.]+(?: live)?|@-?[\\d.]+,-?[\\d.]+ live",
+		"the bug report's details block, written for the maintainers": "```[\\s\\S]*?(?:```|$)",
 		"a format directive": "%\\d*\\$?[-+ #0]*\\d*(?:\\.\\d+)?[a-zA-Z]"
 	},
 	"locales": {}

@@ -46,6 +46,9 @@ const GUIDE_FIELDS = ['title', 'why', 'pitch'];
 const GUIDE_LISTS = ['pros', 'cons'];
 const STEP_FIELDS = ['title', 'note'];
 const GOAL_FIELDS = ['note', 'text'];
+// A goal's prose fields: a kill of no NPC (`kill "enemy players for honor"`)
+// names its target in words too.
+const goalFields = (goal) => (goal.t === 'kill' && goal.npc === undefined && str(goal.target) ? [...GOAL_FIELDS, 'target'] : GOAL_FIELDS);
 // Areas of the open world: Eastern Kingdoms (0) and Kalimdor (1).
 const OPEN_WORLD = new Set([0, 1]);
 // Where a name comes from, best first: the step's own goals, the guide's, the
@@ -162,7 +165,7 @@ function forEachText(guide, fn, { steps = true } = {}) {
 	if (!steps) return;
 	(guide.steps || []).forEach((step, si) => {
 		for (const f of STEP_FIELDS) if (str(step[f])) fn(step[f], step, f, 'step', si);
-		for (const goal of step.goals || []) for (const f of GOAL_FIELDS) if (str(goal[f])) fn(goal[f], goal, f, 'goal', si);
+		for (const goal of step.goals || []) for (const f of goalFields(goal)) if (str(goal[f])) fn(goal[f], goal, f, 'goal', si);
 	});
 }
 
@@ -653,7 +656,7 @@ function tokeniseGuides(guides, data) {
 					delete goal.note;
 					stats.dropped++;
 				}
-				for (const f of GOAL_FIELDS) if (str(goal[f])) replace(goal[f], goal, f, indexes, og._line || orig._line || guideLine);
+				for (const f of goalFields(goal)) if (str(goal[f])) replace(goal[f], goal, f, indexes, og._line || orig._line || guideLine);
 			});
 		});
 		if (Object.keys(names).length) copy.names = Object.fromEntries(Object.keys(names).sort().map((k) => [k, names[k]]));
