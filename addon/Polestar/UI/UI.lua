@@ -138,13 +138,13 @@ function UI.Category(guide)
 end
 
 -- Where a guide happens, as the player should read it: a leveling guide's
--- zone; for other categories (professions, reputation, ...) the guide's
--- zone is only a meaningful place when the guide belongs to one faction
--- (its capital); a both-faction guide's zone is an authoring detail and
--- reads as nothing here.
+-- zone (the client's name of its map, else the guide's English); for other
+-- categories (professions, reputation, ...) the guide's zone is only a
+-- meaningful place when the guide belongs to one faction (its capital); a
+-- both-faction guide's zone is an authoring detail and reads as nothing here.
 function UI.GuidePlace(guide)
 	if not guide then return nil end
-	local z = guide.zoneName
+	local z = type(guide.zone) == "number" and mapName(guide.zone) or guide.zoneName
 	if type(z) ~= "string" or z == "" then return nil end
 	if UI.Category(guide) == "Leveling" or guide.faction then return z end
 	return nil
@@ -266,7 +266,7 @@ local function rewardItem(it)
 	local C = ns.Compat
 	local q = (C and C.GetItemQuality and C.GetItemQuality(it.item)) or it.quality
 	local hex = q and C and C.ItemQualityHex and C.ItemQualityHex(q) or Theme.Hex("item")
-	return "|c" .. hex .. (it.itemName or ("#" .. it.item)) .. "|r"
+	return "|c" .. hex .. (ns.Names.Item(it.item) or it.itemName or ("#" .. it.item)) .. "|r"
 end
 
 local function itemList(list, joiner)

@@ -379,6 +379,12 @@ local function paintStatus(chip, status)
 	return w
 end
 
+-- A result or selection's name in the client's language, else `fallback`.
+local function localTitle(kind, id, fallback)
+	local S = ns.Search
+	return S and S.LocalName and S.LocalName(kind, id) or fallback
+end
+
 -- One result on a row: icon (the item's own, else the kind's glyph), the
 -- name in its colour (a chip saying why when it cannot be got: the name keeps
 -- its full colour), the subtitle right. note: the right-hand text.
@@ -395,7 +401,7 @@ local function paintResult(r, res, note, width, on)
 	else
 		setGlyph(r.Icon, KIND[res.kind] and KIND[res.kind].icon or "search", on and "accent" or "textDim")
 	end
-	r.Title:SetText(res.title or tostring(res.id))
+	r.Title:SetText(localTitle(res.kind, res.id, res.title or tostring(res.id)))
 	paintName(r.Title, res.kind, res.quality)
 	local blocked = STATUS_TEXT[res.status] ~= nil
 	local chipW = paintStatus(r.Status, res.status)
@@ -838,7 +844,7 @@ local function renderDetails(loaded, reason)
 	local s = sel
 	local list, entity = selectionSources(s)
 	local g = s.kind == "guide" and guideHeader(s.id) or nil
-	local title = s.kind == "guide" and (g and g.title) or (entity and (entity.name or entity.title)) or s.title or tostring(s.id)
+	local title = s.kind == "guide" and (g and g.title) or localTitle(s.kind, s.id, entity and (entity.name or entity.title)) or s.title or tostring(s.id)
 	local quality = entity and entity.quality or s.quality
 	local status = entity and entity.status or s.status
 	s.status = status

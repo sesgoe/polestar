@@ -401,7 +401,7 @@ do
 					note = "Fly from {area:442} to {area:702} and take the portal up to {npc:4217} in the {area:1658}.",
 					only = { classes = { "DRUID" }, races = { "NightElf" } },
 					goals = {
-						{ t = "fly", location = "Rut'theran Village", area = 702 },
+						{ t = "fly", location = "Rut'theran Village", node = 27, area = 702 },
 						{ t = "accept", quest = 26, title = "A Lesson to Learn", npc = 4217, npcName = "Mathrengyl Bearwalker", minLevel = 16, qlvl = 16, map = 1457, x = 35.37, y = 8.4, z = 1340.1, f = "e" },
 						{ t = "accept", quest = 6121, title = "Lessons Anew", npc = 4217, npcName = "Mathrengyl Bearwalker", minLevel = 14, qlvl = 14, map = 1457, x = 35.37, y = 8.4, z = 1340.1, f = "e", note = "{npc:4217}: {quest:6121}" },
 					},
@@ -420,7 +420,7 @@ do
 						{ t = "complete", quest = 29, title = "Trial of the Lake" },
 						{ t = "turnin", quest = 29, title = "Trial of the Lake", npc = 11799, npcName = "Tajarri", map = 1450, x = 36.52, y = 40.1, z = 469.2, f = "e" },
 						{ t = "accept", quest = 272, title = "Trial of the Sea Lion", npc = 11799, npcName = "Tajarri", minLevel = 16, qlvl = 16, pre = { 29 }, preTitles = { [29] = "Trial of the Lake" }, map = 1450, x = 36.52, y = 40.1, z = 469.2, f = "e", note = "The half pendants lie in {zone:1439} and {zone:1436}: later on the route" },
-						{ t = "fly", location = "Auberdine", area = 442 },
+						{ t = "fly", location = "Auberdine", node = 26, area = 442 },
 					},
 				},
 				{
@@ -683,7 +683,7 @@ do
 					note = "Night Elves fly from {area:442} to {area:702}; Skyborne take the boat from the {area:442} dock and learn the Rut'theran flight path there. Take the portal up to {npc:4217} in the {area:1658}.",
 					only = { classes = { "DRUID" } },
 					goals = {
-						{ t = "fly", location = "Rut'theran Village", area = 702, only = { races = { "NightElf" } } },
+						{ t = "fly", location = "Rut'theran Village", node = 27, area = 702, only = { races = { "NightElf" } } },
 						{ t = "getfp", location = "Rut'theran Village", node = 27, area = 702, only = { races = { "Skyborne" } } },
 						{ t = "accept", quest = 98393, title = "The Great Cat Spirit", npc = 4217, npcName = "Mathrengyl Bearwalker", minLevel = 20, qlvl = 20, map = 1457, x = 35.37, y = 8.4, z = 1340.1, f = "e" },
 					},
@@ -731,7 +731,7 @@ do
 						{ t = "turnin", quest = 98731, title = "Blessings of the Great Cat Spirit", npc = 11802, npcName = "Dendrite Starblaze", map = 1450, x = 56.21, y = 30.64, z = 524.5, f = "e", only = { races = { "NightElf" } } },
 						{ t = "turnin", quest = 98738, title = "Blessings of the Great Windborne Cat Spirit", npc = 11802, npcName = "Dendrite Starblaze", map = 1450, x = 56.21, y = 30.64, z = 524.5, f = "e", only = { races = { "Skyborne" } } },
 						{ t = "accept", quest = 98397, title = "To Darnassus", npc = 11802, npcName = "Dendrite Starblaze", minLevel = 20, qlvl = 20, map = 1450, x = 56.21, y = 30.64, z = 524.5, f = "e" },
-						{ t = "fly", location = "Rut'theran Village", area = 702 },
+						{ t = "fly", location = "Rut'theran Village", node = 27, area = 702 },
 					},
 				},
 				{
@@ -741,7 +741,7 @@ do
 					goals = {
 						{ t = "turnin", quest = 98397, title = "To Darnassus", npc = 4217, npcName = "Mathrengyl Bearwalker", map = 1457, x = 35.37, y = 8.4, z = 1340.1, f = "e", note = "{npc:4217}: {spell:499}" },
 						{ t = "turnin", quest = 6125, title = "Power over Poison", npc = 4217, npcName = "Mathrengyl Bearwalker", map = 1457, x = 35.37, y = 8.4, z = 1340.1, f = "e", only = { races = { "NightElf" } }, note = "{npc:4217}: {spell:526}" },
-						{ t = "fly", location = "Auberdine", area = 442 },
+						{ t = "fly", location = "Auberdine", node = 26, area = 442 },
 					},
 				},
 			},
@@ -805,7 +805,7 @@ do
 					note = "Fly to {area:108} and ride north-west to the coast: the {object:177790} lies on the sea floor off the shore. Then ride east along the road through Elwynn to Redridge.",
 					only = { classes = { "DRUID" }, races = { "NightElf" } },
 					goals = {
-						{ t = "fly", location = "Sentinel Hill", area = 108 },
+						{ t = "fly", location = "Sentinel Hill", node = 4, area = 108 },
 						{ t = "collect", item = 15882, itemName = "Half Pendant of Aquatic Endurance", count = 1, map = 1436, x = 17.94, y = 33.18, f = "e", note = "{item:15882}: the {object:177790}", from = "Strange Lockbox", fromKind = "object", fromId = 177790 },
 					},
 				},
@@ -1266,7 +1266,7 @@ do
 						{ t = "collect", quest = 272, title = "Trial of the Sea Lion", item = 15885, itemName = "Pendant of the Sea Lion", count = 1, oi = 1, map = 1450, x = 36, y = 41.42, f = "e", note = "{item:15885}: join the two halves", from = "Shrine Of Remulos", fromKind = "object", fromId = 15885 },
 						{ t = "turnin", quest = 272, title = "Trial of the Sea Lion", npc = 11802, npcName = "Dendrite Starblaze", map = 1450, x = 56.21, y = 30.64, z = 524.5, f = "e" },
 						{ t = "accept", quest = 5061, title = "Aquatic Form", npc = 11802, npcName = "Dendrite Starblaze", minLevel = 16, qlvl = 16, pre = { 272 }, preTitles = { [272] = "Trial of the Sea Lion" }, map = 1450, x = 56.21, y = 30.64, z = 524.5, f = "e" },
-						{ t = "fly", location = "Rut'theran Village", area = 702 },
+						{ t = "fly", location = "Rut'theran Village", node = 27, area = 702 },
 					},
 				},
 				{
@@ -1275,7 +1275,7 @@ do
 					only = { classes = { "DRUID" }, races = { "NightElf" } },
 					goals = {
 						{ t = "turnin", quest = 5061, title = "Aquatic Form", npc = 4217, npcName = "Mathrengyl Bearwalker", map = 1457, x = 35.37, y = 8.4, z = 1340.1, f = "e", note = "{npc:4217}: {quest:5061}" },
-						{ t = "fly", location = "Auberdine", area = 442 },
+						{ t = "fly", location = "Auberdine", node = 26, area = 442 },
 					},
 				},
 				{
@@ -1283,9 +1283,9 @@ do
 					note = "Take the boat from {area:17203} to {area:442} and fly to {area:702}; {npc:11401} is in the Temple of the Moon. Then fly back to {area:442}.",
 					only = { classes = { "PRIEST" }, races = { "NightElf" } },
 					goals = {
-						{ t = "fly", location = "Rut'theran Village", area = 702 },
+						{ t = "fly", location = "Rut'theran Village", node = 27, area = 702 },
 						{ t = "turnin", quest = 5673, title = "Elune's Grace", npc = 11401, npcName = "Priestess Alathea", map = 1457, x = 39.52, y = 81.2, z = 1360.1, f = "e", note = "{npc:11401}: {quest:5673}" },
-						{ t = "fly", location = "Auberdine", area = 442 },
+						{ t = "fly", location = "Auberdine", node = 26, area = 442 },
 					},
 				},
 				{
@@ -1525,7 +1525,7 @@ do
 					title = "To {area:150}",
 					goals = {
 						{ t = "hearth", location = "Astranaar", area = 415, note = "Hearthstone on cooldown? Ride back north through the {area:1276}." },
-						{ t = "fly", location = "Auberdine", area = 442 },
+						{ t = "fly", location = "Auberdine", node = 26, area = 442 },
 						{ t = "goto", text = "Boat to {area:150}", map = 1439, x = 32.4, y = 43.8, f = "e" },
 					},
 				},
@@ -1840,7 +1840,7 @@ do
 					title = "{area:42}",
 					note = "No {item:4371} for {quest:174}? {npc:3133} sells it in the house beside {npc:276}, in limited stock; {npc:1448} in {area:150} sells it too.",
 					goals = {
-						{ t = "fly", location = "Darkshire", area = 42, note = "From {npc:352} in {zone:1453}" },
+						{ t = "fly", location = "Darkshire", node = 12, area = 42, note = "From {npc:352} in {zone:1453}" },
 						{ t = "sethome", npc = 6790, npcName = "Innkeeper Trelayne", location = "Darkshire", area = 42, map = 1431, x = 73.87, y = 44.41, z = 28.1, f = "e", note = "{npc:6790}, Scarlet Raven Tavern" },
 						{ t = "turnin", quest = 1243, title = "The Missing Diplomat", npc = 840, npcName = "Watcher Backus", map = 1431, x = 74.83, y = 44.22, z = 28.2, f = "e", note = "{npc:840}, at the north entrance of town" },
 						{ t = "accept", quest = 1244, title = "The Missing Diplomat", npc = 840, npcName = "Watcher Backus", minLevel = 28, qlvl = 30, pre = { 1243 }, preTitles = { [1243] = "The Missing Diplomat" }, map = 1431, x = 74.83, y = 44.22, z = 28.2, f = "e" },
@@ -1988,7 +1988,7 @@ do
 				{
 					title = "{area:150}",
 					goals = {
-						{ t = "fly", location = "Menethil Harbor", area = 150, note = "{npc:2409}" },
+						{ t = "fly", location = "Menethil Harbor", node = 7, area = 150, note = "{npc:2409}" },
 						{ t = "sethome", npc = 1464, npcName = "Innkeeper Helbrek", location = "Deepwater Tavern", area = 2104, map = 1437, x = 10.7, y = 60.95, z = 10.1, f = "e" },
 						{ t = "accept", quest = 288, title = "The Third Fleet", npc = 1239, npcName = "First Mate Fitzsimmons", minLevel = 22, qlvl = 27, map = 1437, x = 10.9, y = 59.64, z = 10, f = "e", note = "{npc:1239}, in the inn" },
 						{ t = "buy", npc = 1464, npcName = "Innkeeper Helbrek", item = 2594, itemName = "Flagon of Mead", count = 1, map = 1437, x = 10.7, y = 60.95, z = 10.1, f = "e", note = "{item:2594}, from {npc:1464}" },
@@ -2423,7 +2423,7 @@ do
 				{
 					title = "Fly to {zone:1453}",
 					goals = {
-						{ t = "fly", location = "Stormwind", note = "From {npc:2432} in {area:271}" },
+						{ t = "fly", location = "Stormwind", node = 2, note = "From {npc:2432} in {area:271}" },
 					},
 				},
 				{
@@ -2532,7 +2532,7 @@ do
 				{
 					title = "{area:150}",
 					goals = {
-						{ t = "fly", location = "Menethil Harbor", area = 150, note = "From {zone:1455}'s {npc:1573}" },
+						{ t = "fly", location = "Menethil Harbor", node = 7, area = 150, note = "From {zone:1455}'s {npc:1573}" },
 					},
 				},
 				{
@@ -2540,7 +2540,7 @@ do
 					note = "Take the boat to {area:442} from Menethil's docks. {npc:3649} stands in {area:442}, north of the flight master.",
 					goals = {
 						{ t = "turnin", quest = 98209, title = "Bloom of the Heavens", npc = 3649, npcName = "Thundris Windweaver", map = 1439, x = 37.4, y = 40.13, z = 8.3, f = "e", note = "{npc:3649}: {item:279915}, from Sylessa in Menethil" },
-						{ t = "fly", location = "Astranaar", area = 415 },
+						{ t = "fly", location = "Astranaar", node = 28, area = 415 },
 					},
 				},
 				{
@@ -2727,7 +2727,7 @@ do
 				{
 					title = "{area:415}",
 					goals = {
-						{ t = "fly", location = "Astranaar", area = 415, note = "From {area:608}" },
+						{ t = "fly", location = "Astranaar", node = 28, area = 415, note = "From {area:608}" },
 						{ t = "sethome", location = "Astranaar", area = 415 },
 						{ t = "accept", quest = 1035, title = "Fallen Sky Lake", npc = 3894, npcName = "Pelturas Whitemoon", minLevel = 20, qlvl = 30, pre = { 1034 }, preTitles = { [1034] = "The Ruins of Stardust" }, map = 1440, x = 37.37, y = 51.79, z = 109.2, f = "e" },
 						{ t = "accept", quest = 4581, title = "Kayneth Stillwind", npc = 3845, npcName = "Shindrell Swiftfire", minLevel = 24, qlvl = 29, map = 1440, x = 34.67, y = 48.84, z = 107.2, f = "e" },
@@ -2946,7 +2946,7 @@ do
 					title = "{area:442}",
 					goals = {
 						{ t = "hearth", location = "Astranaar", area = 415 },
-						{ t = "fly", location = "Auberdine", area = 442 },
+						{ t = "fly", location = "Auberdine", node = 26, area = 442 },
 						{ t = "note", text = "Take the boat to {area:150} from {area:442}'s docks." },
 					},
 				},
@@ -3024,7 +3024,7 @@ do
 					title = "{area:1537}",
 					note = "Fly from {area:150} to {area:1537} and train.",
 					goals = {
-						{ t = "fly", location = "Ironforge", area = 1537, note = "{npc:1571}, {area:150}" },
+						{ t = "fly", location = "Ironforge", node = 6, area = 1537, note = "{npc:1571}, {area:150}" },
 						{ t = "train", class = true, only = { classes = { "WARRIOR", "PALADIN", "HUNTER", "ROGUE", "PRIEST", "SHAMAN", "MAGE", "WARLOCK" } }, candidates = { { npc = 5167, npcName = "Fenthwick", map = 1455, x = 51.5, y = 15.33, f = "e", faction = "A", classes = { "ROGUE" } }, { npc = 258098, npcName = "Eldrun Stormbreaker", map = 1455, x = 47.17, y = 13.37, f = "e", faction = "A", classes = { "SHAMAN" } }, { npc = 5173, npcName = "Alexander Calder", map = 1455, x = 50.08, y = 7.45, f = "e", faction = "A", classes = { "WARLOCK" } }, { npc = 5117, npcName = "Regnus Thundergranite", map = 1455, x = 69.87, y = 82.9, f = "e", faction = "A", classes = { "HUNTER" } }, { npc = 5114, npcName = "Bilban Tosslespanner", map = 1455, x = 65.9, y = 88.41, f = "e", faction = "A", classes = { "WARRIOR" } }, { npc = 7312, npcName = "Dink", map = 1455, x = 27.16, y = 8.57, f = "e", faction = "A", classes = { "MAGE" } }, { npc = 5143, npcName = "Toldren Deepiron", map = 1455, x = 25.21, y = 10.76, f = "e", faction = "A", classes = { "PRIEST" } }, { npc = 5148, npcName = "Beldruk Doombrow", map = 1455, x = 24.55, y = 4.47, f = "e", faction = "A", classes = { "PALADIN" } }, { npc = 258113, npcName = "Ingrid Dunwald", map = 1426, x = 47.58, y = 51.95, f = "e", faction = "A", classes = { "SHAMAN" } }, { npc = 1232, npcName = "Azar Stronghammer", map = 1426, x = 47.6, y = 52.07, f = "e", faction = "A", classes = { "PALADIN" } }, { npc = 1228, npcName = "Magis Sparkmantle", map = 1426, x = 47.5, y = 52.08, f = "e", faction = "A", classes = { "MAGE" } }, { npc = 1226, npcName = "Maxan Anvol", map = 1426, x = 47.34, y = 52.19, f = "e", faction = "A", classes = { "PRIEST" } }, { npc = 1234, npcName = "Hogral Bakkan", map = 1426, x = 47.56, y = 52.61, f = "e", faction = "A", classes = { "ROGUE" } }, { npc = 1229, npcName = "Granis Swiftaxe", map = 1426, x = 47.36, y = 52.65, f = "e", faction = "A", classes = { "WARRIOR" } }, { npc = 5612, npcName = "Gimrizz Shadowcog", map = 1426, x = 47.33, y = 53.69, f = "e", faction = "A", classes = { "WARLOCK" } }, { npc = 1231, npcName = "Grif Wildheart", map = 1426, x = 45.81, y = 53.04, f = "e", faction = "A", classes = { "HUNTER" } }, { npc = 257446, npcName = "Teo Hammerstorm", map = 1426, x = 28.79, y = 66.18, f = "e", faction = "A", classes = { "SHAMAN" } }, { npc = 460, npcName = "Alamar Grimm", map = 1426, x = 28.65, y = 66.14, f = "e", faction = "A", classes = { "WARLOCK" } }, { npc = 944, npcName = "Marryk Nurribit", map = 1426, x = 28.71, y = 66.37, f = "e", faction = "A", classes = { "MAGE" } }, { npc = 837, npcName = "Branstock Khalder", map = 1426, x = 28.6, y = 66.39, f = "e", faction = "A", classes = { "PRIEST" } }, { npc = 895, npcName = "Thorgas Grimson", map = 1426, x = 29.18, y = 67.45, f = "e", faction = "A", classes = { "HUNTER" } }, { npc = 912, npcName = "Thran Khorman", map = 1426, x = 28.83, y = 67.24, f = "e", faction = "A", classes = { "WARRIOR" } }, { npc = 916, npcName = "Solm Hargrin", map = 1426, x = 28.37, y = 67.51, f = "e", faction = "A", classes = { "ROGUE" } }, { npc = 926, npcName = "Bromos Grummner", map = 1426, x = 28.83, y = 68.33, f = "e", faction = "A", classes = { "PALADIN" } }, { npc = 5517, npcName = "Thorfin Stoneshield", map = 1453, x = 68, y = 35.99, faction = "A", classes = { "HUNTER" } }, { npc = 198, npcName = "Khelden Bremen", map = 1429, x = 49.66, y = 39.4, f = "e", faction = "A", classes = { "MAGE" } }, { npc = 375, npcName = "Priestess Anetta", map = 1429, x = 49.81, y = 39.49, f = "e", faction = "A", classes = { "PRIEST" } }, { npc = 915, npcName = "Jorik Kerridan", map = 1429, x = 50.31, y = 39.92, f = "e", faction = "A", classes = { "ROGUE" } }, { npc = 248415, npcName = "Tordrin Sternblade", map = 1429, x = 51.21, y = 40.8, f = "e", faction = "A", classes = { "HUNTER" } }, { npc = 925, npcName = "Brother Sammuel", map = 1429, x = 50.43, y = 42.12, f = "e", faction = "A", classes = { "PALADIN" } }, { npc = 911, npcName = "Llane Beshere", map = 1429, x = 50.24, y = 42.29, f = "e", faction = "A", classes = { "WARRIOR" } }, { npc = 459, npcName = "Drusilla La Salle", map = 1429, x = 49.87, y = 42.65, f = "e", faction = "A", classes = { "WARLOCK" } }, { npc = 5479, npcName = "Wu Shen", map = 1453, x = 80.55, y = 59.87, faction = "A", classes = { "WARRIOR" } }, { npc = 376, npcName = "High Priestess Laurena", map = 1453, x = 49.53, y = 44.6, faction = "A", classes = { "PRIEST" } }, { npc = 918, npcName = "Osborne the Night Man", map = 1453, x = 77.43, y = 65.31, faction = "A", classes = { "ROGUE" } }, { npc = 5491, npcName = "Arthur the Faithful", map = 1453, x = 49.61, y = 49.84, faction = "A", classes = { "PALADIN" } }, { npc = 5497, npcName = "Jennea Cannon", map = 1453, x = 49.56, y = 85.8, faction = "A", classes = { "MAGE" } }, { npc = 5495, npcName = "Ursula Deline", map = 1453, x = 39.89, y = 84.19, faction = "A", classes = { "WARLOCK" } }, { npc = 377, npcName = "Priestess Josetta", map = 1429, x = 43.28, y = 65.72, f = "e", faction = "A", classes = { "PRIEST" } }, { npc = 917, npcName = "Keryn Sylvius", map = 1429, x = 43.87, y = 65.94, f = "e", faction = "A", classes = { "ROGUE" } }, { npc = 906, npcName = "Maximillian Crowe", map = 1429, x = 44.39, y = 66.24, f = "e", faction = "A", classes = { "WARLOCK" } }, { npc = 328, npcName = "Zaldimar Wefhellt", map = 1429, x = 43.25, y = 66.19, f = "e", faction = "A", classes = { "MAGE" } }, { npc = 913, npcName = "Lyria Du Lac", map = 1429, x = 41.09, y = 65.77, f = "e", faction = "A", classes = { "WARRIOR" } }, { npc = 927, npcName = "Brother Wilhelm", map = 1429, x = 41.1, y = 66.04, f = "e", faction = "A", classes = { "PALADIN" } }, { npc = 251507, npcName = "Josephine Carson", map = 1429, x = 41.18, y = 66.3, f = "e", faction = "A", classes = { "HUNTER" } }, { npc = 3593, npcName = "Alyissia", map = 1438, x = 59.64, y = 38.44, f = "e", faction = "A", classes = { "WARRIOR" } }, { npc = 3594, npcName = "Frahun Shadewhisper", map = 1438, x = 59.64, y = 38.66, f = "e", faction = "A", classes = { "ROGUE" } }, { npc = 3595, npcName = "Shanda", map = 1438, x = 59.17, y = 40.44, f = "e", faction = "A", classes = { "PRIEST" } }, { npc = 3596, npcName = "Ayanna Everstride", map = 1438, x = 58.66, y = 40.45, f = "e", faction = "A", classes = { "HUNTER" } }, { npc = 3598, npcName = "Kyra Windblade", map = 1438, x = 56.22, y = 59.2, f = "e", faction = "A", classes = { "WARRIOR" } }, { npc = 3599, npcName = "Jannok Breezesong", map = 1438, x = 56.38, y = 60.14, f = "e", faction = "A", classes = { "ROGUE" } }, { npc = 3600, npcName = "Laurna Morninglight", map = 1438, x = 55.56, y = 56.75, f = "e", faction = "A", classes = { "PRIEST" } }, { npc = 3601, npcName = "Dazalar", map = 1438, x = 56.68, y = 59.49, f = "e", faction = "A", classes = { "HUNTER" } }, { npc = 4087, npcName = "Arias'ta Bladesinger", map = 1457, x = 58.71, y = 34.9, f = "e", faction = "A", classes = { "WARRIOR" } }, { npc = 4090, npcName = "Astarii Starseeker", map = 1457, x = 38.33, y = 80.95, f = "e", faction = "A", classes = { "PRIEST" } }, { npc = 4138, npcName = "Jeen'ra Nightrunner", map = 1457, x = 39.72, y = 5.39, f = "e", faction = "A", classes = { "HUNTER" } }, { npc = 4163, npcName = "Syurna", map = 1457, x = 36.99, y = 21.91, f = "e", faction = "A", classes = { "ROGUE" } }, { npc = 251376, npcName = "Tai'ree Farsight", map = 2521, x = 42.46, y = 23.67, faction = "AH", classes = { "HUNTER" } }, { npc = 251379, npcName = "Dorii Brightwhisper", map = 2521, x = 41.57, y = 23.65, faction = "A", classes = { "MAGE" } }, { npc = 251389, npcName = "Akeri Duskblade", map = 2521, x = 43.73, y = 24.3, faction = "AH", classes = { "ROGUE" } }, { npc = 251964, npcName = "Blademaster Ren", map = 2521, x = 43.65, y = 24.17, faction = "AH", classes = { "WARRIOR" } }, { npc = 254086, npcName = "Shenaan Spellwind", map = 2521, x = 44.89, y = 45.26, faction = "AH", classes = { "MAGE" } } } },
 					},
 				},
@@ -3040,7 +3040,7 @@ do
 					title = "{area:42}",
 					note = "Fly to {area:42}: {npc:1573} in {area:1537}'s {object:32372}, or {npc:352} in {zone:1453}'s {object:2096}.",
 					goals = {
-						{ t = "fly", location = "Darkshire", area = 42 },
+						{ t = "fly", location = "Darkshire", node = 12, area = 42 },
 					},
 				},
 				{
@@ -3367,7 +3367,7 @@ do
 				{
 					title = "Fly to {area:42}",
 					goals = {
-						{ t = "fly", location = "Darkshire", area = 42, note = "Gyll, {area:35}" },
+						{ t = "fly", location = "Darkshire", node = 12, area = 42, note = "Gyll, {area:35}" },
 					},
 				},
 				{
@@ -3443,7 +3443,7 @@ do
 					title = "Fly to {zone:1453}",
 					note = "Back west through {zone:1430} to {area:42}.",
 					goals = {
-						{ t = "fly", location = "Stormwind", note = "{npc:2409}, {area:42}" },
+						{ t = "fly", location = "Stormwind", node = 2, note = "{npc:2409}, {area:42}" },
 					},
 				},
 				{
@@ -3482,7 +3482,7 @@ do
 				{
 					title = "Fly to {area:271}",
 					goals = {
-						{ t = "fly", location = "Southshore", area = 271, note = "{npc:352}, {object:2096}; {npc:1573}, {zone:1455}" },
+						{ t = "fly", location = "Southshore", node = 14, area = 271, note = "{npc:352}, {object:2096}; {npc:1573}, {zone:1455}" },
 					},
 				},
 				{
@@ -3753,7 +3753,7 @@ do
 				{
 					title = "{area:1537}",
 					goals = {
-						{ t = "fly", location = "Ironforge", area = 1537, note = "{npc:2432}, {area:271}" },
+						{ t = "fly", location = "Ironforge", node = 6, area = 1537, note = "{npc:2432}, {area:271}" },
 						{ t = "turnin", quest = 554, title = "Stormpike's Deciphering", npc = 1356, npcName = "Prospector Stormpike", map = 1455, x = 74.64, y = 11.74, z = 503.5, f = "e", note = "{npc:1356}, {object:32356}" },
 						{ t = "train", class = true, only = { classes = { "WARRIOR", "PALADIN", "HUNTER", "ROGUE", "PRIEST", "SHAMAN", "MAGE", "WARLOCK" } }, candidates = { { npc = 5166, npcName = "Ormyr Flinteye", map = 1455, x = 52.89, y = 15.01, f = "e", faction = "A", classes = { "ROGUE" } }, { npc = 5171, npcName = "Thistleheart", map = 1455, x = 51.09, y = 6.61, f = "e", faction = "A", classes = { "WARLOCK" } }, { npc = 258098, npcName = "Eldrun Stormbreaker", map = 1455, x = 47.17, y = 13.37, f = "e", faction = "A", classes = { "SHAMAN" } }, { npc = 5144, npcName = "Bink", map = 1455, x = 27.25, y = 8.3, f = "e", faction = "A", classes = { "MAGE" } }, { npc = 5117, npcName = "Regnus Thundergranite", map = 1455, x = 69.87, y = 82.9, f = "e", faction = "A", classes = { "HUNTER" } }, { npc = 5143, npcName = "Toldren Deepiron", map = 1455, x = 25.21, y = 10.76, f = "e", faction = "A", classes = { "PRIEST" } }, { npc = 5148, npcName = "Beldruk Doombrow", map = 1455, x = 24.55, y = 4.47, f = "e", faction = "A", classes = { "PALADIN" } }, { npc = 5114, npcName = "Bilban Tosslespanner", map = 1455, x = 65.9, y = 88.41, f = "e", faction = "A", classes = { "WARRIOR" } }, { npc = 258113, npcName = "Ingrid Dunwald", map = 1426, x = 47.58, y = 51.95, f = "e", faction = "A", classes = { "SHAMAN" } }, { npc = 1232, npcName = "Azar Stronghammer", map = 1426, x = 47.6, y = 52.07, f = "e", faction = "A", classes = { "PALADIN" } }, { npc = 1228, npcName = "Magis Sparkmantle", map = 1426, x = 47.5, y = 52.08, f = "e", faction = "A", classes = { "MAGE" } }, { npc = 1226, npcName = "Maxan Anvol", map = 1426, x = 47.34, y = 52.19, f = "e", faction = "A", classes = { "PRIEST" } }, { npc = 1234, npcName = "Hogral Bakkan", map = 1426, x = 47.56, y = 52.61, f = "e", faction = "A", classes = { "ROGUE" } }, { npc = 1229, npcName = "Granis Swiftaxe", map = 1426, x = 47.36, y = 52.65, f = "e", faction = "A", classes = { "WARRIOR" } }, { npc = 5612, npcName = "Gimrizz Shadowcog", map = 1426, x = 47.33, y = 53.69, f = "e", faction = "A", classes = { "WARLOCK" } }, { npc = 1231, npcName = "Grif Wildheart", map = 1426, x = 45.81, y = 53.04, f = "e", faction = "A", classes = { "HUNTER" } }, { npc = 257446, npcName = "Teo Hammerstorm", map = 1426, x = 28.79, y = 66.18, f = "e", faction = "A", classes = { "SHAMAN" } }, { npc = 460, npcName = "Alamar Grimm", map = 1426, x = 28.65, y = 66.14, f = "e", faction = "A", classes = { "WARLOCK" } }, { npc = 944, npcName = "Marryk Nurribit", map = 1426, x = 28.71, y = 66.37, f = "e", faction = "A", classes = { "MAGE" } }, { npc = 837, npcName = "Branstock Khalder", map = 1426, x = 28.6, y = 66.39, f = "e", faction = "A", classes = { "PRIEST" } }, { npc = 895, npcName = "Thorgas Grimson", map = 1426, x = 29.18, y = 67.45, f = "e", faction = "A", classes = { "HUNTER" } }, { npc = 912, npcName = "Thran Khorman", map = 1426, x = 28.83, y = 67.24, f = "e", faction = "A", classes = { "WARRIOR" } }, { npc = 916, npcName = "Solm Hargrin", map = 1426, x = 28.37, y = 67.51, f = "e", faction = "A", classes = { "ROGUE" } }, { npc = 926, npcName = "Bromos Grummner", map = 1426, x = 28.83, y = 68.33, f = "e", faction = "A", classes = { "PALADIN" } }, { npc = 5517, npcName = "Thorfin Stoneshield", map = 1453, x = 68, y = 35.99, faction = "A", classes = { "HUNTER" } }, { npc = 198, npcName = "Khelden Bremen", map = 1429, x = 49.66, y = 39.4, f = "e", faction = "A", classes = { "MAGE" } }, { npc = 375, npcName = "Priestess Anetta", map = 1429, x = 49.81, y = 39.49, f = "e", faction = "A", classes = { "PRIEST" } }, { npc = 915, npcName = "Jorik Kerridan", map = 1429, x = 50.31, y = 39.92, f = "e", faction = "A", classes = { "ROGUE" } }, { npc = 248415, npcName = "Tordrin Sternblade", map = 1429, x = 51.21, y = 40.8, f = "e", faction = "A", classes = { "HUNTER" } }, { npc = 925, npcName = "Brother Sammuel", map = 1429, x = 50.43, y = 42.12, f = "e", faction = "A", classes = { "PALADIN" } }, { npc = 911, npcName = "Llane Beshere", map = 1429, x = 50.24, y = 42.29, f = "e", faction = "A", classes = { "WARRIOR" } }, { npc = 459, npcName = "Drusilla La Salle", map = 1429, x = 49.87, y = 42.65, f = "e", faction = "A", classes = { "WARLOCK" } }, { npc = 5479, npcName = "Wu Shen", map = 1453, x = 80.55, y = 59.87, faction = "A", classes = { "WARRIOR" } }, { npc = 376, npcName = "High Priestess Laurena", map = 1453, x = 49.53, y = 44.6, faction = "A", classes = { "PRIEST" } }, { npc = 918, npcName = "Osborne the Night Man", map = 1453, x = 77.43, y = 65.31, faction = "A", classes = { "ROGUE" } }, { npc = 5491, npcName = "Arthur the Faithful", map = 1453, x = 49.61, y = 49.84, faction = "A", classes = { "PALADIN" } }, { npc = 5497, npcName = "Jennea Cannon", map = 1453, x = 49.56, y = 85.8, faction = "A", classes = { "MAGE" } }, { npc = 5495, npcName = "Ursula Deline", map = 1453, x = 39.89, y = 84.19, faction = "A", classes = { "WARLOCK" } }, { npc = 917, npcName = "Keryn Sylvius", map = 1429, x = 43.87, y = 65.94, f = "e", faction = "A", classes = { "ROGUE" } }, { npc = 377, npcName = "Priestess Josetta", map = 1429, x = 43.28, y = 65.72, f = "e", faction = "A", classes = { "PRIEST" } }, { npc = 906, npcName = "Maximillian Crowe", map = 1429, x = 44.39, y = 66.24, f = "e", faction = "A", classes = { "WARLOCK" } }, { npc = 328, npcName = "Zaldimar Wefhellt", map = 1429, x = 43.25, y = 66.19, f = "e", faction = "A", classes = { "MAGE" } }, { npc = 913, npcName = "Lyria Du Lac", map = 1429, x = 41.09, y = 65.77, f = "e", faction = "A", classes = { "WARRIOR" } }, { npc = 927, npcName = "Brother Wilhelm", map = 1429, x = 41.1, y = 66.04, f = "e", faction = "A", classes = { "PALADIN" } }, { npc = 251507, npcName = "Josephine Carson", map = 1429, x = 41.18, y = 66.3, f = "e", faction = "A", classes = { "HUNTER" } }, { npc = 3593, npcName = "Alyissia", map = 1438, x = 59.64, y = 38.44, f = "e", faction = "A", classes = { "WARRIOR" } }, { npc = 3594, npcName = "Frahun Shadewhisper", map = 1438, x = 59.64, y = 38.66, f = "e", faction = "A", classes = { "ROGUE" } }, { npc = 3595, npcName = "Shanda", map = 1438, x = 59.17, y = 40.44, f = "e", faction = "A", classes = { "PRIEST" } }, { npc = 3596, npcName = "Ayanna Everstride", map = 1438, x = 58.66, y = 40.45, f = "e", faction = "A", classes = { "HUNTER" } }, { npc = 3598, npcName = "Kyra Windblade", map = 1438, x = 56.22, y = 59.2, f = "e", faction = "A", classes = { "WARRIOR" } }, { npc = 3599, npcName = "Jannok Breezesong", map = 1438, x = 56.38, y = 60.14, f = "e", faction = "A", classes = { "ROGUE" } }, { npc = 3600, npcName = "Laurna Morninglight", map = 1438, x = 55.56, y = 56.75, f = "e", faction = "A", classes = { "PRIEST" } }, { npc = 3601, npcName = "Dazalar", map = 1438, x = 56.68, y = 59.49, f = "e", faction = "A", classes = { "HUNTER" } }, { npc = 4087, npcName = "Arias'ta Bladesinger", map = 1457, x = 58.71, y = 34.9, f = "e", faction = "A", classes = { "WARRIOR" } }, { npc = 4090, npcName = "Astarii Starseeker", map = 1457, x = 38.33, y = 80.95, f = "e", faction = "A", classes = { "PRIEST" } }, { npc = 4138, npcName = "Jeen'ra Nightrunner", map = 1457, x = 39.72, y = 5.39, f = "e", faction = "A", classes = { "HUNTER" } }, { npc = 4163, npcName = "Syurna", map = 1457, x = 36.99, y = 21.91, f = "e", faction = "A", classes = { "ROGUE" } }, { npc = 251376, npcName = "Tai'ree Farsight", map = 2521, x = 42.46, y = 23.67, faction = "AH", classes = { "HUNTER" } }, { npc = 251379, npcName = "Dorii Brightwhisper", map = 2521, x = 41.57, y = 23.65, faction = "A", classes = { "MAGE" } }, { npc = 251389, npcName = "Akeri Duskblade", map = 2521, x = 43.73, y = 24.3, faction = "AH", classes = { "ROGUE" } }, { npc = 251964, npcName = "Blademaster Ren", map = 2521, x = 43.65, y = 24.17, faction = "AH", classes = { "WARRIOR" } }, { npc = 254086, npcName = "Shenaan Spellwind", map = 2521, x = 44.89, y = 45.26, faction = "AH", classes = { "MAGE" } } } },
 					},
@@ -3958,7 +3958,7 @@ do
 					title = "{area:150}",
 					note = "Take the boat to Theramore from the far pier.",
 					goals = {
-						{ t = "fly", location = "Menethil Harbor", area = 150 },
+						{ t = "fly", location = "Menethil Harbor", node = 7, area = 150 },
 						{ t = "goto", text = "{object:176369}", map = 1437, x = 4.7, y = 63.8, f = "e" },
 					},
 				},
@@ -3975,7 +3975,7 @@ do
 				{
 					title = "{area:608}",
 					goals = {
-						{ t = "fly", location = "Nijel's Point", area = 608 },
+						{ t = "fly", location = "Nijel's Point", node = 37, area = 608 },
 						{ t = "sethome", location = "Nijel's Point", area = 608 },
 						{ t = "turnin", quest = 6141, title = "Brother Anton", npc = 1182, npcName = "Brother Anton", map = 1443, x = 66.52, y = 7.91, z = 197.3, f = "e" },
 						{ t = "accept", quest = 261, title = "Down the Scarlet Path", npc = 1182, npcName = "Brother Anton", minLevel = 34, qlvl = 39, map = 1443, x = 66.52, y = 7.91, z = 197.3, f = "e" },
@@ -4110,7 +4110,7 @@ do
 					title = "Fly to Theramore",
 					note = "The next guide starts in Theramore.",
 					goals = {
-						{ t = "fly", location = "Theramore" },
+						{ t = "fly", location = "Theramore", node = 32 },
 					},
 				},
 			},
@@ -4488,7 +4488,7 @@ do
 					title = "{area:1519}",
 					note = "{npc:1141} cooks in the {object:2169}; {npc:5384} is in the {object:28027}.",
 					goals = {
-						{ t = "fly", location = "Stormwind" },
+						{ t = "fly", location = "Stormwind", node = 2 },
 						{ t = "sethome", location = "Stormwind City", area = 1519 },
 						{ t = "turnin", quest = 212, title = "A Meal Served Cold", npc = 1141, npcName = "Angus Stern", map = 1453, x = 51.79, y = 93.64, z = 108.4 },
 						{ t = "accept", quest = 1271, title = "Feast at the Blue Recluse", npc = 1141, npcName = "Angus Stern", minLevel = 30, qlvl = 37, pre = { 1222 }, preTitles = { [1222] = "Stinky's Escape" }, map = 1453, x = 51.79, y = 93.64, z = 108.4 },
@@ -4548,7 +4548,7 @@ do
 					title = "{npc:5476}",
 					note = "Fly to {area:42} and ride east through {zone:1430} into the {zone:1435}; {npc:5476} stands by the road just past the border.",
 					goals = {
-						{ t = "fly", location = "Darkshire", area = 42 },
+						{ t = "fly", location = "Darkshire", node = 12, area = 42 },
 						{ t = "accept", quest = 1398, title = "Driftwood", npc = 5476, npcName = "Watcher Biggs", minLevel = 30, qlvl = 42, pre = { 1421 }, preTitles = { [1421] = "The Lost Caravan" }, map = 1435, x = 26.74, y = 59.83, z = 21.9, f = "e" },
 					},
 				},
@@ -4649,7 +4649,7 @@ do
 				{
 					title = "{area:144}",
 					goals = {
-						{ t = "fly", location = "Thelsamar", area = 144, note = "{npc:1573}, the {object:32372}" },
+						{ t = "fly", location = "Thelsamar", node = 8, area = 144, note = "{npc:1573}, the {object:32372}" },
 					},
 				},
 				{
@@ -4716,7 +4716,7 @@ do
 					title = "{area:271}",
 					note = "Ride north to {area:144} and fly to {area:271}. {npc:3980} preaches by the inn.",
 					goals = {
-						{ t = "fly", location = "Southshore", area = 271 },
+						{ t = "fly", location = "Southshore", node = 14, area = 271 },
 						{ t = "turnin", quest = 1052, title = "Down the Scarlet Path", npc = 3980, npcName = "Raleigh the Devout", map = 1424, x = 51.47, y = 58.35, z = 18.5, f = "e" },
 						{ t = "note", text = "Raleigh's next errand is in the {area:796}: skip it." },
 					},
@@ -4766,7 +4766,7 @@ do
 					title = "{area:150}",
 					note = "Take the boat to Theramore from the far pier.",
 					goals = {
-						{ t = "fly", location = "Menethil Harbor", area = 150 },
+						{ t = "fly", location = "Menethil Harbor", node = 7, area = 150 },
 						{ t = "goto", text = "{object:176369}", map = 1437, x = 4.7, y = 63.8, f = "e" },
 					},
 				},
@@ -4782,7 +4782,7 @@ do
 					note = "Fly to {area:392}; {npc:6251} teaches in the house by the bank. Fly back to Theramore afterwards.",
 					only = { classes = { "WARLOCK" } },
 					goals = {
-						{ t = "fly", location = "Ratchet", area = 392 },
+						{ t = "fly", location = "Ratchet", node = 80, area = 392 },
 						{ t = "turnin", quest = 4488, title = "Summon Felsteed", npc = 6251, npcName = "Strahad Farsan", map = 1413, x = 62.63, y = 35.5, z = 40.5, f = "e" },
 						{ t = "accept", quest = 4490, title = "Summon Felsteed", npc = 6251, npcName = "Strahad Farsan", minLevel = 40, qlvl = 40, pre = { 3631, 4487, 4488, 4489 }, preTitles = { [3631] = "Summon Felsteed", [4487] = "Summon Felsteed", [4488] = "Summon Felsteed", [4489] = "Summon Felsteed" }, map = 1413, x = 62.63, y = 35.5, z = 40.5, f = "e" },
 						{ t = "turnin", quest = 4490, title = "Summon Felsteed", npc = 6251, npcName = "Strahad Farsan", map = 1413, x = 62.63, y = 35.5, z = 40.5, f = "e" },
@@ -4792,7 +4792,7 @@ do
 					title = "On to Feathermoon",
 					note = "Fly to {area:608}, ride south through {zone:1443} into {zone:1444} and follow the road to the dock on the {area:1108}; the boat crosses to {area:1116}, where the next guide starts.",
 					goals = {
-						{ t = "fly", location = "Nijel's Point", area = 608 },
+						{ t = "fly", location = "Nijel's Point", node = 37, area = 608 },
 					},
 				},
 			},
@@ -5298,7 +5298,7 @@ do
 					title = "{area:1537}",
 					note = "Fly from {area:976} to Theramore, take the boat to {area:150} and fly to {area:1537}. Train.",
 					goals = {
-						{ t = "fly", location = "Ironforge", area = 1537 },
+						{ t = "fly", location = "Ironforge", node = 6, area = 1537 },
 						{ t = "train", class = true, only = { classes = { "WARRIOR", "PALADIN", "HUNTER", "ROGUE", "PRIEST", "SHAMAN", "MAGE", "WARLOCK" } }, candidates = { { npc = 3599, npcName = "Jannok Breezesong", map = 1438, x = 56.38, y = 60.14, f = "e", faction = "A", classes = { "ROGUE" } }, { npc = 3601, npcName = "Dazalar", map = 1438, x = 56.68, y = 59.49, f = "e", faction = "A", classes = { "HUNTER" } }, { npc = 3598, npcName = "Kyra Windblade", map = 1438, x = 56.22, y = 59.2, f = "e", faction = "A", classes = { "WARRIOR" } }, { npc = 3600, npcName = "Laurna Morninglight", map = 1438, x = 55.56, y = 56.75, f = "e", faction = "A", classes = { "PRIEST" } }, { npc = 4092, npcName = "Lariia", map = 1457, x = 40.35, y = 88.68, f = "e", faction = "A", classes = { "PRIEST" } }, { npc = 4089, npcName = "Sildanair", map = 1457, x = 61.78, y = 42.22, f = "e", faction = "A", classes = { "WARRIOR" } }, { npc = 3595, npcName = "Shanda", map = 1438, x = 59.17, y = 40.44, f = "e", faction = "A", classes = { "PRIEST" } }, { npc = 3596, npcName = "Ayanna Everstride", map = 1438, x = 58.66, y = 40.45, f = "e", faction = "A", classes = { "HUNTER" } }, { npc = 3594, npcName = "Frahun Shadewhisper", map = 1438, x = 59.64, y = 38.66, f = "e", faction = "A", classes = { "ROGUE" } }, { npc = 3593, npcName = "Alyissia", map = 1438, x = 59.64, y = 38.44, f = "e", faction = "A", classes = { "WARRIOR" } }, { npc = 4214, npcName = "Erion Shadewhisper", map = 1457, x = 34.52, y = 25.93, f = "e", faction = "A", classes = { "ROGUE" } }, { npc = 4146, npcName = "Jocaste", map = 1457, x = 40.38, y = 8.55, f = "e", faction = "A", classes = { "HUNTER" } }, { npc = 460, npcName = "Alamar Grimm", map = 1426, x = 28.65, y = 66.14, f = "e", faction = "A", classes = { "WARLOCK" } }, { npc = 837, npcName = "Branstock Khalder", map = 1426, x = 28.6, y = 66.39, f = "e", faction = "A", classes = { "PRIEST" } }, { npc = 895, npcName = "Thorgas Grimson", map = 1426, x = 29.18, y = 67.45, f = "e", faction = "A", classes = { "HUNTER" } }, { npc = 912, npcName = "Thran Khorman", map = 1426, x = 28.83, y = 67.24, f = "e", faction = "A", classes = { "WARRIOR" } }, { npc = 916, npcName = "Solm Hargrin", map = 1426, x = 28.37, y = 67.51, f = "e", faction = "A", classes = { "ROGUE" } }, { npc = 926, npcName = "Bromos Grummner", map = 1426, x = 28.83, y = 68.33, f = "e", faction = "A", classes = { "PALADIN" } }, { npc = 944, npcName = "Marryk Nurribit", map = 1426, x = 28.71, y = 66.37, f = "e", faction = "A", classes = { "MAGE" } }, { npc = 1226, npcName = "Maxan Anvol", map = 1426, x = 47.34, y = 52.19, f = "e", faction = "A", classes = { "PRIEST" } }, { npc = 1228, npcName = "Magis Sparkmantle", map = 1426, x = 47.5, y = 52.08, f = "e", faction = "A", classes = { "MAGE" } }, { npc = 1229, npcName = "Granis Swiftaxe", map = 1426, x = 47.36, y = 52.65, f = "e", faction = "A", classes = { "WARRIOR" } }, { npc = 1231, npcName = "Grif Wildheart", map = 1426, x = 45.81, y = 53.04, f = "e", faction = "A", classes = { "HUNTER" } }, { npc = 1232, npcName = "Azar Stronghammer", map = 1426, x = 47.6, y = 52.07, f = "e", faction = "A", classes = { "PALADIN" } }, { npc = 1234, npcName = "Hogral Bakkan", map = 1426, x = 47.56, y = 52.61, f = "e", faction = "A", classes = { "ROGUE" } }, { npc = 5612, npcName = "Gimrizz Shadowcog", map = 1426, x = 47.33, y = 53.69, f = "e", faction = "A", classes = { "WARLOCK" } }, { npc = 257446, npcName = "Teo Hammerstorm", map = 1426, x = 28.79, y = 66.18, f = "e", faction = "A", classes = { "SHAMAN" } }, { npc = 258113, npcName = "Ingrid Dunwald", map = 1426, x = 47.58, y = 51.95, f = "e", faction = "A", classes = { "SHAMAN" } }, { npc = 198, npcName = "Khelden Bremen", map = 1429, x = 49.66, y = 39.4, f = "e", faction = "A", classes = { "MAGE" } }, { npc = 328, npcName = "Zaldimar Wefhellt", map = 1429, x = 43.25, y = 66.19, f = "e", faction = "A", classes = { "MAGE" } }, { npc = 375, npcName = "Priestess Anetta", map = 1429, x = 49.81, y = 39.49, f = "e", faction = "A", classes = { "PRIEST" } }, { npc = 377, npcName = "Priestess Josetta", map = 1429, x = 43.28, y = 65.72, f = "e", faction = "A", classes = { "PRIEST" } }, { npc = 459, npcName = "Drusilla La Salle", map = 1429, x = 49.87, y = 42.65, f = "e", faction = "A", classes = { "WARLOCK" } }, { npc = 906, npcName = "Maximillian Crowe", map = 1429, x = 44.39, y = 66.24, f = "e", faction = "A", classes = { "WARLOCK" } }, { npc = 911, npcName = "Llane Beshere", map = 1429, x = 50.24, y = 42.29, f = "e", faction = "A", classes = { "WARRIOR" } }, { npc = 913, npcName = "Lyria Du Lac", map = 1429, x = 41.09, y = 65.77, f = "e", faction = "A", classes = { "WARRIOR" } }, { npc = 915, npcName = "Jorik Kerridan", map = 1429, x = 50.31, y = 39.92, f = "e", faction = "A", classes = { "ROGUE" } }, { npc = 917, npcName = "Keryn Sylvius", map = 1429, x = 43.87, y = 65.94, f = "e", faction = "A", classes = { "ROGUE" } }, { npc = 925, npcName = "Brother Sammuel", map = 1429, x = 50.43, y = 42.12, f = "e", faction = "A", classes = { "PALADIN" } }, { npc = 927, npcName = "Brother Wilhelm", map = 1429, x = 41.1, y = 66.04, f = "e", faction = "A", classes = { "PALADIN" } }, { npc = 248415, npcName = "Tordrin Sternblade", map = 1429, x = 51.21, y = 40.8, f = "e", faction = "A", classes = { "HUNTER" } }, { npc = 251507, npcName = "Josephine Carson", map = 1429, x = 41.18, y = 66.3, f = "e", faction = "A", classes = { "HUNTER" } }, { npc = 376, npcName = "High Priestess Laurena", map = 1453, x = 49.53, y = 44.6, faction = "A", classes = { "PRIEST" } }, { npc = 461, npcName = "Demisette Cloyce", map = 1453, x = 39.24, y = 84.96, faction = "A", classes = { "WARLOCK" } }, { npc = 914, npcName = "Ander Germaine", map = 1453, x = 80.19, y = 61.26, faction = "A", classes = { "WARRIOR" } }, { npc = 918, npcName = "Osborne the Night Man", map = 1453, x = 77.43, y = 65.31, faction = "A", classes = { "ROGUE" } }, { npc = 928, npcName = "Lord Grayson Shadowbreaker", map = 1453, x = 48.43, y = 50.22, faction = "A", classes = { "PALADIN" } }, { npc = 5497, npcName = "Jennea Cannon", map = 1453, x = 49.56, y = 85.8, faction = "A", classes = { "MAGE" } }, { npc = 5515, npcName = "Einris Brightspear", map = 1453, x = 67.35, y = 36.25, faction = "A", classes = { "HUNTER" } }, { npc = 1901, npcName = "Kelstrum Stonebreaker", map = 1455, x = 66.97, y = 90.15, f = "e", faction = "A", classes = { "WARRIOR" } }, { npc = 5115, npcName = "Daera Brightspear", map = 1455, x = 70.97, y = 89.8, f = "e", faction = "A", classes = { "HUNTER" } }, { npc = 5141, npcName = "Theodrus Frostbeard", map = 1455, x = 24.08, y = 8.41, f = "e", faction = "A", classes = { "PRIEST" } }, { npc = 5144, npcName = "Bink", map = 1455, x = 27.25, y = 8.3, f = "e", faction = "A", classes = { "MAGE" } }, { npc = 5147, npcName = "Valgar Highforge", map = 1455, x = 23.7, y = 5.1, f = "e", faction = "A", classes = { "PALADIN" } }, { npc = 5165, npcName = "Hulfdan Blackbeard", map = 1455, x = 51.96, y = 14.84, f = "e", faction = "A", classes = { "ROGUE" } }, { npc = 5171, npcName = "Thistleheart", map = 1455, x = 51.09, y = 6.61, f = "e", faction = "A", classes = { "WARLOCK" } }, { npc = 258098, npcName = "Eldrun Stormbreaker", map = 1455, x = 47.17, y = 13.37, f = "e", faction = "A", classes = { "SHAMAN" } }, { npc = 251376, npcName = "Tai'ree Farsight", map = 2521, x = 42.46, y = 23.67, faction = "AH", classes = { "HUNTER" } }, { npc = 251379, npcName = "Dorii Brightwhisper", map = 2521, x = 41.57, y = 23.65, faction = "A", classes = { "MAGE" } }, { npc = 251389, npcName = "Akeri Duskblade", map = 2521, x = 43.73, y = 24.3, faction = "AH", classes = { "ROGUE" } }, { npc = 251964, npcName = "Blademaster Ren", map = 2521, x = 43.65, y = 24.17, faction = "AH", classes = { "WARRIOR" } }, { npc = 254086, npcName = "Shenaan Spellwind", map = 2521, x = 44.89, y = 45.26, faction = "AH", classes = { "MAGE" } } } },
 					},
 				},
@@ -5306,7 +5306,7 @@ do
 					title = "{area:348}",
 					note = "Fly to {area:348}. {zone:1425} guide starts here.",
 					goals = {
-						{ t = "fly", location = "Aerie Peak", area = 348 },
+						{ t = "fly", location = "Aerie Peak", node = 43, area = 348 },
 						{ t = "sethome", npc = 7744, npcName = "Innkeeper Thulfram", location = "Aerie Peak", area = 348, map = 1425, x = 14.15, y = 41.57, z = 131.6, f = "e" },
 					},
 				},
@@ -5371,7 +5371,7 @@ do
 					title = "{area:42}",
 					note = "Fly from {area:348} to {area:42}.",
 					goals = {
-						{ t = "fly", location = "Darkshire", area = 42 },
+						{ t = "fly", location = "Darkshire", node = 12, area = 42 },
 						{ t = "turnin", quest = 1477, title = "Vital Supplies", npc = 5464, npcName = "Watchmaster Sorigal", map = 1431, x = 75.78, y = 46.16, z = 27, f = "e" },
 						{ t = "accept", quest = 1395, title = "Supplies for Nethergarde", npc = 5464, npcName = "Watchmaster Sorigal", minLevel = 40, qlvl = 45, map = 1431, x = 75.78, y = 46.16, z = 27, f = "e" },
 					},
@@ -5439,7 +5439,7 @@ do
 					title = "{area:144}",
 					note = "Ride back east to {area:1438} and fly to {area:144}.",
 					goals = {
-						{ t = "fly", location = "Thelsamar", area = 144 },
+						{ t = "fly", location = "Thelsamar", node = 8, area = 144 },
 						{ t = "sethome", npc = 6734, npcName = "Innkeeper Hearthstove", location = "Stoutlager Inn", area = 2101, map = 1432, x = 35.53, y = 48.4, z = 323.3, f = "e" },
 						{ t = "accept", quest = 17, title = "Uldaman Reagent Run", npc = 1470, npcName = "Ghak Healtouch", minLevel = 38, qlvl = 42, pre = { 2500 }, preTitles = { [2500] = "Badlands Reagent Run" }, map = 1432, x = 37.07, y = 49.38, z = 327.7, f = "e" },
 					},
@@ -5687,7 +5687,7 @@ do
 					title = "{area:976}",
 					note = "From {area:144} fly to {area:150}, take the boat to Theramore and fly on to {area:976}. {npc:9619}'s first quest in the crater needs level 48: finish the level here if you are short.",
 					goals = {
-						{ t = "fly", location = "Gadgetzan", area = 976 },
+						{ t = "fly", location = "Gadgetzan", node = 39, area = 976 },
 						{ t = "level", level = 48, note = "grind on the Wastewanderers or Dunemaul ogres around {area:976}" },
 					},
 				},
@@ -5998,7 +5998,7 @@ do
 					title = "{area:1537}",
 					note = "Fly from {area:144} to {area:1537}.",
 					goals = {
-						{ t = "fly", location = "Ironforge", area = 1537 },
+						{ t = "fly", location = "Ironforge", node = 6, area = 1537 },
 					},
 				},
 				{
@@ -6078,14 +6078,14 @@ do
 					title = "{area:150}",
 					note = "Fly from {zone:1455} to {area:150} and take the boat to {area:442}.",
 					goals = {
-						{ t = "fly", location = "Menethil Harbor", area = 150 },
+						{ t = "fly", location = "Menethil Harbor", node = 7, area = 150 },
 					},
 				},
 				{
 					title = "{area:442}",
 					note = "From the {area:442} dock, fly to {area:415}.",
 					goals = {
-						{ t = "fly", location = "Astranaar", area = 415 },
+						{ t = "fly", location = "Astranaar", node = 28, area = 415 },
 					},
 				},
 				{
@@ -6213,7 +6213,7 @@ do
 					title = "{area:69}",
 					note = "Fly from {zone:1455} to {area:69}.",
 					goals = {
-						{ t = "fly", location = "Lakeshire", area = 69 },
+						{ t = "fly", location = "Lakeshire", node = 5, area = 69 },
 					},
 				},
 				{
@@ -6321,7 +6321,7 @@ do
 					title = "{area:1438}",
 					note = "Fly to {area:1438}.",
 					goals = {
-						{ t = "fly", location = "Nethergarde Keep", area = 1438 },
+						{ t = "fly", location = "Nethergarde Keep", node = 45, area = 1438 },
 					},
 				},
 				{
@@ -6337,7 +6337,7 @@ do
 					title = "Wildkin feathers",
 					note = "Ride back to {area:1438} and fly to {area:348}. The Wildkin Feathers lie on the ground across the {zone:1425}, south and east of {area:348}, where the owlbeasts roam; the mobs here are well below you now.",
 					goals = {
-						{ t = "fly", location = "Aerie Peak", area = 348 },
+						{ t = "fly", location = "Aerie Peak", node = 43, area = 348 },
 						{ t = "collect", quest = 3661, title = "Favored of Elune?", item = 10819, itemName = "Wildkin Feather", count = 15, oi = 1, map = 1425, x = 39.08, y = 52.94, f = "e", spots = { { x = 38.3, y = 53.9, r = 57, n = 1 }, { x = 33.8, y = 45.4, r = 87, n = 6 }, { x = 27.4, y = 53.4, r = 63, n = 7 }, { x = 22.1, y = 55.2, r = 107, n = 5 }, { x = 15.7, y = 52.1, r = 77, n = 3 }, { x = 27.9, y = 66.5, r = 84, n = 5 }, { x = 46.8, y = 50.1, r = 57, n = 1 }, { x = 52.7, y = 51.4, r = 57, n = 1 }, { x = 52.5, y = 40.7, r = 92, n = 5 }, { x = 60.2, y = 43.8, r = 57, n = 1 }, { x = 63.4, y = 61.6, r = 57, n = 1 }, { x = 49.9, y = 63.2, r = 57, n = 2 }, { x = 40.6, y = 50.9, r = 57, n = 1, alt = true }, { x = 35.9, y = 52, r = 75, n = 3, alt = true }, { x = 43.1, y = 57.1, r = 73, n = 4, alt = true }, { x = 34.6, y = 56.8, r = 57, n = 2, alt = true }, { x = 38.7, y = 45.2, r = 57, n = 3, alt = true }, { x = 32.2, y = 54.1, r = 80, n = 5, alt = true }, { x = 43.7, y = 44.9, r = 65, n = 3, alt = true }, { x = 45.9, y = 60, r = 57, n = 1, alt = true }, { x = 31.4, y = 62, r = 77, n = 4, alt = true }, { x = 47.8, y = 42.7, r = 57, n = 2, alt = true }, { x = 51.8, y = 57.5, r = 74, n = 3, alt = true }, { x = 26.4, y = 59.2, r = 85, n = 5, alt = true }, { x = 23.3, y = 51.4, r = 57, n = 4, alt = true }, { x = 56.2, y = 45.5, r = 104, n = 7, alt = true }, { x = 19.3, y = 48.3, r = 57, n = 3, alt = true }, { x = 61.8, y = 50.5, r = 73, n = 3, alt = true } }, spread = true, from = "Wildkin Feather", fromKind = "object", fromId = 153239 },
 					},
 				},
@@ -6352,7 +6352,7 @@ do
 					title = "{area:150}",
 					note = "Fly to {area:150} and take the boat to {area:442}, then the boat on to {area:702}.",
 					goals = {
-						{ t = "fly", location = "Menethil Harbor", area = 150 },
+						{ t = "fly", location = "Menethil Harbor", node = 7, area = 150 },
 					},
 				},
 				{
@@ -6398,7 +6398,7 @@ do
 					title = "{area:442}",
 					note = "Take the boat from {area:702} to {area:442} and fly to {area:415}.",
 					goals = {
-						{ t = "fly", location = "Astranaar", area = 415 },
+						{ t = "fly", location = "Astranaar", node = 28, area = 415 },
 					},
 				},
 				{
@@ -6920,7 +6920,7 @@ do
 				{
 					title = "{area:3197}",
 					goals = {
-						{ t = "fly", location = "Chillwind Camp", area = 3197 },
+						{ t = "fly", location = "Chillwind Camp", node = 66, area = 3197 },
 						{ t = "accept", quest = 5092, title = "Clear the Way", npc = 10838, npcName = "Commander Ashlam Valorfist", minLevel = 50, qlvl = 52, map = 1422, x = 42.7, y = 84.03, z = 66.3, f = "e" },
 						{ t = "accept", quest = 5402, title = "Minion's Scourgestones", npc = 10840, npcName = "Argent Officer Pureheart", minLevel = 50, qlvl = 55, pre = { 5401, 5503, 5405 }, preTitles = { [5401] = "Argent Dawn Commission", [5405] = "Argent Dawn Commission", [5503] = "Argent Dawn Commission" }, map = 1422, x = 42.97, y = 83.55, z = 65.2, f = "e" },
 						{ t = "accept", quest = 5403, title = "Invader's Scourgestones", npc = 10840, npcName = "Argent Officer Pureheart", minLevel = 50, qlvl = 55, pre = { 5401, 5503, 5405 }, preTitles = { [5401] = "Argent Dawn Commission", [5405] = "Argent Dawn Commission", [5503] = "Argent Dawn Commission" }, map = 1422, x = 42.97, y = 83.55, z = 65.2, f = "e" },
@@ -7383,7 +7383,7 @@ do
 					title = "{area:1116}",
 					note = "From {area:702}, fly to {area:1116}.",
 					goals = {
-						{ t = "fly", location = "Feathermoon" },
+						{ t = "fly", location = "Feathermoon", node = 41 },
 						{ t = "accept", quest = 3445, title = "The Sunken Temple", npc = 7900, npcName = "Angelas Moonbreeze", minLevel = 46, qlvl = 51, map = 1444, x = 31.83, y = 45.61, z = 13.8, f = "e", note = "{npc:7900}: keep it for {zone:1446}" },
 					},
 				},
@@ -7422,7 +7422,7 @@ do
 					title = "{area:392}",
 					note = "Fly to {area:392}.",
 					goals = {
-						{ t = "fly", location = "Ratchet", area = 392 },
+						{ t = "fly", location = "Ratchet", node = 80, area = 392 },
 						{ t = "sethome", location = "Ratchet", area = 392 },
 						{ t = "accept", quest = 4502, title = "Volcanic Activity", npc = 8496, npcName = "Liv Rizzlefix", minLevel = 49, qlvl = 55, map = 1413, x = 62.45, y = 38.73, z = 4.6, f = "e", note = "{npc:8496}: keep it for Un'Goro" },
 						{ t = "turnin", quest = 5158, title = "Seeking Spiritual Aid", npc = 5901, npcName = "Islen Waterseer", map = 1413, x = 65.83, y = 43.78, z = 6, f = "e", note = "{npc:5901}, on the coast north of town" },
@@ -7433,7 +7433,7 @@ do
 					title = "{npc:10300}",
 					note = "From {area:392}, fly to {area:2255} and ride south to {area:2250}.",
 					goals = {
-						{ t = "fly", location = "Everlook", area = 2255 },
+						{ t = "fly", location = "Everlook", node = 52, area = 2255 },
 						{ t = "turnin", quest = 979, title = "Find Ranshalla", npc = 10300, npcName = "Ranshalla", map = 1452, x = 63.07, y = 59.48, z = 778.1, f = "e", note = "{npc:10300}: her escort comes later on the route" },
 					},
 				},
@@ -7490,7 +7490,7 @@ do
 					title = "{area:976}",
 					note = "From {area:392}, fly to {area:976}.",
 					goals = {
-						{ t = "fly", location = "Gadgetzan", area = 976 },
+						{ t = "fly", location = "Gadgetzan", node = 39, area = 976 },
 						{ t = "accept", quest = 4504, title = "Super Sticky", npc = 7876, npcName = "Tran'rek", minLevel = 48, qlvl = 54, map = 1446, x = 51.57, y = 26.76, z = 8.8, f = "e" },
 						{ t = "turnin", quest = 4493, title = "March of the Silithid", npc = 5594, npcName = "Alchemist Pestlezugg", map = 1446, x = 50.89, y = 26.96, z = 8.9, f = "e" },
 						{ t = "accept", quest = 4496, title = "Bungle in the Jungle", npc = 5594, npcName = "Alchemist Pestlezugg", minLevel = 50, qlvl = 53, pre = { 4493, 4494 }, preTitles = { [4493] = "March of the Silithid", [4494] = "March of the Silithid" }, map = 1446, x = 50.89, y = 26.96, z = 8.9, f = "e" },
@@ -7522,7 +7522,7 @@ do
 					title = "{npc:8737}",
 					note = "Fly from {area:976} to {area:541}. {npc:8737}'s hut stands at the {area:538}, west of the refuge; {npc:9117} is up the hill behind it.",
 					goals = {
-						{ t = "fly", location = "Marshal's Refuge", area = 541 },
+						{ t = "fly", location = "Marshal's Refuge", node = 79, area = 541 },
 						{ t = "turnin", quest = 3914, title = "Linken's Sword", npc = 8737, npcName = "Linken", map = 1449, x = 44.66, y = 8.1, z = -213.3, f = "e" },
 						{ t = "accept", quest = 3941, title = "A Gnome's Assistance", npc = 8737, npcName = "Linken", minLevel = 47, qlvl = 52, pre = { 3914 }, preTitles = { [3914] = "Linken's Sword" }, map = 1449, x = 44.66, y = 8.1, z = -213.3, f = "e" },
 						{ t = "turnin", quest = 3941, title = "A Gnome's Assistance", npc = 9117, npcName = "J.D. Collie", map = 1449, x = 41.92, y = 2.7, z = -217.1, f = "e" },
@@ -7626,7 +7626,7 @@ do
 					title = "{area:392}",
 					note = "Ride back to {area:3425} and fly to {area:392}.",
 					goals = {
-						{ t = "fly", location = "Ratchet", area = 392 },
+						{ t = "fly", location = "Ratchet", node = 80, area = 392 },
 						{ t = "sethome", location = "Ratchet", area = 392 },
 						{ t = "turnin", quest = 4502, title = "Volcanic Activity", npc = 8496, npcName = "Liv Rizzlefix", map = 1413, x = 62.45, y = 38.73, z = 4.6, f = "e" },
 						{ t = "collect", quest = 3444, title = "The Stone Circle", item = 10556, itemName = "Stone Circle", count = 1, oi = 1, map = 1413, x = 62.5, y = 38.54, f = "e", from = "Marvon's Chest", fromKind = "object", fromId = 149036 },
@@ -7636,7 +7636,7 @@ do
 					title = "{zone:1453}",
 					note = "Take the boat from {area:392} to {area:35} and fly to {zone:1453}.",
 					goals = {
-						{ t = "fly", location = "Stormwind" },
+						{ t = "fly", location = "Stormwind", node = 2 },
 						{ t = "turnin", quest = 5022, title = "Better Late Than Never", npc = 10782, npcName = "Royal Factor Bathrilor", map = 1453, x = 57.17, y = 48.07, z = 108.8 },
 						{ t = "accept", quest = 5048, title = "Good Natured Emma", npc = 10782, npcName = "Royal Factor Bathrilor", minLevel = 50, qlvl = 52, pre = { 5022 }, preTitles = { [5022] = "Better Late Than Never" }, map = 1453, x = 57.17, y = 48.07, z = 108.8 },
 						{ t = "turnin", quest = 5048, title = "Good Natured Emma", npc = 3520, npcName = "Ol' Emma", map = 1453, x = 60.2, y = 57.03, z = 108.1, note = "{npc:3520}, who walks the canals" },
@@ -7679,7 +7679,7 @@ do
 					title = "{npc:13841}",
 					note = "Fly to {area:271} and ride north up the road toward Alterac: Haggerdin camps at {area:1056} beside it.",
 					goals = {
-						{ t = "fly", location = "Southshore", area = 271 },
+						{ t = "fly", location = "Southshore", node = 14, area = 271 },
 						{ t = "turnin", quest = 7261, title = "The Sovereign Imperative", npc = 13841, npcName = "Lieutenant Haggerdin", map = 1424, x = 43.4, y = 19.5, z = 131.3, f = "e" },
 					},
 				},
@@ -7687,7 +7687,7 @@ do
 					title = "{area:2268}",
 					note = "Ride on north to {area:3197} and fly to {area:2268}.",
 					goals = {
-						{ t = "fly", location = "Light's Hope Chapel", area = 2268 },
+						{ t = "fly", location = "Light's Hope Chapel", node = 67, area = 2268 },
 						{ t = "turnin", quest = 5168, title = "Heroes of Darrowshire", npc = 11063, npcName = "Carlin Redpath", map = 1423, x = 71.7, y = 50.04, z = 86.8 },
 						{ t = "accept", quest = 5206, title = "Marauders of Darrowshire", npc = 11063, npcName = "Carlin Redpath", minLevel = 50, qlvl = 60, preAll = { 5168, 5181 }, preTitles = { [5168] = "Heroes of Darrowshire", [5181] = "Villains of Darrowshire" }, map = 1423, x = 71.7, y = 50.04, z = 86.8 },
 					},
@@ -7763,7 +7763,7 @@ do
 					title = "{area:415}",
 					note = "You start in {area:392}, where the previous guide hearthed you. Fly to {area:415}.",
 					goals = {
-						{ t = "fly", location = "Astranaar", area = 415 },
+						{ t = "fly", location = "Astranaar", node = 28, area = 415 },
 					},
 				},
 				{
@@ -7847,7 +7847,7 @@ do
 					note = "Hearth to {area:392} and fly to {area:976}. Buy two Thorium Bars at the Auction House here for {quest:5801}.",
 					goals = {
 						{ t = "hearth", location = "Ratchet", area = 392 },
-						{ t = "fly", location = "Gadgetzan", area = 976 },
+						{ t = "fly", location = "Gadgetzan", node = 39, area = 976 },
 						{ t = "turnin", quest = 4504, title = "Super Sticky", npc = 7876, npcName = "Tran'rek", map = 1446, x = 51.57, y = 26.76, z = 8.8, f = "e" },
 						{ t = "turnin", quest = 4496, title = "Bungle in the Jungle", npc = 5594, npcName = "Alchemist Pestlezugg", map = 1446, x = 50.89, y = 26.96, z = 8.9, f = "e" },
 						{ t = "accept", quest = 4507, title = "Pawn Captures Queen", npc = 5594, npcName = "Alchemist Pestlezugg", minLevel = 50, qlvl = 54, pre = { 4496 }, preTitles = { [4496] = "Bungle in the Jungle" }, map = 1446, x = 50.89, y = 26.96, z = 8.9, f = "e" },
@@ -8019,7 +8019,7 @@ do
 					title = "{area:976}",
 					note = "Fly to {area:976}.",
 					goals = {
-						{ t = "fly", location = "Gadgetzan", area = 976 },
+						{ t = "fly", location = "Gadgetzan", node = 39, area = 976 },
 						{ t = "turnin", quest = 4507, title = "Pawn Captures Queen", npc = 5594, npcName = "Alchemist Pestlezugg", map = 1446, x = 50.89, y = 26.96, z = 8.9, f = "e" },
 						{ t = "accept", quest = 4508, title = "Calm Before the Storm", npc = 5594, npcName = "Alchemist Pestlezugg", minLevel = 50, qlvl = 54, pre = { 4507 }, preTitles = { [4507] = "Pawn Captures Queen" }, map = 1446, x = 50.89, y = 26.96, z = 8.9, f = "e", note = "{npc:7740} in {zone:1457}: keep it" },
 					},
@@ -8028,7 +8028,7 @@ do
 					title = "{area:2358}",
 					note = "Fly to {area:3137} in {zone:1447} and ride west along the road to {area:2358}, just over the {zone:1440} border.",
 					goals = {
-						{ t = "fly", location = "Talrendis Point", area = 3137 },
+						{ t = "fly", location = "Talrendis Point", node = 64, area = 3137 },
 						{ t = "turnin", quest = 4261, title = "Ancient Spirit", npc = 3848, npcName = "Kayneth Stillwind", map = 1440, x = 85.24, y = 44.71, z = 169.2, f = "e" },
 					},
 				},
@@ -8036,7 +8036,7 @@ do
 					title = "{area:2255}",
 					note = "Ride back to {area:3137} and fly to {area:2255}.",
 					goals = {
-						{ t = "fly", location = "Everlook", area = 2255 },
+						{ t = "fly", location = "Everlook", node = 52, area = 2255 },
 						{ t = "turnin", quest = 5163, title = "Are We There, Yeti?", npc = 10305, npcName = "Umi Rumplesnicker", map = 1452, x = 60.88, y = 37.62, z = 721.8, f = "e" },
 					},
 				},
@@ -8104,7 +8104,7 @@ do
 					note = "Take the flight path in {area:2361} and fly to {area:442}.",
 					goals = {
 						{ t = "getfp", location = "Moonglade", node = 49, area = 493 },
-						{ t = "fly", location = "Auberdine", area = 442 },
+						{ t = "fly", location = "Auberdine", node = 26, area = 442 },
 					},
 				},
 				{
@@ -8169,7 +8169,7 @@ do
 				{
 					title = "{area:3197}",
 					goals = {
-						{ t = "fly", location = "Chillwind Camp", area = 3197 },
+						{ t = "fly", location = "Chillwind Camp", node = 66, area = 3197 },
 						{ t = "turnin", quest = 5801, title = "Fire Plume Forged", npc = 11056, npcName = "Alchemist Arbington", map = 1422, x = 42.66, y = 83.77, z = 66.6, f = "e" },
 						{ t = "accept", quest = 5803, title = "Araj's Scarab", npc = 11056, npcName = "Alchemist Arbington", minLevel = 55, qlvl = 60, pre = { 5801 }, preTitles = { [5801] = "Fire Plume Forged" }, map = 1422, x = 42.66, y = 83.77, z = 66.6, f = "e", optional = true, note = "{npc:1852} is a level 61 elite" },
 						{ t = "turnin", quest = 6184, title = "Flint Shadowmore", npc = 12425, npcName = "Flint Shadowmore", map = 1422, x = 43.61, y = 84.51, z = 62.6, f = "e" },
@@ -10225,7 +10225,7 @@ do
 						{ t = "turnin", quest = 5929, title = "Great Bear Spirit", npc = 11802, npcName = "Dendrite Starblaze", map = 1450, x = 56.21, y = 30.64, z = 524.5, f = "e" },
 						{ t = "accept", quest = 5931, title = "Back to Darnassus", npc = 11802, npcName = "Dendrite Starblaze", minLevel = 10, qlvl = 10, pre = { 5929 }, preTitles = { [5929] = "Great Bear Spirit" }, map = 1450, x = 56.21, y = 30.64, z = 524.5, f = "e" },
 						{ t = "getfp", location = "Moonglade", node = 49, area = 493 },
-						{ t = "fly", location = "Rut'theran Village", area = 702 },
+						{ t = "fly", location = "Rut'theran Village", node = 27, area = 702 },
 					},
 				},
 				{
@@ -10242,7 +10242,7 @@ do
 					note = "Go back down to {area:702} and fly to {area:442}. The {object:177525} stands in the hills just east of the village: use the {item:15208} there, defeat Lunaclaw and speak to the {npc:12144}.",
 					only = { classes = { "DRUID" } },
 					goals = {
-						{ t = "fly", location = "Auberdine", area = 442 },
+						{ t = "fly", location = "Auberdine", node = 26, area = 442 },
 						{ t = "use", item = 15208, itemName = "Cenarion Moondust", map = 1439, x = 43.5, y = 46, f = "e" },
 						{ t = "complete", quest = 6001, title = "Body and Heart" },
 					},
@@ -10252,9 +10252,9 @@ do
 					note = "Fly to {area:702} once more and take the portal up to {npc:4217}, then fly back to {area:442} for the boat.",
 					only = { classes = { "DRUID" } },
 					goals = {
-						{ t = "fly", location = "Rut'theran Village", area = 702 },
+						{ t = "fly", location = "Rut'theran Village", node = 27, area = 702 },
 						{ t = "turnin", quest = 6001, title = "Body and Heart", npc = 4217, npcName = "Mathrengyl Bearwalker", map = 1457, x = 35.37, y = 8.4, z = 1340.1, f = "e", note = "{npc:4217}: {spell:5487}" },
-						{ t = "fly", location = "Auberdine", area = 442 },
+						{ t = "fly", location = "Auberdine", node = 26, area = 442 },
 					},
 				},
 				{
@@ -11508,7 +11508,7 @@ do
 						{ t = "turnin", quest = 98731, title = "Blessings of the Great Cat Spirit", npc = 11802, npcName = "Dendrite Starblaze", map = 1450, x = 56.21, y = 30.64, z = 524.5, f = "e", only = { races = { "NightElf" } } },
 						{ t = "turnin", quest = 98738, title = "Blessings of the Great Windborne Cat Spirit", npc = 11802, npcName = "Dendrite Starblaze", map = 1450, x = 56.21, y = 30.64, z = 524.5, f = "e", only = { races = { "Skyborne" } } },
 						{ t = "accept", quest = 98397, title = "To Darnassus", npc = 11802, npcName = "Dendrite Starblaze", minLevel = 20, qlvl = 20, map = 1450, x = 56.21, y = 30.64, z = 524.5, f = "e" },
-						{ t = "fly", location = "Rut'theran Village", area = 702 },
+						{ t = "fly", location = "Rut'theran Village", node = 27, area = 702 },
 					},
 				},
 				{
@@ -11567,7 +11567,7 @@ do
 						{ t = "turnin", quest = 98739, title = "Blessings of the Great Cat Spirit", npc = 11802, npcName = "Dendrite Starblaze", map = 1450, x = 56.21, y = 30.64, z = 524.5, f = "e", only = { races = { "Tauren" } } },
 						{ t = "turnin", quest = 98738, title = "Blessings of the Great Windborne Cat Spirit", npc = 11802, npcName = "Dendrite Starblaze", map = 1450, x = 56.21, y = 30.64, z = 524.5, f = "e", only = { races = { "Skyborne" } } },
 						{ t = "accept", quest = 98362, title = "To Thunder Bluff", npc = 11802, npcName = "Dendrite Starblaze", minLevel = 20, qlvl = 20, map = 1450, x = 56.21, y = 30.64, z = 524.5, f = "e" },
-						{ t = "fly", location = "Thunder Bluff", area = 1638 },
+						{ t = "fly", location = "Thunder Bluff", node = 22, area = 1638 },
 					},
 				},
 				{
@@ -22404,7 +22404,7 @@ do
 					note = "Fly to {area:1638}: {npc:3033} trains you on {area:1639}. Skyborne: fly back to {zone:1454} for the zeppelin afterwards.",
 					only = { classes = { "DRUID" } },
 					goals = {
-						{ t = "fly", location = "Thunder Bluff", area = 1638 },
+						{ t = "fly", location = "Thunder Bluff", node = 22, area = 1638 },
 						{ t = "train", class = true, candidates = { { npc = 3034, npcName = "Sheal Runetotem", map = 1456, x = 77.14, y = 27.02, f = "e", faction = "H", classes = { "DRUID" } }, { npc = 262560, npcName = "Hana Lighthoof", map = 1412, x = 33.39, y = 22.09, faction = "H", classes = { "DRUID" } }, { npc = 3064, npcName = "Gennia Runetotem", map = 1412, x = 47.48, y = 62.95, faction = "H", classes = { "DRUID" } }, { npc = 3060, npcName = "Gart Mistrunner", map = 1412, x = 44.65, y = 76.55, faction = "H", classes = { "DRUID" } }, { npc = 251373, npcName = "Xyton Silverwind", map = 2521, x = 41.71, y = 23.36, faction = "AH", classes = { "DRUID" } } } },
 						{ t = "accept", quest = 27, title = "A Lesson to Learn", npc = 3033, npcName = "Turak Runetotem", minLevel = 16, qlvl = 16, map = 1456, x = 76.48, y = 27.22, z = 159.1, f = "e", only = { races = { "Tauren" } } },
 						{ t = "accept", quest = 6126, title = "Lessons Anew", npc = 3033, npcName = "Turak Runetotem", minLevel = 14, qlvl = 14, map = 1456, x = 76.48, y = 27.22, z = 159.1, f = "e", only = { races = { "Tauren" } }, note = "{npc:3033}: {quest:6126}" },
@@ -22422,7 +22422,7 @@ do
 						{ t = "complete", quest = 28, title = "Trial of the Lake" },
 						{ t = "turnin", quest = 28, title = "Trial of the Lake", npc = 11799, npcName = "Tajarri", map = 1450, x = 36.52, y = 40.1, z = 469.2, f = "e", note = "{npc:11799}, at the {area:2362}" },
 						{ t = "accept", quest = 30, title = "Trial of the Sea Lion", npc = 11799, npcName = "Tajarri", minLevel = 16, qlvl = 16, pre = { 28 }, preTitles = { [28] = "Trial of the Lake" }, map = 1450, x = 36.52, y = 40.1, z = 469.2, f = "e" },
-						{ t = "fly", location = "Thunder Bluff", area = 1638, note = "{npc:11798} in {area:2361} flies druids there; then fly on to {zone:1454} for the zeppelin" },
+						{ t = "fly", location = "Thunder Bluff", node = 22, area = 1638, note = "{npc:11798} in {area:2361} flies druids there; then fly on to {zone:1454} for the zeppelin" },
 					},
 				},
 				{
@@ -22746,7 +22746,7 @@ do
 					title = "Fly to {area:392}",
 					note = "Doras, the wind rider master, stands on the tower in the {object:172982}.",
 					goals = {
-						{ t = "fly", location = "Ratchet", area = 392 },
+						{ t = "fly", location = "Ratchet", node = 80, area = 392 },
 					},
 				},
 				{
@@ -22845,7 +22845,7 @@ do
 					note = "Fly to {area:1637} to train your level 20 ranks. {npc:3354} is in the {object:172958}, {npc:5892} in the {object:172957}.",
 					only = { classes = { "WARRIOR", "HUNTER", "ROGUE", "PRIEST", "SHAMAN", "MAGE", "WARLOCK" } },
 					goals = {
-						{ t = "fly", location = "Orgrimmar", area = 1637 },
+						{ t = "fly", location = "Orgrimmar", node = 23, area = 1637 },
 						{ t = "train", class = true, candidates = { { npc = 3156, npcName = "Nartok", map = 1411, x = 40.65, y = 68.52, f = "e", faction = "H", classes = { "WARLOCK" } }, { npc = 3155, npcName = "Rwag", map = 1411, x = 41.28, y = 68, f = "e", faction = "H", classes = { "ROGUE" } }, { npc = 3707, npcName = "Ken'jai", map = 1411, x = 42.36, y = 68.81, f = "e", faction = "H", classes = { "PRIEST" } }, { npc = 3157, npcName = "Shikrik", map = 1411, x = 42.39, y = 69, f = "e", faction = "H", classes = { "SHAMAN" } }, { npc = 5884, npcName = "Mai'ah", map = 1411, x = 42.51, y = 69.04, f = "e", faction = "H", classes = { "MAGE" } }, { npc = 3154, npcName = "Jen'shan", map = 1411, x = 42.84, y = 69.33, f = "e", faction = "H", classes = { "HUNTER" } }, { npc = 3153, npcName = "Frang", map = 1411, x = 42.89, y = 69.44, f = "e", faction = "H", classes = { "WARRIOR" } }, { npc = 3171, npcName = "Thotar", map = 1411, x = 51.85, y = 43.49, f = "e", faction = "H", classes = { "HUNTER" } }, { npc = 3170, npcName = "Kaplak", map = 1411, x = 51.98, y = 43.69, f = "e", faction = "H", classes = { "ROGUE" } }, { npc = 3706, npcName = "Tai'jin", map = 1411, x = 54.26, y = 42.93, f = "e", faction = "H", classes = { "PRIEST" } }, { npc = 3169, npcName = "Tarshaw Jaggedscar", map = 1411, x = 54.19, y = 42.47, f = "e", faction = "H", classes = { "WARRIOR" } }, { npc = 3173, npcName = "Swart", map = 1411, x = 54.42, y = 42.59, f = "e", faction = "H", classes = { "SHAMAN" } }, { npc = 3172, npcName = "Dhugru Gorelust", map = 1411, x = 54.38, y = 41.2, f = "e", faction = "H", classes = { "WARLOCK" } }, { npc = 5880, npcName = "Un'Thuwa", map = 1411, x = 56.31, y = 75.11, f = "e", faction = "H", classes = { "MAGE" } }, { npc = 6018, npcName = "Ur'kyo", map = 1454, x = 35.59, y = 87.82, f = "e", faction = "H", classes = { "PRIEST" } }, { npc = 5885, npcName = "Deino", map = 1454, x = 38.45, y = 86.13, f = "e", faction = "H", classes = { "MAGE" } }, { npc = 3040, npcName = "Urek Thunderhorn", map = 1456, x = 59.13, y = 86.87, f = "e", faction = "H", classes = { "HUNTER" } }, { npc = 3043, npcName = "Ker Ragetotem", map = 1456, x = 57.58, y = 85.5, f = "e", faction = "H", classes = { "WARRIOR" } }, { npc = 3401, npcName = "Shenthul", map = 1454, x = 43.05, y = 53.74, f = "e", faction = "H", classes = { "ROGUE" } }, { npc = 3403, npcName = "Sian'tsu", map = 1454, x = 37.84, y = 36.45, f = "e", faction = "H", classes = { "SHAMAN" } }, { npc = 3325, npcName = "Mirket", map = 1454, x = 48.62, y = 46.95, f = "e", faction = "H", classes = { "WARLOCK" } }, { npc = 3048, npcName = "Ursyn Ghull", map = 1456, x = 25.7, y = 14.19, f = "e", faction = "H", classes = { "MAGE" } }, { npc = 3044, npcName = "Miles Welsh", map = 1456, x = 25.32, y = 15.27, f = "e", faction = "H", classes = { "PRIEST" } }, { npc = 3031, npcName = "Tigor Skychaser", map = 1456, x = 23.64, y = 18.79, f = "e", faction = "H", classes = { "SHAMAN" } }, { npc = 3065, npcName = "Yaw Sharpmane", map = 1412, x = 46.93, y = 59.65, faction = "H", classes = { "HUNTER" } }, { npc = 3063, npcName = "Krang Stonehoof", map = 1412, x = 48.35, y = 63.74, faction = "H", classes = { "WARRIOR" } }, { npc = 3066, npcName = "Narm Skychaser", map = 1412, x = 47.4, y = 62.54, faction = "H", classes = { "SHAMAN" } }, { npc = 3406, npcName = "Xor'juul", map = 1454, x = 67.24, y = 20.2, f = "e", faction = "H", classes = { "HUNTER" } }, { npc = 3354, npcName = "Sorek", map = 1454, x = 80.39, y = 32.38, f = "e", faction = "H", classes = { "WARRIOR" } }, { npc = 3062, npcName = "Meela Dawnstrider", map = 1412, x = 44.58, y = 76.56, faction = "H", classes = { "SHAMAN" } }, { npc = 3061, npcName = "Lanka Farshot", map = 1412, x = 43.96, y = 76.35, faction = "H", classes = { "HUNTER" } }, { npc = 3059, npcName = "Harutt Thunderhorn", map = 1412, x = 43.75, y = 76.72, faction = "H", classes = { "WARRIOR" } }, { npc = 2119, npcName = "Dannal Stern", map = 1420, x = 32.69, y = 65.56, f = "e", faction = "H", classes = { "WARRIOR" } }, { npc = 2122, npcName = "David Trias", map = 1420, x = 32.53, y = 65.65, f = "e", faction = "H", classes = { "ROGUE" } }, { npc = 2123, npcName = "Dark Cleric Duesten", map = 1420, x = 31.11, y = 66.03, f = "e", faction = "H", classes = { "PRIEST" } }, { npc = 2124, npcName = "Isabella", map = 1420, x = 30.93, y = 66.06, f = "e", faction = "H", classes = { "MAGE" } }, { npc = 2126, npcName = "Maximillion", map = 1420, x = 30.91, y = 66.34, f = "e", faction = "H", classes = { "WARLOCK" } }, { npc = 2127, npcName = "Rupert Boch", map = 1420, x = 61.59, y = 52.4, f = "e", faction = "H", classes = { "WARLOCK" } }, { npc = 2128, npcName = "Cain Firesong", map = 1420, x = 61.97, y = 52.47, f = "e", faction = "H", classes = { "MAGE" } }, { npc = 2129, npcName = "Dark Cleric Beryl", map = 1420, x = 61.57, y = 52.19, f = "e", faction = "H", classes = { "PRIEST" } }, { npc = 2130, npcName = "Marion Call", map = 1420, x = 61.75, y = 52, f = "e", faction = "H", classes = { "ROGUE" } }, { npc = 2131, npcName = "Austil de Mon", map = 1420, x = 61.85, y = 52.54, f = "e", faction = "H", classes = { "WARRIOR" } }, { npc = 4563, npcName = "Kaal Soulreaper", map = 1458, x = 86.21, y = 15.93, f = "e", faction = "H", classes = { "WARLOCK" } }, { npc = 4566, npcName = "Kaelystia Hatebringer", map = 1458, x = 85.02, y = 14.02, f = "e", faction = "H", classes = { "MAGE" } }, { npc = 4582, npcName = "Carolyn Ward", map = 1458, x = 83.86, y = 72.07, f = "e", faction = "H", classes = { "ROGUE" } }, { npc = 4593, npcName = "Christoph Walker", map = 1458, x = 46.93, y = 15.23, f = "e", faction = "H", classes = { "WARRIOR" } }, { npc = 4606, npcName = "Aelthalyste", map = 1458, x = 49.26, y = 17.12, f = "e", faction = "H", classes = { "PRIEST" } }, { npc = 251374, npcName = "Windshaper Boro", map = 2521, x = 42.77, y = 23.58, faction = "H", classes = { "SHAMAN" } }, { npc = 251376, npcName = "Tai'ree Farsight", map = 2521, x = 42.46, y = 23.67, faction = "AH", classes = { "HUNTER" } }, { npc = 251389, npcName = "Akeri Duskblade", map = 2521, x = 43.73, y = 24.3, faction = "AH", classes = { "ROGUE" } }, { npc = 251964, npcName = "Blademaster Ren", map = 2521, x = 43.65, y = 24.17, faction = "AH", classes = { "WARRIOR" } }, { npc = 254086, npcName = "Shenaan Spellwind", map = 2521, x = 44.89, y = 45.26, faction = "AH", classes = { "MAGE" } } } },
 						{ t = "accept", quest = 1823, title = "Speak with Ruga", npc = 3354, npcName = "Sorek", minLevel = 20, qlvl = 20, closedBy = { 1824 }, preTitles = { [1824] = "Trial at the Field of Giants" }, map = 1454, x = 80.39, y = 32.38, z = 56.8, f = "e", only = { classes = { "WARRIOR" } } },
 						{ t = "accept", quest = 1528, title = "Call of Water", npc = 5892, npcName = "Searn Firewarder", minLevel = 20, qlvl = 20, closedBy = { 1530, 1529, 2985, 2986 }, preTitles = { [1529] = "Call of Water", [1530] = "Call of Water", [2985] = "Call of Water", [2986] = "Call of Water" }, map = 1454, x = 37.96, y = 37.73, z = 42.2, f = "e", only = { classes = { "SHAMAN" } } },
@@ -22889,14 +22889,14 @@ do
 					note = "Fly to {area:1638} and train your level 20 ranks: {npc:3033} is on {area:1639}.",
 					only = { classes = { "DRUID" } },
 					goals = {
-						{ t = "fly", location = "Thunder Bluff", area = 1638 },
+						{ t = "fly", location = "Thunder Bluff", node = 22, area = 1638 },
 						{ t = "train", class = true, candidates = { { npc = 3034, npcName = "Sheal Runetotem", map = 1456, x = 77.14, y = 27.02, f = "e", faction = "H", classes = { "DRUID" } }, { npc = 262560, npcName = "Hana Lighthoof", map = 1412, x = 33.39, y = 22.09, faction = "H", classes = { "DRUID" } }, { npc = 3064, npcName = "Gennia Runetotem", map = 1412, x = 47.48, y = 62.95, faction = "H", classes = { "DRUID" } }, { npc = 3060, npcName = "Gart Mistrunner", map = 1412, x = 44.65, y = 76.55, faction = "H", classes = { "DRUID" } }, { npc = 251373, npcName = "Xyton Silverwind", map = 2521, x = 41.71, y = 23.36, faction = "AH", classes = { "DRUID" } } } },
 					},
 				},
 				{
 					title = "Back to the {area:380}",
 					goals = {
-						{ t = "fly", location = "Crossroads" },
+						{ t = "fly", location = "Crossroads", node = 25 },
 						{ t = "turnin", quest = 1509, title = "News of Dogran", npc = 3464, npcName = "Gazrog", map = 1413, x = 51.93, y = 30.32, z = 96.4, f = "e", only = { classes = { "WARLOCK" } } },
 						{ t = "accept", quest = 1510, title = "News of Dogran", npc = 3464, npcName = "Gazrog", minLevel = 20, qlvl = 20, pre = { 1509 }, closedBy = { 1472 }, preTitles = { [1472] = "Devourer of Souls", [1509] = "News of Dogran" }, map = 1413, x = 51.93, y = 30.32, z = 96.4, f = "e", only = { classes = { "WARLOCK" } } },
 					},
@@ -23313,7 +23313,7 @@ do
 				{
 					title = "{area:380}",
 					goals = {
-						{ t = "fly", location = "Crossroads" },
+						{ t = "fly", location = "Crossroads", node = 25 },
 						{ t = "turnin", quest = 906, title = "Betrayal from Within", npc = 3429, npcName = "Thork", map = 1413, x = 51.5, y = 30.87, z = 103.8, f = "e", note = "{npc:3429}, at the top of the tower" },
 						{ t = "turnin", quest = 868, title = "Egg Hunt", npc = 3428, npcName = "Korran", map = 1413, x = 51.07, y = 29.63, z = 99, f = "e" },
 						{ t = "turnin", quest = 95774, title = "Her Name Is Olgra", npc = 3432, npcName = "Mankrik", map = 1413, x = 51.95, y = 31.58, z = 95.9, f = "e" },
@@ -23339,7 +23339,7 @@ do
 					note = "Fly to {area:1637} to train.",
 					only = { classes = { "WARRIOR", "HUNTER", "ROGUE", "PRIEST", "SHAMAN", "MAGE", "WARLOCK" } },
 					goals = {
-						{ t = "fly", location = "Orgrimmar", area = 1637 },
+						{ t = "fly", location = "Orgrimmar", node = 23, area = 1637 },
 						{ t = "train", class = true, candidates = { { npc = 3156, npcName = "Nartok", map = 1411, x = 40.65, y = 68.52, f = "e", faction = "H", classes = { "WARLOCK" } }, { npc = 3155, npcName = "Rwag", map = 1411, x = 41.28, y = 68, f = "e", faction = "H", classes = { "ROGUE" } }, { npc = 3707, npcName = "Ken'jai", map = 1411, x = 42.36, y = 68.81, f = "e", faction = "H", classes = { "PRIEST" } }, { npc = 3157, npcName = "Shikrik", map = 1411, x = 42.39, y = 69, f = "e", faction = "H", classes = { "SHAMAN" } }, { npc = 5884, npcName = "Mai'ah", map = 1411, x = 42.51, y = 69.04, f = "e", faction = "H", classes = { "MAGE" } }, { npc = 3154, npcName = "Jen'shan", map = 1411, x = 42.84, y = 69.33, f = "e", faction = "H", classes = { "HUNTER" } }, { npc = 3153, npcName = "Frang", map = 1411, x = 42.89, y = 69.44, f = "e", faction = "H", classes = { "WARRIOR" } }, { npc = 3171, npcName = "Thotar", map = 1411, x = 51.85, y = 43.49, f = "e", faction = "H", classes = { "HUNTER" } }, { npc = 3170, npcName = "Kaplak", map = 1411, x = 51.98, y = 43.69, f = "e", faction = "H", classes = { "ROGUE" } }, { npc = 5880, npcName = "Un'Thuwa", map = 1411, x = 56.31, y = 75.11, f = "e", faction = "H", classes = { "MAGE" } }, { npc = 3706, npcName = "Tai'jin", map = 1411, x = 54.26, y = 42.93, f = "e", faction = "H", classes = { "PRIEST" } }, { npc = 3169, npcName = "Tarshaw Jaggedscar", map = 1411, x = 54.19, y = 42.47, f = "e", faction = "H", classes = { "WARRIOR" } }, { npc = 3173, npcName = "Swart", map = 1411, x = 54.42, y = 42.59, f = "e", faction = "H", classes = { "SHAMAN" } }, { npc = 3172, npcName = "Dhugru Gorelust", map = 1411, x = 54.38, y = 41.2, f = "e", faction = "H", classes = { "WARLOCK" } }, { npc = 6018, npcName = "Ur'kyo", map = 1454, x = 35.59, y = 87.82, f = "e", faction = "H", classes = { "PRIEST" } }, { npc = 5885, npcName = "Deino", map = 1454, x = 38.45, y = 86.13, f = "e", faction = "H", classes = { "MAGE" } }, { npc = 3328, npcName = "Ormok", map = 1454, x = 43.9, y = 54.63, f = "e", faction = "H", classes = { "ROGUE" } }, { npc = 3325, npcName = "Mirket", map = 1454, x = 48.62, y = 46.95, f = "e", faction = "H", classes = { "WARLOCK" } }, { npc = 3403, npcName = "Sian'tsu", map = 1454, x = 37.84, y = 36.45, f = "e", faction = "H", classes = { "SHAMAN" } }, { npc = 3406, npcName = "Xor'juul", map = 1454, x = 67.24, y = 20.2, f = "e", faction = "H", classes = { "HUNTER" } }, { npc = 3354, npcName = "Sorek", map = 1454, x = 80.39, y = 32.38, f = "e", faction = "H", classes = { "WARRIOR" } }, { npc = 3040, npcName = "Urek Thunderhorn", map = 1456, x = 59.13, y = 86.87, f = "e", faction = "H", classes = { "HUNTER" } }, { npc = 3043, npcName = "Ker Ragetotem", map = 1456, x = 57.58, y = 85.5, f = "e", faction = "H", classes = { "WARRIOR" } }, { npc = 3065, npcName = "Yaw Sharpmane", map = 1412, x = 46.93, y = 59.65, faction = "H", classes = { "HUNTER" } }, { npc = 3063, npcName = "Krang Stonehoof", map = 1412, x = 48.35, y = 63.74, faction = "H", classes = { "WARRIOR" } }, { npc = 3066, npcName = "Narm Skychaser", map = 1412, x = 47.4, y = 62.54, faction = "H", classes = { "SHAMAN" } }, { npc = 3048, npcName = "Ursyn Ghull", map = 1456, x = 25.7, y = 14.19, f = "e", faction = "H", classes = { "MAGE" } }, { npc = 3044, npcName = "Miles Welsh", map = 1456, x = 25.32, y = 15.27, f = "e", faction = "H", classes = { "PRIEST" } }, { npc = 3031, npcName = "Tigor Skychaser", map = 1456, x = 23.64, y = 18.79, f = "e", faction = "H", classes = { "SHAMAN" } }, { npc = 3062, npcName = "Meela Dawnstrider", map = 1412, x = 44.58, y = 76.56, faction = "H", classes = { "SHAMAN" } }, { npc = 3061, npcName = "Lanka Farshot", map = 1412, x = 43.96, y = 76.35, faction = "H", classes = { "HUNTER" } }, { npc = 3059, npcName = "Harutt Thunderhorn", map = 1412, x = 43.75, y = 76.72, faction = "H", classes = { "WARRIOR" } }, { npc = 2119, npcName = "Dannal Stern", map = 1420, x = 32.69, y = 65.56, f = "e", faction = "H", classes = { "WARRIOR" } }, { npc = 2122, npcName = "David Trias", map = 1420, x = 32.53, y = 65.65, f = "e", faction = "H", classes = { "ROGUE" } }, { npc = 2123, npcName = "Dark Cleric Duesten", map = 1420, x = 31.11, y = 66.03, f = "e", faction = "H", classes = { "PRIEST" } }, { npc = 2124, npcName = "Isabella", map = 1420, x = 30.93, y = 66.06, f = "e", faction = "H", classes = { "MAGE" } }, { npc = 2126, npcName = "Maximillion", map = 1420, x = 30.91, y = 66.34, f = "e", faction = "H", classes = { "WARLOCK" } }, { npc = 2127, npcName = "Rupert Boch", map = 1420, x = 61.59, y = 52.4, f = "e", faction = "H", classes = { "WARLOCK" } }, { npc = 2128, npcName = "Cain Firesong", map = 1420, x = 61.97, y = 52.47, f = "e", faction = "H", classes = { "MAGE" } }, { npc = 2129, npcName = "Dark Cleric Beryl", map = 1420, x = 61.57, y = 52.19, f = "e", faction = "H", classes = { "PRIEST" } }, { npc = 2130, npcName = "Marion Call", map = 1420, x = 61.75, y = 52, f = "e", faction = "H", classes = { "ROGUE" } }, { npc = 2131, npcName = "Austil de Mon", map = 1420, x = 61.85, y = 52.54, f = "e", faction = "H", classes = { "WARRIOR" } }, { npc = 4563, npcName = "Kaal Soulreaper", map = 1458, x = 86.21, y = 15.93, f = "e", faction = "H", classes = { "WARLOCK" } }, { npc = 4566, npcName = "Kaelystia Hatebringer", map = 1458, x = 85.02, y = 14.02, f = "e", faction = "H", classes = { "MAGE" } }, { npc = 4582, npcName = "Carolyn Ward", map = 1458, x = 83.86, y = 72.07, f = "e", faction = "H", classes = { "ROGUE" } }, { npc = 4593, npcName = "Christoph Walker", map = 1458, x = 46.93, y = 15.23, f = "e", faction = "H", classes = { "WARRIOR" } }, { npc = 4606, npcName = "Aelthalyste", map = 1458, x = 49.26, y = 17.12, f = "e", faction = "H", classes = { "PRIEST" } }, { npc = 251374, npcName = "Windshaper Boro", map = 2521, x = 42.77, y = 23.58, faction = "H", classes = { "SHAMAN" } }, { npc = 251376, npcName = "Tai'ree Farsight", map = 2521, x = 42.46, y = 23.67, faction = "AH", classes = { "HUNTER" } }, { npc = 251389, npcName = "Akeri Duskblade", map = 2521, x = 43.73, y = 24.3, faction = "AH", classes = { "ROGUE" } }, { npc = 251964, npcName = "Blademaster Ren", map = 2521, x = 43.65, y = 24.17, faction = "AH", classes = { "WARRIOR" } }, { npc = 254086, npcName = "Shenaan Spellwind", map = 2521, x = 44.89, y = 45.26, faction = "AH", classes = { "MAGE" } } } },
 					},
 				},
@@ -23348,7 +23348,7 @@ do
 					note = "{npc:246344} teaches Paladins in {area:1638}. You have no flight path there yet: fly to {area:378}, ride west through {zone:1412} and up a lift, and take the flight path from {npc:2995} on the central rise.",
 					only = { classes = { "PALADIN" } },
 					goals = {
-						{ t = "fly", location = "Camp Taurajo", area = 378 },
+						{ t = "fly", location = "Camp Taurajo", node = 77, area = 378 },
 						{ t = "getfp", npc = 2995, npcName = "Tal", location = "Thunder Bluff", node = 22, area = 1638, map = 1456, x = 47, y = 49.83, z = 177, f = "e" },
 						{ t = "train", class = true, candidates = { { npc = 246344, npcName = "Alodan the Hopeful", map = 1456, x = 25.29, y = 15.11, f = "e", faction = "H", classes = { "PALADIN" } }, { npc = 244808, npcName = "Aramis Hammerhand", map = 1420, x = 31.04, y = 66.45, f = "e", faction = "H", classes = { "PALADIN" } }, { npc = 246152, npcName = "Shari Stilwell", map = 1420, x = 60.25, y = 52.62, f = "e", faction = "H", classes = { "PALADIN" } }, { npc = 246389, npcName = "Hilda the Breaker", map = 1420, x = 21.95, y = 46.94, f = "e", faction = "H", classes = { "PALADIN" } }, { npc = 260093, npcName = "Garen Largo", map = 1458, x = 47.7, y = 15.13, f = "e", faction = "H", classes = { "PALADIN" } } } },
 					},
@@ -23378,7 +23378,7 @@ do
 					note = "Fly to {area:1638} to train: {npc:3033} is on {area:1639}.",
 					only = { classes = { "DRUID" } },
 					goals = {
-						{ t = "fly", location = "Thunder Bluff", area = 1638 },
+						{ t = "fly", location = "Thunder Bluff", node = 22, area = 1638 },
 						{ t = "train", class = true, candidates = { { npc = 3034, npcName = "Sheal Runetotem", map = 1456, x = 77.14, y = 27.02, f = "e", faction = "H", classes = { "DRUID" } }, { npc = 262560, npcName = "Hana Lighthoof", map = 1412, x = 33.39, y = 22.09, faction = "H", classes = { "DRUID" } }, { npc = 3064, npcName = "Gennia Runetotem", map = 1412, x = 47.48, y = 62.95, faction = "H", classes = { "DRUID" } }, { npc = 3060, npcName = "Gart Mistrunner", map = 1412, x = 44.65, y = 76.55, faction = "H", classes = { "DRUID" } }, { npc = 251373, npcName = "Xyton Silverwind", map = 2521, x = 41.71, y = 23.36, faction = "AH", classes = { "DRUID" } } } },
 						{ t = "accept", quest = 98340, title = "The Great Cat Spirit", npc = 3033, npcName = "Turak Runetotem", minLevel = 20, qlvl = 20, map = 1456, x = 76.48, y = 27.22, z = 159.1, f = "e" },
 					},
@@ -23433,7 +23433,7 @@ do
 					title = "{npc:3033}",
 					only = { classes = { "DRUID" } },
 					goals = {
-						{ t = "fly", location = "Thunder Bluff", area = 1638, note = "{npc:11798} in {area:2361} flies druids there" },
+						{ t = "fly", location = "Thunder Bluff", node = 22, area = 1638, note = "{npc:11798} in {area:2361} flies druids there" },
 						{ t = "turnin", quest = 31, title = "Aquatic Form", npc = 3033, npcName = "Turak Runetotem", map = 1456, x = 76.48, y = 27.22, z = 159.1, f = "e", only = { races = { "Tauren" } }, note = "{npc:3033}: {quest:31}" },
 						{ t = "turnin", quest = 6130, title = "Power over Poison", npc = 3033, npcName = "Turak Runetotem", map = 1456, x = 76.48, y = 27.22, z = 159.1, f = "e", only = { races = { "Tauren" } }, note = "{npc:3033}: {spell:526}" },
 						{ t = "turnin", quest = 98362, title = "To Thunder Bluff", npc = 3033, npcName = "Turak Runetotem", map = 1456, x = 76.48, y = 27.22, z = 159.1, f = "e", note = "{npc:3033}: {spell:499}" },
@@ -23443,7 +23443,7 @@ do
 					title = "Back to the {area:380}",
 					note = "Fly back to the {area:380}. The next guide starts here and takes the road north to the {area:1703} and {zone:1440}.",
 					goals = {
-						{ t = "fly", location = "Crossroads" },
+						{ t = "fly", location = "Crossroads", node = 25 },
 					},
 				},
 			},
@@ -23556,7 +23556,7 @@ do
 					title = "Back to {npc:8582}",
 					note = "Fly to {area:431} and ride south down the road to the {area:1703}.",
 					goals = {
-						{ t = "fly", location = "Splintertree Post", area = 431 },
+						{ t = "fly", location = "Splintertree Post", node = 61, area = 431 },
 						{ t = "turnin", quest = 6543, title = "The Warsong Reports", npc = 8582, npcName = "Kadrak", map = 1440, x = 68.6, y = 89.1, z = 108.4, f = "e" },
 					},
 				},
@@ -23926,7 +23926,7 @@ do
 				{
 					title = "{npc:2055}",
 					goals = {
-						{ t = "fly", location = "Undercity", area = 1497 },
+						{ t = "fly", location = "Undercity", node = 11, area = 1497 },
 						{ t = "turnin", quest = 513, title = "Elixir of Agony", npc = 2055, npcName = "Master Apothecary Faranell", map = 1458, x = 48.82, y = 69.28, z = -85.2, f = "e", note = "{npc:2055}, in the Apothecarium" },
 						{ t = "accept", quest = 515, title = "Elixir of Agony", npc = 2055, npcName = "Master Apothecary Faranell", minLevel = 24, qlvl = 30, pre = { 513 }, preTitles = { [513] = "Elixir of Agony" }, map = 1458, x = 48.82, y = 69.28, z = -85.2, f = "e", note = "Keep it: the {area:287} coast, later on the route" },
 						{ t = "train", class = true, only = { classes = { "WARRIOR", "PALADIN", "ROGUE", "PRIEST", "MAGE", "WARLOCK" } }, candidates = { { npc = 4608, npcName = "Father Lazarus", map = 1458, x = 47.57, y = 18.9, f = "e", faction = "H", classes = { "PRIEST" } }, { npc = 4595, npcName = "Baltus Fowler", map = 1458, x = 47.4, y = 17.29, f = "e", faction = "H", classes = { "WARRIOR" } }, { npc = 4582, npcName = "Carolyn Ward", map = 1458, x = 83.86, y = 72.07, f = "e", faction = "H", classes = { "ROGUE" } }, { npc = 260093, npcName = "Garen Largo", map = 1458, x = 47.7, y = 15.13, f = "e", faction = "H", classes = { "PALADIN" } }, { npc = 4563, npcName = "Kaal Soulreaper", map = 1458, x = 86.21, y = 15.93, f = "e", faction = "H", classes = { "WARLOCK" } }, { npc = 4566, npcName = "Kaelystia Hatebringer", map = 1458, x = 85.02, y = 14.02, f = "e", faction = "H", classes = { "MAGE" } }, { npc = 246152, npcName = "Shari Stilwell", map = 1420, x = 60.25, y = 52.62, f = "e", faction = "H", classes = { "PALADIN" } }, { npc = 2131, npcName = "Austil de Mon", map = 1420, x = 61.85, y = 52.54, f = "e", faction = "H", classes = { "WARRIOR" } }, { npc = 2127, npcName = "Rupert Boch", map = 1420, x = 61.59, y = 52.4, f = "e", faction = "H", classes = { "WARLOCK" } }, { npc = 2128, npcName = "Cain Firesong", map = 1420, x = 61.97, y = 52.47, f = "e", faction = "H", classes = { "MAGE" } }, { npc = 2129, npcName = "Dark Cleric Beryl", map = 1420, x = 61.57, y = 52.19, f = "e", faction = "H", classes = { "PRIEST" } }, { npc = 2130, npcName = "Marion Call", map = 1420, x = 61.75, y = 52, f = "e", faction = "H", classes = { "ROGUE" } }, { npc = 2119, npcName = "Dannal Stern", map = 1420, x = 32.69, y = 65.56, f = "e", faction = "H", classes = { "WARRIOR" } }, { npc = 2122, npcName = "David Trias", map = 1420, x = 32.53, y = 65.65, f = "e", faction = "H", classes = { "ROGUE" } }, { npc = 244808, npcName = "Aramis Hammerhand", map = 1420, x = 31.04, y = 66.45, f = "e", faction = "H", classes = { "PALADIN" } }, { npc = 2123, npcName = "Dark Cleric Duesten", map = 1420, x = 31.11, y = 66.03, f = "e", faction = "H", classes = { "PRIEST" } }, { npc = 2126, npcName = "Maximillion", map = 1420, x = 30.91, y = 66.34, f = "e", faction = "H", classes = { "WARLOCK" } }, { npc = 2124, npcName = "Isabella", map = 1420, x = 30.93, y = 66.06, f = "e", faction = "H", classes = { "MAGE" } }, { npc = 246389, npcName = "Hilda the Breaker", map = 1420, x = 21.95, y = 46.94, f = "e", faction = "H", classes = { "PALADIN" } }, { npc = 3153, npcName = "Frang", map = 1411, x = 42.89, y = 69.44, f = "e", faction = "H", classes = { "WARRIOR" } }, { npc = 3155, npcName = "Rwag", map = 1411, x = 41.28, y = 68, f = "e", faction = "H", classes = { "ROGUE" } }, { npc = 3156, npcName = "Nartok", map = 1411, x = 40.65, y = 68.52, f = "e", faction = "H", classes = { "WARLOCK" } }, { npc = 3169, npcName = "Tarshaw Jaggedscar", map = 1411, x = 54.19, y = 42.47, f = "e", faction = "H", classes = { "WARRIOR" } }, { npc = 3170, npcName = "Kaplak", map = 1411, x = 51.98, y = 43.69, f = "e", faction = "H", classes = { "ROGUE" } }, { npc = 3172, npcName = "Dhugru Gorelust", map = 1411, x = 54.38, y = 41.2, f = "e", faction = "H", classes = { "WARLOCK" } }, { npc = 3706, npcName = "Tai'jin", map = 1411, x = 54.26, y = 42.93, f = "e", faction = "H", classes = { "PRIEST" } }, { npc = 3707, npcName = "Ken'jai", map = 1411, x = 42.36, y = 68.81, f = "e", faction = "H", classes = { "PRIEST" } }, { npc = 5880, npcName = "Un'Thuwa", map = 1411, x = 56.31, y = 75.11, f = "e", faction = "H", classes = { "MAGE" } }, { npc = 5884, npcName = "Mai'ah", map = 1411, x = 42.51, y = 69.04, f = "e", faction = "H", classes = { "MAGE" } }, { npc = 3059, npcName = "Harutt Thunderhorn", map = 1412, x = 43.75, y = 76.72, faction = "H", classes = { "WARRIOR" } }, { npc = 3063, npcName = "Krang Stonehoof", map = 1412, x = 48.35, y = 63.74, faction = "H", classes = { "WARRIOR" } }, { npc = 3324, npcName = "Grol'dar", map = 1454, x = 47.98, y = 45.93, f = "e", faction = "H", classes = { "WARLOCK" } }, { npc = 3327, npcName = "Gest", map = 1454, x = 42.69, y = 51.48, f = "e", faction = "H", classes = { "ROGUE" } }, { npc = 3353, npcName = "Grezz Ragefist", map = 1454, x = 79.79, y = 31.42, f = "e", faction = "H", classes = { "WARRIOR" } }, { npc = 5882, npcName = "Pephredo", map = 1454, x = 38.35, y = 85.56, f = "e", faction = "H", classes = { "MAGE" } }, { npc = 6014, npcName = "X'yera", map = 1454, x = 36.01, y = 87.73, f = "e", faction = "H", classes = { "PRIEST" } }, { npc = 3041, npcName = "Torm Ragetotem", map = 1456, x = 57.24, y = 87.37, f = "e", faction = "H", classes = { "WARRIOR" } }, { npc = 3044, npcName = "Miles Welsh", map = 1456, x = 25.32, y = 15.27, f = "e", faction = "H", classes = { "PRIEST" } }, { npc = 3047, npcName = "Archmage Shymm", map = 1456, x = 22.76, y = 14.53, f = "e", faction = "H", classes = { "MAGE" } }, { npc = 246344, npcName = "Alodan the Hopeful", map = 1456, x = 25.29, y = 15.11, f = "e", faction = "H", classes = { "PALADIN" } }, { npc = 251389, npcName = "Akeri Duskblade", map = 2521, x = 43.73, y = 24.3, faction = "AH", classes = { "ROGUE" } }, { npc = 251964, npcName = "Blademaster Ren", map = 2521, x = 43.65, y = 24.17, faction = "AH", classes = { "WARRIOR" } }, { npc = 254086, npcName = "Shenaan Spellwind", map = 2521, x = 44.89, y = 45.26, faction = "AH", classes = { "MAGE" } } } },
@@ -23946,7 +23946,7 @@ do
 					note = "From {zone:1454} (zeppelin from the towers outside the {zone:1458}) fly to {area:1638} and train on {area:1639}, then fly on to {area:378}.",
 					only = { classes = { "DRUID" } },
 					goals = {
-						{ t = "fly", location = "Thunder Bluff", area = 1638 },
+						{ t = "fly", location = "Thunder Bluff", node = 22, area = 1638 },
 						{ t = "train", class = true, candidates = { { npc = 3060, npcName = "Gart Mistrunner", map = 1412, x = 44.65, y = 76.55, faction = "H", classes = { "DRUID" } }, { npc = 3064, npcName = "Gennia Runetotem", map = 1412, x = 47.48, y = 62.95, faction = "H", classes = { "DRUID" } }, { npc = 262560, npcName = "Hana Lighthoof", map = 1412, x = 33.39, y = 22.09, faction = "H", classes = { "DRUID" } }, { npc = 3033, npcName = "Turak Runetotem", map = 1456, x = 76.48, y = 27.22, f = "e", faction = "H", classes = { "DRUID" } }, { npc = 251373, npcName = "Xyton Silverwind", map = 2521, x = 41.71, y = 23.36, faction = "AH", classes = { "DRUID" } } } },
 					},
 				},
@@ -23954,7 +23954,7 @@ do
 					title = "{area:378}",
 					note = "From {zone:1454} (zeppelin from the towers outside the {zone:1458}) fly to {area:378}.",
 					goals = {
-						{ t = "fly", location = "Camp Taurajo", area = 378 },
+						{ t = "fly", location = "Camp Taurajo", node = 77, area = 378 },
 						{ t = "sethome", location = "Camp Taurajo", area = 378 },
 						{ t = "accept", quest = 874, title = "Mahren Skyseer", npc = 3387, npcName = "Jorn Skyseer", minLevel = 9, qlvl = 27, pre = { 913 }, preTitles = { [913] = "Cry of the Thunderhawk" }, map = 1413, x = 44.86, y = 59.14, z = 95.9, f = "e" },
 					},
@@ -23989,7 +23989,7 @@ do
 					note = "Hearth to {area:378} and fly to {area:392}. {quest:874} camps on the shore north of {area:392}.",
 					goals = {
 						{ t = "hearth", location = "Camp Taurajo", area = 378 },
-						{ t = "fly", location = "Ratchet", area = 392 },
+						{ t = "fly", location = "Ratchet", node = 80, area = 392 },
 						{ t = "turnin", quest = 874, title = "Mahren Skyseer", npc = 3388, npcName = "Mahren Skyseer", map = 1413, x = 65.84, y = 43.86, z = 6.2, f = "e" },
 						{ t = "accept", quest = 873, title = "Isha Awak", npc = 3388, npcName = "Mahren Skyseer", minLevel = 10, qlvl = 27, pre = { 874 }, preTitles = { [874] = "Mahren Skyseer" }, map = 1413, x = 65.84, y = 43.86, z = 6.2, f = "e" },
 					},
@@ -24038,7 +24038,7 @@ do
 					title = "{area:2897}",
 					note = "Fly from {area:392} to {area:2897} on the {zone:1440} coast.",
 					goals = {
-						{ t = "fly", location = "Zoram'gar Outpost", area = 2897 },
+						{ t = "fly", location = "Zoram'gar Outpost", node = 58, area = 2897 },
 						{ t = "turnin", quest = 6562, title = "Trouble in the Deeps", npc = 12736, npcName = "Je'neu Sancrea", map = 1440, x = 11.56, y = 34.29, z = 6, f = "e" },
 						{ t = "accept", quest = 6563, title = "The Essence of Aku'Mai", npc = 12736, npcName = "Je'neu Sancrea", minLevel = 17, qlvl = 22, map = 1440, x = 11.56, y = 34.29, z = 6, f = "e" },
 						{ t = "accept", quest = 216, title = "Between a Rock and a Thistlefur", npc = 12757, npcName = "Karang Amakkar", minLevel = 21, qlvl = 24, map = 1440, x = 11.9, y = 34.54, z = 3.4, f = "e" },
@@ -24226,7 +24226,7 @@ do
 				{
 					title = "{area:2897}",
 					goals = {
-						{ t = "fly", location = "Zoram'gar Outpost", area = 2897 },
+						{ t = "fly", location = "Zoram'gar Outpost", node = 58, area = 2897 },
 						{ t = "turnin", quest = 6621, title = "King of the Foulweald", npc = 12757, npcName = "Karang Amakkar", map = 1440, x = 11.9, y = 34.54, z = 3.4, f = "e" },
 						{ t = "turnin", quest = 824, title = "Je'neu of the Earthen Ring", npc = 12736, npcName = "Je'neu Sancrea", map = 1440, x = 11.56, y = 34.29, z = 6, f = "e" },
 					},
@@ -24275,7 +24275,7 @@ do
 					note = "Fly from {area:1638} to {area:378}. {npc:5899}'s hut stands on the ridge above the quilboar watering hole south of the camp, on the road to the {area:1718}.",
 					only = { classes = { "SHAMAN" } },
 					goals = {
-						{ t = "fly", location = "Camp Taurajo", area = 378 },
+						{ t = "fly", location = "Camp Taurajo", node = 77, area = 378 },
 						{ t = "turnin", quest = 1534, title = "Call of Water", npc = 5899, npcName = "Brine", map = 1413, x = 43.42, y = 77.41, z = 135.7, f = "e" },
 						{ t = "accept", quest = 220, title = "Call of Water", npc = 5899, npcName = "Brine", minLevel = 20, qlvl = 23, pre = { 1534 }, preTitles = { [1534] = "Call of Water" }, map = 1413, x = 43.42, y = 77.41, z = 135.7, f = "e", note = "for {npc:5901}, south of {area:392}: next guide" },
 					},
@@ -24284,7 +24284,7 @@ do
 					title = "{area:1718}",
 					note = "Fly from {area:1638} to {area:378} and take the road south to the {area:1718} at the bottom of the {zone:1413}.",
 					goals = {
-						{ t = "fly", location = "Camp Taurajo", area = 378 },
+						{ t = "fly", location = "Camp Taurajo", node = 77, area = 378 },
 						{ t = "goto", text = "{area:1718}", area = 1718, map = 1413, x = 44.2, y = 92.2, f = "e" },
 						{ t = "accept", quest = 4542, title = "Message to Freewind Post", npc = 10079, npcName = "Brave Moonhorn", minLevel = 23, qlvl = 25, closedBy = { 4841 }, preTitles = { [4841] = "Pacify the Centaur" }, map = 1413, x = 44.2, y = 92.2, z = 86.2, f = "e", note = "{npc:10079}, at the top of the lift" },
 					},
@@ -24498,7 +24498,7 @@ do
 					title = "Fly to {area:1637}",
 					note = "From {area:484}, fly to {area:1637}.",
 					goals = {
-						{ t = "fly", location = "Orgrimmar", area = 1637 },
+						{ t = "fly", location = "Orgrimmar", node = 23, area = 1637 },
 					},
 				},
 				{
@@ -24524,7 +24524,7 @@ do
 					note = "Your trainer is in {area:1638}, one flight away: {npc:3033} (Druids) on {area:1639}, {npc:246344} (Paladins). Fly on to {area:460} from there.",
 					only = { classes = { "PALADIN", "DRUID" } },
 					goals = {
-						{ t = "fly", location = "Thunder Bluff", area = 1638 },
+						{ t = "fly", location = "Thunder Bluff", node = 22, area = 1638 },
 						{ t = "train", class = true, candidates = { { npc = 3034, npcName = "Sheal Runetotem", map = 1456, x = 77.14, y = 27.02, f = "e", faction = "H", classes = { "DRUID" } }, { npc = 246344, npcName = "Alodan the Hopeful", map = 1456, x = 25.29, y = 15.11, f = "e", faction = "H", classes = { "PALADIN" } }, { npc = 262560, npcName = "Hana Lighthoof", map = 1412, x = 33.39, y = 22.09, faction = "H", classes = { "DRUID" } }, { npc = 3064, npcName = "Gennia Runetotem", map = 1412, x = 47.48, y = 62.95, faction = "H", classes = { "DRUID" } }, { npc = 3060, npcName = "Gart Mistrunner", map = 1412, x = 44.65, y = 76.55, faction = "H", classes = { "DRUID" } }, { npc = 244808, npcName = "Aramis Hammerhand", map = 1420, x = 31.04, y = 66.45, f = "e", faction = "H", classes = { "PALADIN" } }, { npc = 246152, npcName = "Shari Stilwell", map = 1420, x = 60.25, y = 52.62, f = "e", faction = "H", classes = { "PALADIN" } }, { npc = 246389, npcName = "Hilda the Breaker", map = 1420, x = 21.95, y = 46.94, f = "e", faction = "H", classes = { "PALADIN" } }, { npc = 260093, npcName = "Garen Largo", map = 1458, x = 47.7, y = 15.13, f = "e", faction = "H", classes = { "PALADIN" } }, { npc = 251373, npcName = "Xyton Silverwind", map = 2521, x = 41.71, y = 23.36, faction = "AH", classes = { "DRUID" } } } },
 					},
 				},
@@ -24541,7 +24541,7 @@ do
 					note = "Fly to {area:392}. {npc:5901} camps on the coast a short ride south of the town.",
 					only = { classes = { "SHAMAN" } },
 					goals = {
-						{ t = "fly", location = "Ratchet", area = 392 },
+						{ t = "fly", location = "Ratchet", node = 80, area = 392 },
 						{ t = "turnin", quest = 220, title = "Call of Water", npc = 5901, npcName = "Islen Waterseer", map = 1413, x = 65.83, y = 43.78, z = 6, f = "e" },
 						{ t = "accept", quest = 63, title = "Call of Water", npc = 5901, npcName = "Islen Waterseer", minLevel = 20, qlvl = 23, pre = { 220 }, preTitles = { [220] = "Call of Water" }, map = 1413, x = 65.83, y = 43.78, z = 6, f = "e" },
 					},
@@ -24551,7 +24551,7 @@ do
 					note = "Fly to {area:484}. {npc:5905} hides in a small cave in the canyon wall north-east of the post.",
 					only = { classes = { "SHAMAN" } },
 					goals = {
-						{ t = "fly", location = "Freewind Post", area = 484 },
+						{ t = "fly", location = "Freewind Post", node = 30, area = 484 },
 						{ t = "turnin", quest = 1531, title = "Call of Air", npc = 5905, npcName = "Prate Cloudseer", map = 1441, x = 53.54, y = 42.65, z = -7.4, f = "e", note = "{npc:5905}: your {item:5178}" },
 						{ t = "note", text = "{npc:5905} also starts Elemental Aid ({area:1717}), the 33-40 chain to The Tempest's Weapons: forever/class/shaman/call-of-air-horde." },
 					},
@@ -24559,7 +24559,7 @@ do
 				{
 					title = "Fly to {area:460}",
 					goals = {
-						{ t = "fly", location = "Sun Rock Retreat", area = 460 },
+						{ t = "fly", location = "Sun Rock Retreat", node = 29, area = 460 },
 					},
 				},
 				{
@@ -24740,14 +24740,14 @@ do
 					note = "Fly to {area:1638} from Shadowprey and train with {npc:3033} on {area:1639}, then fly on to {zone:1454}.",
 					only = { classes = { "DRUID" } },
 					goals = {
-						{ t = "fly", location = "Thunder Bluff", area = 1638 },
+						{ t = "fly", location = "Thunder Bluff", node = 22, area = 1638 },
 						{ t = "train", class = true, candidates = { { npc = 262560, npcName = "Hana Lighthoof", map = 1412, x = 33.39, y = 22.09, faction = "H", classes = { "DRUID" } }, { npc = 3033, npcName = "Turak Runetotem", map = 1456, x = 76.48, y = 27.22, f = "e", faction = "H", classes = { "DRUID" } }, { npc = 3060, npcName = "Gart Mistrunner", map = 1412, x = 44.65, y = 76.55, faction = "H", classes = { "DRUID" } }, { npc = 3064, npcName = "Gennia Runetotem", map = 1412, x = 47.48, y = 62.95, faction = "H", classes = { "DRUID" } }, { npc = 251373, npcName = "Xyton Silverwind", map = 2521, x = 41.71, y = 23.36, faction = "AH", classes = { "DRUID" } } } },
 					},
 				},
 				{
 					title = "Fly to {area:1637}",
 					goals = {
-						{ t = "fly", location = "Orgrimmar", area = 1637, note = "{area:2408} flight master" },
+						{ t = "fly", location = "Orgrimmar", node = 23, area = 1637, note = "{area:2408} flight master" },
 						{ t = "train", class = true, only = { classes = { "WARRIOR", "HUNTER", "ROGUE", "PRIEST", "SHAMAN", "MAGE", "WARLOCK" } }, candidates = { { npc = 262558, npcName = "Palah Thunderhoof", map = 1412, x = 33.58, y = 22.32, faction = "H", classes = { "SHAMAN" } }, { npc = 3047, npcName = "Archmage Shymm", map = 1456, x = 22.76, y = 14.53, f = "e", faction = "H", classes = { "MAGE" } }, { npc = 3045, npcName = "Malakai Cross", map = 1456, x = 24.56, y = 22.57, f = "e", faction = "H", classes = { "PRIEST" } }, { npc = 3042, npcName = "Sark Ragetotem", map = 1456, x = 56.99, y = 89.51, f = "e", faction = "H", classes = { "WARRIOR" } }, { npc = 3039, npcName = "Holt Thunderhorn", map = 1456, x = 57.3, y = 89.79, f = "e", faction = "H", classes = { "HUNTER" } }, { npc = 3059, npcName = "Harutt Thunderhorn", map = 1412, x = 43.75, y = 76.72, faction = "H", classes = { "WARRIOR" } }, { npc = 3061, npcName = "Lanka Farshot", map = 1412, x = 43.96, y = 76.35, faction = "H", classes = { "HUNTER" } }, { npc = 3065, npcName = "Yaw Sharpmane", map = 1412, x = 46.93, y = 59.65, faction = "H", classes = { "HUNTER" } }, { npc = 3062, npcName = "Meela Dawnstrider", map = 1412, x = 44.58, y = 76.56, faction = "H", classes = { "SHAMAN" } }, { npc = 3066, npcName = "Narm Skychaser", map = 1412, x = 47.4, y = 62.54, faction = "H", classes = { "SHAMAN" } }, { npc = 3063, npcName = "Krang Stonehoof", map = 1412, x = 48.35, y = 63.74, faction = "H", classes = { "WARRIOR" } }, { npc = 3156, npcName = "Nartok", map = 1411, x = 40.65, y = 68.52, f = "e", faction = "H", classes = { "WARLOCK" } }, { npc = 3155, npcName = "Rwag", map = 1411, x = 41.28, y = 68, f = "e", faction = "H", classes = { "ROGUE" } }, { npc = 3707, npcName = "Ken'jai", map = 1411, x = 42.36, y = 68.81, f = "e", faction = "H", classes = { "PRIEST" } }, { npc = 3157, npcName = "Shikrik", map = 1411, x = 42.39, y = 69, f = "e", faction = "H", classes = { "SHAMAN" } }, { npc = 5884, npcName = "Mai'ah", map = 1411, x = 42.51, y = 69.04, f = "e", faction = "H", classes = { "MAGE" } }, { npc = 3154, npcName = "Jen'shan", map = 1411, x = 42.84, y = 69.33, f = "e", faction = "H", classes = { "HUNTER" } }, { npc = 3153, npcName = "Frang", map = 1411, x = 42.89, y = 69.44, f = "e", faction = "H", classes = { "WARRIOR" } }, { npc = 6018, npcName = "Ur'kyo", map = 1454, x = 35.59, y = 87.82, f = "e", faction = "H", classes = { "PRIEST" } }, { npc = 5885, npcName = "Deino", map = 1454, x = 38.45, y = 86.13, f = "e", faction = "H", classes = { "MAGE" } }, { npc = 3171, npcName = "Thotar", map = 1411, x = 51.85, y = 43.49, f = "e", faction = "H", classes = { "HUNTER" } }, { npc = 3170, npcName = "Kaplak", map = 1411, x = 51.98, y = 43.69, f = "e", faction = "H", classes = { "ROGUE" } }, { npc = 5880, npcName = "Un'Thuwa", map = 1411, x = 56.31, y = 75.11, f = "e", faction = "H", classes = { "MAGE" } }, { npc = 3401, npcName = "Shenthul", map = 1454, x = 43.05, y = 53.74, f = "e", faction = "H", classes = { "ROGUE" } }, { npc = 3403, npcName = "Sian'tsu", map = 1454, x = 37.84, y = 36.45, f = "e", faction = "H", classes = { "SHAMAN" } }, { npc = 3706, npcName = "Tai'jin", map = 1411, x = 54.26, y = 42.93, f = "e", faction = "H", classes = { "PRIEST" } }, { npc = 3169, npcName = "Tarshaw Jaggedscar", map = 1411, x = 54.19, y = 42.47, f = "e", faction = "H", classes = { "WARRIOR" } }, { npc = 3173, npcName = "Swart", map = 1411, x = 54.42, y = 42.59, f = "e", faction = "H", classes = { "SHAMAN" } }, { npc = 3172, npcName = "Dhugru Gorelust", map = 1411, x = 54.38, y = 41.2, f = "e", faction = "H", classes = { "WARLOCK" } }, { npc = 3324, npcName = "Grol'dar", map = 1454, x = 47.98, y = 45.93, f = "e", faction = "H", classes = { "WARLOCK" } }, { npc = 3352, npcName = "Ormak Grimshot", map = 1454, x = 66.05, y = 18.53, f = "e", faction = "H", classes = { "HUNTER" } }, { npc = 3353, npcName = "Grezz Ragefist", map = 1454, x = 79.79, y = 31.42, f = "e", faction = "H", classes = { "WARRIOR" } }, { npc = 2119, npcName = "Dannal Stern", map = 1420, x = 32.69, y = 65.56, f = "e", faction = "H", classes = { "WARRIOR" } }, { npc = 2122, npcName = "David Trias", map = 1420, x = 32.53, y = 65.65, f = "e", faction = "H", classes = { "ROGUE" } }, { npc = 2123, npcName = "Dark Cleric Duesten", map = 1420, x = 31.11, y = 66.03, f = "e", faction = "H", classes = { "PRIEST" } }, { npc = 2124, npcName = "Isabella", map = 1420, x = 30.93, y = 66.06, f = "e", faction = "H", classes = { "MAGE" } }, { npc = 2126, npcName = "Maximillion", map = 1420, x = 30.91, y = 66.34, f = "e", faction = "H", classes = { "WARLOCK" } }, { npc = 2127, npcName = "Rupert Boch", map = 1420, x = 61.59, y = 52.4, f = "e", faction = "H", classes = { "WARLOCK" } }, { npc = 2128, npcName = "Cain Firesong", map = 1420, x = 61.97, y = 52.47, f = "e", faction = "H", classes = { "MAGE" } }, { npc = 2129, npcName = "Dark Cleric Beryl", map = 1420, x = 61.57, y = 52.19, f = "e", faction = "H", classes = { "PRIEST" } }, { npc = 2130, npcName = "Marion Call", map = 1420, x = 61.75, y = 52, f = "e", faction = "H", classes = { "ROGUE" } }, { npc = 2131, npcName = "Austil de Mon", map = 1420, x = 61.85, y = 52.54, f = "e", faction = "H", classes = { "WARRIOR" } }, { npc = 4563, npcName = "Kaal Soulreaper", map = 1458, x = 86.21, y = 15.93, f = "e", faction = "H", classes = { "WARLOCK" } }, { npc = 4566, npcName = "Kaelystia Hatebringer", map = 1458, x = 85.02, y = 14.02, f = "e", faction = "H", classes = { "MAGE" } }, { npc = 4582, npcName = "Carolyn Ward", map = 1458, x = 83.86, y = 72.07, f = "e", faction = "H", classes = { "ROGUE" } }, { npc = 4593, npcName = "Christoph Walker", map = 1458, x = 46.93, y = 15.23, f = "e", faction = "H", classes = { "WARRIOR" } }, { npc = 4606, npcName = "Aelthalyste", map = 1458, x = 49.26, y = 17.12, f = "e", faction = "H", classes = { "PRIEST" } }, { npc = 251374, npcName = "Windshaper Boro", map = 2521, x = 42.77, y = 23.58, faction = "H", classes = { "SHAMAN" } }, { npc = 251376, npcName = "Tai'ree Farsight", map = 2521, x = 42.46, y = 23.67, faction = "AH", classes = { "HUNTER" } }, { npc = 251389, npcName = "Akeri Duskblade", map = 2521, x = 43.73, y = 24.3, faction = "AH", classes = { "ROGUE" } }, { npc = 251964, npcName = "Blademaster Ren", map = 2521, x = 43.65, y = 24.17, faction = "AH", classes = { "WARRIOR" } }, { npc = 254086, npcName = "Shenaan Spellwind", map = 2521, x = 44.89, y = 45.26, faction = "AH", classes = { "MAGE" } } } },
 					},
 				},
@@ -24771,7 +24771,7 @@ do
 					note = "Do your shopping in the {area:1497} first, then fly to the {area:228}. The {object:113791} stands on the hill just south-west of it: beat the Corrupt Manifestation of Water beside it, place its bracers in the brazier, speak to the {npc:5895} and keep the {item:7813} for {npc:5901}. Fly on to {area:272} from the {area:228}.",
 					only = { classes = { "SHAMAN" } },
 					goals = {
-						{ t = "fly", location = "The Sepulcher", area = 228 },
+						{ t = "fly", location = "The Sepulcher", node = 10, area = 228 },
 						{ t = "collect", quest = 63, title = "Call of Water", item = 7812, itemName = "Corrupt Manifestation's Bracers", oi = 1, map = 1421, x = 38.78, y = 44.26, f = "e", from = "Corrupt Minor Manifestation of Water", fromKind = "npc", fromId = 5894 },
 						{ t = "turnin", quest = 63, title = "Call of Water", object = 113791, objName = "Brazier of Everfount", map = 1421, x = 38.26, y = 44.56, z = 12, f = "e" },
 						{ t = "accept", quest = 100, title = "Call of Water", object = 113791, objName = "Brazier of Everfount", minLevel = 20, qlvl = 23, pre = { 63 }, preTitles = { [63] = "Call of Water" }, map = 1421, x = 38.26, y = 44.56, z = 12, f = "e" },
@@ -24784,7 +24784,7 @@ do
 					note = "{quest:515} needs a {item:3388}, an {skill:171} item: buy one at the auction house here if you can (or ask an alchemist). No potion: skip the Elixir steps in {area:287}.",
 					goals = {
 						{ t = "note", text = "{item:3388}: auction house or an alchemist, for {quest:515}." },
-						{ t = "fly", location = "Tarren Mill", area = 272, note = "{npc:4551}, the bat handler" },
+						{ t = "fly", location = "Tarren Mill", node = 13, area = 272, note = "{npc:4551}, the bat handler" },
 					},
 				},
 				{
@@ -24906,7 +24906,7 @@ do
 					title = "Fly to the {area:1497}",
 					note = "The next guide starts in the {area:1497}, at the {object:3202} zeppelin.",
 					goals = {
-						{ t = "fly", location = "Undercity", area = 1497 },
+						{ t = "fly", location = "Undercity", node = 11, area = 1497 },
 					},
 				},
 			},
@@ -24963,7 +24963,7 @@ do
 					note = "Take the {zone:1454} zeppelin from the tower on the west side of {object:3202} and fly to {area:392}. {npc:5901} camps on the coast a short ride south of it.",
 					only = { classes = { "SHAMAN" } },
 					goals = {
-						{ t = "fly", location = "Ratchet", area = 392 },
+						{ t = "fly", location = "Ratchet", node = 80, area = 392 },
 						{ t = "turnin", quest = 96, title = "Call of Water", npc = 5901, npcName = "Islen Waterseer", map = 1413, x = 65.83, y = 43.78, z = 6, f = "e", note = "{npc:5901}: {npc:3527} and your {item:5177}" },
 					},
 				},
@@ -25099,7 +25099,7 @@ do
 				{
 					title = "Fly to {object:3202}",
 					goals = {
-						{ t = "fly", location = "Grom'gol", note = "{npc:2858}" },
+						{ t = "fly", location = "Grom'gol", node = 20, note = "{npc:2858}" },
 					},
 				},
 				{
@@ -25122,7 +25122,7 @@ do
 					title = "Fly to {area:35}",
 					note = "Ride south down the coast to {object:3202} and fly to {area:35}.",
 					goals = {
-						{ t = "fly", location = "Booty Bay", area = 35, note = "{npc:1387}" },
+						{ t = "fly", location = "Booty Bay", node = 18, area = 35, note = "{npc:1387}" },
 						{ t = "turnin", quest = 575, title = "Supply and Demand", npc = 2495, npcName = "Drizzlik", map = 1434, x = 28.29, y = 77.59, z = 25.5, f = "e" },
 						{ t = "accept", quest = 577, title = "Some Assembly Required", npc = 2495, npcName = "Drizzlik", minLevel = 31, qlvl = 36, pre = { 575 }, preTitles = { [575] = "Supply and Demand" }, map = 1434, x = 28.29, y = 77.59, z = 25.5, f = "e" },
 						{ t = "turnin", quest = 605, title = "Singing Blue Shards", npc = 2498, npcName = "Crank Fizzlebub", map = 1434, x = 27.12, y = 77.21, z = 15.2, f = "e" },
@@ -25133,7 +25133,7 @@ do
 				{
 					title = "Fly to {object:3202}",
 					goals = {
-						{ t = "fly", location = "Grom'gol", note = "{npc:2858}" },
+						{ t = "fly", location = "Grom'gol", node = 20, note = "{npc:2858}" },
 						{ t = "accept", quest = 568, title = "The Defense of Grom'gol", npc = 2464, npcName = "Commander Aggro'gosh", minLevel = 33, qlvl = 36, map = 1434, x = 32.17, y = 28.9, z = 3.1, f = "e" },
 						{ t = "accept", quest = 570, title = "Mok'thardin's Enchantment", npc = 2465, npcName = "Far Seer Mok'thardin", minLevel = 33, qlvl = 38, map = 1434, x = 32.12, y = 29.24, z = 3.4, f = "e" },
 						{ t = "accept", quest = 638, title = "Trollbane", npc = 2497, npcName = "Nimboya", minLevel = 32, qlvl = 37, closedBy = { 639 }, preTitles = { [639] = "Sigil of Strom" }, map = 1434, x = 32.16, y = 27.72, z = 3.2, f = "e", note = "{npc:2497}: for Arathi, later on the route" },
@@ -25316,7 +25316,7 @@ do
 				{
 					title = "Fly to {object:3202}",
 					goals = {
-						{ t = "fly", location = "Grom'gol" },
+						{ t = "fly", location = "Grom'gol", node = 20 },
 						{ t = "turnin", quest = 571, title = "Mok'thardin's Enchantment", npc = 2465, npcName = "Far Seer Mok'thardin", map = 1434, x = 32.12, y = 29.24, z = 3.4, f = "e" },
 					},
 				},
@@ -25364,7 +25364,7 @@ do
 					title = "Fly to {object:3202}",
 					note = "From {area:35}, fly to {object:3202}. {object:1661} zeppelin leaves from the tower on the west side of the camp.",
 					goals = {
-						{ t = "fly", location = "Grom'gol" },
+						{ t = "fly", location = "Grom'gol", node = 20 },
 						{ t = "goto", text = "Zeppelin to the {zone:1458}", map = 1434, x = 31.5, y = 29.4, f = "e" },
 					},
 				},
@@ -25396,7 +25396,7 @@ do
 					title = "Fly to {area:272}",
 					note = "The zeppelin lands at the towers outside the {zone:1458}: ride down into the city and fly to {area:272}.",
 					goals = {
-						{ t = "fly", location = "Tarren Mill", area = 272 },
+						{ t = "fly", location = "Tarren Mill", node = 13, area = 272 },
 					},
 				},
 				{
@@ -25738,7 +25738,7 @@ do
 					title = "Hearth to {area:340}",
 					goals = {
 						{ t = "hearth", location = "Kargath", area = 340 },
-						{ t = "fly", location = "Grom'gol" },
+						{ t = "fly", location = "Grom'gol", node = 20 },
 					},
 				},
 				{
@@ -25760,14 +25760,14 @@ do
 					note = "Your trainer is in {area:1638}, one flight from {zone:1454}: {npc:3033} (Druids) on {area:1639}, {npc:246344} (Paladins). Fly on to the {area:380} from there.",
 					only = { classes = { "PALADIN", "DRUID" } },
 					goals = {
-						{ t = "fly", location = "Thunder Bluff", area = 1638 },
+						{ t = "fly", location = "Thunder Bluff", node = 22, area = 1638 },
 						{ t = "train", class = true, candidates = { { npc = 3034, npcName = "Sheal Runetotem", map = 1456, x = 77.14, y = 27.02, f = "e", faction = "H", classes = { "DRUID" } }, { npc = 246344, npcName = "Alodan the Hopeful", map = 1456, x = 25.29, y = 15.11, f = "e", faction = "H", classes = { "PALADIN" } }, { npc = 262560, npcName = "Hana Lighthoof", map = 1412, x = 33.39, y = 22.09, faction = "H", classes = { "DRUID" } }, { npc = 3064, npcName = "Gennia Runetotem", map = 1412, x = 47.48, y = 62.95, faction = "H", classes = { "DRUID" } }, { npc = 3060, npcName = "Gart Mistrunner", map = 1412, x = 44.65, y = 76.55, faction = "H", classes = { "DRUID" } }, { npc = 244808, npcName = "Aramis Hammerhand", map = 1420, x = 31.04, y = 66.45, f = "e", faction = "H", classes = { "PALADIN" } }, { npc = 246152, npcName = "Shari Stilwell", map = 1420, x = 60.25, y = 52.62, f = "e", faction = "H", classes = { "PALADIN" } }, { npc = 246389, npcName = "Hilda the Breaker", map = 1420, x = 21.95, y = 46.94, f = "e", faction = "H", classes = { "PALADIN" } }, { npc = 260093, npcName = "Garen Largo", map = 1458, x = 47.7, y = 15.13, f = "e", faction = "H", classes = { "PALADIN" } }, { npc = 251373, npcName = "Xyton Silverwind", map = 2521, x = 41.71, y = 23.36, faction = "AH", classes = { "DRUID" } } } },
 					},
 				},
 				{
 					title = "{area:380}",
 					goals = {
-						{ t = "fly", location = "Crossroads" },
+						{ t = "fly", location = "Crossroads", node = 25 },
 					},
 				},
 				{
@@ -25782,7 +25782,7 @@ do
 					title = "{area:392}",
 					note = "Ride back south to the {area:380} and fly to {area:392}.",
 					goals = {
-						{ t = "fly", location = "Ratchet", area = 392 },
+						{ t = "fly", location = "Ratchet", node = 80, area = 392 },
 						{ t = "sethome", location = "Ratchet", area = 392 },
 						{ t = "buy", item = 3713, itemName = "Soothing Spices", count = 3, note = "{item:3713}, for \"Swamp Eye\" Jarl in {zone:1445}", candidates = { { npc = 248198, npcName = "Aza'bek", map = 1413, x = 49.54, y = 29.29, f = "e", faction = "H" }, { npc = 254695, npcName = "Repair Bot", map = 1413, x = 46.93, y = 35.89, f = "e", faction = "AH" }, { npc = 242498, npcName = "Reagent Bot", map = 1413, x = 52.02, y = 31.2, f = "e", faction = "AH" }, { npc = 8307, npcName = "Tarban Hearthgrain", map = 1413, x = 55.16, y = 32.08, f = "e", faction = "H" }, { npc = 3027, npcName = "Naal Mistrunner", map = 1456, x = 50.99, y = 52.45, f = "e", faction = "H" }, { npc = 242498, npcName = "Reagent Bot", map = 1411, x = 52.11, y = 47.31, f = "e", faction = "AH" }, { npc = 5817, npcName = "Shimra", map = 1454, x = 47.91, y = 80.35, f = "e", faction = "H" }, { npc = 3400, npcName = "Xen'to", map = 1454, x = 57.57, y = 52.9, f = "e", faction = "H" }, { npc = 12245, npcName = "Vendor-Tron 1000", map = 1443, x = 60.33, y = 38.12, f = "e", faction = "AH" }, { npc = 9636, npcName = "Kireena", map = 1443, x = 50.98, y = 53.55, f = "e", faction = "H" }, { npc = 12957, npcName = "Blimo Gadgetspring", map = 1447, x = 45.21, y = 90.85, f = "e", faction = "AH" }, { npc = 8145, npcName = "Sheendra Tallgrass", map = 1444, x = 74.49, y = 42.73, f = "e", faction = "H" }, { npc = 4877, npcName = "Jandia", map = 1441, x = 46.21, y = 51.51, f = "e", faction = "H" }, { npc = 12033, npcName = "Wulan", map = 1443, x = 26.17, y = 69.65, f = "e", faction = "H" }, { npc = 15179, npcName = "Mishta", map = 1451, x = 49.88, y = 36.33, f = "e", faction = "AH" }, { npc = 242498, npcName = "Reagent Bot", map = 1439, x = 32.43, y = 43.62, f = "e", faction = "AH" }, { npc = 11189, npcName = "Qia", map = 1452, x = 61.2, y = 37.21, f = "e", faction = "AH" }, { npc = 12022, npcName = "Lorelae Wintersong", map = 1450, x = 48.24, y = 40.14, f = "e", faction = "AH" }, { npc = 242498, npcName = "Reagent Bot", map = 1438, x = 48.78, y = 55.57, f = "e", faction = "AH" }, { npc = 2393, npcName = "Christoph Jeffcoat", map = 1416, x = 61.1, y = 80.7, f = "e", faction = "H" }, { npc = 2821, npcName = "Keena", map = 1417, x = 74.09, y = 32.73, f = "e", faction = "H" }, { npc = 242498, npcName = "Reagent Bot", map = 1420, x = 60.76, y = 52.51, f = "e", faction = "AH" }, { npc = 242498, npcName = "Reagent Bot", map = 1421, x = 44.14, y = 41.87, f = "e", faction = "AH" }, { npc = 12941, npcName = "Jase Farlane", map = 1423, x = 70.86, y = 48.06, faction = "AH" }, { npc = 12958, npcName = "Gigget Zipcoil", map = 1425, x = 34.46, y = 38.59, f = "e", faction = "AH" }, { npc = 14738, npcName = "Otho Moji'ko", map = 1425, x = 79.38, y = 79.08, f = "e", faction = "H" }, { npc = 270780, npcName = "Qujo", map = 1425, x = 77.8, y = 78, f = "e", faction = "AH" }, { npc = 242498, npcName = "Reagent Bot", map = 1426, x = 46.61, y = 53.89, f = "e", faction = "AH" }, { npc = 242498, npcName = "Reagent Bot", map = 1429, x = 42.22, y = 65.96, f = "e", faction = "AH" }, { npc = 242498, npcName = "Reagent Bot", map = 1431, x = 73.6, y = 47.03, f = "e", faction = "AH" }, { npc = 242498, npcName = "Reagent Bot", map = 1432, x = 32.5, y = 50.01, f = "e", faction = "AH" }, { npc = 242498, npcName = "Reagent Bot", map = 1433, x = 26.56, y = 58.61, faction = "AH" }, { npc = 1148, npcName = "Nerrist", map = 1434, x = 32.7, y = 29.23, f = "e", faction = "H" }, { npc = 2664, npcName = "Kelsey Yance", map = 1434, x = 28.23, y = 74.34, f = "e", faction = "AH" }, { npc = 989, npcName = "Banalash", map = 1435, x = 44.77, y = 56.63, f = "e", faction = "H" }, { npc = 242498, npcName = "Reagent Bot", map = 1436, x = 55.26, y = 52.39, f = "e", faction = "AH" }, { npc = 242498, npcName = "Reagent Bot", map = 1437, x = 28.68, y = 24.32, f = "e", faction = "AH" }, { npc = 4553, npcName = "Ronald Burch", map = 1458, x = 62.31, y = 43.09, f = "e", faction = "H" }, { npc = 2225, npcName = "Zora Guthrek", map = 1459, x = 50.08, y = 82.15, f = "e", faction = "H" }, { npc = 242498, npcName = "Reagent Bot", map = 2521, x = 57.87, y = 76.82, faction = "AH" }, { npc = 259962, npcName = "Fimbo Greasemitz", map = 2548, x = 78.96, y = 54.23, faction = "AH" } } },
 						{ t = "note", text = "The next guide heads into {zone:1445}." },
@@ -25827,7 +25827,7 @@ do
 				{
 					title = "Fly to {area:378}",
 					goals = {
-						{ t = "fly", location = "Camp Taurajo", area = 378 },
+						{ t = "fly", location = "Camp Taurajo", node = 77, area = 378 },
 					},
 				},
 				{
@@ -25942,7 +25942,7 @@ do
 				{
 					title = "{area:2408}",
 					goals = {
-						{ t = "fly", location = "Shadowprey Village", area = 2408 },
+						{ t = "fly", location = "Shadowprey Village", node = 38, area = 2408 },
 						{ t = "sethome", location = "Shadowprey Village", area = 2408 },
 						{ t = "accept", quest = 5381, title = "Hand of Iruxos", npc = 11624, npcName = "Taiga Wisemane", minLevel = 32, qlvl = 38, map = 1443, x = 25.82, y = 68.21, z = 49.1, f = "e" },
 						{ t = "accept", quest = 6143, title = "Other Fish to Fry", npc = 12340, npcName = "Drulzegar Skraghook", minLevel = 32, qlvl = 36, map = 1443, x = 23.32, y = 72.87, z = 4.1, f = "e" },
@@ -26112,7 +26112,7 @@ do
 					title = "Fly to {area:392}",
 					note = "From {area:2408} fly to {area:392}.",
 					goals = {
-						{ t = "fly", location = "Ratchet", area = 392 },
+						{ t = "fly", location = "Ratchet", node = 80, area = 392 },
 					},
 				},
 				{
@@ -26361,7 +26361,7 @@ do
 				{
 					title = "Fly to {object:3202}",
 					goals = {
-						{ t = "fly", location = "Grom'gol" },
+						{ t = "fly", location = "Grom'gol", node = 20 },
 					},
 				},
 				{
@@ -26484,7 +26484,7 @@ do
 					title = "Fly to {object:3202}",
 					note = "Ride back north-west from {area:1978} to {area:75} and fly to {object:3202}.",
 					goals = {
-						{ t = "fly", location = "Grom'gol" },
+						{ t = "fly", location = "Grom'gol", node = 20 },
 					},
 				},
 				{
@@ -26543,7 +26543,7 @@ do
 					note = "Your trainer is in {area:1638}: {npc:3033} (Druids) on {area:1639}, {npc:246344} (Paladins). Fly there from {zone:1454}, then on to {area:484}.",
 					only = { classes = { "PALADIN", "DRUID" } },
 					goals = {
-						{ t = "fly", location = "Thunder Bluff", area = 1638 },
+						{ t = "fly", location = "Thunder Bluff", node = 22, area = 1638 },
 						{ t = "train", class = true, candidates = { { npc = 246152, npcName = "Shari Stilwell", map = 1420, x = 60.25, y = 52.62, f = "e", faction = "H", classes = { "PALADIN" } }, { npc = 260093, npcName = "Garen Largo", map = 1458, x = 47.7, y = 15.13, f = "e", faction = "H", classes = { "PALADIN" } }, { npc = 244808, npcName = "Aramis Hammerhand", map = 1420, x = 31.04, y = 66.45, f = "e", faction = "H", classes = { "PALADIN" } }, { npc = 246389, npcName = "Hilda the Breaker", map = 1420, x = 21.95, y = 46.94, f = "e", faction = "H", classes = { "PALADIN" } }, { npc = 3060, npcName = "Gart Mistrunner", map = 1412, x = 44.65, y = 76.55, faction = "H", classes = { "DRUID" } }, { npc = 3064, npcName = "Gennia Runetotem", map = 1412, x = 47.48, y = 62.95, faction = "H", classes = { "DRUID" } }, { npc = 262560, npcName = "Hana Lighthoof", map = 1412, x = 33.39, y = 22.09, faction = "H", classes = { "DRUID" } }, { npc = 3033, npcName = "Turak Runetotem", map = 1456, x = 76.48, y = 27.22, f = "e", faction = "H", classes = { "DRUID" } }, { npc = 246344, npcName = "Alodan the Hopeful", map = 1456, x = 25.29, y = 15.11, f = "e", faction = "H", classes = { "PALADIN" } }, { npc = 251373, npcName = "Xyton Silverwind", map = 2521, x = 41.71, y = 23.36, faction = "AH", classes = { "DRUID" } } } },
 					},
 				},
@@ -26551,7 +26551,7 @@ do
 					title = "{area:392} for the Felsteed",
 					only = { classes = { "WARLOCK" } },
 					goals = {
-						{ t = "fly", location = "Ratchet", area = 392 },
+						{ t = "fly", location = "Ratchet", node = 80, area = 392 },
 						{ t = "turnin", quest = 3631, title = "Summon Felsteed", npc = 6251, npcName = "Strahad Farsan", map = 1413, x = 62.63, y = 35.5, z = 40.5, f = "e" },
 						{ t = "accept", quest = 4490, title = "Summon Felsteed", npc = 6251, npcName = "Strahad Farsan", minLevel = 40, qlvl = 40, pre = { 3631, 4487, 4488, 4489 }, preTitles = { [3631] = "Summon Felsteed", [4487] = "Summon Felsteed", [4488] = "Summon Felsteed", [4489] = "Summon Felsteed" }, map = 1413, x = 62.63, y = 35.5, z = 40.5, f = "e" },
 						{ t = "turnin", quest = 4490, title = "Summon Felsteed", npc = 6251, npcName = "Strahad Farsan", map = 1413, x = 62.63, y = 35.5, z = 40.5, f = "e" },
@@ -26561,7 +26561,7 @@ do
 					title = "Fly to {area:484}",
 					note = "Fly to {area:484}, ride down the lift east of the post and across the salt flats, then south into {zone:1446}.",
 					goals = {
-						{ t = "fly", location = "Freewind Post", area = 484 },
+						{ t = "fly", location = "Freewind Post", node = 30, area = 484 },
 					},
 				},
 				{
@@ -26650,7 +26650,7 @@ do
 					title = "Fly to {area:484}",
 					note = "Fly to {area:484}, then ride west through the canyons past {area:2237}; the road climbs into the {zone:1444} jungle and on to {area:1099}.",
 					goals = {
-						{ t = "fly", location = "Freewind Post", area = 484 },
+						{ t = "fly", location = "Freewind Post", node = 30, area = 484 },
 					},
 				},
 				{
@@ -26802,7 +26802,7 @@ do
 					title = "{area:1637}",
 					note = "Fly to {area:1637}. The Droffers brothers run their shop in the Drag.",
 					goals = {
-						{ t = "fly", location = "Orgrimmar", area = 1637 },
+						{ t = "fly", location = "Orgrimmar", node = 23, area = 1637 },
 						{ t = "accept", quest = 649, title = "Ripple Recovery", npc = 6986, npcName = "Dran Droffers", minLevel = 42, qlvl = 48, map = 1454, x = 59.49, y = 36.57, z = 29.4, f = "e" },
 						{ t = "turnin", quest = 649, title = "Ripple Recovery", npc = 6987, npcName = "Malton Droffers", map = 1454, x = 59.65, y = 36.94, z = 29.4, f = "e" },
 						{ t = "accept", quest = 650, title = "Ripple Recovery", npc = 6987, npcName = "Malton Droffers", minLevel = 42, qlvl = 48, pre = { 649 }, preTitles = { [649] = "Ripple Recovery" }, map = 1454, x = 59.65, y = 36.94, z = 29.4, f = "e", note = "for the {zone:1425}, around level 48" },
@@ -26820,7 +26820,7 @@ do
 					title = "Fly to {area:75}",
 					note = "Thysta, the flight master, stands just east of the zeppelin tower. Fly to {area:75}: the next guide starts there.",
 					goals = {
-						{ t = "fly", location = "Stonard", area = 75 },
+						{ t = "fly", location = "Stonard", node = 56, area = 75 },
 					},
 				},
 			},
@@ -26933,7 +26933,7 @@ do
 				{
 					title = "Fly to {object:3202}",
 					goals = {
-						{ t = "fly", location = "Grom'gol" },
+						{ t = "fly", location = "Grom'gol", node = 20 },
 					},
 				},
 				{
@@ -26960,7 +26960,7 @@ do
 					note = "Your trainer is in {area:1638}: fly there (no flight path there yet? fly to {area:378} and ride west through {zone:1412}), then on to {area:496}.",
 					only = { classes = { "PALADIN", "DRUID" } },
 					goals = {
-						{ t = "fly", location = "Thunder Bluff", area = 1638 },
+						{ t = "fly", location = "Thunder Bluff", node = 22, area = 1638 },
 						{ t = "getfp", npc = 2995, npcName = "Tal", location = "Thunder Bluff", node = 22, area = 1638, map = 1456, x = 47, y = 49.83, z = 177, f = "e" },
 						{ t = "train", class = true, candidates = { { npc = 246344, npcName = "Alodan the Hopeful", map = 1456, x = 25.29, y = 15.11, f = "e", faction = "H", classes = { "PALADIN" } }, { npc = 3036, npcName = "Kym Wildmane", map = 1456, x = 77.15, y = 29.82, f = "e", faction = "H", classes = { "DRUID" } }, { npc = 262560, npcName = "Hana Lighthoof", map = 1412, x = 33.39, y = 22.09, faction = "H", classes = { "DRUID" } }, { npc = 3064, npcName = "Gennia Runetotem", map = 1412, x = 47.48, y = 62.95, faction = "H", classes = { "DRUID" } }, { npc = 3060, npcName = "Gart Mistrunner", map = 1412, x = 44.65, y = 76.55, faction = "H", classes = { "DRUID" } }, { npc = 244808, npcName = "Aramis Hammerhand", map = 1420, x = 31.04, y = 66.45, f = "e", faction = "H", classes = { "PALADIN" } }, { npc = 246152, npcName = "Shari Stilwell", map = 1420, x = 60.25, y = 52.62, f = "e", faction = "H", classes = { "PALADIN" } }, { npc = 246389, npcName = "Hilda the Breaker", map = 1420, x = 21.95, y = 46.94, f = "e", faction = "H", classes = { "PALADIN" } }, { npc = 260093, npcName = "Garen Largo", map = 1458, x = 47.7, y = 15.13, f = "e", faction = "H", classes = { "PALADIN" } }, { npc = 251373, npcName = "Xyton Silverwind", map = 2521, x = 41.71, y = 23.36, faction = "AH", classes = { "DRUID" } } } },
 					},
@@ -26968,7 +26968,7 @@ do
 				{
 					title = "{area:496}",
 					goals = {
-						{ t = "fly", location = "Brackenwall Village", area = 496 },
+						{ t = "fly", location = "Brackenwall Village", node = 55, area = 496 },
 						{ t = "accept", quest = 1166, title = "Overlord Mok'Morokk's Concern", npc = 4500, npcName = "Overlord Mok'Morokk", minLevel = 38, qlvl = 43, map = 1445, x = 36.29, y = 31.41, z = 34.8, f = "e" },
 						{ t = "accept", quest = 1168, title = "Army of the Black Dragon", npc = 4502, npcName = "Tharg", minLevel = 38, qlvl = 43, map = 1445, x = 37.37, y = 31.39, z = 35.6, f = "e" },
 						{ t = "accept", quest = 1169, title = "Identifying the Brood", npc = 4501, npcName = "Draz'Zilb", minLevel = 38, qlvl = 43, map = 1445, x = 37.15, y = 33.09, z = 33.4, f = "e" },
@@ -27030,7 +27030,7 @@ do
 				{
 					title = "{area:1099}",
 					goals = {
-						{ t = "fly", location = "Camp Mojache", area = 1099 },
+						{ t = "fly", location = "Camp Mojache", node = 42, area = 1099 },
 						{ t = "sethome", npc = 7737, npcName = "Innkeeper Greul", location = "Camp Mojache", area = 1099, map = 1444, x = 74.8, y = 45.18, z = 39.2, f = "e" },
 						{ t = "turnin", quest = 2981, title = "A Threat in Feralas", npc = 7777, npcName = "Rok Orhan", map = 1444, x = 75.8, y = 43.58, z = 25.9, f = "e" },
 						{ t = "turnin", quest = 3122, title = "Return to Witch Doctor Uzer'i", npc = 8115, npcName = "Witch Doctor Uzer'i", map = 1444, x = 74.42, y = 43.36, z = 25.5, f = "e" },
@@ -27154,7 +27154,7 @@ do
 					title = "Fly to {area:976}",
 					note = "From {area:1099}'s flight master.",
 					goals = {
-						{ t = "fly", location = "Gadgetzan", area = 976 },
+						{ t = "fly", location = "Gadgetzan", node = 40, area = 976 },
 					},
 				},
 				{
@@ -27289,7 +27289,7 @@ do
 					note = "Fly to {area:1637} and train: the next guide's training stop is the {zone:1458}, which has no Hunter or Shaman trainer. Then fly to {area:392}.",
 					only = { classes = { "HUNTER", "SHAMAN" } },
 					goals = {
-						{ t = "fly", location = "Orgrimmar", area = 1637 },
+						{ t = "fly", location = "Orgrimmar", node = 23, area = 1637 },
 						{ t = "train", class = true, candidates = { { npc = 3062, npcName = "Meela Dawnstrider", map = 1412, x = 44.58, y = 76.56, faction = "H", classes = { "SHAMAN" } }, { npc = 3061, npcName = "Lanka Farshot", map = 1412, x = 43.96, y = 76.35, faction = "H", classes = { "HUNTER" } }, { npc = 3066, npcName = "Narm Skychaser", map = 1412, x = 47.4, y = 62.54, faction = "H", classes = { "SHAMAN" } }, { npc = 3065, npcName = "Yaw Sharpmane", map = 1412, x = 46.93, y = 59.65, faction = "H", classes = { "HUNTER" } }, { npc = 3154, npcName = "Jen'shan", map = 1411, x = 42.84, y = 69.33, f = "e", faction = "H", classes = { "HUNTER" } }, { npc = 3157, npcName = "Shikrik", map = 1411, x = 42.39, y = 69, f = "e", faction = "H", classes = { "SHAMAN" } }, { npc = 3039, npcName = "Holt Thunderhorn", map = 1456, x = 57.3, y = 89.79, f = "e", faction = "H", classes = { "HUNTER" } }, { npc = 262558, npcName = "Palah Thunderhoof", map = 1412, x = 33.58, y = 22.32, faction = "H", classes = { "SHAMAN" } }, { npc = 3171, npcName = "Thotar", map = 1411, x = 51.85, y = 43.49, f = "e", faction = "H", classes = { "HUNTER" } }, { npc = 3173, npcName = "Swart", map = 1411, x = 54.42, y = 42.59, f = "e", faction = "H", classes = { "SHAMAN" } }, { npc = 3403, npcName = "Sian'tsu", map = 1454, x = 37.84, y = 36.45, f = "e", faction = "H", classes = { "SHAMAN" } }, { npc = 3406, npcName = "Xor'juul", map = 1454, x = 67.24, y = 20.2, f = "e", faction = "H", classes = { "HUNTER" } }, { npc = 251374, npcName = "Windshaper Boro", map = 2521, x = 42.77, y = 23.58, faction = "H", classes = { "SHAMAN" } }, { npc = 251376, npcName = "Tai'ree Farsight", map = 2521, x = 42.46, y = 23.67, faction = "AH", classes = { "HUNTER" } } } },
 					},
 				},
@@ -27298,14 +27298,14 @@ do
 					note = "Fly to {area:1638} and train with {npc:3033} on {area:1639}, then fly to {area:392}.",
 					only = { classes = { "DRUID" } },
 					goals = {
-						{ t = "fly", location = "Thunder Bluff", area = 1638 },
+						{ t = "fly", location = "Thunder Bluff", node = 22, area = 1638 },
 						{ t = "train", class = true, candidates = { { npc = 3060, npcName = "Gart Mistrunner", map = 1412, x = 44.65, y = 76.55, faction = "H", classes = { "DRUID" } }, { npc = 3064, npcName = "Gennia Runetotem", map = 1412, x = 47.48, y = 62.95, faction = "H", classes = { "DRUID" } }, { npc = 3036, npcName = "Kym Wildmane", map = 1456, x = 77.15, y = 29.82, f = "e", faction = "H", classes = { "DRUID" } }, { npc = 262560, npcName = "Hana Lighthoof", map = 1412, x = 33.39, y = 22.09, faction = "H", classes = { "DRUID" } }, { npc = 251373, npcName = "Xyton Silverwind", map = 2521, x = 41.71, y = 23.36, faction = "AH", classes = { "DRUID" } } } },
 					},
 				},
 				{
 					title = "Fly to {area:392}",
 					goals = {
-						{ t = "fly", location = "Ratchet", area = 392 },
+						{ t = "fly", location = "Ratchet", node = 80, area = 392 },
 					},
 				},
 				{
@@ -27319,7 +27319,7 @@ do
 					title = "Fly to {area:340}",
 					note = "From the {area:35} flight master, above the harbour.",
 					goals = {
-						{ t = "fly", location = "Kargath", area = 340 },
+						{ t = "fly", location = "Kargath", node = 21, area = 340 },
 					},
 				},
 				{
@@ -27459,7 +27459,7 @@ do
 					title = "Fly to {area:75}",
 					note = "From {area:1446}'s flight master.",
 					goals = {
-						{ t = "fly", location = "Stonard", area = 75 },
+						{ t = "fly", location = "Stonard", node = 56, area = 75 },
 					},
 				},
 				{
@@ -27522,7 +27522,7 @@ do
 					title = "Fly to the {area:1497}",
 					note = "Ride north back to {area:75} and fly to the {area:1497}.",
 					goals = {
-						{ t = "fly", location = "Undercity", area = 1497 },
+						{ t = "fly", location = "Undercity", node = 11, area = 1497 },
 					},
 				},
 				{
@@ -27536,7 +27536,7 @@ do
 				{
 					title = "Fly to {area:272}",
 					goals = {
-						{ t = "fly", location = "Tarren Mill", area = 272 },
+						{ t = "fly", location = "Tarren Mill", node = 13, area = 272 },
 					},
 				},
 				{
@@ -27766,7 +27766,7 @@ do
 					title = "Fly to the {area:1497}",
 					note = "From {area:3317}'s flight master, fly to the {area:1497}.",
 					goals = {
-						{ t = "fly", location = "Undercity", area = 1497 },
+						{ t = "fly", location = "Undercity", node = 11, area = 1497 },
 					},
 				},
 				{
@@ -27783,7 +27783,7 @@ do
 					title = "Zeppelin to {zone:1454}",
 					note = "Take the zeppelin to {zone:1454} from the tower outside the {zone:1458}, then fly to {area:431}.",
 					goals = {
-						{ t = "fly", location = "Splintertree Post", area = 431 },
+						{ t = "fly", location = "Splintertree Post", node = 61, area = 431 },
 					},
 				},
 				{
@@ -27941,7 +27941,7 @@ do
 				{
 					title = "Back to {object:3202}",
 					goals = {
-						{ t = "fly", location = "Grom'gol" },
+						{ t = "fly", location = "Grom'gol", node = 20 },
 						{ t = "turnin", quest = 589, title = "The Singing Crystals", npc = 2519, npcName = "Kin'weelay", map = 1434, x = 32.27, y = 27.71, z = 3.2, f = "e" },
 					},
 				},
@@ -27966,7 +27966,7 @@ do
 					title = "{area:1638}",
 					note = "Fly to {area:1638}; it is on the way to {area:1099}. No flight path there yet? Fly to {area:378} and ride west through {zone:1412}. Hamuul and {npc:4046} are on the {area:1639}; Druids and Paladins train here ({npc:3033}, {npc:246344}).",
 					goals = {
-						{ t = "fly", location = "Thunder Bluff", area = 1638 },
+						{ t = "fly", location = "Thunder Bluff", node = 22, area = 1638 },
 						{ t = "getfp", npc = 2995, npcName = "Tal", location = "Thunder Bluff", node = 22, area = 1638, map = 1456, x = 47, y = 49.83, z = 177, f = "e" },
 						{ t = "turnin", quest = 3784, title = "Assisting Arch Druid Runetotem", npc = 5769, npcName = "Arch Druid Hamuul Runetotem", map = 1456, x = 78.62, y = 28.56, z = 159.1, f = "e" },
 						{ t = "accept", quest = 3761, title = "Un'Goro Soil", npc = 5769, npcName = "Arch Druid Hamuul Runetotem", minLevel = 47, qlvl = 50, map = 1456, x = 78.62, y = 28.56, z = 159.1, f = "e" },
@@ -27979,7 +27979,7 @@ do
 				{
 					title = "{area:1099}",
 					goals = {
-						{ t = "fly", location = "Camp Mojache", area = 1099 },
+						{ t = "fly", location = "Camp Mojache", node = 42, area = 1099 },
 						{ t = "sethome", location = "Camp Mojache", area = 1099 },
 						{ t = "turnin", quest = 3123, title = "Testing the Vessel", npc = 8115, npcName = "Witch Doctor Uzer'i", map = 1444, x = 74.42, y = 43.36, z = 25.5, f = "e" },
 						{ t = "accept", quest = 3124, title = "Hippogryph Muisek", npc = 8115, npcName = "Witch Doctor Uzer'i", minLevel = 40, qlvl = 47, pre = { 3123 }, preTitles = { [3123] = "Testing the Vessel" }, map = 1444, x = 74.42, y = 43.36, z = 25.5, f = "e" },
@@ -28072,7 +28072,7 @@ do
 				{
 					title = "{area:976}",
 					goals = {
-						{ t = "fly", location = "Gadgetzan", area = 976 },
+						{ t = "fly", location = "Gadgetzan", node = 40, area = 976 },
 						{ t = "accept", quest = 4504, title = "Super Sticky", npc = 7876, npcName = "Tran'rek", minLevel = 48, qlvl = 54, map = 1446, x = 51.57, y = 26.76, z = 8.8, f = "e", note = "{npc:7876}, beside the wind rider master" },
 						{ t = "turnin", quest = 4494, title = "March of the Silithid", npc = 5594, npcName = "Alchemist Pestlezugg", map = 1446, x = 50.89, y = 26.96, z = 8.9, f = "e" },
 						{ t = "accept", quest = 4496, title = "Bungle in the Jungle", npc = 5594, npcName = "Alchemist Pestlezugg", minLevel = 50, qlvl = 53, pre = { 4493, 4494 }, preTitles = { [4493] = "March of the Silithid", [4494] = "March of the Silithid" }, map = 1446, x = 50.89, y = 26.96, z = 8.9, f = "e" },
@@ -28407,7 +28407,7 @@ do
 					note = "Fly to {area:1637} and train before the {object:3202} zeppelin: the {zone:1458} stop later in this guide has no Hunter or Shaman trainer.",
 					only = { classes = { "HUNTER", "SHAMAN" } },
 					goals = {
-						{ t = "fly", location = "Orgrimmar", area = 1637 },
+						{ t = "fly", location = "Orgrimmar", node = 23, area = 1637 },
 						{ t = "train", class = true, candidates = { { npc = 3062, npcName = "Meela Dawnstrider", map = 1412, x = 44.58, y = 76.56, faction = "H", classes = { "SHAMAN" } }, { npc = 3061, npcName = "Lanka Farshot", map = 1412, x = 43.96, y = 76.35, faction = "H", classes = { "HUNTER" } }, { npc = 3066, npcName = "Narm Skychaser", map = 1412, x = 47.4, y = 62.54, faction = "H", classes = { "SHAMAN" } }, { npc = 3065, npcName = "Yaw Sharpmane", map = 1412, x = 46.93, y = 59.65, faction = "H", classes = { "HUNTER" } }, { npc = 3154, npcName = "Jen'shan", map = 1411, x = 42.84, y = 69.33, f = "e", faction = "H", classes = { "HUNTER" } }, { npc = 3157, npcName = "Shikrik", map = 1411, x = 42.39, y = 69, f = "e", faction = "H", classes = { "SHAMAN" } }, { npc = 3039, npcName = "Holt Thunderhorn", map = 1456, x = 57.3, y = 89.79, f = "e", faction = "H", classes = { "HUNTER" } }, { npc = 262558, npcName = "Palah Thunderhoof", map = 1412, x = 33.58, y = 22.32, faction = "H", classes = { "SHAMAN" } }, { npc = 3171, npcName = "Thotar", map = 1411, x = 51.85, y = 43.49, f = "e", faction = "H", classes = { "HUNTER" } }, { npc = 3173, npcName = "Swart", map = 1411, x = 54.42, y = 42.59, f = "e", faction = "H", classes = { "SHAMAN" } }, { npc = 3403, npcName = "Sian'tsu", map = 1454, x = 37.84, y = 36.45, f = "e", faction = "H", classes = { "SHAMAN" } }, { npc = 3406, npcName = "Xor'juul", map = 1454, x = 67.24, y = 20.2, f = "e", faction = "H", classes = { "HUNTER" } }, { npc = 251374, npcName = "Windshaper Boro", map = 2521, x = 42.77, y = 23.58, faction = "H", classes = { "SHAMAN" } }, { npc = 251376, npcName = "Tai'ree Farsight", map = 2521, x = 42.46, y = 23.67, faction = "AH", classes = { "HUNTER" } } } },
 					},
 				},
@@ -28416,7 +28416,7 @@ do
 					note = "Fly to {area:1638} and train with {npc:3033} on {area:1639}, then fly to {area:1637} for the {object:3202} zeppelin.",
 					only = { classes = { "DRUID" } },
 					goals = {
-						{ t = "fly", location = "Thunder Bluff", area = 1638 },
+						{ t = "fly", location = "Thunder Bluff", node = 22, area = 1638 },
 						{ t = "train", class = true, candidates = { { npc = 3060, npcName = "Gart Mistrunner", map = 1412, x = 44.65, y = 76.55, faction = "H", classes = { "DRUID" } }, { npc = 3064, npcName = "Gennia Runetotem", map = 1412, x = 47.48, y = 62.95, faction = "H", classes = { "DRUID" } }, { npc = 3036, npcName = "Kym Wildmane", map = 1456, x = 77.15, y = 29.82, f = "e", faction = "H", classes = { "DRUID" } }, { npc = 262560, npcName = "Hana Lighthoof", map = 1412, x = 33.39, y = 22.09, faction = "H", classes = { "DRUID" } }, { npc = 251373, npcName = "Xyton Silverwind", map = 2521, x = 41.71, y = 23.36, faction = "AH", classes = { "DRUID" } } } },
 					},
 				},
@@ -28424,7 +28424,7 @@ do
 					title = "Fly to {area:340}",
 					note = "Fly to {area:1637}, take the zeppelin to {object:3202} and fly from there to {area:340}, built into the cliffs on the {zone:1418}' west edge.",
 					goals = {
-						{ t = "fly", location = "Kargath", area = 340 },
+						{ t = "fly", location = "Kargath", node = 21, area = 340 },
 						{ t = "accept", quest = 3821, title = "Dreadmaul Rock", npc = 9082, npcName = "Thal'trak Proudtusk", minLevel = 48, qlvl = 52, map = 1418, x = 3.36, y = 48.06, z = 244.2, f = "e" },
 						{ t = "accept", quest = 4061, title = "The Rise of the Machines", npc = 9079, npcName = "Hierophant Theodora Mulvadania", minLevel = 52, qlvl = 54, map = 1418, x = 3.02, y = 47.81, z = 244.2, f = "e" },
 					},
@@ -28488,7 +28488,7 @@ do
 				{
 					title = "{area:340}",
 					goals = {
-						{ t = "fly", location = "Kargath", area = 340 },
+						{ t = "fly", location = "Kargath", node = 21, area = 340 },
 						{ t = "turnin", quest = 3822, title = "Krom'Grul", npc = 9082, npcName = "Thal'trak Proudtusk", map = 1418, x = 3.36, y = 48.06, z = 244.2, f = "e" },
 						{ t = "turnin", quest = 4061, title = "The Rise of the Machines", npc = 9079, npcName = "Hierophant Theodora Mulvadania", map = 1418, x = 3.02, y = 47.81, z = 244.2, f = "e" },
 						{ t = "note", text = "Theodora's next errand goes to Lotwil east of town and then into {area:1584}: skip it." },
@@ -28497,7 +28497,7 @@ do
 				{
 					title = "{area:1497}",
 					goals = {
-						{ t = "fly", location = "Undercity", area = 1497 },
+						{ t = "fly", location = "Undercity", node = 11, area = 1497 },
 						{ t = "accept", quest = 5094, title = "A Call to Arms: The Plaguelands!", npc = 10879, npcName = "Harbinger Balthazad", minLevel = 50, qlvl = 50, closedBy = { 5096, 5093, 5095 }, preTitles = { [5093] = "A Call to Arms: The Plaguelands!", [5095] = "A Call to Arms: The Plaguelands!", [5096] = "Scarlet Diversions" }, map = 1458, x = 63.9, y = 44.08, z = -57.1, f = "e", note = "{npc:10879}, the {object:36078}, beside the bat master" },
 						{ t = "turnin", quest = 3542, title = "Delivery to Andron Gant", npc = 6522, npcName = "Andron Gant", map = 1458, x = 54.81, y = 76.33, z = -66, f = "e", note = "{npc:6522}, the {object:36073}" },
 						{ t = "accept", quest = 3564, title = "Andron's Payment to Jediga", npc = 6522, npcName = "Andron Gant", minLevel = 45, qlvl = 52, pre = { 3542 }, preTitles = { [3542] = "Delivery to Andron Gant" }, map = 1458, x = 54.81, y = 76.33, z = -66, f = "e" },
@@ -28641,7 +28641,7 @@ do
 					title = "Fly to the {area:1497}",
 					note = "From {area:2268}'s flight master, fly to the {area:1497}.",
 					goals = {
-						{ t = "fly", location = "Undercity", area = 1497 },
+						{ t = "fly", location = "Undercity", node = 11, area = 1497 },
 					},
 				},
 				{
@@ -28845,7 +28845,7 @@ do
 					title = "To {zone:1448}",
 					note = "Ride back to the {area:1497}, take the zeppelin to {zone:1454} and fly to {area:431}. Follow the road west out of Splintertree and take the fork north into {zone:1448}.",
 					goals = {
-						{ t = "fly", location = "Splintertree Post", area = 431 },
+						{ t = "fly", location = "Splintertree Post", node = 61, area = 431 },
 					},
 				},
 				{
@@ -29252,7 +29252,7 @@ do
 				{
 					title = "Fly to {area:1099}",
 					goals = {
-						{ t = "fly", location = "Camp Mojache", area = 1099 },
+						{ t = "fly", location = "Camp Mojache", node = 42, area = 1099 },
 					},
 				},
 				{
@@ -29273,7 +29273,7 @@ do
 				{
 					title = "Fly to {area:1638}",
 					goals = {
-						{ t = "fly", location = "Thunder Bluff", area = 1638 },
+						{ t = "fly", location = "Thunder Bluff", node = 22, area = 1638 },
 					},
 				},
 				{
@@ -29319,7 +29319,7 @@ do
 				{
 					title = "Fly to {area:1637}",
 					goals = {
-						{ t = "fly", location = "Orgrimmar", area = 1637 },
+						{ t = "fly", location = "Orgrimmar", node = 23, area = 1637 },
 						{ t = "sethome", location = "Orgrimmar", area = 1637 },
 					},
 				},
@@ -29377,7 +29377,7 @@ do
 				{
 					title = "Fly to the {area:380}",
 					goals = {
-						{ t = "fly", location = "Crossroads" },
+						{ t = "fly", location = "Crossroads", node = 25 },
 					},
 				},
 				{
@@ -29395,7 +29395,7 @@ do
 				{
 					title = "Fly to {area:392}",
 					goals = {
-						{ t = "fly", location = "Ratchet", area = 392 },
+						{ t = "fly", location = "Ratchet", node = 80, area = 392 },
 					},
 				},
 				{
@@ -29418,7 +29418,7 @@ do
 				{
 					title = "Fly to {area:1637}",
 					goals = {
-						{ t = "fly", location = "Orgrimmar", area = 1637 },
+						{ t = "fly", location = "Orgrimmar", node = 23, area = 1637 },
 					},
 				},
 				{
@@ -29445,7 +29445,7 @@ do
 				{
 					title = "Fly to {area:1237}",
 					goals = {
-						{ t = "fly", location = "Valormok", area = 1237 },
+						{ t = "fly", location = "Valormok", node = 44, area = 1237 },
 					},
 				},
 				{
@@ -29496,7 +29496,7 @@ do
 					title = "{npc:4485}",
 					note = "Fly to {area:1637}; {npc:4485} is in the {object:172958}.",
 					goals = {
-						{ t = "fly", location = "Orgrimmar", area = 1637 },
+						{ t = "fly", location = "Orgrimmar", node = 23, area = 1637 },
 						{ t = "turnin", quest = 3507, title = "Betrayed", npc = 4485, npcName = "Belgrom Rockmaul", map = 1454, x = 75.23, y = 34.24, z = 48.5, f = "e" },
 					},
 				},
@@ -29570,7 +29570,7 @@ do
 					title = "Fly to {area:2268}",
 					note = "{object:1661}'s flight master is in the {object:36078}'s west tower, outside the walls.",
 					goals = {
-						{ t = "fly", location = "Light's Hope Chapel", area = 2268 },
+						{ t = "fly", location = "Light's Hope Chapel", node = 68, area = 2268 },
 						{ t = "sethome", location = "Light's Hope Chapel", area = 2268 },
 					},
 				},
@@ -29700,7 +29700,7 @@ do
 					title = "Fly to {area:1638}",
 					note = "Fly to the {zone:1458}, take the zeppelin to {zone:1454} and fly on to {area:1638}.",
 					goals = {
-						{ t = "fly", location = "Thunder Bluff", area = 1638 },
+						{ t = "fly", location = "Thunder Bluff", node = 22, area = 1638 },
 						{ t = "sethome", location = "Thunder Bluff", area = 1638 },
 						{ t = "train", class = true, only = { classes = { "PALADIN", "DRUID" } }, note = "{npc:3033} on {area:1639}; {npc:246344}", candidates = { { npc = 246152, npcName = "Shari Stilwell", map = 1420, x = 60.25, y = 52.62, f = "e", faction = "H", classes = { "PALADIN" } }, { npc = 260093, npcName = "Garen Largo", map = 1458, x = 47.7, y = 15.13, f = "e", faction = "H", classes = { "PALADIN" } }, { npc = 244808, npcName = "Aramis Hammerhand", map = 1420, x = 31.04, y = 66.45, f = "e", faction = "H", classes = { "PALADIN" } }, { npc = 246389, npcName = "Hilda the Breaker", map = 1420, x = 21.95, y = 46.94, f = "e", faction = "H", classes = { "PALADIN" } }, { npc = 3060, npcName = "Gart Mistrunner", map = 1412, x = 44.65, y = 76.55, faction = "H", classes = { "DRUID" } }, { npc = 3064, npcName = "Gennia Runetotem", map = 1412, x = 47.48, y = 62.95, faction = "H", classes = { "DRUID" } }, { npc = 262560, npcName = "Hana Lighthoof", map = 1412, x = 33.39, y = 22.09, faction = "H", classes = { "DRUID" } }, { npc = 3033, npcName = "Turak Runetotem", map = 1456, x = 76.48, y = 27.22, f = "e", faction = "H", classes = { "DRUID" } }, { npc = 246344, npcName = "Alodan the Hopeful", map = 1456, x = 25.29, y = 15.11, f = "e", faction = "H", classes = { "PALADIN" } }, { npc = 251373, npcName = "Xyton Silverwind", map = 2521, x = 41.71, y = 23.36, faction = "AH", classes = { "DRUID" } } } },
 					},
@@ -29717,7 +29717,7 @@ do
 				{
 					title = "{npc:10306}",
 					goals = {
-						{ t = "fly", location = "Bloodvenom Post" },
+						{ t = "fly", location = "Bloodvenom Post", node = 48 },
 						{ t = "turnin", quest = 4521, title = "Wild Guardians", npc = 10306, npcName = "Trull Failbane", map = 1448, x = 34.73, y = 52.79, z = 357.2, f = "e" },
 						{ t = "accept", quest = 4741, title = "Wild Guardians", npc = 10306, npcName = "Trull Failbane", minLevel = 52, qlvl = 58, pre = { 4521 }, preTitles = { [4521] = "Wild Guardians" }, map = 1448, x = 34.73, y = 52.79, z = 357.2, f = "e" },
 					},
@@ -29774,7 +29774,7 @@ do
 				{
 					title = "{area:976}",
 					goals = {
-						{ t = "fly", location = "Gadgetzan", area = 976 },
+						{ t = "fly", location = "Gadgetzan", node = 40, area = 976 },
 						{ t = "accept", quest = 2741, title = "The Super Egg-O-Matic", object = 142071, objName = "Egg-O-Matic", minLevel = 42, qlvl = 60, map = 1446, x = 52.39, y = 26.97, z = 9.4, f = "e", note = "The {object:142071} machine" },
 					},
 				},
@@ -29807,7 +29807,7 @@ do
 					title = "Hippogryph eggs",
 					note = "Fly to {area:1099}. The hippogryph nests are in the south of {zone:1444}; each holds an egg for the {object:142071}.",
 					goals = {
-						{ t = "fly", location = "Camp Mojache", area = 1099 },
+						{ t = "fly", location = "Camp Mojache", node = 42, area = 1099 },
 						{ t = "collect", quest = 2741, title = "The Super Egg-O-Matic", item = 8564, itemName = "Hippogryph Egg", oi = 1, map = 1444, x = 57.1, y = 76.28, f = "e", spots = { { x = 56.3, y = 76, r = 45, n = 2 }, { x = 57.9, y = 76.7, r = 94, n = 6 }, { x = 53.7, y = 74.4, r = 45, n = 1 } }, spread = true, from = "Hippogryph Egg", fromKind = "object", fromId = 141931 },
 					},
 				},
@@ -29815,7 +29815,7 @@ do
 					title = "On to {zone:1451}",
 					note = "Fly to {area:541}, then ride south-west through Un'Goro to the pass into {zone:1451}. The next guide opens at {area:3077}, where the pass comes out.",
 					goals = {
-						{ t = "fly", location = "Marshal's Refuge", area = 541 },
+						{ t = "fly", location = "Marshal's Refuge", node = 79, area = 541 },
 					},
 				},
 			},
@@ -30038,7 +30038,7 @@ do
 					title = "{area:976}",
 					note = "Fly to {area:976}. The {object:142071} stands in the middle of town.",
 					goals = {
-						{ t = "fly", location = "Gadgetzan", area = 976 },
+						{ t = "fly", location = "Gadgetzan", node = 40, area = 976 },
 						{ t = "turnin", quest = 2741, title = "The Super Egg-O-Matic", object = 142071, objName = "Egg-O-Matic", map = 1446, x = 52.39, y = 26.97, z = 9.4, f = "e" },
 					},
 				},
@@ -30046,7 +30046,7 @@ do
 					title = "{area:1637}",
 					note = "Fly to {area:1637} and train.",
 					goals = {
-						{ t = "fly", location = "Orgrimmar", area = 1637 },
+						{ t = "fly", location = "Orgrimmar", node = 23, area = 1637 },
 						{ t = "train", class = true, only = { classes = { "WARRIOR", "HUNTER", "ROGUE", "PRIEST", "SHAMAN", "MAGE", "WARLOCK" } }, candidates = { { npc = 3062, npcName = "Meela Dawnstrider", map = 1412, x = 44.58, y = 76.56, faction = "H", classes = { "SHAMAN" } }, { npc = 3059, npcName = "Harutt Thunderhorn", map = 1412, x = 43.75, y = 76.72, faction = "H", classes = { "WARRIOR" } }, { npc = 3061, npcName = "Lanka Farshot", map = 1412, x = 43.96, y = 76.35, faction = "H", classes = { "HUNTER" } }, { npc = 3063, npcName = "Krang Stonehoof", map = 1412, x = 48.35, y = 63.74, faction = "H", classes = { "WARRIOR" } }, { npc = 3066, npcName = "Narm Skychaser", map = 1412, x = 47.4, y = 62.54, faction = "H", classes = { "SHAMAN" } }, { npc = 3065, npcName = "Yaw Sharpmane", map = 1412, x = 46.93, y = 59.65, faction = "H", classes = { "HUNTER" } }, { npc = 5880, npcName = "Un'Thuwa", map = 1411, x = 56.31, y = 75.11, f = "e", faction = "H", classes = { "MAGE" } }, { npc = 3153, npcName = "Frang", map = 1411, x = 42.89, y = 69.44, f = "e", faction = "H", classes = { "WARRIOR" } }, { npc = 3154, npcName = "Jen'shan", map = 1411, x = 42.84, y = 69.33, f = "e", faction = "H", classes = { "HUNTER" } }, { npc = 5884, npcName = "Mai'ah", map = 1411, x = 42.51, y = 69.04, f = "e", faction = "H", classes = { "MAGE" } }, { npc = 3157, npcName = "Shikrik", map = 1411, x = 42.39, y = 69, f = "e", faction = "H", classes = { "SHAMAN" } }, { npc = 3707, npcName = "Ken'jai", map = 1411, x = 42.36, y = 68.81, f = "e", faction = "H", classes = { "PRIEST" } }, { npc = 3156, npcName = "Nartok", map = 1411, x = 40.65, y = 68.52, f = "e", faction = "H", classes = { "WARLOCK" } }, { npc = 3155, npcName = "Rwag", map = 1411, x = 41.28, y = 68, f = "e", faction = "H", classes = { "ROGUE" } }, { npc = 3039, npcName = "Holt Thunderhorn", map = 1456, x = 57.3, y = 89.79, f = "e", faction = "H", classes = { "HUNTER" } }, { npc = 3042, npcName = "Sark Ragetotem", map = 1456, x = 56.99, y = 89.51, f = "e", faction = "H", classes = { "WARRIOR" } }, { npc = 3045, npcName = "Malakai Cross", map = 1456, x = 24.56, y = 22.57, f = "e", faction = "H", classes = { "PRIEST" } }, { npc = 3049, npcName = "Thurston Xane", map = 1456, x = 25.18, y = 20.96, f = "e", faction = "H", classes = { "MAGE" } }, { npc = 262558, npcName = "Palah Thunderhoof", map = 1412, x = 33.58, y = 22.32, faction = "H", classes = { "SHAMAN" } }, { npc = 3170, npcName = "Kaplak", map = 1411, x = 51.98, y = 43.69, f = "e", faction = "H", classes = { "ROGUE" } }, { npc = 3171, npcName = "Thotar", map = 1411, x = 51.85, y = 43.49, f = "e", faction = "H", classes = { "HUNTER" } }, { npc = 3706, npcName = "Tai'jin", map = 1411, x = 54.26, y = 42.93, f = "e", faction = "H", classes = { "PRIEST" } }, { npc = 3173, npcName = "Swart", map = 1411, x = 54.42, y = 42.59, f = "e", faction = "H", classes = { "SHAMAN" } }, { npc = 3169, npcName = "Tarshaw Jaggedscar", map = 1411, x = 54.19, y = 42.47, f = "e", faction = "H", classes = { "WARRIOR" } }, { npc = 3172, npcName = "Dhugru Gorelust", map = 1411, x = 54.38, y = 41.2, f = "e", faction = "H", classes = { "WARLOCK" } }, { npc = 6018, npcName = "Ur'kyo", map = 1454, x = 35.59, y = 87.82, f = "e", faction = "H", classes = { "PRIEST" } }, { npc = 7311, npcName = "Uthel'nay", map = 1454, x = 39.16, y = 86.27, f = "e", faction = "H", classes = { "MAGE" } }, { npc = 3328, npcName = "Ormok", map = 1454, x = 43.9, y = 54.63, f = "e", faction = "H", classes = { "ROGUE" } }, { npc = 3325, npcName = "Mirket", map = 1454, x = 48.62, y = 46.95, f = "e", faction = "H", classes = { "WARLOCK" } }, { npc = 3403, npcName = "Sian'tsu", map = 1454, x = 37.84, y = 36.45, f = "e", faction = "H", classes = { "SHAMAN" } }, { npc = 3354, npcName = "Sorek", map = 1454, x = 80.39, y = 32.38, f = "e", faction = "H", classes = { "WARRIOR" } }, { npc = 3406, npcName = "Xor'juul", map = 1454, x = 67.24, y = 20.2, f = "e", faction = "H", classes = { "HUNTER" } }, { npc = 2119, npcName = "Dannal Stern", map = 1420, x = 32.69, y = 65.56, f = "e", faction = "H", classes = { "WARRIOR" } }, { npc = 2122, npcName = "David Trias", map = 1420, x = 32.53, y = 65.65, f = "e", faction = "H", classes = { "ROGUE" } }, { npc = 2123, npcName = "Dark Cleric Duesten", map = 1420, x = 31.11, y = 66.03, f = "e", faction = "H", classes = { "PRIEST" } }, { npc = 2124, npcName = "Isabella", map = 1420, x = 30.93, y = 66.06, f = "e", faction = "H", classes = { "MAGE" } }, { npc = 2126, npcName = "Maximillion", map = 1420, x = 30.91, y = 66.34, f = "e", faction = "H", classes = { "WARLOCK" } }, { npc = 2127, npcName = "Rupert Boch", map = 1420, x = 61.59, y = 52.4, f = "e", faction = "H", classes = { "WARLOCK" } }, { npc = 2128, npcName = "Cain Firesong", map = 1420, x = 61.97, y = 52.47, f = "e", faction = "H", classes = { "MAGE" } }, { npc = 2129, npcName = "Dark Cleric Beryl", map = 1420, x = 61.57, y = 52.19, f = "e", faction = "H", classes = { "PRIEST" } }, { npc = 2130, npcName = "Marion Call", map = 1420, x = 61.75, y = 52, f = "e", faction = "H", classes = { "ROGUE" } }, { npc = 2131, npcName = "Austil de Mon", map = 1420, x = 61.85, y = 52.54, f = "e", faction = "H", classes = { "WARRIOR" } }, { npc = 4563, npcName = "Kaal Soulreaper", map = 1458, x = 86.21, y = 15.93, f = "e", faction = "H", classes = { "WARLOCK" } }, { npc = 4566, npcName = "Kaelystia Hatebringer", map = 1458, x = 85.02, y = 14.02, f = "e", faction = "H", classes = { "MAGE" } }, { npc = 4582, npcName = "Carolyn Ward", map = 1458, x = 83.86, y = 72.07, f = "e", faction = "H", classes = { "ROGUE" } }, { npc = 4593, npcName = "Christoph Walker", map = 1458, x = 46.93, y = 15.23, f = "e", faction = "H", classes = { "WARRIOR" } }, { npc = 4606, npcName = "Aelthalyste", map = 1458, x = 49.26, y = 17.12, f = "e", faction = "H", classes = { "PRIEST" } }, { npc = 251374, npcName = "Windshaper Boro", map = 2521, x = 42.77, y = 23.58, faction = "H", classes = { "SHAMAN" } }, { npc = 251376, npcName = "Tai'ree Farsight", map = 2521, x = 42.46, y = 23.67, faction = "AH", classes = { "HUNTER" } }, { npc = 251389, npcName = "Akeri Duskblade", map = 2521, x = 43.73, y = 24.3, faction = "AH", classes = { "ROGUE" } }, { npc = 251964, npcName = "Blademaster Ren", map = 2521, x = 43.65, y = 24.17, faction = "AH", classes = { "WARRIOR" } }, { npc = 254086, npcName = "Shenaan Spellwind", map = 2521, x = 44.89, y = 45.26, faction = "AH", classes = { "MAGE" } } } },
 					},
 				},
@@ -30244,7 +30244,7 @@ do
 					title = "The {area:2479}",
 					note = "Fly to {area:431} and ride north-west along the road out of {zone:1440} into {zone:1448}. The {area:2479} is the druids' camp just past the border.",
 					goals = {
-						{ t = "fly", location = "Splintertree Post", area = 431 },
+						{ t = "fly", location = "Splintertree Post", node = 61, area = 431 },
 						{ t = "turnin", quest = 5159, title = "Cleansed Water Returns to Felwood", npc = 10922, npcName = "Greta Mosshoof", map = 1448, x = 51.21, y = 82.11, z = 251.2, f = "e" },
 						{ t = "accept", quest = 5165, title = "Dousing the Flames of Protection", npc = 10922, npcName = "Greta Mosshoof", minLevel = 48, qlvl = 55, pre = { 5159 }, preTitles = { [5159] = "Cleansed Water Returns to Felwood" }, map = 1448, x = 51.21, y = 82.11, z = 251.2, f = "e" },
 						{ t = "turnin", quest = 3942, title = "Linken's Memory", npc = 9116, npcName = "Eridan Bluewind", map = 1448, x = 51.35, y = 81.51, z = 254.6, f = "e" },
@@ -32808,10 +32808,10 @@ do
 					title = "Class turn-ins in {area:1638}",
 					only = { classes = { "HUNTER", "DRUID" } },
 					goals = {
-						{ t = "fly", location = "Thunder Bluff", area = 1638 },
+						{ t = "fly", location = "Thunder Bluff", node = 22, area = 1638 },
 						{ t = "turnin", quest = 6089, title = "Training the Beast", npc = 3039, npcName = "Holt Thunderhorn", map = 1456, x = 57.3, y = 89.79, z = 161.2, f = "e", only = { classes = { "HUNTER" } }, note = "{npc:3039}, {area:1641}" },
 						{ t = "turnin", quest = 6002, title = "Body and Heart", npc = 3033, npcName = "Turak Runetotem", map = 1456, x = 76.48, y = 27.22, z = 159.1, f = "e", only = { classes = { "DRUID" } }, note = "{npc:3033}, {area:1639}" },
-						{ t = "fly", location = "Crossroads" },
+						{ t = "fly", location = "Crossroads", node = 25 },
 					},
 				},
 			},

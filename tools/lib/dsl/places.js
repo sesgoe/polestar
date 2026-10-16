@@ -132,11 +132,11 @@ function goalArea(data, goal) {
 	return area ? area.id : undefined;
 }
 
-// A getfp's taxi node ID, or undefined: the node of its flight master
+// A getfp's or fly's taxi node ID, or undefined: the node of its flight master
 // (`npc`), else the one node whose name or town is its location and that
 // serves every faction in `sides` (the factions the goal applies to).
 function goalNode(data, goal, sides) {
-	if (goal.t !== 'getfp' || typeof goal.location !== 'string') return undefined;
+	if ((goal.t !== 'getfp' && goal.t !== 'fly') || typeof goal.location !== 'string') return undefined;
 	const nodes = data.flightNodes();
 	if (goal.npc !== undefined) {
 		const own = nodes.filter((n) => n.npc === goal.npc);

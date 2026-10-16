@@ -308,7 +308,9 @@ local POINT_COLOR = { npc = "npc", object = "object", item = "item" }
 -- "Nalpak  ·  The Barrens", coloured; "inside the dungeon" when it is.
 local function pointText(p)
 	if type(p) ~= "table" then return "|c" .. Theme.Hex("textMuted") .. L["Not known"] .. "|r" end
-	local name = p.name or L["Not known"]
+	local N = ns.Names
+	local own = type(p.id) == "number" and ((p.kind == "npc" and N.Npc(p.id)) or (p.kind == "object" and N.Object(p.id)) or (p.kind == "item" and N.Item(p.id))) or nil
+	local name = own or p.name or L["Not known"]
 	local text = "|c" .. Theme.Hex(POINT_COLOR[p.kind] or "npc") .. name .. "|r"
 	local place
 	if p.inside then
@@ -1193,14 +1195,14 @@ end
 -- the item that starts it with the boss it drops from. -> point, text
 local function startLine(q, key)
 	local s = startOf(q, ns.PlayerPoint())
-	if q.startItem and not (s and s.kind == "item") then s = { kind = "item", name = q.startItem.name, map = s and s.map, x = s and s.x, y = s and s.y, f = s and s.f, inside = s and s.inside } end
+	if q.startItem and not (s and s.kind == "item") then s = { kind = "item", id = q.startItem.id, name = q.startItem.name, map = s and s.map, x = s and s.x, y = s and s.y, f = s and s.f, inside = s and s.inside } end
 	local text = pointText(s)
 	if s and s.kind == "item" and key then
 		-- An item that starts it: the boss it drops from, when one does.
 		for _, boss in ipairs(D().Bosses(key)) do
 			for _, t in ipairs(boss.quests or {}) do
 				if t.id == q.id and t.how == "starts" then
-					text = "|c" .. Theme.Hex("item") .. (s.name or "") .. "|r|c" .. Theme.Hex("textMuted") .. DOT .. "|r|c" .. Theme.Hex("textDim") .. format(L["drops from %s"], boss.name) .. "|r"
+					text = "|c" .. Theme.Hex("item") .. ((type(s.id) == "number" and ns.Names.Item(s.id)) or s.name or "") .. "|r|c" .. Theme.Hex("textMuted") .. DOT .. "|r|c" .. Theme.Hex("textDim") .. format(L["drops from %s"], boss.name) .. "|r"
 				end
 			end
 		end

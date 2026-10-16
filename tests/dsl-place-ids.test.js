@@ -78,7 +78,7 @@ test('a place name gets its area: in the goal\'s zone, the open world\'s over a 
 		['hearth', 'Goldshire', 87, undefined],
 		['hearth', 'Thunderbrew Distillery', 2102, undefined],
 		['fly', 'Stormwind City', 1519, undefined],
-		['fly', 'Stormwind', undefined, undefined],
+		['fly', 'Stormwind', undefined, 2],
 		['getfp', 'Stormwind', undefined, 2],
 		['getfp', 'Booty Bay', undefined, 19],
 		['goto', 'Fargodeep Mine', 57, undefined],
@@ -87,7 +87,7 @@ test('a place name gets its area: in the goal\'s zone, the open world\'s over a 
 	]);
 });
 
-test('a getfp\'s node: its flight master, else the one node of its town for the goal\'s factions; none for a town split by faction on a guide for both', () => {
+test('a getfp\'s or fly\'s node: its flight master, else the one node of its town for the goal\'s factions; none for a town split by faction on a guide for both', () => {
 	const both = ['guide t/both', 'title Both', 'levels 1-10', 'zone Elwynn Forest', '', 'step S', '  getfp "Booty Bay"', '  getfp "Booty Bay" npc 2858'];
 	const r = compile(`${both.join('\n')}\n`, placeData().data);
 	assert.deepEqual(r.errors, []);
