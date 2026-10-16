@@ -1580,9 +1580,9 @@ local function describe(goal)
 	elseif t == "hearth" then
 		return L["Hearth to"], place or goal.location, "place", nil
 	elseif t == "getfp" then
-		return L["Get the flight path at"], place or goal.location, "place", fmt(L["from %s"], N.Npc(goal.npc) or goal.npcName)
+		return L["Get the flight path at"], place or N.Taxi(goal.node) or goal.location, "place", fmt(L["from %s"], N.Npc(goal.npc) or goal.npcName)
 	elseif t == "fly" then
-		return L["Fly to"], place or goal.location, "place", nil
+		return L["Fly to"], place or N.Taxi(goal.node) or goal.location, "place", nil
 	elseif t == "train" then
 		local _, npcName = npcOf(goal)
 		if goal.skillLine and rankCap(goal) then
@@ -1616,7 +1616,7 @@ local function describe(goal)
 		return L["Reach %s with"]:format(standingName(goal.standing)), N.Faction(goal.faction) or goal.factionName, "faction", nil
 	elseif t == "explore" then
 		local mapName = C.GetMapName(goal.map)
-		if goal.text then return L["Explore"], goal.text, "area", mapName end
+		if place or goal.text then return L["Explore"], place or goal.text, "area", mapName end
 		local lx, ly = liveXY(goal)
 		return L["Explore"], ("%.1f, %.1f"):format(lx or goal.x, ly or goal.y), "area", mapName
 	elseif t == "achieve" then
@@ -3136,7 +3136,7 @@ function Engine.GetStepView(i)
 				if cg.t == "collect" and cg.item == ag.item and not cg.quest then
 					local cv = goals[c]
 					if cv.status ~= "na" and groupOf[c] == groupOf[a] then
-						local starter = { item = ag.itemName or cg.itemName, source = cv.source, note = cv.note }
+						local starter = { item = ns.Names.Item(ag.item) or ag.itemName or cg.itemName, source = cv.source, note = cv.note }
 						local open = av.status ~= "done" and av.status ~= "skipped"
 						if open and cv.status ~= "done" and cv.status ~= "skipped" then
 							av.folded = true
