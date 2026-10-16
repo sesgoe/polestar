@@ -1866,9 +1866,9 @@ L["A bar under the window says what each button does, and B sits on the close bu
 L["The guide"] = "가이드"
 L["Quest buttons"] = "퀘스트 버튼"
 L["The guide window holds the gamepad until B: the D-pad picks a line, A points the arrow there or uses the item, X shows its details, LB and RB change steps, Y minimizes the window. A window that opened by itself, such as a route choice, waits for this button before it takes the gamepad."] = "가이드 창은 B를 누를 때까지 게임패드를 차지합니다. 방향 패드로 줄 선택, A로 화살표 지정 또는 아이템 사용, X로 상세 보기, LB와 RB로 단계 전환, Y로 창 최소화. 경로 선택처럼 저절로 열린 창은 이 버튼을 눌러야 게임패드를 가져갑니다."
--- L["Browsing the guide needs the game's gamepad interface (Options, Gamepad, Enable Gamepad UI), or Use with the keyboard and mouse on Polestar's Gamepad page with a gamepad plugged in."] = ""
--- L["Use with the keyboard and mouse"] = ""
--- L["Off, Polestar uses the gamepad only with the game's gamepad interface (Options, Gamepad, Enable Gamepad UI). On, also with the keyboard and mouse interface, while the gamepad is turned on in the game's options and plugged in."] = ""
+L["Browsing the guide needs the game's gamepad interface (Options, Gamepad, Enable Gamepad UI), or Use with the keyboard and mouse on Polestar's Gamepad page with a gamepad plugged in."] = "가이드를 넘겨 보려면 게임의 게임패드 인터페이스(게임 설정, 게임패드)가 필요하거나, 게임패드를 연결한 상태에서 Polestar 게임패드 페이지의 '키보드와 마우스와 함께 사용'을 켜야 합니다."
+L["Use with the keyboard and mouse"] = "키보드와 마우스와 함께 사용"
+L["Off, Polestar uses the gamepad only with the game's gamepad interface (Options, Gamepad, Enable Gamepad UI). On, also with the keyboard and mouse interface, while the gamepad is turned on in the game's options and plugged in."] = "끄면 Polestar는 게임의 게임패드 인터페이스(게임 설정, 게임패드)에서만 게임패드를 사용합니다. 켜면 게임 설정에서 게임패드가 켜져 있고 연결되어 있는 동안 키보드와 마우스 인터페이스에서도 사용합니다."
 
 -- Core/RoutePlan.lua
 L["step %d"] = "%d단계"

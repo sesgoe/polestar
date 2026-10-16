@@ -1866,9 +1866,9 @@ L["A bar under the window says what each button does, and B sits on the close bu
 L["The guide"] = "指南"
 L["Quest buttons"] = "任务按钮"
 L["The guide window holds the gamepad until B: the D-pad picks a line, A points the arrow there or uses the item, X shows its details, LB and RB change steps, Y minimizes the window. A window that opened by itself, such as a route choice, waits for this button before it takes the gamepad."] = "指南窗口会占用手柄直到按 B：方向键选择一行，A 将箭头指向该处或使用物品，X 显示详情，LB 和 RB 切换步骤，Y 最小化窗口。自行打开的窗口（例如路线选择）会等你按下此按钮后才接管手柄。"
--- L["Browsing the guide needs the game's gamepad interface (Options, Gamepad, Enable Gamepad UI), or Use with the keyboard and mouse on Polestar's Gamepad page with a gamepad plugged in."] = ""
--- L["Use with the keyboard and mouse"] = ""
--- L["Off, Polestar uses the gamepad only with the game's gamepad interface (Options, Gamepad, Enable Gamepad UI). On, also with the keyboard and mouse interface, while the gamepad is turned on in the game's options and plugged in."] = ""
+L["Browsing the guide needs the game's gamepad interface (Options, Gamepad, Enable Gamepad UI), or Use with the keyboard and mouse on Polestar's Gamepad page with a gamepad plugged in."] = "浏览指南需要游戏的手柄界面（游戏设置，手柄），或在连接手柄时开启 Polestar 手柄页面上的“配合键盘和鼠标使用”。"
+L["Use with the keyboard and mouse"] = "配合键盘和鼠标使用"
+L["Off, Polestar uses the gamepad only with the game's gamepad interface (Options, Gamepad, Enable Gamepad UI). On, also with the keyboard and mouse interface, while the gamepad is turned on in the game's options and plugged in."] = "关闭：Polestar 只在游戏的手柄界面（游戏设置，手柄）中使用手柄。开启：在游戏设置中启用手柄并已连接时，键盘和鼠标界面下也使用。"
 
 -- Core/RoutePlan.lua
 L["step %d"] = "步骤 %d"

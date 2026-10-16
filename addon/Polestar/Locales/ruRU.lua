@@ -1866,9 +1866,9 @@ L["A bar under the window says what each button does, and B sits on the close bu
 L["The guide"] = "Гайд"
 L["Quest buttons"] = "Кнопки заданий"
 L["The guide window holds the gamepad until B: the D-pad picks a line, A points the arrow there or uses the item, X shows its details, LB and RB change steps, Y minimizes the window. A window that opened by itself, such as a route choice, waits for this button before it takes the gamepad."] = "Окно гайда держит геймпад до нажатия B: крестовина выбирает строку, A наводит туда стрелку или использует предмет, X показывает подробности, LB и RB переключают шаги, Y сворачивает окно. Окно, открывшееся само (например, выбор маршрута), ждет этой кнопки, прежде чем взять геймпад."
--- L["Browsing the guide needs the game's gamepad interface (Options, Gamepad, Enable Gamepad UI), or Use with the keyboard and mouse on Polestar's Gamepad page with a gamepad plugged in."] = ""
--- L["Use with the keyboard and mouse"] = ""
--- L["Off, Polestar uses the gamepad only with the game's gamepad interface (Options, Gamepad, Enable Gamepad UI). On, also with the keyboard and mouse interface, while the gamepad is turned on in the game's options and plugged in."] = ""
+L["Browsing the guide needs the game's gamepad interface (Options, Gamepad, Enable Gamepad UI), or Use with the keyboard and mouse on Polestar's Gamepad page with a gamepad plugged in."] = "Чтобы листать гайд, нужен интерфейс геймпада игры (настройки игры, Геймпад) или «Использовать с клавиатурой и мышью» на странице «Геймпад» в Polestar при подключенном геймпаде."
+L["Use with the keyboard and mouse"] = "Использовать с клавиатурой и мышью"
+L["Off, Polestar uses the gamepad only with the game's gamepad interface (Options, Gamepad, Enable Gamepad UI). On, also with the keyboard and mouse interface, while the gamepad is turned on in the game's options and plugged in."] = "Выкл.: Polestar использует геймпад только с интерфейсом геймпада игры (настройки игры, Геймпад). Вкл.: также с интерфейсом клавиатуры и мыши, пока геймпад включен в настройках игры и подключен."
 
 -- Core/RoutePlan.lua
 L["step %d"] = "шаг %d"

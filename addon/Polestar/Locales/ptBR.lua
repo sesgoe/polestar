@@ -1866,9 +1866,9 @@ L["A bar under the window says what each button does, and B sits on the close bu
 L["The guide"] = "O guia"
 L["Quest buttons"] = "Botões de missão"
 L["The guide window holds the gamepad until B: the D-pad picks a line, A points the arrow there or uses the item, X shows its details, LB and RB change steps, Y minimizes the window. A window that opened by itself, such as a route choice, waits for this button before it takes the gamepad."] = "A janela do guia mantém o controle até B: o direcional escolhe uma linha, A aponta a seta para lá ou usa o item, X mostra os detalhes, LB e RB trocam de etapa, Y minimiza a janela. Uma janela que abriu sozinha, como uma escolha de rota, espera por este botão antes de tomar o controle."
--- L["Browsing the guide needs the game's gamepad interface (Options, Gamepad, Enable Gamepad UI), or Use with the keyboard and mouse on Polestar's Gamepad page with a gamepad plugged in."] = ""
--- L["Use with the keyboard and mouse"] = ""
--- L["Off, Polestar uses the gamepad only with the game's gamepad interface (Options, Gamepad, Enable Gamepad UI). On, also with the keyboard and mouse interface, while the gamepad is turned on in the game's options and plugged in."] = ""
+L["Browsing the guide needs the game's gamepad interface (Options, Gamepad, Enable Gamepad UI), or Use with the keyboard and mouse on Polestar's Gamepad page with a gamepad plugged in."] = "Para navegar pelo guia é preciso a interface de controle do jogo (opções do jogo, Controle) ou “Usar com teclado e mouse” na página Controle do Polestar, com um controle conectado."
+L["Use with the keyboard and mouse"] = "Usar com teclado e mouse"
+L["Off, Polestar uses the gamepad only with the game's gamepad interface (Options, Gamepad, Enable Gamepad UI). On, also with the keyboard and mouse interface, while the gamepad is turned on in the game's options and plugged in."] = "Desligado: o Polestar usa o controle só com a interface de controle do jogo (opções do jogo, Controle). Ligado: também com a interface de teclado e mouse, enquanto o controle estiver ativado nas opções do jogo e conectado."
 
 -- Core/RoutePlan.lua
 L["step %d"] = "etapa %d"

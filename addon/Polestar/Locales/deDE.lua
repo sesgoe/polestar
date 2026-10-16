@@ -1814,9 +1814,9 @@ L["A bar under the window says what each button does, and B sits on the close bu
 L["The guide"] = "Der Guide"
 L["Quest buttons"] = "Quest-Buttons"
 L["The guide window holds the gamepad until B: the D-pad picks a line, A points the arrow there or uses the item, X shows its details, LB and RB change steps, Y minimizes the window. A window that opened by itself, such as a route choice, waits for this button before it takes the gamepad."] = "Das Guide-Fenster behält das Gamepad bis B: Das Steuerkreuz wählt eine Zeile, A richtet den Pfeil dorthin oder benutzt den Gegenstand, X zeigt Details, LB und RB wechseln den Schritt, Y minimiert das Fenster. Ein Fenster, das sich von selbst geöffnet hat, etwa eine Routenwahl, wartet auf diese Taste, bevor es das Gamepad übernimmt."
--- L["Browsing the guide needs the game's gamepad interface (Options, Gamepad, Enable Gamepad UI), or Use with the keyboard and mouse on Polestar's Gamepad page with a gamepad plugged in."] = ""
--- L["Use with the keyboard and mouse"] = ""
--- L["Off, Polestar uses the gamepad only with the game's gamepad interface (Options, Gamepad, Enable Gamepad UI). On, also with the keyboard and mouse interface, while the gamepad is turned on in the game's options and plugged in."] = ""
+L["Browsing the guide needs the game's gamepad interface (Options, Gamepad, Enable Gamepad UI), or Use with the keyboard and mouse on Polestar's Gamepad page with a gamepad plugged in."] = "Um im Guide zu blättern, brauchst du die Gamepad-Oberfläche des Spiels (Spieloptionen, Gamepad) oder „Mit Tastatur und Maus verwenden“ auf Polestars Gamepad-Seite und ein angeschlossenes Gamepad."
+L["Use with the keyboard and mouse"] = "Mit Tastatur und Maus verwenden"
+L["Off, Polestar uses the gamepad only with the game's gamepad interface (Options, Gamepad, Enable Gamepad UI). On, also with the keyboard and mouse interface, while the gamepad is turned on in the game's options and plugged in."] = "Aus: Polestar nutzt das Gamepad nur mit der Gamepad-Oberfläche des Spiels (Spieloptionen, Gamepad). An: auch mit der Oberfläche für Tastatur und Maus, solange das Gamepad in den Spieloptionen eingeschaltet und angeschlossen ist."
 
 -- Core/RoutePlan.lua
 L["step %d"] = "Schritt %d"
