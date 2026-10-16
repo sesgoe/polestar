@@ -342,7 +342,7 @@ function UI.GroupLine(goal)
 	if p.kind == "elite" then
 		text = ELITE_LINE[p.rank] or ELITE_LINE[1]
 	elseif (p.kind == "dungeon" or p.kind == "raid") and type(p.name) == "string" then
-		text = format(p.kind == "raid" and L["Raid: %s"] or L["Dungeon: %s"], p.name)
+		text = format(p.kind == "raid" and L["Raid: %s"] or L["Dungeon: %s"], (type(p.map) == "number" and ns.Names.Instance(p.map)) or p.name)
 	elseif p.kind == "group" then
 		text = type(p.size) == "number" and format(L["Group of %d advised"], p.size) or L["Group advised"]
 	end

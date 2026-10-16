@@ -61,14 +61,14 @@ const RUN = new Set(['dungeon', 'raid']);
 // wins; else the dungeon or raid of the goal's quest (the solo filter's
 // instance rule, SOLO.instanceQuest) or of the instance map the goal is
 // placed on; else elite work. -> { kind: 'group', size? } | { kind:
-// 'dungeon' | 'raid', name } | { kind: 'elite', rank } | null
+// 'dungeon' | 'raid', name, map (its Map.csv id) } | { kind: 'elite', rank } | null
 function groupOf(goal, explicit, sides, data) {
 	if (explicit) return explicit.size !== undefined ? { kind: 'group', size: explicit.size } : { kind: 'group' };
 	const inst = data.instances;
 	if (inst) {
 		const byQuest = goal.quest !== undefined && SOLO.instanceQuest(data.quest(goal.quest), inst.areas, (kind, id) => placed(data, kind, id));
 		const run = (byQuest && RUN.has(byQuest.kind) && byQuest) || (goal.map !== undefined && (inst.maps || {})[goal.map]);
-		if (run && RUN.has(run.kind)) return { kind: run.kind, name: run.name };
+		if (run && RUN.has(run.kind)) return run.map ? { kind: run.kind, name: run.name, map: run.map } : { kind: run.kind, name: run.name };
 	}
 	const elite = eliteWork(goal, sides, data);
 	return elite ? { kind: 'elite', rank: elite.rank } : null;

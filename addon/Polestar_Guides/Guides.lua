@@ -19729,20 +19729,20 @@ do
 					title = "{npc:10260} at {area:251}",
 					note = "{npc:10260} stands at {area:251} in northern {zone:1428}, near the {area:254} path.",
 					goals = {
-						{ t = "accept", quest = 4862, title = "En-Ay-Es-Tee-Why", npc = 10260, npcName = "Kibler", minLevel = 55, qlvl = 59, map = 1428, x = 65.89, y = 21.92, z = 165.1, f = "e", group = { kind = "dungeon", name = "Blackrock Spire" } },
+						{ t = "accept", quest = 4862, title = "En-Ay-Es-Tee-Why", npc = 10260, npcName = "Kibler", minLevel = 55, qlvl = 59, map = 1428, x = 65.89, y = 21.92, z = 165.1, f = "e", group = { kind = "dungeon", map = 229, name = "Blackrock Spire" } },
 					},
 				},
 				{
 					title = "Lower {area:1583}",
 					note = "Lower {area:1583} is a group of five, level 55-60. Collect 15 Spire Spider Eggs from the nests near {npc:10596}.",
 					goals = {
-						{ t = "collect", quest = 4862, title = "En-Ay-Es-Tee-Why", item = 12530, itemName = "Spire Spider Egg", count = 15, oi = 1, map = 1428, x = 33.2, y = 24.9, f = "e", note = "Lower {area:1583}", group = { kind = "dungeon", name = "Blackrock Spire" } },
+						{ t = "collect", quest = 4862, title = "En-Ay-Es-Tee-Why", item = 12530, itemName = "Spire Spider Egg", count = 15, oi = 1, map = 1428, x = 33.2, y = 24.9, f = "e", note = "Lower {area:1583}", group = { kind = "dungeon", map = 229, name = "Blackrock Spire" } },
 					},
 				},
 				{
 					title = "Back to {npc:10260}",
 					goals = {
-						{ t = "turnin", quest = 4862, title = "En-Ay-Es-Tee-Why", npc = 10260, npcName = "Kibler", map = 1428, x = 65.89, y = 21.92, z = 165.1, f = "e", group = { kind = "dungeon", name = "Blackrock Spire" } },
+						{ t = "turnin", quest = 4862, title = "En-Ay-Es-Tee-Why", npc = 10260, npcName = "Kibler", map = 1428, x = 65.89, y = 21.92, z = 165.1, f = "e", group = { kind = "dungeon", map = 229, name = "Blackrock Spire" } },
 						{ t = "collect", item = 12529, itemName = "Smolderweb Carrier", map = 1428, x = 65.9, y = 21.9, f = "e" },
 					},
 				},
@@ -19939,20 +19939,20 @@ do
 					title = "{npc:10260} at {area:251}",
 					note = "{npc:10260} stands at {area:251} in northern {zone:1428}, near the {area:254} path.",
 					goals = {
-						{ t = "accept", quest = 4729, title = "Kibler's Exotic Pets", npc = 10260, npcName = "Kibler", minLevel = 55, qlvl = 59, map = 1428, x = 65.89, y = 21.92, z = 165.1, f = "e", group = { kind = "dungeon", name = "Blackrock Spire" } },
+						{ t = "accept", quest = 4729, title = "Kibler's Exotic Pets", npc = 10260, npcName = "Kibler", minLevel = 55, qlvl = 59, map = 1428, x = 65.89, y = 21.92, z = 165.1, f = "e", group = { kind = "dungeon", map = 229, name = "Blackrock Spire" } },
 					},
 				},
 				{
 					title = "Upper {area:1583}",
 					note = "Upper {area:1583} is a raid group of up to ten, level 58-60. Use {npc:10260}'s cage on a {npc:10221} (Halycon's den) to get the {item:12263}.",
 					goals = {
-						{ t = "collect", quest = 4729, title = "Kibler's Exotic Pets", item = 12263, itemName = "Caged Worg Pup", count = 1, oi = 1, map = 1428, x = 33.2, y = 24.9, f = "e", note = "Upper {area:1583}", group = { kind = "dungeon", name = "Blackrock Spire" } },
+						{ t = "collect", quest = 4729, title = "Kibler's Exotic Pets", item = 12263, itemName = "Caged Worg Pup", count = 1, oi = 1, map = 1428, x = 33.2, y = 24.9, f = "e", note = "Upper {area:1583}", group = { kind = "dungeon", map = 229, name = "Blackrock Spire" } },
 					},
 				},
 				{
 					title = "Back to {npc:10260}",
 					goals = {
-						{ t = "turnin", quest = 4729, title = "Kibler's Exotic Pets", npc = 10260, npcName = "Kibler", map = 1428, x = 65.89, y = 21.92, z = 165.1, f = "e", group = { kind = "dungeon", name = "Blackrock Spire" } },
+						{ t = "turnin", quest = 4729, title = "Kibler's Exotic Pets", npc = 10260, npcName = "Kibler", map = 1428, x = 65.89, y = 21.92, z = 165.1, f = "e", group = { kind = "dungeon", map = 229, name = "Blackrock Spire" } },
 						{ t = "collect", item = 12264, itemName = "Worg Carrier", map = 1428, x = 65.9, y = 21.9, f = "e" },
 					},
 				},
