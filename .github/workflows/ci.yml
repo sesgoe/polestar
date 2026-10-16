@@ -38,6 +38,13 @@ jobs:
       - name: Translations
         run: npm run i18n:check
 
+      # English left on screen: every scene in every language
+      # (docs/TRANSLATING.md, "English left on screen"). npm test runs a part;
+      # without the locally built Codex and quest database, the scenes that
+      # need them are skipped here.
+      - name: No English on other clients
+        run: node tools/polestar.js i18n leaks
+
       # Every changelog fragment in changes/ has a section and an entry, and
       # CHANGELOG.md has no "Unreleased" section of its own.
       - name: Changelog fragments
