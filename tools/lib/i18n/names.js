@@ -206,6 +206,12 @@ local function walk(t)
       if type(v) == "table" then for _, q in ipairs(v) do add("quest", q) end else add("quest", v) end
     elseif k == "preTitles" and type(v) == "table" then
       for q in pairs(v) do add("quest", q) end
+    elseif k == "names" and type(v) == "table" then
+      -- The prose's tokens, {kind:id}: names the guide's texts show.
+      for key in pairs(v) do
+        local kind, id = tostring(key):match("^(%l+):(%d+)$")
+        if KIND[kind] then add(KIND[kind], tonumber(id)) end
+      end
     end
     if type(v) == "table" then walk(v) end
   end
@@ -516,6 +522,18 @@ function emitNamesAddon(locale, built, { version = require('../../../package.jso
 // Writes each language with names into addonsDir/Polestar_Names_<locale>
 // (files the folder no longer gets are removed) and removes the folder of a
 // language left without any. -> [{ locale, dir, bytes }] for those written.
+// The ids whose every name is the English one, per locale and kind, merged
+// into SAME_AS_ENGLISH (the locales built this run replace theirs).
+const SAME_AS_ENGLISH = path.join(ROOT, 'data', 'local', 'names-same-as-english.json');
+function writeSameAsEnglish(out, file = SAME_AS_ENGLISH) {
+	const doc = readJsonIf(file) || {};
+	for (const [locale, built] of Object.entries(out)) {
+		doc[locale] = Object.fromEntries(Object.entries(built.english).filter(([, s]) => s.size).map(([k, s]) => [k, [...s].sort((a, b) => a - b)]));
+	}
+	fs.mkdirSync(path.dirname(file), { recursive: true });
+	fs.writeFileSync(file, `${JSON.stringify(doc)}\n`);
+}
+
 function writeNamesAddons(out, addonsDir, { sources, version, iface } = {}) {
 	const written = [];
 	for (const locale of Object.keys(out).sort()) {
@@ -539,5 +557,5 @@ function writeNamesAddons(out, addonsDir, { sources, version, iface } = {}) {
 
 module.exports = {
 	DING, NAME_KINDS, EXTRA_KINDS, PACK_KINDS, SOURCE_KEYS, ADDON_PREFIX, DEFAULTS,
-	ensureDing, readDing, usedIds, extraIds, buildNames, addEnglish, clean, emitNamesAddon, writeNamesAddons, total, sourceLabel,
+	ensureDing, readDing, usedIds, extraIds, buildNames, addEnglish, clean, emitNamesAddon, writeNamesAddons, writeSameAsEnglish, SAME_AS_ENGLISH, total, sourceLabel,
 };

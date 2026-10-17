@@ -437,6 +437,9 @@ async function runNames(opts, positional) {
 	const sources = { wago: wagoInfo, wowhead: Object.fromEntries(wanted.map((l) => [l, whNames[l]])), ding, pf: pfInfo };
 	if (!Object.values(sources.wowhead).some((x) => x.fetched)) sources.wowhead = null;
 	const written = names.writeNamesAddons(out, outDir, { sources });
+	// The ids whose every name in a language is the English one, for
+	// `i18n leaks --update-baseline` (data/local, not shipped).
+	names.writeSameAsEnglish(out);
 	const idCount = (k) => (ids[k] === null ? null : ids[k].size);
 	// Ids with no name in a language, and those whose every name there is the
 	// English one (not stored: the English shows, as the game does).
