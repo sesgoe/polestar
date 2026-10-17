@@ -438,8 +438,9 @@ async function runNames(opts, positional) {
 	if (!Object.values(sources.wowhead).some((x) => x.fetched)) sources.wowhead = null;
 	const written = names.writeNamesAddons(out, outDir, { sources });
 	// The ids whose every name in a language is the English one, for
-	// `i18n leaks --update-baseline` (data/local, not shipped).
-	names.writeSameAsEnglish(out);
+	// `i18n leaks --update-baseline` (data/local, not shipped); only for a
+	// build into the addon folder.
+	if (outDir === names.DEFAULTS.out) names.writeSameAsEnglish(out);
 	const idCount = (k) => (ids[k] === null ? null : ids[k].size);
 	// Ids with no name in a language, and those whose every name there is the
 	// English one (not stored: the English shows, as the game does).
@@ -535,7 +536,7 @@ async function runLeaks(opts, positional) {
 		const next = L.updatedBaseline(results, before);
 		const count = (b) => Object.values(b.entries).reduce((n, e) => n + Object.keys(e).length, 0);
 		fs.writeFileSync(L.BASELINE_FILE, `${JSON.stringify(next, null, '\t')}\n`);
-		const left = results.reduce((n, r) => n + (r.leaks || []).filter((l) => !l.names.length).length, 0);
+		const left = results.reduce((n, r) => n + (r.leaks || []).filter((l) => !l.names.length && !l.textKey).length, 0);
 		console.log(`${rel(L.BASELINE_FILE)}: ${count(before)} -> ${count(next)} names; ${plural(left, 'English text')} it cannot take (not a missing name: fix the code or translation)`);
 		return left ? 1 : 0;
 	}

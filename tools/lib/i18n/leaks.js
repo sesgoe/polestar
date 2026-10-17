@@ -96,11 +96,13 @@ end`;
 // Each scene: { about, needs?, stubs?, saved?, addons?, script(guides) }.
 const SCENES = {
 	guide: {
-		about: 'the guide window on a few guides (every step, every tooltip); --guide names others',
+		about: 'the guide window on a few guides (every step, whatever class, race or faction it is for; every tooltip); --guide names others',
+		everyStep: true,
 		script: (ids) => guideScript(ids && ids.length ? ids : GUIDES),
 	},
 	guides: {
-		about: 'the guide window on every guide, every step (no tooltips; slow)',
+		about: 'the guide window on every guide, every step whatever class, race or faction it is for (no tooltips; slow)',
+		everyStep: true,
 		script: () => guideScript(guideIds(), { hover: false }),
 	},
 	welcome: {
@@ -374,14 +376,34 @@ const SCENE_NAMES = Object.keys(SCENES);
 
 const escapeRe = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 
+// The /polestar commands the addon registers (ns.RegisterCommand("name", ...)).
+function commandWords() {
+	const out = new Set();
+	const walk = (dir) => {
+		for (const e of fs.readdirSync(dir, { withFileTypes: true })) {
+			const p = path.join(dir, e.name);
+			if (e.isDirectory()) { if (e.name !== 'Locales') walk(p); } else if (e.name.endsWith('.lua')) {
+				for (const m of fs.readFileSync(p, 'utf8').matchAll(/RegisterCommand\("([a-z]+)"/g)) out.add(m[1]);
+			}
+		}
+	};
+	walk(path.join(ADDON, 'Polestar'));
+	return out;
+}
+
 // -> { all: RegExp[], locale: { [code]: RegExp[] } }: what is cut out of a
 // text before its words are looked at.
 function loadAllow(file = ALLOW_FILE) {
 	const raw = JSON.parse(fs.readFileSync(file, 'utf8'));
-	const word = (s) => new RegExp(`(?<![\\p{L}\\p{N}])${escapeRe(s)}(?![\\p{L}\\p{N}])`, 'gu');
+	// Whole words of Latin letters: a Korean particle may follow ("Codex가").
+	const word = (s) => new RegExp(`(?<![A-Za-z0-9])${escapeRe(s)}(?![A-Za-z0-9])`, 'gu');
 	// The longest first: "Polestar Recorder" before "Polestar".
 	const list = (...lists) => lists.flat().filter(Boolean).sort((a, b) => b.length - a.length).map(word);
-	const all = [...Object.values(raw.patterns || {}).map((p) => new RegExp(p, 'gu')), ...list(raw.products, raw.terms)];
+	// {ARGS}: the words a slash command takes (every registered command, slashArguments).
+	const args = [...new Set([...commandWords(), ...(raw.slashArguments || [])])].sort((a, b) => b.length - a.length).map(escapeRe).join('|');
+	const cmds = [...commandWords()].sort((a, b) => b.length - a.length).map(escapeRe).join('|');
+	const pattern = (p) => new RegExp(p.replace(/\{ARGS\}/g, `(?:${args})(?![\\p{L}\\p{N}])`).replace(/\{COMMANDS\}/g, `(?:${cmds})`), 'gu');
+	const all = [...Object.values(raw.patterns || {}).map(pattern), ...list(raw.products, raw.terms)];
 	const locale = {};
 	for (const [code, entries] of Object.entries(raw.locales || {})) {
 		if (!LOCALE_CODES.includes(code)) throw new Error(`${path.relative(ROOT, file)}: unknown locale "${code}"`);
@@ -423,13 +445,23 @@ function packsLua(locale, scene) {
 	].join('\n');
 }
 
+// The allow list's products and terms and the slash commands' arguments,
+// for the Lua side: text it cuts before it learns a translation's words.
+function allowLua() {
+	const raw = JSON.parse(fs.readFileSync(ALLOW_FILE, 'utf8'));
+	const products = [...(raw.products || []), ...(raw.terms || [])].sort((a, b) => b.length - a.length);
+	const args = [...new Set([...commandWords(), ...(raw.slashArguments || [])])];
+	const allowWords = [...new Set(products.flatMap((p) => p.toLowerCase().match(/[a-z]{3,}/g) || []))];
+	return `products = ${luaList(products)}, slashArgs = { ${args.map((a) => `[${S(a)}] = true`).join(', ')} }, allowWords = { ${allowWords.map((w) => `[${S(w)}] = true`).join(', ')} }`;
+}
+
 // One locale, one scene -> { texts, candidates, errors, missedNames } (and
 // `all`, every text, with { all: true }).
 function runScene(locale, name, guides = [], opts = {}) {
 	const { runAddon } = require('../../../tests/helpers/lua');
 	const scene = SCENES[name];
 	const before = [
-		`LEAKS = { locale = ${S(locale)}, all = ${opts.all ? 'true' : 'false'} }`,
+		`LEAKS = { locale = ${S(locale)}, all = ${opts.all ? 'true' : 'false'}, everyStep = ${scene.everyStep ? 'true' : 'false'}, ${allowLua()} }`,
 		'stub.packs = stub.packs or {}',
 		packsLua(locale, scene),
 		scene.recorder ? '' : worldLua(),
@@ -524,6 +556,9 @@ function sourceOf(c, names, classify, missed) {
 		if (n) best = { kind: missed.has(n.name) ? 'name' : 'unasked', ...n, match: n.english };
 	}
 	const where = list(c.site)[0] || '?';
+	// English a translation keeps (names it writes as in English), unless an
+	// untranslated string or guide text explains it.
+	if (c.kept && !(best && (best.kind === 'interface' || best.kind === 'guide'))) return { kind: 'kept', english: c.kept, where };
 	if (best && best.kind === 'interface') return { kind: 'interface', key: best.key, addon: best.addon, where: list(best.sites)[0] || where };
 	if (best && best.kind === 'guide') return { kind: 'guide', guide: best.guide, english: best.english, where };
 	if (best && (best.kind === 'name' || best.kind === 'unasked')) return { kind: best.kind, name: best.name, english: best.english, where };
@@ -553,6 +588,8 @@ function checkRun(locale, name, dump, allow = loadAllow(), { classify = true, ba
 	const missed = new Set(list(dump.missedNames));
 	const english = { ...(classify ? dataNames(missed) : {}), ...(dump.missedEnglish || {}) };
 	const known = (baseline.entries || {})[locale] || {};
+	// A baseline name's English, kept in its entry: without the built data (CI) too.
+	for (const [key, e] of Object.entries(known)) if (e.english && !english[key] && !key.startsWith('text:')) english[key] = e.english;
 	const used = new Set();
 	const leaks = [];
 	for (const c of list(dump.candidates)) {
@@ -568,11 +605,26 @@ function checkRun(locale, name, dump, allow = loadAllow(), { classify = true, ba
 			all = cutAll(all, en);
 			if (known[key]) { rest = cutAll(rest, en); hit.push(key); }
 		}
+		// A baseline name the text holds still shows, leak or not.
+		for (const k of hit) used.add(k);
+		const keeps = c.keeps && typeof c.keeps === 'object' ? c.keeps : {};
+		const allKept = (ws) => ws.length > 0 && ws.every((w) => keeps[w.toLowerCase()]);
+		const textKey = `text:${c.plain.replace(/\s+/g, ' ').trim()}`;
 		words = leakWords(rest, words, allow, locale);
-		if (!words.length) { for (const k of hit) used.add(k); continue; }
-		// Missed names alone: what the baseline may take (`--update-baseline`).
-		const onlyNames = names.length > 0 && leakWords(all, words, allow, locale).length === 0;
-		leaks.push({ text: c.text.replace(/\s+/g, ' ').trim(), words, kind: c.kind, site: list(c.site), scenes: list(c.scenes), source: sourceOf(c, english, classify, missed), names: onlyNames ? names.map(([k]) => k) : [] });
+		if (!words.length) continue;
+		// Its English, once the baseline's names are cut, is all words a
+		// translation keeps, and the baseline has the text.
+		c.kept = allKept(words) ? keeps[words[0].toLowerCase()] : null;
+		const source = sourceOf(c, english, classify, missed);
+		// (Never an untranslated interface string or guide text.)
+		const untranslated = source.kind === 'interface' || source.kind === 'guide';
+		if (!untranslated && c.kept && known[textKey]) { used.add(textKey); continue; }
+		// What `--update-baseline` may take: the text's missed names, and the
+		// text itself when what is left once they are cut is all kept English.
+		const left = names.length ? leakWords(all, words, allow, locale) : words;
+		const keptText = !untranslated && allKept(left);
+		const takes = !untranslated && (left.length === 0 || keptText);
+		leaks.push({ text: c.text.replace(/\s+/g, ' ').trim(), words, kind: c.kind, site: list(c.site), scenes: list(c.scenes), source, names: takes ? names.map(([k]) => k) : [], nameEnglish: Object.fromEntries(names), textKey: keptText ? textKey : null });
 	}
 	return { locale, scene: name, texts: dump.texts, leaks, errors: list(dump.errors), baselined: [...used], fullData: fullData() };
 }
@@ -596,17 +648,38 @@ function staleBaseline(results, baseline = loadBaseline()) {
 
 // The baseline after these runs: stale entries gone, every name-only leak
 // (missed names no source has) added with the scenes it showed in.
-function updatedBaseline(results, baseline = loadBaseline(), reason = 'no-source') {
+// A name's reason: "same-as-english" when its every name in the language is
+// the English one (`i18n names` writes those ids to SAME_AS_ENGLISH), else
+// "no-source".
+function baselineReason() {
+	const { SAME_AS_ENGLISH } = require('./names');
+	const same = fs.existsSync(SAME_AS_ENGLISH) ? JSON.parse(fs.readFileSync(SAME_AS_ENGLISH, 'utf8')) : {};
+	const sets = {};
+	return (locale, key) => {
+		if (key.startsWith('text:')) return 'kept-english';
+		const [kind, id] = key.split(':');
+		const k = `${locale} ${kind}`;
+		if (!sets[k]) sets[k] = new Set(((same[locale] || {})[kind] || []).map(String));
+		return sets[k].has(id) ? 'same-as-english' : 'no-source';
+	};
+}
+
+function updatedBaseline(results, baseline = loadBaseline(), reasonOf = baselineReason()) {
 	const entries = JSON.parse(JSON.stringify(baseline.entries));
 	for (const s of staleBaseline(results, baseline)) delete entries[s.locale][s.key];
-	const add = (locale, key, scene) => {
-		const e = ((entries[locale] = entries[locale] || {})[key] = entries[locale][key] || { reason, scenes: [] });
+	const add = (locale, key, scene, english) => {
+		const e = ((entries[locale] = entries[locale] || {})[key] = entries[locale][key] || { reason: reasonOf(locale, key), scenes: [] });
+		e.reason = reasonOf(locale, key);
+		if (english) e.english = english;
 		if (!e.scenes.includes(scene)) e.scenes.push(scene);
 		e.scenes.sort();
 	};
 	for (const r of results) {
 		for (const k of r.baselined || []) add(r.locale, k, r.scene);
-		for (const l of r.leaks || []) for (const k of l.names) add(r.locale, k, r.scene);
+		for (const l of r.leaks || []) {
+			for (const k of l.names) add(r.locale, k, r.scene, l.nameEnglish && l.nameEnglish[k]);
+			if (l.textKey) add(r.locale, l.textKey, r.scene);
+		}
 	}
 	const sorted = {};
 	for (const locale of Object.keys(entries).sort()) {
@@ -618,8 +691,11 @@ function updatedBaseline(results, baseline = loadBaseline(), reason = 'no-source
 
 // --- many runs ----------------------------------------------------------------
 
+// Every scene needs the Codex and the quest database (built on the
+// developer's machine): without them the addon is an incomplete install, with
+// its own warnings, and the baseline's names are not known by their English.
 function sceneSkip(name) {
-	for (const n of SCENES[name].needs || []) {
+	for (const n of ['codex', 'questdb', ...(SCENES[name].needs || [])]) {
 		const why = NEEDS[n]();
 		if (why) return why;
 	}
@@ -666,6 +742,7 @@ function sourceLabel(s) {
 	if (s.kind === 'interface') return `interface string not translated (${s.addon}): ${JSON.stringify(s.key)}`;
 	if (s.kind === 'guide') return `guide text not translated: ${s.guide}`;
 	if (s.kind === 'name') return `name missing from the names pack, shown at ${s.where}`;
+	if (s.kind === 'kept') return `English a translation keeps (as in ${JSON.stringify(s.english.length > 60 ? `${s.english.slice(0, 57)}...` : s.english)}), shown at ${s.where}`;
 	if (s.kind === 'unasked') return `English name from the guide or data, Polestar.Names not asked, shown at ${s.where}`;
 	return `English in the code: ${s.where}`;
 }

@@ -249,11 +249,15 @@ end
 
 local lmiss = {} -- interface key -> { addon = name, sites = { [site] = true } }
 local nmiss = {} -- "kind:id" -> true
-local ownStrings = {} -- every translated string the client has
+local ownPairs = {} -- { english, translation } of every translated text the client has
+local shownNames = {} -- every name Polestar.Names gave (the client's language)
 local guideTexts = {} -- pack id -> { [guide id] = { english = translation } }
 local guideEnglish = {} -- { id, pack, texts = { english... }, names }
 
-local function own(s) if type(s) == "string" and s ~= "" then ownStrings[#ownStrings + 1] = s end end
+local function own(en, s)
+	if type(s) == "string" and s ~= "" then ownPairs[#ownPairs + 1] = { en, s } end
+end
+local function shown(v) if type(v) == "string" and v:find("%a%a%a") then shownNames[v] = true end end
 
 local function watchL(addon, ns)
 	local L = ns.L
@@ -304,6 +308,9 @@ function A.hookPolestar()
 	local ns = Polestar
 	if not ns or ns.__leaks then return end
 	ns.__leaks = true
+	-- LEAKS.everyStep: every step and goal shows, whatever class, race or
+	-- faction it is for (the guide scenes: one character sees them all).
+	if LEAKS.everyStep and ns.Guides and ns.Guides.Matches then ns.Guides.Matches = function() return true end end
 	local Names = ns.Names
 	-- A name Names had none for, with the Codex's English when it has one.
 	local function missed(kind, id)
@@ -314,18 +321,13 @@ function A.hookPolestar()
 		if C and C.Name and C.IsLoaded and C.IsLoaded() then ok, en = pcall(C.Name, kind, id) end
 		nmiss[key] = (ok and type(en) == "string" and en ~= "") and en or true
 	end
-	local add = Names.Add
-	function Names.Add(loc, kind, t)
-		if type(t) == "table" then for _, v in pairs(t) do own(v) end end
-		return add(loc, kind, t)
-	end
 	for _, kind in ipairs({ "Quest", "Npc", "Object", "Item", "Spell", "Faction", "Instance", "Area", "Taxi", "Encounter" }) do
 		local f = Names[kind]
 		if f then
 			local k = kind:lower()
 			Names[kind] = function(id, ...)
 				local v = f(id, ...)
-				if v == nil and id ~= nil then missed(k, id) end
+				if v == nil and id ~= nil then missed(k, id) else shown(v) end
 				return v
 			end
 		end
@@ -334,7 +336,7 @@ function A.hookPolestar()
 		local f = Names[fn]
 		Names[fn] = function(kind, id, ...)
 			local v = f(kind, id, ...)
-			if v == nil and kind and id ~= nil then missed(tostring(kind), id) end
+			if v == nil and kind and id ~= nil then missed(tostring(kind), id) else shown(v) end
 			return v
 		end
 	end
@@ -342,10 +344,12 @@ function A.hookPolestar()
 	function ns.RegisterGuideTexts(loc, packId, t)
 		if loc == LOCALE and type(t) == "table" then
 			local into = { pack = {}, guides = {} }
-			for k, v in pairs(type(t.pack) == "table" and t.pack or {}) do into.pack[k] = v; own(v) end
+			for k, v in pairs(type(t.pack) == "table" and t.pack or {}) do into.pack[k] = v; own(k, v) end
 			for id, list in pairs(type(t.guides) == "table" and t.guides or {}) do
+				-- LEAKS.drop: translations to leave out (the tests' dropped text).
+				for k in pairs(LEAKS.drop or {}) do list[k] = nil end
 				into.guides[id] = list
-				for _, v in pairs(list) do own(v) end
+				for k, v in pairs(list) do own(k, v) end
 			end
 			guideTexts[packId] = into
 		end
@@ -472,11 +476,74 @@ local function stretches(s)
 	return out
 end
 
+-- The languages written in Latin letters: their translations teach words.
+local LATIN = { deDE = true, esES = true, esMX = true, frFR = true, ptBR = true }
+
+-- A text with what is the same in every language cut out: the allow list's
+-- products and terms (LEAKS.products), slash commands with their documented
+-- arguments (LEAKS.slashArgs), {kind:id} tokens, format directives.
+local productPatterns
+local function universal(s)
+	if not productPatterns then
+		productPatterns = {}
+		for _, p in ipairs(LEAKS.products or {}) do productPatterns[#productPatterns + 1] = "%f[%w]" .. p:gsub("%p", "%%%0") .. "%f[%W]" end
+	end
+	s = strip(s):gsub("{%l+:%d+}", " "):gsub("%%[%d%$%-%.]*%a", " ")
+	for _, p in ipairs(productPatterns) do s = s:gsub(p, " ") end
+	local args = LEAKS.slashArgs or {}
+	s = s:gsub("/%l[%w]*([%w ,]*)", function(after)
+		local rest, cut = after, true
+		while cut do
+			cut = false
+			local w, tail = rest:match("^[ ,]+(%a+)(.*)$")
+			if w and args[w] then rest, cut = tail, true end
+		end
+		return " " .. rest
+	end)
+	return s
+end
+
 function A.dump()
+	-- The language's own words: in a language written in Latin letters, the
+	-- words of its real translations (learn); in Russian, Korean and Chinese,
+	-- none: a Latin word there is never the language's own.
 	local vocab = {}
-	local function learn(s) for _, w in ipairs(words(strip(s))) do vocab[w:lower()] = true end end
-	for _, L in pairs(A.L or {}) do for _, v in pairs(L) do if type(v) == "string" then learn(v) end end end
-	for _, s in ipairs(ownStrings) do learn(s) end
+	-- A translation teaches its words when at least half of them are not in
+	-- its English (a real translation: its words the English shares too, such
+	-- as German "Horde" or "Guide"); one that mostly copies its English, or
+	-- equals it, teaches nothing.
+	local function allWords(t)
+		local out = {}
+		for w in t:gmatch("[%a\128-\255]+") do if #w >= 3 then out[#out + 1] = w:lower() end end
+		return out
+	end
+	local kept = {} -- Latin word -> a translation's English key that keeps it
+	local function learn(en, tr)
+		local has = {}
+		for _, w in ipairs(allWords(universal(en))) do has[w] = true end
+		local all, novel = allWords(universal(tr)), 0
+		for _, w in ipairs(all) do if not has[w] then novel = novel + 1 end end
+		local list = words(universal(tr))
+		for _, w in ipairs(list) do kept[w:lower()] = kept[w:lower()] or en end
+		if tr == en or not LATIN[LOCALE] or novel == 0 or novel * 2 < #all then return end
+		for _, w in ipairs(list) do vocab[w:lower()] = true end
+	end
+	for _, L in pairs(A.L or {}) do
+		for k, v in pairs(L) do if type(k) == "string" and type(v) == "string" then learn(k, v) end end
+	end
+	for _, p in ipairs(ownPairs) do learn(p[1], p[2]) end
+	-- The names Polestar.Names gave are the client's: by each of their Latin words.
+	-- A word of four letters or more from one of them is the language's own
+	-- wherever it shows (a first name, a name with an ending).
+	local nameIndex, nameWords = {}, {}
+	for name in pairs(shownNames) do
+		for _, w in ipairs(words(strip(name))) do
+			local lw = w:lower()
+			if #lw >= 4 then nameWords[lw] = true end
+			nameIndex[lw] = nameIndex[lw] or {}
+			table.insert(nameIndex[lw], name)
+		end
+	end
 
 	-- English sources, by the literal stretches that show.
 	local sources = {}
@@ -518,10 +585,11 @@ function A.dump()
 	-- One of the language's own words, or one with an inflection ending (a
 	-- German genitive "Verbanntes" of a name's "Verbannte", French "s").
 	local function ownWord(lw)
-		if vocab[lw] then return true end
+		if vocab[lw] or nameWords[lw] then return true end
+		if not LATIN[LOCALE] then return false end
 		for n = 1, 2 do
 			local stem = lw:sub(1, -n - 1)
-			if #stem >= 4 and vocab[stem] then return true end
+			if #stem >= 4 and (vocab[stem] or nameWords[stem]) then return true end
 		end
 		return false
 	end
@@ -529,10 +597,35 @@ function A.dump()
 	local out = {}
 	for _, e in ipairs(texts) do
 		local plain = strip(e.text)
-		local flagged, seenW = {}, {}
-		for _, w in ipairs(words(cutTyped(plain))) do
-			local lw = w:lower()
-			if not ownWord(lw) and not seenW[lw] then seenW[lw] = true; flagged[#flagged + 1] = w end
+		local function flag(s)
+			local flagged, seenW = {}, {}
+			for _, w in ipairs(words(s)) do
+				local lw = w:lower()
+				if not ownWord(lw) and not seenW[lw] then seenW[lw] = true; flagged[#flagged + 1] = w end
+			end
+			return flagged
+		end
+		local rest = cutTyped(plain)
+		local flagged = flag(rest)
+		if #flagged > 0 then
+			-- Cut the names the client gave that hold a flagged word, the longest first.
+			local cand, seenN = {}, {}
+			for _, w in ipairs(flagged) do
+				for _, n in ipairs(nameIndex[w:lower()] or {}) do
+					if not seenN[n] then seenN[n] = true; cand[#cand + 1] = n end
+				end
+			end
+			if #cand > 0 then
+				table.sort(cand, function(a, b) return #a > #b end)
+				for _, n in ipairs(cand) do
+					local a, b = rest:find(n, 1, true)
+					while a do
+						rest = rest:sub(1, a - 1) .. " " .. rest:sub(b + 1)
+						a, b = rest:find(n, 1, true)
+					end
+				end
+				flagged = flag(rest)
+			end
 		end
 		if #flagged > 0 then
 			-- The source whose English it holds the most of (the first on a
@@ -544,14 +637,24 @@ function A.dump()
 					if s.kind == "name" and #names < 12 then names[#names + 1] = { name = s.name, english = s.english } end
 				end
 			end
-			out[#out + 1] = { kind = e.kind, text = e.text, plain = plain, words = flagged, site = e.site, scenes = e.scenes, from = best, names = names }
+			-- Every flagged word is one a translation of this language keeps
+			-- in English (a name it writes as the English does): which one.
+			-- The flagged words a translation of this language keeps in English
+			-- (Node decides once the names and the allow list are cut).
+			local keeps = {}
+			for _, w in ipairs(flagged) do
+				local k = kept[w:lower()]
+				if k then keeps[w:lower()] = k end
+			end
+			out[#out + 1] = { kind = e.kind, text = e.text, plain = plain, words = flagged, site = e.site, scenes = e.scenes, from = best, names = names, keeps = next(keeps) and keeps or nil }
 		end
 	end
 	local missedNames = {}
 	local missedEnglish = {}
 	for k, v in pairs(nmiss) do
 		missedNames[#missedNames + 1] = k
-		if type(v) == "string" then missedEnglish[k] = v end
+		-- Its English: the Codex's, else the guides' (without built data, as on CI).
+		if type(v) == "string" then missedEnglish[k] = v elseif english[k] then missedEnglish[k] = english[k] end
 	end
 	table.sort(missedNames)
 	-- LEAKS.all: every text as well (to see what a scene shows).

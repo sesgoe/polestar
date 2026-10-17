@@ -78,3 +78,50 @@ end)`,
 		delete L.SCENES['test-english'];
 	}
 });
+
+// English a Russian or Chinese client must never see, each found with its
+// scene: an interface string "translated" as its English, English the code
+// writes out in words a translation elsewhere also uses (open, the, guide,
+// path), a guide text whose translation is gone (one every character sees,
+// and a paladin's), and prose after a slash command.
+const NO_BASELINE = { reasons: {}, entries: {} };
+const ELWYNN = 'forever/alliance/human/01-elwynn-forest';
+const DROPPED = ['Young Wolves and Timber Wolves roam the fields right around the Abbey.', 'Back to the Cathedral of Light.'];
+
+function plantedRun(locale) {
+	L.SCENES['test-planted'] = {
+		everyStep: true,
+		before: `LEAKS.drop = { ${DROPPED.map((d) => `[${JSON.stringify(d)}] = true`).join(', ')} }`,
+		script: () => `
+leaks.try("the accept button", function()
+	rawset(Polestar.L, "Accept", "Accept")
+	CreateFrame("Frame", nil, UIParent):CreateFontString():SetText(Polestar.L["Accept"])
+end)
+leaks.try("a hard-coded label", function() CreateFrame("Frame", nil, UIParent):CreateFontString():SetText("Open the guide path") end)
+leaks.try("a slash hint", function() CreateFrame("Frame", nil, UIParent):CreateFontString():SetText("/polestar guides to pick one") end)
+leaks.try("the Elwynn guide", function()
+	local E = Polestar.Engine
+	E.SetGuide(${JSON.stringify(ELWYNN)}); stub.advance(0.3)
+	if PolestarGuideFrame then PolestarGuideFrame:Show() end
+	for i = 1, E.GetStepCount() do E.Goto(i); stub.advance(0.1) end
+end)`,
+	};
+	try {
+		return L.checkRun(locale, 'test-planted', L.runScene(locale, 'test-planted'), L.loadAllow(), { classify: false, baseline: NO_BASELINE });
+	} finally {
+		delete L.SCENES['test-planted'];
+	}
+}
+
+for (const locale of ['ruRU', 'zhCN']) {
+	test(`${locale}: English is found with its scene even where a translation uses the same words`, () => {
+		const r = plantedRun(locale);
+		assert.deepEqual(r.errors, []);
+		const found = (scene, pred) => r.leaks.find((l) => l.scenes.includes(scene) && pred(l));
+		assert.ok(found('the accept button', (l) => l.text === 'Accept'), 'a translation equal to its English');
+		assert.ok(found('a hard-coded label', (l) => l.text === 'Open the guide path'), 'English in the code');
+		const slash = found('a slash hint', (l) => l.text.startsWith('/polestar guides'));
+		assert.ok(slash && slash.words.includes('pick') && !slash.words.includes('guides'), 'the prose after a slash command, not the command');
+		for (const d of DROPPED) assert.ok(found('the Elwynn guide', (l) => l.text.includes(d)), `the dropped guide text "${d}"`);
+	});
+}
