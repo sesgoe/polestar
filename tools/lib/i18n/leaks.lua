@@ -515,13 +515,24 @@ function A.dump()
 		if not nmiss[key] then sources[#sources + 1] = { kind = "unasked", name = key, english = en, match = en } end
 	end
 
+	-- One of the language's own words, or one with an inflection ending (a
+	-- German genitive "Verbanntes" of a name's "Verbannte", French "s").
+	local function ownWord(lw)
+		if vocab[lw] then return true end
+		for n = 1, 2 do
+			local stem = lw:sub(1, -n - 1)
+			if #stem >= 4 and vocab[stem] then return true end
+		end
+		return false
+	end
+
 	local out = {}
 	for _, e in ipairs(texts) do
 		local plain = strip(e.text)
 		local flagged, seenW = {}, {}
 		for _, w in ipairs(words(cutTyped(plain))) do
 			local lw = w:lower()
-			if not vocab[lw] and not seenW[lw] then seenW[lw] = true; flagged[#flagged + 1] = w end
+			if not ownWord(lw) and not seenW[lw] then seenW[lw] = true; flagged[#flagged + 1] = w end
 		end
 		if #flagged > 0 then
 			-- The source whose English it holds the most of (the first on a

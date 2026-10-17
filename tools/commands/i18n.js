@@ -562,7 +562,7 @@ async function runLeaks(opts, positional) {
 		}
 	}
 	const ran = results.filter((r) => !r.skipped);
-	console.log(`\n${ran.length} of ${plural(results.length, 'run')} (${plural(chosen.length, 'locale')}, ${plural(scenes.length, 'scene')}): ${leaks ? `${plural(leaks, 'English text')} from ${plural(groups.length, 'source')}` : 'no English left'}${errors.length ? `, ${plural(errors.length, 'scene error')}` : ''}${stale.length ? `, ${plural(stale.length, 'stale baseline entry')}` : ''}`);
+	console.log(`\n${ran.length} of ${plural(results.length, 'run')} (${plural(chosen.length, 'locale')}, ${plural(scenes.length, 'scene')}): ${leaks ? `${plural(leaks, 'English text')} from ${plural(groups.length, 'source')}` : 'no English left'}${errors.length ? `, ${plural(errors.length, 'scene error')}` : ''}${stale.length ? `, ${plural(stale.length, 'stale baseline name')}` : ''}`);
 	return failed ? 1 : 0;
 }
 

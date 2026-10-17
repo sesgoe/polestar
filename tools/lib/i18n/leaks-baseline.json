@@ -110,12 +110,6 @@
 					"dungeons"
 				]
 			},
-			"encounter:1108": {
-				"reason": "no-source",
-				"scenes": [
-					"dungeons"
-				]
-			},
 			"encounter:1111": {
 				"reason": "no-source",
 				"scenes": [
@@ -170,12 +164,6 @@
 					"dungeons"
 				]
 			},
-			"encounter:2797": {
-				"reason": "no-source",
-				"scenes": [
-					"dungeons"
-				]
-			},
 			"encounter:2799": {
 				"reason": "no-source",
 				"scenes": [
@@ -189,12 +177,6 @@
 				]
 			},
 			"encounter:2806": {
-				"reason": "no-source",
-				"scenes": [
-					"dungeons"
-				]
-			},
-			"encounter:2807": {
 				"reason": "no-source",
 				"scenes": [
 					"dungeons"
@@ -369,6 +351,13 @@
 					"slash"
 				]
 			},
+			"npc:235": {
+				"reason": "no-source",
+				"scenes": [
+					"guide",
+					"guides"
+				]
+			},
 			"npc:238": {
 				"reason": "no-source",
 				"scenes": [
@@ -383,6 +372,13 @@
 					"guides",
 					"lookup",
 					"slash"
+				]
+			},
+			"npc:251": {
+				"reason": "no-source",
+				"scenes": [
+					"guide",
+					"guides"
 				]
 			},
 			"npc:252": {
@@ -408,7 +404,8 @@
 			"npc:276": {
 				"reason": "no-source",
 				"scenes": [
-					"guides"
+					"guides",
+					"talents"
 				]
 			},
 			"npc:278": {
@@ -447,13 +444,6 @@
 				"reason": "no-source",
 				"scenes": [
 					"guides"
-				]
-			},
-			"npc:335": {
-				"reason": "no-source",
-				"scenes": [
-					"picker",
-					"slash"
 				]
 			},
 			"npc:340": {
@@ -652,12 +642,6 @@
 					"guides"
 				]
 			},
-			"npc:734": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
-				]
-			},
 			"npc:737": {
 				"reason": "no-source",
 				"scenes": [
@@ -711,13 +695,6 @@
 				"reason": "no-source",
 				"scenes": [
 					"guides"
-				]
-			},
-			"npc:851": {
-				"reason": "no-source",
-				"scenes": [
-					"picker",
-					"slash"
 				]
 			},
 			"npc:893": {
@@ -836,6 +813,12 @@
 					"guides"
 				]
 			},
+			"npc:1226": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
 			"npc:1241": {
 				"reason": "no-source",
 				"scenes": [
@@ -860,6 +843,12 @@
 					"guide",
 					"guides",
 					"lookup"
+				]
+			},
+			"npc:1252": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
 				]
 			},
 			"npc:1259": {
@@ -1018,12 +1007,6 @@
 					"guides"
 				]
 			},
-			"npc:1483": {
-				"reason": "no-source",
-				"scenes": [
-					"lookup"
-				]
-			},
 			"npc:1521": {
 				"reason": "no-source",
 				"scenes": [
@@ -1043,12 +1026,6 @@
 				]
 			},
 			"npc:1573": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
-				]
-			},
-			"npc:1632": {
 				"reason": "no-source",
 				"scenes": [
 					"guides"
@@ -1451,12 +1428,6 @@
 					"guides"
 				]
 			},
-			"npc:2439": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
-				]
-			},
 			"npc:2447": {
 				"reason": "no-source",
 				"scenes": [
@@ -1480,6 +1451,12 @@
 				]
 			},
 			"npc:2488": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
+			"npc:2493": {
 				"reason": "no-source",
 				"scenes": [
 					"guides"
@@ -1510,14 +1487,6 @@
 				]
 			},
 			"npc:2598": {
-				"reason": "no-source",
-				"scenes": [
-					"picker",
-					"rares",
-					"slash"
-				]
-			},
-			"npc:2600": {
 				"reason": "no-source",
 				"scenes": [
 					"picker",
@@ -1726,6 +1695,12 @@
 					"guides"
 				]
 			},
+			"npc:2980": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
 			"npc:2985": {
 				"reason": "no-source",
 				"scenes": [
@@ -1764,6 +1739,30 @@
 					"guides"
 				]
 			},
+			"npc:3012": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
+			"npc:3014": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
+			"npc:3027": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
+			"npc:3033": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
 			"npc:3044": {
 				"reason": "no-source",
 				"scenes": [
@@ -1783,6 +1782,12 @@
 				]
 			},
 			"npc:3055": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
+			"npc:3057": {
 				"reason": "no-source",
 				"scenes": [
 					"guides"
@@ -1868,12 +1873,6 @@
 				]
 			},
 			"npc:3204": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
-				]
-			},
-			"npc:3208": {
 				"reason": "no-source",
 				"scenes": [
 					"guides"
@@ -2275,12 +2274,6 @@
 					"guides"
 				]
 			},
-			"npc:3897": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
-				]
-			},
 			"npc:3901": {
 				"reason": "no-source",
 				"scenes": [
@@ -2294,6 +2287,12 @@
 				]
 			},
 			"npc:3920": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
+			"npc:3936": {
 				"reason": "no-source",
 				"scenes": [
 					"guides"
@@ -2469,12 +2468,6 @@
 				]
 			},
 			"npc:4501": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
-				]
-			},
-			"npc:4502": {
 				"reason": "no-source",
 				"scenes": [
 					"guides"
@@ -2920,6 +2913,12 @@
 					"guides"
 				]
 			},
+			"npc:5637": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
 			"npc:5638": {
 				"reason": "no-source",
 				"scenes": [
@@ -2945,6 +2944,12 @@
 				]
 			},
 			"npc:5642": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
+			"npc:5644": {
 				"reason": "no-source",
 				"scenes": [
 					"guides"
@@ -3020,22 +3025,6 @@
 					"slash"
 				]
 			},
-			"npc:5798": {
-				"reason": "no-source",
-				"scenes": [
-					"picker",
-					"rares",
-					"slash"
-				]
-			},
-			"npc:5799": {
-				"reason": "no-source",
-				"scenes": [
-					"picker",
-					"rares",
-					"slash"
-				]
-			},
 			"npc:5800": {
 				"reason": "no-source",
 				"scenes": [
@@ -3090,12 +3079,6 @@
 				]
 			},
 			"npc:5892": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
-				]
-			},
-			"npc:5899": {
 				"reason": "no-source",
 				"scenes": [
 					"guides"
@@ -3317,12 +3300,6 @@
 					"guides"
 				]
 			},
-			"npc:6707": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
-				]
-			},
 			"npc:6768": {
 				"reason": "no-source",
 				"scenes": [
@@ -3375,12 +3352,6 @@
 				"reason": "no-source",
 				"scenes": [
 					"guides"
-				]
-			},
-			"npc:6906": {
-				"reason": "no-source",
-				"scenes": [
-					"dungeons"
 				]
 			},
 			"npc:6908": {
@@ -3766,12 +3737,6 @@
 					"guides"
 				]
 			},
-			"npc:8418": {
-				"reason": "no-source",
-				"scenes": [
-					"dungeons"
-				]
-			},
 			"npc:8436": {
 				"reason": "no-source",
 				"scenes": [
@@ -3926,6 +3891,12 @@
 					"guides"
 				]
 			},
+			"npc:9087": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
 			"npc:9116": {
 				"reason": "no-source",
 				"scenes": [
@@ -4060,6 +4031,12 @@
 				]
 			},
 			"npc:9616": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
+			"npc:9618": {
 				"reason": "no-source",
 				"scenes": [
 					"guides"
@@ -4386,12 +4363,6 @@
 					"dungeons"
 				]
 			},
-			"npc:10504": {
-				"reason": "no-source",
-				"scenes": [
-					"dungeons"
-				]
-			},
 			"npc:10539": {
 				"reason": "no-source",
 				"scenes": [
@@ -4510,12 +4481,6 @@
 					"guides"
 				]
 			},
-			"npc:10929": {
-				"reason": "no-source",
-				"scenes": [
-					"dungeons"
-				]
-			},
 			"npc:10936": {
 				"reason": "no-source",
 				"scenes": [
@@ -4582,12 +4547,6 @@
 				"reason": "no-source",
 				"scenes": [
 					"guides"
-				]
-			},
-			"npc:11058": {
-				"reason": "no-source",
-				"scenes": [
-					"dungeons"
 				]
 			},
 			"npc:11063": {
@@ -5042,6 +5001,12 @@
 					"guides"
 				]
 			},
+			"npc:13220": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
 			"npc:13257": {
 				"reason": "no-source",
 				"scenes": [
@@ -5052,12 +5017,6 @@
 				"reason": "no-source",
 				"scenes": [
 					"guides"
-				]
-			},
-			"npc:13656": {
-				"reason": "no-source",
-				"scenes": [
-					"dungeons"
 				]
 			},
 			"npc:13697": {
@@ -5225,6 +5184,13 @@
 					"guides"
 				]
 			},
+			"npc:14437": {
+				"reason": "no-source",
+				"scenes": [
+					"dungeons",
+					"guides"
+				]
+			},
 			"npc:14445": {
 				"reason": "no-source",
 				"scenes": [
@@ -5263,14 +5229,6 @@
 				]
 			},
 			"npc:14473": {
-				"reason": "no-source",
-				"scenes": [
-					"picker",
-					"rares",
-					"slash"
-				]
-			},
-			"npc:14475": {
 				"reason": "no-source",
 				"scenes": [
 					"picker",
@@ -5522,6 +5480,12 @@
 					"guides"
 				]
 			},
+			"npc:15190": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
 			"npc:15270": {
 				"reason": "no-source",
 				"scenes": [
@@ -5613,12 +5577,6 @@
 				]
 			},
 			"npc:15931": {
-				"reason": "no-source",
-				"scenes": [
-					"dungeons"
-				]
-			},
-			"npc:15932": {
 				"reason": "no-source",
 				"scenes": [
 					"dungeons"
@@ -5817,6 +5775,12 @@
 				]
 			},
 			"npc:217590": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
+			"npc:244808": {
 				"reason": "no-source",
 				"scenes": [
 					"guides"
@@ -6043,6 +6007,12 @@
 					"guides"
 				]
 			},
+			"npc:252359": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
 			"npc:252377": {
 				"reason": "no-source",
 				"scenes": [
@@ -6174,6 +6144,12 @@
 					"picker",
 					"rares",
 					"slash"
+				]
+			},
+			"npc:256083": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
 				]
 			},
 			"npc:256097": {
@@ -6949,12 +6925,6 @@
 					"guides"
 				]
 			},
-			"object:460002": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
-				]
-			},
 			"object:460004": {
 				"reason": "no-source",
 				"scenes": [
@@ -7078,12 +7048,6 @@
 					"dungeons"
 				]
 			},
-			"encounter:2807": {
-				"reason": "no-source",
-				"scenes": [
-					"dungeons"
-				]
-			},
 			"encounter:2913": {
 				"reason": "no-source",
 				"scenes": [
@@ -7173,7 +7137,8 @@
 			"npc:276": {
 				"reason": "no-source",
 				"scenes": [
-					"guides"
+					"guides",
+					"talents"
 				]
 			},
 			"npc:278": {
@@ -7318,12 +7283,6 @@
 					"guides"
 				]
 			},
-			"npc:807": {
-				"reason": "no-source",
-				"scenes": [
-					"lookup"
-				]
-			},
 			"npc:893": {
 				"reason": "no-source",
 				"scenes": [
@@ -7372,6 +7331,12 @@
 				]
 			},
 			"npc:1213": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
+			"npc:1226": {
 				"reason": "no-source",
 				"scenes": [
 					"guides"
@@ -7427,21 +7392,6 @@
 					"lookup"
 				]
 			},
-			"npc:1399": {
-				"reason": "no-source",
-				"scenes": [
-					"picker",
-					"rares",
-					"slash"
-				]
-			},
-			"npc:1414": {
-				"reason": "no-source",
-				"scenes": [
-					"lookup",
-					"tooltips"
-				]
-			},
 			"npc:1416": {
 				"reason": "no-source",
 				"scenes": [
@@ -7454,13 +7404,6 @@
 					"picker",
 					"rares",
 					"slash"
-				]
-			},
-			"npc:1430": {
-				"reason": "no-source",
-				"scenes": [
-					"guide",
-					"guides"
 				]
 			},
 			"npc:1448": {
@@ -7571,6 +7514,12 @@
 				]
 			},
 			"npc:1919": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
+			"npc:1950": {
 				"reason": "no-source",
 				"scenes": [
 					"guides"
@@ -7869,12 +7818,6 @@
 					"guides"
 				]
 			},
-			"npc:3208": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
-				]
-			},
 			"npc:3293": {
 				"reason": "no-source",
 				"scenes": [
@@ -8030,12 +7973,6 @@
 				"reason": "no-source",
 				"scenes": [
 					"dungeons",
-					"guides"
-				]
-			},
-			"npc:3897": {
-				"reason": "no-source",
-				"scenes": [
 					"guides"
 				]
 			},
@@ -8374,6 +8311,12 @@
 					"guides"
 				]
 			},
+			"npc:5638": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
 			"npc:5639": {
 				"reason": "no-source",
 				"scenes": [
@@ -8405,14 +8348,6 @@
 				]
 			},
 			"npc:5800": {
-				"reason": "no-source",
-				"scenes": [
-					"picker",
-					"rares",
-					"slash"
-				]
-			},
-			"npc:5827": {
 				"reason": "no-source",
 				"scenes": [
 					"picker",
@@ -8479,12 +8414,6 @@
 					"guides"
 				]
 			},
-			"npc:6251": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
-				]
-			},
 			"npc:6286": {
 				"reason": "no-source",
 				"scenes": [
@@ -8546,6 +8475,12 @@
 				]
 			},
 			"npc:6780": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
+			"npc:6784": {
 				"reason": "no-source",
 				"scenes": [
 					"guides"
@@ -8718,12 +8653,6 @@
 					"picker",
 					"rares",
 					"slash"
-				]
-			},
-			"npc:8508": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
 				]
 			},
 			"npc:8609": {
@@ -9004,12 +8933,6 @@
 					"dungeons"
 				]
 			},
-			"npc:10504": {
-				"reason": "no-source",
-				"scenes": [
-					"dungeons"
-				]
-			},
 			"npc:10559": {
 				"reason": "no-source",
 				"scenes": [
@@ -9040,12 +8963,6 @@
 					"picker",
 					"rares",
 					"slash"
-				]
-			},
-			"npc:10929": {
-				"reason": "no-source",
-				"scenes": [
-					"dungeons"
 				]
 			},
 			"npc:10977": {
@@ -9160,6 +9077,12 @@
 				]
 			},
 			"npc:11616": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
+			"npc:11625": {
 				"reason": "no-source",
 				"scenes": [
 					"guides"
@@ -9298,12 +9221,6 @@
 				"reason": "no-source",
 				"scenes": [
 					"guides"
-				]
-			},
-			"npc:13656": {
-				"reason": "no-source",
-				"scenes": [
-					"dungeons"
 				]
 			},
 			"npc:13697": {
@@ -9463,14 +9380,6 @@
 				]
 			},
 			"npc:14473": {
-				"reason": "no-source",
-				"scenes": [
-					"picker",
-					"rares",
-					"slash"
-				]
-			},
-			"npc:14475": {
 				"reason": "no-source",
 				"scenes": [
 					"picker",
@@ -10036,12 +9945,6 @@
 					"guides"
 				]
 			},
-			"npc:266216": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
-				]
-			},
 			"npc:266901": {
 				"reason": "no-source",
 				"scenes": [
@@ -10134,12 +10037,6 @@
 				]
 			},
 			"npc:270438": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
-				]
-			},
-			"npc:271322": {
 				"reason": "no-source",
 				"scenes": [
 					"guides"
@@ -10537,12 +10434,6 @@
 					"guides"
 				]
 			},
-			"object:566037": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
-				]
-			},
 			"object:660647": {
 				"reason": "no-source",
 				"scenes": [
@@ -10660,12 +10551,6 @@
 					"dungeons"
 				]
 			},
-			"encounter:2807": {
-				"reason": "no-source",
-				"scenes": [
-					"dungeons"
-				]
-			},
 			"encounter:2913": {
 				"reason": "no-source",
 				"scenes": [
@@ -10730,7 +10615,8 @@
 			"npc:276": {
 				"reason": "no-source",
 				"scenes": [
-					"guides"
+					"guides",
+					"talents"
 				]
 			},
 			"npc:278": {
@@ -10875,12 +10761,6 @@
 					"guides"
 				]
 			},
-			"npc:807": {
-				"reason": "no-source",
-				"scenes": [
-					"lookup"
-				]
-			},
 			"npc:815": {
 				"reason": "no-source",
 				"scenes": [
@@ -10940,6 +10820,12 @@
 					"guides"
 				]
 			},
+			"npc:1226": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
 			"npc:1245": {
 				"reason": "no-source",
 				"scenes": [
@@ -10990,21 +10876,6 @@
 					"lookup"
 				]
 			},
-			"npc:1399": {
-				"reason": "no-source",
-				"scenes": [
-					"picker",
-					"rares",
-					"slash"
-				]
-			},
-			"npc:1414": {
-				"reason": "no-source",
-				"scenes": [
-					"lookup",
-					"tooltips"
-				]
-			},
 			"npc:1416": {
 				"reason": "no-source",
 				"scenes": [
@@ -11017,13 +10888,6 @@
 					"picker",
 					"rares",
 					"slash"
-				]
-			},
-			"npc:1430": {
-				"reason": "no-source",
-				"scenes": [
-					"guide",
-					"guides"
 				]
 			},
 			"npc:1448": {
@@ -11132,6 +10996,12 @@
 				]
 			},
 			"npc:1919": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
+			"npc:1950": {
 				"reason": "no-source",
 				"scenes": [
 					"guides"
@@ -11442,12 +11312,6 @@
 					"guides"
 				]
 			},
-			"npc:3208": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
-				]
-			},
 			"npc:3287": {
 				"reason": "no-source",
 				"scenes": [
@@ -11604,12 +11468,6 @@
 				"reason": "no-source",
 				"scenes": [
 					"dungeons",
-					"guides"
-				]
-			},
-			"npc:3897": {
-				"reason": "no-source",
-				"scenes": [
 					"guides"
 				]
 			},
@@ -12003,14 +11861,6 @@
 					"slash"
 				]
 			},
-			"npc:5827": {
-				"reason": "no-source",
-				"scenes": [
-					"picker",
-					"rares",
-					"slash"
-				]
-			},
 			"npc:5865": {
 				"reason": "no-source",
 				"scenes": [
@@ -12067,12 +11917,6 @@
 				"reason": "no-source",
 				"scenes": [
 					"dungeons",
-					"guides"
-				]
-			},
-			"npc:6251": {
-				"reason": "no-source",
-				"scenes": [
 					"guides"
 				]
 			},
@@ -12315,12 +12159,6 @@
 					"picker",
 					"rares",
 					"slash"
-				]
-			},
-			"npc:8508": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
 				]
 			},
 			"npc:8609": {
@@ -12607,12 +12445,6 @@
 					"dungeons"
 				]
 			},
-			"npc:10504": {
-				"reason": "no-source",
-				"scenes": [
-					"dungeons"
-				]
-			},
 			"npc:10559": {
 				"reason": "no-source",
 				"scenes": [
@@ -12636,12 +12468,6 @@
 					"picker",
 					"rares",
 					"slash"
-				]
-			},
-			"npc:10929": {
-				"reason": "no-source",
-				"scenes": [
-					"dungeons"
 				]
 			},
 			"npc:10977": {
@@ -12750,6 +12576,12 @@
 				]
 			},
 			"npc:11616": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
+			"npc:11625": {
 				"reason": "no-source",
 				"scenes": [
 					"guides"
@@ -12889,12 +12721,6 @@
 				"reason": "no-source",
 				"scenes": [
 					"guides"
-				]
-			},
-			"npc:13656": {
-				"reason": "no-source",
-				"scenes": [
-					"dungeons"
 				]
 			},
 			"npc:13697": {
@@ -13060,14 +12886,6 @@
 				]
 			},
 			"npc:14473": {
-				"reason": "no-source",
-				"scenes": [
-					"picker",
-					"rares",
-					"slash"
-				]
-			},
-			"npc:14475": {
 				"reason": "no-source",
 				"scenes": [
 					"picker",
@@ -13704,12 +13522,6 @@
 					"guides"
 				]
 			},
-			"npc:252762": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
-				]
-			},
 			"npc:252763": {
 				"reason": "no-source",
 				"scenes": [
@@ -13717,6 +13529,12 @@
 				]
 			},
 			"npc:252765": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
+			"npc:252800": {
 				"reason": "no-source",
 				"scenes": [
 					"guides"
@@ -14103,12 +13921,6 @@
 					"guides"
 				]
 			},
-			"npc:266216": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
-				]
-			},
 			"npc:266901": {
 				"reason": "no-source",
 				"scenes": [
@@ -14213,12 +14025,6 @@
 				]
 			},
 			"npc:270844": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
-				]
-			},
-			"npc:270892": {
 				"reason": "no-source",
 				"scenes": [
 					"guides"
@@ -14436,12 +14242,6 @@
 					"guides"
 				]
 			},
-			"object:32359": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
-				]
-			},
 			"object:32362": {
 				"reason": "no-source",
 				"scenes": [
@@ -14652,12 +14452,6 @@
 					"guides"
 				]
 			},
-			"object:460002": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
-				]
-			},
 			"object:460004": {
 				"reason": "no-source",
 				"scenes": [
@@ -14774,12 +14568,6 @@
 				]
 			},
 			"object:671518": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
-				]
-			},
-			"object:673515": {
 				"reason": "no-source",
 				"scenes": [
 					"guides"
@@ -15038,7 +14826,8 @@
 			"npc:276": {
 				"reason": "no-source",
 				"scenes": [
-					"guides"
+					"guides",
+					"talents"
 				]
 			},
 			"npc:278": {
@@ -15145,20 +14934,18 @@
 					"slash"
 				]
 			},
-			"npc:599": {
-				"reason": "no-source",
-				"scenes": [
-					"picker",
-					"rares",
-					"slash"
-				]
-			},
 			"npc:639": {
 				"reason": "no-source",
 				"scenes": [
 					"dungeons",
 					"guides",
 					"lookup"
+				]
+			},
+			"npc:658": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
 				]
 			},
 			"npc:713": {
@@ -15208,13 +14995,6 @@
 				"reason": "no-source",
 				"scenes": [
 					"guides"
-				]
-			},
-			"npc:851": {
-				"reason": "no-source",
-				"scenes": [
-					"picker",
-					"slash"
 				]
 			},
 			"npc:893": {
@@ -15300,6 +15080,18 @@
 					"guides"
 				]
 			},
+			"npc:1217": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
+			"npc:1226": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
 			"npc:1241": {
 				"reason": "no-source",
 				"scenes": [
@@ -15326,6 +15118,12 @@
 					"lookup"
 				]
 			},
+			"npc:1252": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
 			"npc:1261": {
 				"reason": "no-source",
 				"scenes": [
@@ -15340,6 +15138,12 @@
 				]
 			},
 			"npc:1265": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
+			"npc:1267": {
 				"reason": "no-source",
 				"scenes": [
 					"guides"
@@ -15391,12 +15195,6 @@
 				"reason": "no-source",
 				"scenes": [
 					"lookup"
-				]
-			},
-			"npc:1376": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
 				]
 			},
 			"npc:1380": {
@@ -15629,6 +15427,12 @@
 					"slash"
 				]
 			},
+			"npc:1950": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
 			"npc:1988": {
 				"reason": "no-source",
 				"scenes": [
@@ -15757,12 +15561,6 @@
 				]
 			},
 			"npc:2238": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
-				]
-			},
-			"npc:2299": {
 				"reason": "no-source",
 				"scenes": [
 					"guides"
@@ -15899,14 +15697,6 @@
 					"slash"
 				]
 			},
-			"npc:2600": {
-				"reason": "no-source",
-				"scenes": [
-					"picker",
-					"rares",
-					"slash"
-				]
-			},
 			"npc:2601": {
 				"reason": "no-source",
 				"scenes": [
@@ -16030,6 +15820,12 @@
 					"guides"
 				]
 			},
+			"npc:2793": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
 			"npc:2803": {
 				"reason": "no-source",
 				"scenes": [
@@ -16047,12 +15843,6 @@
 				"reason": "no-source",
 				"scenes": [
 					"dungeons",
-					"guides"
-				]
-			},
-			"npc:2835": {
-				"reason": "no-source",
-				"scenes": [
 					"guides"
 				]
 			},
@@ -16125,6 +15915,12 @@
 					"guides"
 				]
 			},
+			"npc:2980": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
 			"npc:2985": {
 				"reason": "no-source",
 				"scenes": [
@@ -16151,6 +15947,30 @@
 				]
 			},
 			"npc:3005": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
+			"npc:3012": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
+			"npc:3014": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
+			"npc:3027": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
+			"npc:3033": {
 				"reason": "no-source",
 				"scenes": [
 					"guides"
@@ -16254,12 +16074,6 @@
 				]
 			},
 			"npc:3204": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
-				]
-			},
-			"npc:3208": {
 				"reason": "no-source",
 				"scenes": [
 					"guides"
@@ -16585,12 +16399,6 @@
 					"guides"
 				]
 			},
-			"npc:3897": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
-				]
-			},
 			"npc:3901": {
 				"reason": "no-source",
 				"scenes": [
@@ -16604,6 +16412,12 @@
 				]
 			},
 			"npc:3920": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
+			"npc:3936": {
 				"reason": "no-source",
 				"scenes": [
 					"guides"
@@ -16637,6 +16451,12 @@
 				"reason": "no-source",
 				"scenes": [
 					"dungeons"
+				]
+			},
+			"npc:4046": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
 				]
 			},
 			"npc:4048": {
@@ -16680,12 +16500,6 @@
 				]
 			},
 			"npc:4092": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
-				]
-			},
-			"npc:4201": {
 				"reason": "no-source",
 				"scenes": [
 					"guides"
@@ -17179,6 +16993,12 @@
 					"guides"
 				]
 			},
+			"npc:5637": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
 			"npc:5638": {
 				"reason": "no-source",
 				"scenes": [
@@ -17273,22 +17093,6 @@
 					"slash"
 				]
 			},
-			"npc:5798": {
-				"reason": "no-source",
-				"scenes": [
-					"picker",
-					"rares",
-					"slash"
-				]
-			},
-			"npc:5799": {
-				"reason": "no-source",
-				"scenes": [
-					"picker",
-					"rares",
-					"slash"
-				]
-			},
 			"npc:5827": {
 				"reason": "no-source",
 				"scenes": [
@@ -17354,19 +17158,13 @@
 					"guides"
 				]
 			},
+			"npc:5901": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
 			"npc:5905": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
-				]
-			},
-			"npc:5955": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
-				]
-			},
-			"npc:6015": {
 				"reason": "no-source",
 				"scenes": [
 					"guides"
@@ -17466,12 +17264,6 @@
 				]
 			},
 			"npc:6293": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
-				]
-			},
-			"npc:6294": {
 				"reason": "no-source",
 				"scenes": [
 					"guides"
@@ -17863,14 +17655,6 @@
 					"slash"
 				]
 			},
-			"npc:8303": {
-				"reason": "no-source",
-				"scenes": [
-					"picker",
-					"rares",
-					"slash"
-				]
-			},
 			"npc:8395": {
 				"reason": "no-source",
 				"scenes": [
@@ -17882,12 +17666,6 @@
 				"scenes": [
 					"guides",
 					"picker"
-				]
-			},
-			"npc:8403": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
 				]
 			},
 			"npc:8404": {
@@ -17924,12 +17702,6 @@
 				]
 			},
 			"npc:8508": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
-				]
-			},
-			"npc:8579": {
 				"reason": "no-source",
 				"scenes": [
 					"guides"
@@ -18006,6 +17778,12 @@
 					"guides"
 				]
 			},
+			"npc:9087": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
 			"npc:9116": {
 				"reason": "no-source",
 				"scenes": [
@@ -18035,6 +17813,12 @@
 				"reason": "no-source",
 				"scenes": [
 					"guide",
+					"guides"
+				]
+			},
+			"npc:9298": {
+				"reason": "no-source",
+				"scenes": [
 					"guides"
 				]
 			},
@@ -18127,6 +17911,12 @@
 					"guides"
 				]
 			},
+			"npc:9618": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
 			"npc:9619": {
 				"reason": "no-source",
 				"scenes": [
@@ -18156,18 +17946,6 @@
 				"reason": "no-source",
 				"scenes": [
 					"dungeons"
-				]
-			},
-			"npc:9860": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
-				]
-			},
-			"npc:9861": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
 				]
 			},
 			"npc:9996": {
@@ -18659,6 +18437,18 @@
 					"guides"
 				]
 			},
+			"npc:11556": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
+			"npc:11557": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
 			"npc:11596": {
 				"reason": "no-source",
 				"scenes": [
@@ -18684,6 +18474,12 @@
 				]
 			},
 			"npc:11624": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
+			"npc:11625": {
 				"reason": "no-source",
 				"scenes": [
 					"guides"
@@ -18738,6 +18534,12 @@
 				]
 			},
 			"npc:11886": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
+			"npc:11939": {
 				"reason": "no-source",
 				"scenes": [
 					"guides"
@@ -18980,6 +18782,12 @@
 					"guides"
 				]
 			},
+			"npc:13220": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
 			"npc:13257": {
 				"reason": "no-source",
 				"scenes": [
@@ -19132,14 +18940,6 @@
 					"slash"
 				]
 			},
-			"npc:14429": {
-				"reason": "no-source",
-				"scenes": [
-					"picker",
-					"rares",
-					"slash"
-				]
-			},
 			"npc:14432": {
 				"reason": "no-source",
 				"scenes": [
@@ -19194,14 +18994,6 @@
 				]
 			},
 			"npc:14473": {
-				"reason": "no-source",
-				"scenes": [
-					"picker",
-					"rares",
-					"slash"
-				]
-			},
-			"npc:14475": {
 				"reason": "no-source",
 				"scenes": [
 					"picker",
@@ -19324,6 +19116,12 @@
 					"guides"
 				]
 			},
+			"npc:14738": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
 			"npc:14910": {
 				"reason": "no-source",
 				"scenes": [
@@ -19367,6 +19165,12 @@
 				]
 			},
 			"npc:15189": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
+				]
+			},
+			"npc:15190": {
 				"reason": "no-source",
 				"scenes": [
 					"guides"
@@ -19824,13 +19628,6 @@
 					"guides"
 				]
 			},
-			"npc:267000": {
-				"reason": "no-source",
-				"scenes": [
-					"picker",
-					"slash"
-				]
-			},
 			"npc:267009": {
 				"reason": "no-source",
 				"scenes": [
@@ -19888,12 +19685,6 @@
 				]
 			},
 			"npc:270269": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
-				]
-			},
-			"npc:270892": {
 				"reason": "no-source",
 				"scenes": [
 					"guides"
@@ -20265,12 +20056,6 @@
 				"reason": "no-source",
 				"scenes": [
 					"tooltips"
-				]
-			},
-			"object:460002": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
 				]
 			},
 			"object:460004": {
@@ -21528,12 +21313,6 @@
 					"guides"
 				]
 			},
-			"npc:1325": {
-				"reason": "no-source",
-				"scenes": [
-					"dungeons"
-				]
-			},
 			"npc:1346": {
 				"reason": "no-source",
 				"scenes": [
@@ -21544,14 +21323,6 @@
 				"reason": "no-source",
 				"scenes": [
 					"lookup"
-				]
-			},
-			"npc:1399": {
-				"reason": "no-source",
-				"scenes": [
-					"picker",
-					"rares",
-					"slash"
 				]
 			},
 			"npc:1416": {
@@ -21630,6 +21401,12 @@
 					"picker",
 					"rares",
 					"slash"
+				]
+			},
+			"npc:1950": {
+				"reason": "no-source",
+				"scenes": [
+					"guides"
 				]
 			},
 			"npc:1992": {
@@ -21836,12 +21613,6 @@
 					"guides"
 				]
 			},
-			"npc:3208": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
-				]
-			},
 			"npc:3287": {
 				"reason": "no-source",
 				"scenes": [
@@ -21952,12 +21723,6 @@
 				"reason": "no-source",
 				"scenes": [
 					"dungeons",
-					"guides"
-				]
-			},
-			"npc:3897": {
-				"reason": "no-source",
-				"scenes": [
 					"guides"
 				]
 			},
@@ -22113,12 +21878,6 @@
 				"reason": "no-source",
 				"scenes": [
 					"guides"
-				]
-			},
-			"npc:5188": {
-				"reason": "no-source",
-				"scenes": [
-					"lookup"
 				]
 			},
 			"npc:5189": {
@@ -22439,12 +22198,6 @@
 					"slash"
 				]
 			},
-			"npc:8508": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
-				]
-			},
 			"npc:8580": {
 				"reason": "no-source",
 				"scenes": [
@@ -22673,12 +22426,6 @@
 					"slash"
 				]
 			},
-			"npc:10929": {
-				"reason": "no-source",
-				"scenes": [
-					"dungeons"
-				]
-			},
 			"npc:10977": {
 				"reason": "no-source",
 				"scenes": [
@@ -22903,14 +22650,6 @@
 				]
 			},
 			"npc:14473": {
-				"reason": "no-source",
-				"scenes": [
-					"picker",
-					"rares",
-					"slash"
-				]
-			},
-			"npc:14475": {
 				"reason": "no-source",
 				"scenes": [
 					"picker",
@@ -23337,6 +23076,7 @@
 			"npc:259023": {
 				"reason": "no-source",
 				"scenes": [
+					"dungeons",
 					"guides"
 				]
 			},
@@ -24009,12 +23749,6 @@
 					"guides"
 				]
 			},
-			"object:460002": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
-				]
-			},
 			"object:460004": {
 				"reason": "no-source",
 				"scenes": [
@@ -24610,12 +24344,6 @@
 				]
 			},
 			"object:460001": {
-				"reason": "no-source",
-				"scenes": [
-					"guides"
-				]
-			},
-			"object:460002": {
 				"reason": "no-source",
 				"scenes": [
 					"guides"
