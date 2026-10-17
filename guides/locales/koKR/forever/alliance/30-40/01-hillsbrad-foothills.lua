@@ -111,7 +111,7 @@ return {
 	["The naga hold the shore south-east of {area:271}."] = "나가가 {area:271} 남동쪽 해안을 차지하고 있습니다.",
 
 	-- Step 22: Farren
-	-- {object:2117} Stormwind Keep (no name in this language: may be words)
+	-- {object:2117} Stormwind Keep
 	["A report for {object:2117}"] = "{object:2117}에 보낼 보고서",
 
 	-- Step 23: Snapjaws
@@ -146,22 +146,22 @@ return {
 	["From {npc:2432} in {area:271}"] = "{area:271}의 {npc:2432}에게서",
 
 	-- Step 29: Elling Trias
-	-- {object:2096} Trade District (no name in this language: may be words)
+	-- {object:2096} Trade District
 	["The cheese shop in the {object:2096}."] = "{object:2096}의 치즈 가게입니다.",
 
 	-- Step 30: Dashel Stonefist
-	-- {npc:4961} Dashel Stonefist · {object:2100} Old Town (no name in this language: may be words)
+	-- {npc:4961} Dashel Stonefist · {object:2100} Old Town
 	["{npc:4961} waits in the Pig and Whistle tavern in {object:2100}; he and his two thugs fight you, but stop once beaten."] = "{npc:4961}은(는) {object:2100}의 돼지와 휘파람 선술집에서 기다립니다. 그와 부하 둘이 덤벼들지만 쓰러뜨리면 멈춥니다.",
 
 	-- Step 31: The Islander
-	-- {npc:5479} Wu Shen · {object:2100} Old Town (no name in this language: may be words) · {npc:6236} Klannoc Macleod · {area:720} Fray Island · {zone:1413} Barrens · {area:392} Ratchet
+	-- {npc:5479} Wu Shen · {object:2100} Old Town · {npc:6236} Klannoc Macleod · {area:720} Fray Island · {zone:1413} Barrens · {area:392} Ratchet
 	["{npc:5479} trains warriors in {object:2100}, beside the Pig and Whistle. {npc:6236} waits on {area:720} in the {zone:1413}, on the way to {area:392} much later (40-50/01)."] = "{npc:5479}은(는) {object:2100}의 돼지와 휘파람 선술집 옆에서 전사를 가르칩니다. {npc:6236}은(는) {zone:1413}의 {area:720}에서 기다립니다. 한참 뒤 {area:392}(으)로 가는 길에 있습니다(40-50/01).",
 
 	-- Step 33: Cathedral of Light
 	["Cathedral of Light"] = "빛의 대성당",
 
 	-- Step 34: Mage Quarter
-	-- {npc:2708} Archmage Malin · {object:2164} Slaughtered Lamb (no name in this language: may be words) · {npc:211033} Garion Wendell · {npc:5081} Connor Rivers · {object:2101} Mage Quarter (no name in this language: may be words)
+	-- {npc:2708} Archmage Malin · {object:2164} Slaughtered Lamb · {npc:211033} Garion Wendell · {npc:5081} Connor Rivers · {object:2101} Mage Quarter
 	["{npc:2708} is in the {object:2164}; {npc:211033} near the canal; {npc:5081} south of the {object:2101}."] = "{npc:2708}은(는) {object:2164}에, {npc:211033}은(는) 운하 근처에, {npc:5081}은(는) {object:2101} 남쪽에 있습니다.",
 
 	-- Step 36: Druid training
@@ -170,9 +170,9 @@ return {
 	["{zone:1455} has no druid trainer: train with {npc:5504} in {zone:1453} before the tram."] = "{zone:1455}에는 드루이드 상급자가 없습니다. 전차를 타기 전에 {zone:1453}의 {npc:5504}에게 수련하십시오.",
 
 	-- Step 37: Deeprun Tram
-	-- {area:2257} Deeprun Tram · {object:28027} Dwarven District (no name in this language: may be words) · {zone:1455} Ironforge
+	-- {area:2257} Deeprun Tram · {object:28027} Dwarven District · {zone:1455} Ironforge
 	["Take the {area:2257} from the {object:28027} to {zone:1455}."] = "{object:28027}에서 {area:2257}을(를) 타고 {zone:1455}(으)로 가십시오.",
-	-- {npc:2784} King Magni Bronzebeard · {object:171709} High Seat (no name in this language: may be words)
+	-- {npc:2784} King Magni Bronzebeard · {object:171709} High Seat
 	["{npc:2784}, the {object:171709}"] = "{npc:2784}, {object:171709}",
 	["Level 30 and 32 spells"] = "30, 32레벨 주문",
 

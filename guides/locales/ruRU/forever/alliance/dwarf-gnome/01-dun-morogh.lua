@@ -324,7 +324,7 @@ return {
 	["{npc:1266} camps in {area:801}, south of Brewnall. His meats are in the locker in {npc:1271}'s cave to the north-east of his camp: grab them and leave quickly."] = "{npc:1266} стоит лагерем здесь: {area:801}, к югу от поселка Пивоваров. Его мясо лежит в шкафчике в пещере NPC {npc:1271} к северо-востоку от лагеря: заберите его и быстро уходите.",
 
 	-- Step 69: The Tome of Divinity
-	-- {zone:1455} Ironforge · {object:32362} Mystic Ward (no name in this language: may be words) · {npc:5149} Brandur Ironhammer · {npc:6179} Tiza Battleforge · {npc:6178} Muiredon Battleforge · {object:32386} Hall of Mysteries (no name in this language: may be words) · {npc:6175} John Turner · {item:2589} Linen Cloth · {zone:1426} Dun Morogh
+	-- {zone:1455} Ironforge · {object:32362} Mystic Ward · {npc:5149} Brandur Ironhammer · {npc:6179} Tiza Battleforge · {npc:6178} Muiredon Battleforge · {object:32386} Hall of Mysteries · {npc:6175} John Turner · {item:2589} Linen Cloth · {zone:1426} Dun Morogh
 	["Follow the road up to {zone:1455} and take the {object:32362}: {npc:5149}, {npc:6179} and {npc:6178} are in the {object:32386}. {npc:6175}, a beggar, wanders the city. He asks for ten {item:2589}: the troggs and trolls of {zone:1426} drop it, and the Auction House sells it."] = "Поднимитесь по дороге в город {zone:1455} и пройдите сюда: {object:32362}: {npc:5149}, {npc:6179} и {npc:6178} находятся здесь: {object:32386}. {npc:6175}, нищий, бродит по городу. Он просит десять единиц ткани ({item:2589}): она падает с троггов и троллей зоны {zone:1426}, ее продают на аукционе.",
 	-- {quest:2997} Tome of Divinity
 	["From the {quest:2997} she gives you"] = "Из предмета {quest:2997}, который она вам дает",
@@ -344,7 +344,7 @@ return {
 	-- Step 72: Ironforge class quests
 	-- {zone:1455} Ironforge
 	["{zone:1455} class quests"] = "Классовые задания: {zone:1455}",
-	-- {npc:10090} Belia Thundergranite · {object:32390} Hall of Arms (no name in this language: may be words) · {npc:258785} High Priestess Mims · {object:32386} Hall of Mysteries (no name in this language: may be words) · {npc:6120} Lago Blackwrench · {object:32383} Forlorn Cavern (no name in this language: may be words)
+	-- {npc:10090} Belia Thundergranite · {object:32390} Hall of Arms · {npc:258785} High Priestess Mims · {object:32386} Hall of Mysteries · {npc:6120} Lago Blackwrench · {object:32383} Forlorn Cavern
 	["{npc:10090} is in the {object:32390}, {npc:258785} in the {object:32386}, {npc:6120} in the {object:32383}."] = "{npc:10090} находится здесь: {object:32390}, {npc:258785} — {object:32386}, {npc:6120} — {object:32383}.",
 	-- {npc:6120} Lago Blackwrench · {npc:6122} Gakin the Darkbinder · {zone:1453} Stormwind
 	["{npc:6120}: {npc:6122} in {zone:1453} takes it"] = "{npc:6120}: сдается NPC {npc:6122} ({zone:1453})",
@@ -352,15 +352,15 @@ return {
 	-- Step 73: The Deeprun Tram
 	-- {area:2257} Deeprun Tram
 	["The {area:2257}"] = "{area:2257}",
-	-- {zone:1455} Ironforge · {area:2257} Deeprun Tram · {object:171524} Tinker Town (no name in this language: may be words) · {zone:1453} Stormwind
+	-- {zone:1455} Ironforge · {area:2257} Deeprun Tram · {object:171524} Tinker Town · {zone:1453} Stormwind
 	["Follow the road up to {zone:1455} and train with your class trainer. The {area:2257} leaves from {object:171524}, in the east of the city. Ride it to {zone:1453}."] = "Поднимитесь по дороге в город {zone:1455} и обучитесь у учителя вашего класса. {area:2257} отправляется отсюда: {object:171524}, в восточной части города. Доедьте на нем до города {zone:1453}.",
-	-- {object:660964} Misplaced Packages · {object:171524} Tinker Town (no name in this language: may be words)
+	-- {object:660964} Misplaced Packages · {object:171524} Tinker Town
 	["{object:660964}, by the mailbox in {object:171524}"] = "{object:660964}, у почтового ящика ({object:171524})",
-	-- {npc:258098} Eldrun Stormbreaker · {object:32372} Great Forge (no name in this language: may be words)
+	-- {npc:258098} Eldrun Stormbreaker · {object:32372} Great Forge
 	["{npc:258098}, the shaman trainer, north of the {object:32372}"] = "{npc:258098}, учитель шаманов, к северу от места {object:32372}",
 
 	-- Step 74: Defensive Stance
-	-- {object:28027} Dwarven District (no name in this language: may be words) · {npc:5480} Ilsa Corbin · {object:2100} Old Town (no name in this language: may be words) · {npc:6089} Harry Burlguard · {npc:6090} Bartleby · {object:2152} Pig and Whistle Tavern (no name in this language: may be words)
+	-- {object:28027} Dwarven District · {npc:5480} Ilsa Corbin · {object:2100} Old Town · {npc:6089} Harry Burlguard · {npc:6090} Bartleby · {object:2152} Pig and Whistle Tavern
 	["The tram arrives in the {object:28027}. {npc:5480} trains warriors in {object:2100}; {npc:6089} and {npc:6090} stand together by the {object:2152} there. {npc:6090} fights you for his mug."] = "Поезд прибывает сюда: {object:28027}. {npc:5480} обучает воинов здесь: {object:2100}; {npc:6089} и {npc:6090} стоят вместе у таверны ({object:2152}). {npc:6090} сражается с вами за свою кружку.",
 
 	-- Step 75: Desperate Prayer
@@ -368,7 +368,7 @@ return {
 	["{npc:376} is in the Cathedral of Light."] = "{npc:376} находится в Соборе Света.",
 
 	-- Step 76: Gakin the Darkbinder
-	-- {npc:6122} Gakin the Darkbinder · {object:2164} Slaughtered Lamb (no name in this language: may be words) · {object:2101} Mage Quarter (no name in this language: may be words)
+	-- {npc:6122} Gakin the Darkbinder · {object:2164} Slaughtered Lamb · {object:2101} Mage Quarter
 	["{npc:6122} waits in the cellar of the {object:2164}, in the {object:2101}."] = "{npc:6122} ждет в подвале здания {object:2164} ({object:2101}).",
 
 	-- Step 77: Surena Caledon
@@ -376,12 +376,12 @@ return {
 	["Leave {zone:1453} by the main gate, go south to {area:87} and east along the road to the {area:62}. {npc:881} (level 9) stands by its farmhouse."] = "Выйдите из города {zone:1453} через главные ворота, идите на юг сюда: {area:87} и на восток по дороге сюда: {area:62}. {npc:881} (уровень 9) стоит у фермерского дома.",
 
 	-- Step 78: The Binding
-	-- {npc:6122} Gakin the Darkbinder · {item:6928} Bloodstone Choker · {object:2164} Slaughtered Lamb (no name in this language: may be words) · {zone:1436} Westfall · {area:87} Goldshire
+	-- {npc:6122} Gakin the Darkbinder · {item:6928} Bloodstone Choker · {object:2164} Slaughtered Lamb · {zone:1436} Westfall · {area:87} Goldshire
 	["Back to {npc:6122}. Use the {item:6928} at the summoning circle in the {object:2164}'s cellar and defeat the voidwalker it calls. {zone:1436} is next, west of {area:87}."] = "Вернитесь к {npc:6122}. Используйте {item:6928} у круга призыва в подвале здания {object:2164} и победите призванного демона Бездны. Далее — {zone:1436}, к западу от места {area:87}.",
 	["Subdue the voidwalker"] = "Подчините демона Бездны",
 
 	-- Step 79: Jennea Cannon
-	-- {npc:5497} Jennea Cannon · {object:2101} Mage Quarter (no name in this language: may be words) · {quest:1861} Mirror Lake
+	-- {npc:5497} Jennea Cannon · {object:2101} Mage Quarter · {quest:1861} Mirror Lake
 	["{npc:5497} stands in the Wizard's Sanctum, the tower of the {object:2101}; she gives you a flask for the {quest:1861} waterfall."] = "{npc:5497} стоит в башне магов ({object:2101}); она дает вам флягу для водопада ({quest:1861}).",
 
 	-- Step 80: Mirror Lake

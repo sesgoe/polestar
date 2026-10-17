@@ -10,7 +10,7 @@ return {
 	["Gnomeregan Exiles Reputation"] = "Réputation : Exilés de Gnomeregan",
 
 	-- Step 1: Bubulo Acerbus: A Donation of Wool
-	-- {npc:14724} Bubulo Acerbus · {faction:54} Gnomeregan Exiles · {object:171524} Tinker Town (no name in this language: may be words) · {zone:1455} Ironforge · {item:14047} Runecloth · {quest:7812} Additional Runecloth
+	-- {npc:14724} Bubulo Acerbus · {faction:54} Gnomeregan Exiles · {object:171524} Tinker Town · {zone:1455} Ironforge · {item:14047} Runecloth · {quest:7812} Additional Runecloth
 	["{npc:14724} takes cloth for {faction:54} in {object:171524}, {zone:1455}. The first donations of Wool, Silk, Mageweave and {item:14047} (60 cloth each) are done once and give the most reputation per cloth; after them, {quest:7812} repeats until Exalted. Exalted with another race's city lets you buy that race's mounts. Forever's Legacy Diplomat perk increases reputation gains."] = "{npc:14724} prend les étoffes pour {faction:54} à {object:171524}, {zone:1455}. Les premiers dons d'Etoffe de laine, d'Etoffe de soie, d'Etoffe de tisse-mage et de {item:14047} (60 étoffes chacun) ne se font qu'une fois et donnent le plus de réputation par étoffe ; ensuite, {quest:7812} se répète jusqu'à Exalté. Être exalté auprès de la ville d'une autre race permet d'acheter les montures de cette race. L'atout Diplomate de l'Héritage de Forever augmente les gains de réputation.",
 
 	-- Step 2: Wool Cloth
@@ -24,7 +24,7 @@ return {
 	["Dunemaul ogres (level 45-48) drop it here. The Auction House works too."] = "Les ogres Cognedune (niveau 45-48) en laissent tomber ici. L'hôtel des ventes fonctionne aussi.",
 
 	-- Step 8: Runecloth
-	-- {object:92525} Argent Dawn (no name in this language: may be words)
+	-- {object:92525} Argent Dawn
 	-- plural, as words: Dark Adepts = {npc:8546} Dark Adept
 	["Dark Adepts and Shadowmages (level 58-60) drop it here; every Scourge kill here also counts toward the {object:92525} (see that guide). The Auction House works too."] = "Les Adeptes noirs et les Ombremages (niveau 58-60) en laissent tomber ici ; chaque mort du Fléau ici compte aussi pour {object:92525} (voir ce guide). L'hôtel des ventes fonctionne aussi.",
 

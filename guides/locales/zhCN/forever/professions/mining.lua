@@ -152,13 +152,13 @@ return {
 	["Mine every Iron (125, green), Gold (155, yellow), Mithril (175, yellow) node you pass and circle the waypoints until {skill:186} 230. Smelt the ore at a forge when your bags fill: smelting also raises {skill:186}. Zone level 35-45."] = "开采沿途所有铁矿石（125，绿色）、金矿石（155，黄色）、秘银矿脉（175，黄色），绕着路径点循环，直到{skill:186}达到230。背包满了就到熔炉熔炼矿石：熔炼也能提升{skill:186}。地区等级35-45。",
 
 	-- Step 26: Dark Iron & Truesilver: Searing Gorge (230-245)
-	-- {object:147516} Dark Iron (no name in this language: may be words) · {zone:1427} Searing Gorge
+	-- {object:147516} Dark Iron · {zone:1427} Searing Gorge
 	["{object:147516} & Truesilver: {zone:1427} (230-245)"] = "{object:147516}和真银矿石：{zone:1427}（230-245）",
-	-- {object:147516} Dark Iron (no name in this language: may be words) · {skill:186} Mining
+	-- {object:147516} Dark Iron · {skill:186} Mining
 	["Mine every Gold (155, green), Mithril (175, green), {object:147516} (230, orange), Truesilver (230, orange) node you pass and circle the waypoints until {skill:186} 245. Smelt the ore at a forge when your bags fill: smelting also raises {skill:186}. Zone level 43-50."] = "开采沿途所有金矿石（155，绿色）、秘银矿脉（175，绿色）、{object:147516}（230，橙色）、真银矿石（230，橙色），绕着路径点循环，直到{skill:186}达到245。背包满了就到熔炉熔炼矿石：熔炼也能提升{skill:186}。地区等级43-50。",
-	-- {object:147516} Dark Iron (no name in this language: may be words)
+	-- {object:147516} Dark Iron
 	["Truesilver, {object:147516}"] = "真银矿石、{object:147516}",
-	-- {object:147516} Dark Iron (no name in this language: may be words)
+	-- {object:147516} Dark Iron
 	["{object:147516}, Gold"] = "{object:147516}、金矿石",
 
 	-- Step 27: Truesilver & Small Thorium: Blasted Lands (245-275)
@@ -170,8 +170,8 @@ return {
 	-- Step 28: Rich Thorium: Burning Steppes (275-300)
 	-- {zone:1428} Burning Steppes
 	["Rich Thorium: {zone:1428} (275-300)"] = "富瑟银矿：{zone:1428}（275-300）",
-	-- {object:147516} Dark Iron (no name in this language: may be words) · {skill:186} Mining
+	-- {object:147516} Dark Iron · {skill:186} Mining
 	["Mine every {object:147516} (230, yellow), Truesilver (230, yellow), Small Thorium (245, yellow), Rich Thorium (275, orange) node you pass and circle the waypoints until {skill:186} 300. Smelt the ore at a forge when your bags fill: smelting also raises {skill:186}. Zone level 50-58."] = "开采沿途所有{object:147516}（230，黄色）、真银矿石（230，黄色）、瑟银矿脉（245，黄色）、富瑟银矿（275，橙色），绕着路径点循环，直到{skill:186}达到300。背包满了就到熔炉熔炼矿石：熔炼也能提升{skill:186}。地区等级50-58。",
-	-- {object:147516} Dark Iron (no name in this language: may be words)
+	-- {object:147516} Dark Iron
 	["{object:147516}, Rich Thorium"] = "{object:147516}、富瑟银矿",
 }

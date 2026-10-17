@@ -128,10 +128,10 @@ return {
 	["Fly to {area:1637}"] = "飞往{area:1637}",
 
 	-- Step 31: Vehena
-	-- {object:172961} Valley of Spirits (no name in this language: may be words)
+	-- {object:172961} Valley of Spirits
 	["In the {object:172961}."] = "在{object:172961}。",
 
 	-- Step 32: Rashona Straglash
-	-- {object:172958} Valley of Honor (no name in this language: may be words)
+	-- {object:172958} Valley of Honor
 	["In the {object:172958}."] = "在{object:172958}。",
 }

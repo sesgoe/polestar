@@ -9,7 +9,7 @@ return {
 	-- Step 1: Fly to Light's Hope Chapel
 	-- {area:2268} Light's Hope Chapel
 	["Fly to {area:2268}"] = "飞往{area:2268}",
-	-- {object:1661} The Undercity (no name in this language: may be words) · {object:36078} Trade Quarter (no name in this language: may be words)
+	-- {object:1661} The Undercity · {object:36078} Trade Quarter
 	["{object:1661}'s flight master is in the {object:36078}'s west tower, outside the walls."] = "{object:1661}的飞行管理员在{object:36078}城墙外的西塔上。",
 
 	-- Step 2: Light's Hope Chapel

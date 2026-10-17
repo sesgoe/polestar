@@ -58,7 +58,7 @@ return {
 
 	-- Step 12: Brackenwall Village
 	["Ride back west to Brackenwall with the head."] = "머리를 가지고 서쪽의 담쟁이 마을로 돌아가세요.",
-	-- {npc:2519} Kin'weelay · {object:3202} Grom'gol (no name in this language: may be words)
+	-- {npc:2519} Kin'weelay · {object:3202} Grom'gol
 	["For {npc:2519} at {object:3202}, in the next guide"] = "다음 가이드에서 {object:3202}의 {npc:2519}에게",
 
 	-- Step 13: Hearth to Ratchet

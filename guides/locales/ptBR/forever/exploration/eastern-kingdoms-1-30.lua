@@ -43,7 +43,7 @@ return {
 
 	-- Step 9: Dun Morogh (1/3)
 	["18 areas to discover here, levels 4-12."] = "18 áreas para descobrir aqui, níveis 4-12.",
-	-- {area:2257} Deeprun Tram · {zone:1453} Stormwind City · {object:28027} Dwarven District (no name in this language: may be words) · {zone:1455} Ironforge
+	-- {area:2257} Deeprun Tram · {zone:1453} Stormwind City · {object:28027} Dwarven District · {zone:1455} Ironforge
 	["Take the {area:2257} from {zone:1453}'s {object:28027} to {zone:1455} (or fly to {zone:1455}), then leave the city through its gates."] = "Pegue o {area:2257} no {object:28027} de {zone:1453} até {zone:1455} (ou voe até {zone:1455}) e saia da cidade pelos portões.",
 
 	-- Step 12: Loch Modan (1/2)

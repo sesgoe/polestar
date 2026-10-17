@@ -293,9 +293,9 @@ return {
 	["Take the portal up from {area:702} to {npc:4217} in the {area:1658}."] = "Prenez le portail depuis {area:702} pour monter voir {npc:4217} à {area:1658}.",
 
 	-- Step 47: The Moonkin Stone
-	-- {object:177525} Moonkin Stone (no name in this language: may be words)
+	-- {object:177525} Moonkin Stone
 	["The {object:177525}"] = "{object:177525}",
-	-- {area:702} Rut'theran Village · {area:442} Auberdine · {object:177525} Moonkin Stone (no name in this language: may be words) · {item:15208} Cenarion Moondust · {npc:12144} Lunaclaw Spirit
+	-- {area:702} Rut'theran Village · {area:442} Auberdine · {object:177525} Moonkin Stone · {item:15208} Cenarion Moondust · {npc:12144} Lunaclaw Spirit
 	["Go back down to {area:702} and fly to {area:442}. The {object:177525} stands in the hills just east of the village: use the {item:15208} there, defeat Lunaclaw and speak to the {npc:12144}."] = "Redescendez à {area:702} et prenez un vol pour {area:442}. La {object:177525} se dresse dans les collines juste à l'est du village : utilisez-y la {item:15208}, vainquez Lunegriffe et parlez à l'{npc:12144}.",
 
 	-- Step 48: Body and Heart
@@ -311,7 +311,7 @@ return {
 	["From {area:17203}, ride through the city gates into {zone:1429} and follow the road west to {zone:1436}."] = "Depuis {area:17203}, passez les portes de la ville jusqu'en {zone:1429} et suivez la route vers l'ouest jusqu'en {zone:1436}.",
 
 	-- Step 50: Defensive Stance
-	-- {object:2100} Old Town (no name in this language: may be words) · {npc:5480} Ilsa Corbin · {npc:6089} Harry Burlguard · {npc:6090} Bartleby · {object:2152} Pig and Whistle Tavern (no name in this language: may be words)
+	-- {object:2100} Old Town · {npc:5480} Ilsa Corbin · {npc:6089} Harry Burlguard · {npc:6090} Bartleby · {object:2152} Pig and Whistle Tavern
 	["From the harbour walk into {object:2100}. {npc:5480} trains warriors there; {npc:6089} and {npc:6090} stand together by the {object:2152}. {npc:6090} fights you for his mug."] = "Depuis le port, rendez-vous dans {object:2100}. {npc:5480} y entraîne les guerriers ; {npc:6089} et {npc:6090} se tiennent ensemble près de {object:2152}. {npc:6090} vous affronte pour sa chope.",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.

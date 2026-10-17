@@ -12,7 +12,7 @@ return {
 	["Experience"] = "經驗值",
 
 	-- Step 1: Magecraft (Stormwind)
-	-- {npc:331} Maginor Dumas · {zone:1453} Stormwind · {object:2101} Mage Quarter (no name in this language: may be words) · {zone:1455} Ironforge
+	-- {npc:331} Maginor Dumas · {zone:1453} Stormwind · {object:2101} Mage Quarter · {zone:1455} Ironforge
 	["{npc:331}, the Master Mage, stands in the Wizard's Sanctum in {zone:1453}'s {object:2101}; Dink in {zone:1455} gives the same quest."] = "大法師{npc:331}站在{zone:1453}{object:2101}的法師塔裡；{zone:1455}的丁克也提供同一個任務。",
 
 	-- Step 2: Magecraft (Orgrimmar)

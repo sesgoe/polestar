@@ -41,18 +41,18 @@ return {
 	["for the {npc:5598} in the {zone:1425}, around level 48"] = "для персонажа {npc:5598} ({zone:1425}), примерно на 48-м уровне",
 
 	-- Step 11: Fly to Grom'gol
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["Fly to {object:3202}"] = "Летите сюда: {object:3202}",
 
 	-- Step 12: Zeppelin to Orgrimmar
 	-- {zone:1454} Orgrimmar
 	["Zeppelin to {zone:1454}"] = "Дирижабль: {zone:1454}",
-	-- {zone:1454} Orgrimmar · {object:3202} Grom'gol (no name in this language: may be words)
+	-- {zone:1454} Orgrimmar · {object:3202} Grom'gol
 	["The zeppelin to {zone:1454} leaves from the tower beside {object:3202}; it lands just north-east of {zone:1454}'s main gate."] = "Дирижабль ({zone:1454}) отправляется с башни у лагеря {object:3202}; он причаливает чуть к северо-востоку от главных ворот ({zone:1454}).",
 	["Zeppelin tower"] = "Башня дирижаблей",
 
 	-- Step 13: Orgrimmar
-	-- {object:172958} Valley of Honor (no name in this language: may be words) · {object:172960} Cleft of Shadow (no name in this language: may be words) · {object:172961} Valley of Spirits (no name in this language: may be words)
+	-- {object:172958} Valley of Honor · {object:172960} Cleft of Shadow · {object:172961} Valley of Spirits
 	["{object:172958}, then the {object:172960} and the {object:172961}."] = "{object:172958}, затем {object:172960} и {object:172961}.",
 
 	-- Step 14: Thunder Bluff

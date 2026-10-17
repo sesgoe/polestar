@@ -93,11 +93,11 @@ return {
 	["Hearthstone on cooldown? Follow the road north-east."] = "¿Piedra de hogar en reutilización? Sigue el camino hacia el noreste.",
 	-- {npc:266} Wiley the Black · {area:69} Lakeshire
 	["For {npc:266} in {area:69}, Redridge"] = "Para {npc:266} en {area:69}, Montañas Crestagrana",
-	-- {npc:11026} Sprite Jumpsprocket · {zone:1453} Stormwind · {object:28027} Dwarven District (no name in this language: may be words)
+	-- {npc:11026} Sprite Jumpsprocket · {zone:1453} Stormwind · {object:28027} Dwarven District
 	["For {npc:11026} in {zone:1453}'s {object:28027}"] = "Para {npc:11026}, en {object:28027} de {zone:1453}",
 
 	-- Step 17: Defensive Stance
-	-- {zone:1453} Stormwind · {npc:5480} Ilsa Corbin · {object:2100} Old Town (no name in this language: may be words) · {npc:6089} Harry Burlguard · {npc:6090} Bartleby · {object:2152} Pig and Whistle Tavern (no name in this language: may be words)
+	-- {zone:1453} Stormwind · {npc:5480} Ilsa Corbin · {object:2100} Old Town · {npc:6089} Harry Burlguard · {npc:6090} Bartleby · {object:2152} Pig and Whistle Tavern
 	["Fly or ride to {zone:1453}. {npc:5480} trains warriors in {object:2100}; {npc:6089} and {npc:6090} stand together by the {object:2152} there. {npc:6090} fights you for his mug."] = "Vuela o cabalga hasta {zone:1453}. {npc:5480} entrena a los guerreros en {object:2100}; {npc:6089} y {npc:6090} están juntos junto a {object:2152}, allí mismo. {npc:6090} pelea contigo por su jarra.",
 
 	-- Step 18: High Priestess Laurena
@@ -106,11 +106,11 @@ return {
 
 	-- Step 19: Shaman training
 	["Shaman training"] = "Instrucción de chamán",
-	-- {zone:1453} Stormwind · {area:2257} Deeprun Tram · {object:28027} Dwarven District (no name in this language: may be words) · {zone:1455} Ironforge · {npc:258098} Eldrun Stormbreaker
+	-- {zone:1453} Stormwind · {area:2257} Deeprun Tram · {object:28027} Dwarven District · {zone:1455} Ironforge · {npc:258098} Eldrun Stormbreaker
 	["Ride to {zone:1453}. It has no shaman trainer: take the {area:2257} from the {object:28027} to {zone:1455}, train with {npc:258098}, then ride the tram back for the boat."] = "Cabalga hasta {zone:1453}. No tiene instructor de chamanes: toma el {area:2257} desde {object:28027} hasta {zone:1455}, entrena con {npc:258098} y vuelve en el tranvía para coger el barco.",
 
 	-- Step 20: Stormwind
-	-- {zone:1453} Stormwind · {object:2100} Old Town (no name in this language: may be words) · {object:2101} Mage Quarter (no name in this language: may be words) · {npc:11026} Sprite Jumpsprocket · {object:28027} Dwarven District (no name in this language: may be words) · {npc:279} Morgan Pestle · {object:2096} Trade District (no name in this language: may be words)
+	-- {zone:1453} Stormwind · {object:2100} Old Town · {object:2101} Mage Quarter · {npc:11026} Sprite Jumpsprocket · {object:28027} Dwarven District · {npc:279} Morgan Pestle · {object:2096} Trade District
 	["Fly or ride to {zone:1453}. Trainers: {object:2100} (Warriors, Rogues), the Cathedral (Paladins, Priests), the {object:2101} (Mages, Warlocks), the Park (Druids). {npc:11026} works in the {object:28027}, {npc:279} in the {object:2096}."] = "Vuela o cabalga hasta {zone:1453}. Instructores: {object:2100} (guerreros, pícaros), la Catedral (paladines, sacerdotes), {object:2101} (magos, brujos), el Parque (druidas). {npc:11026} trabaja en {object:28027}; {npc:279}, en {object:2096}.",
 	["Level 12, 14 and 16 spells"] = "Hechizos de nivel 12, 14 y 16",
 	-- {item:2449} Earthroot · {zone:1439} Darkshore · {npc:1313} Maria Lumere
@@ -119,7 +119,7 @@ return {
 	["{npc:5497}, Wizard's Sanctum: {quest:1861}"] = "{npc:5497}, Sagrario del Mago: {quest:1861}",
 
 	-- Step 21: Fishin' Time
-	-- {npc:5494} Catherine Leland · {object:2096} Trade District (no name in this language: may be words) · {npc:267118} Gilbert Gray
+	-- {npc:5494} Catherine Leland · {object:2096} Trade District · {npc:267118} Gilbert Gray
 	["{npc:5494} sells fishing supplies along the canal just west of the {object:2096}; {npc:267118} fishes at the harbor, on the way to the boat."] = "{npc:5494} vende suministros de pesca junto al canal, justo al oeste de {object:2096}; {npc:267118} pesca en el puerto, de camino al barco.",
 	-- {item:6529} Shiny Bauble · {npc:5494} Catherine Leland
 	["{item:6529}, from {npc:5494}"] = "{item:6529}, de {npc:5494}",

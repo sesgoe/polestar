@@ -12,7 +12,7 @@ return {
 	["An off-hand orb or a staff for the late 30s, your pick."] = "Um orbe de mão secundária ou um cajado para o fim dos 30, à sua escolha.",
 
 	-- Step 1: Return to the Marsh (Stormwind)
-	-- {npc:5497} Jennea Cannon · {zone:1453} Stormwind · {object:2101} Mage Quarter (no name in this language: may be words) · {npc:6546} Tabetha · {zone:1455} Ironforge
+	-- {npc:5497} Jennea Cannon · {zone:1453} Stormwind · {object:2101} Mage Quarter · {npc:6546} Tabetha · {zone:1455} Ironforge
 	["{npc:5497} in the Wizard's Sanctum, {zone:1453}'s {object:2101}, sends you back to {npc:6546}; Bink in {zone:1455} gives the same quest."] = "{npc:5497}, na torre do {object:2101} de {zone:1453}, manda você de volta a {npc:6546}; Bink em {zone:1455} dá a mesma missão.",
 
 	-- Step 2: Return to the Marsh (Orgrimmar)

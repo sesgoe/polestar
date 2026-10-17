@@ -12,11 +12,11 @@ return {
 	["The felhunter, the demon to bring against spellcasters, and a {item:22244} for your shards."] = "주문시전자 상대로 쓰는 악마인 지옥사냥개와, 영혼의 조각을 담을 {item:22244}입니다.",
 
 	-- Step 1: Seeking Strahad (Stormwind)
-	-- {npc:6122} Gakin the Darkbinder · {object:2164} Slaughtered Lamb (no name in this language: may be words) · {object:2101} Mage Quarter (no name in this language: may be words) · {npc:6251} Strahad Farsan · {area:392} Ratchet
+	-- {npc:6122} Gakin the Darkbinder · {object:2164} Slaughtered Lamb · {object:2101} Mage Quarter · {npc:6251} Strahad Farsan · {area:392} Ratchet
 	["At 30 {npc:6122}, in the cellar of the {object:2164} in the {object:2101}, sends you to {npc:6251} in {area:392}."] = "30레벨에 {object:2101} {object:2164}의 지하실에 있는 {npc:6122}이(가) {area:392}의 {npc:6251}에게 보냅니다.",
 
 	-- Step 2: Seeking Strahad (Ironforge)
-	-- {npc:6120} Lago Blackwrench · {object:32383} Forlorn Cavern (no name in this language: may be words) · {npc:6251} Strahad Farsan · {area:392} Ratchet
+	-- {npc:6120} Lago Blackwrench · {object:32383} Forlorn Cavern · {npc:6251} Strahad Farsan · {area:392} Ratchet
 	["At 30 {npc:6120}, in the {object:32383}, sends you to {npc:6251} in {area:392}."] = "30레벨에 {object:32383}의 {npc:6120}이(가) {area:392}의 {npc:6251}에게 보냅니다.",
 
 	-- Step 3: Strahad Farsan

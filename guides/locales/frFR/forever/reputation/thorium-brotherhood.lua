@@ -14,7 +14,7 @@ return {
 	["{area:1446}, on the scaffolds in the north-west of {zone:1427}, is the Brotherhood's outpost. The {faction:59} starts out Neutral. Forever's Legacy Diplomat perk increases reputation gains."] = "{area:1446}, sur les échafaudages au nord-ouest de {zone:1427}, est l'avant-poste de la Confrérie. Votre réputation auprès de {faction:59} commence à Neutre. L'atout Diplomate de l'Héritage de Forever augmente les gains de réputation.",
 
 	-- Step 2: Secret Plans: Fiery Flux
-	-- {area:1443} Slag Pit · {object:147516} Dark Iron (no name in this language: may be words) · {item:18945} Dark Iron Residue
+	-- {area:1443} Slag Pit · {object:147516} Dark Iron · {item:18945} Dark Iron Residue
 	["The plans lie in the {area:1443} of the Cauldron, guarded by {object:147516} dwarves. {object:147516} dwarves also drop {item:18945}, which Burninate takes for Gaining Acceptance."] = "Les plans se trouvent dans {area:1443} du Chaudron, gardés par des nains {object:147516}. Les nains {object:147516} lâchent aussi {item:18945}, que Burninate prend pour Se faire accepter.",
 
 	-- Step 3: Back to Burninate

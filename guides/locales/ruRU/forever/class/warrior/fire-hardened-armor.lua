@@ -11,7 +11,7 @@ return {
 	["A hauberk at 28, a coif, leggings or gauntlets by race, and a shield on the way."] = "Кольчуга на 28-м уровне, капюшон, поножи или рукавицы в зависимости от расы и щит по пути.",
 
 	-- Step 1: Yorus Barleybrew (Stormwind)
-	-- {npc:5479} Wu Shen · {object:2100} Old Town (no name in this language: may be words) · {quest:1698} Yorus Barleybrew
+	-- {npc:5479} Wu Shen · {object:2100} Old Town · {quest:1698} Yorus Barleybrew
 	["At 20, {npc:5479} in {object:2100}, beside the Pig and Whistle, sends you to {quest:1698} in Redridge."] = "На 20-м уровне {npc:5479} ({object:2100}, рядом с таверной «Свинья и Свисток») отправляет вас к NPC {quest:1698} в Красногорье.",
 
 	-- Step 2: Yorus Barleybrew (Ironforge)
@@ -59,7 +59,7 @@ return {
 	["{item:6841}, from Roogug"] = "{item:6841} — с Ругуга",
 
 	-- Step 9: Furen's Armor
-	-- {npc:5413} Furen Longbeard · {object:28027} Dwarven District (no name in this language: may be words)
+	-- {npc:5413} Furen Longbeard · {object:28027} Dwarven District
 	["Back to {npc:5413} in the {object:28027}. He sends you on to a smith of your own race."] = "Вернитесь: {npc:5413} ({object:28027}). Он отправит вас к кузнецу вашей расы.",
 
 	-- Step 10: Grimand Elmore

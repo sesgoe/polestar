@@ -17,7 +17,7 @@ return {
 	["At 10, go to {npc:11406} in the {object:32386}, in {zone:1455}'s {object:32362}. Forever's quest text names Rohan, but the quest data has {npc:376} in {zone:1453}'s Cathedral of Light take it: try Rohan first, then Laurena (the {area:2257} links the cities)."] = "Geh mit Stufe 10 zu {npc:11406} in der {object:32386} im {object:32362} in {zone:1455}. Der Questtext von Forever nennt Rohan, laut Questdaten nimmt sie aber {npc:376} in der Kathedrale des Lichts in {zone:1453} an: Versuch es zuerst bei Rohan, dann bei Laurena ({area:2257} verbindet die Städte).",
 
 	-- Step 2: High Priestess Laurena
-	-- {npc:376} High Priestess Laurena · {area:2257} Deeprun Tram · {object:171524} Tinker Town (no name in this language: may be words)
+	-- {npc:376} High Priestess Laurena · {area:2257} Deeprun Tram · {object:171524} Tinker Town
 	["If Rohan did not take it: {npc:376} is in the Cathedral of Light. Take the {area:2257} from {object:171524}."] = "Falls Rohan sie nicht angenommen hat: {npc:376} ist in der Kathedrale des Lichts. Nimm in {object:171524} die Bahn {area:2257}.",
 
 	-- Step 3: Chastise

@@ -12,7 +12,7 @@ return {
 	["200 Horde reputation"] = "200点部落声望",
 
 	-- Step 1: Sagorne Creststrider
-	-- {npc:13417} Sagorne Creststrider · {object:172957} Valley of Wisdom (no name in this language: may be words)
+	-- {npc:13417} Sagorne Creststrider · {object:172957} Valley of Wisdom
 	["At 58 {npc:13417}, the shaman trainer in the {object:172957}, asks for two rare diamonds."] = "58级时，{object:172957}的萨满祭司训练师{npc:13417}要求两颗稀有钻石。",
 
 	-- Step 2: Two diamonds

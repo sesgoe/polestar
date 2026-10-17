@@ -26,9 +26,9 @@ return {
 	["Heavy War Golems patrol the floor of the Cauldron below Kalaran; Magma Elementals drift among them. Golems and elementals drop the oil, elementals the hearts."] = "Schwere Kriegsgolems patrouillieren unterhalb von Kalaran über den Boden des Kessels; Magmaelementare treiben zwischen ihnen. Golems und Elementare droppen das Öl, Elementare die Herzen.",
 
 	-- Step 6: Dark Iron dwarves
-	-- {object:147516} Dark Iron (no name in this language: may be words)
+	-- {object:147516} Dark Iron
 	["{object:147516} dwarves"] = "{object:147516}-Zwerge",
-	-- {item:10551} Thorium Plated Dagger · {item:18959} Smithing Tuyere · {object:147516} Dark Iron (no name in this language: may be words) · {item:11818} Grimesilt Outhouse Key
+	-- {item:10551} Thorium Plated Dagger · {item:18959} Smithing Tuyere · {object:147516} Dark Iron · {item:11818} Grimesilt Outhouse Key
 	["Taskmasters and Slavers drive the slaves all over the Cauldron, and any of them can carry a {item:10551}. The Steamsmiths work at the furnaces in the middle (the {item:18959}), the Lookouts stand on the southern ridges (the Spyglass). Any {object:147516} may drop the {item:11818}: keep it."] = "Zuchtmeister und Sklavenhändler treiben die Sklaven überall im Kessel an, und jeder von ihnen kann einen {item:10551} tragen. Die Dampfschmiede arbeiten an den Schmelzöfen in der Mitte (die {item:18959}), die Ausgucke stehen auf den südlichen Graten (das Handfernrohr). Jeder {object:147516}-Zwerg kann den {item:11818} droppen: Behalte ihn.",
 
 	-- Step 7: Greater Lava Spiders
@@ -50,7 +50,7 @@ return {
 	["The prisoner's next task, Ledger from {zone:1446}, sends you to the {zone:1435} and {zone:1445}: skip it."] = "Die nächste Aufgabe des Gefangenen, Geschäftsbuch aus {zone:1446}, schickt dich in die {zone:1435} und in die {zone:1445}: Überspring sie.",
 
 	-- Step 12: Dorius Stonetender
-	-- {object:147516} Dark Iron (no name in this language: may be words) · {object:175704} Singed Letter · {area:1959} Dustfire Valley
+	-- {object:147516} Dark Iron · {object:175704} Singed Letter · {area:1959} Dustfire Valley
 	["The dwarf stands by the road at the dig site. Follow him north along the road and fight off the {object:147516} ambushes. When it is over, read the {object:175704} he leaves on the road in {area:1959}."] = "Der Zwerg steht an der Straße bei der Grabungsstätte. Folge ihm auf der Straße nach Norden und wehr die Hinterhalte der {object:147516}-Zwerge ab. Wenn es vorbei ist, lies den {object:175704}, den er im {area:1959} auf der Straße zurücklässt.",
 	-- {npc:8256} Curator Thorius · {zone:1455} Ironforge
 	["For {npc:8256} in {zone:1455}, later"] = "Für {npc:8256} in {zone:1455}, später",

@@ -10,7 +10,7 @@ return {
 	["A robe or a tunic for Undead and Troll mages in their late 20s."] = "給20多級後段不死族和食人妖法師的長袍或外衣。",
 
 	-- Step 1: Anastasia Hartwell
-	-- {npc:4568} Anastasia Hartwell · {zone:1458} Undercity · {object:36082} Magic Quarter (no name in this language: may be words) · {zone:1454} Orgrimmar · {zone:1420} Tirisfal Glades
+	-- {npc:4568} Anastasia Hartwell · {zone:1458} Undercity · {object:36082} Magic Quarter · {zone:1454} Orgrimmar · {zone:1420} Tirisfal Glades
 	["{npc:4568} stands in the {zone:1458}'s {object:36082}. Trolls take the zeppelin from {zone:1454} to {zone:1420} for her."] = "{npc:4568}站在{zone:1458}的{object:36082}。食人妖從{zone:1454}搭飛艇到{zone:1420}去找她。",
 
 	-- Step 2: Deino

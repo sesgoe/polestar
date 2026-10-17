@@ -13,11 +13,11 @@ return {
 	["The Human and Dwarf priest spells: {quest:5634} at 10, {quest:5641} for Dwarves at 20."] = "Заклинания жрецов-людей и дворфов: {quest:5634} на 10-м уровне, {quest:5641} для дворфов на 20-м.",
 
 	-- Step 1: Desperate Prayer
-	-- {npc:11406} High Priest Rohan · {object:32386} Hall of Mysteries (no name in this language: may be words) · {zone:1455} Ironforge · {object:32362} Mystic Ward (no name in this language: may be words) · {npc:376} High Priestess Laurena · {zone:1453} Stormwind · {area:2257} Deeprun Tram
+	-- {npc:11406} High Priest Rohan · {object:32386} Hall of Mysteries · {zone:1455} Ironforge · {object:32362} Mystic Ward · {npc:376} High Priestess Laurena · {zone:1453} Stormwind · {area:2257} Deeprun Tram
 	["At 10, go to {npc:11406} in the {object:32386}, in {zone:1455}'s {object:32362}. Forever's quest text names Rohan, but the quest data has {npc:376} in {zone:1453}'s Cathedral of Light take it: try Rohan first, then Laurena (the {area:2257} links the cities)."] = "На 10-м уровне идите к NPC {npc:11406} ({object:32386}, {zone:1455}, {object:32362}). В тексте задания Forever назван Рохан, но по данным задания его принимает {npc:376} (Собор Света, {zone:1453}): сначала попробуйте Рохана, затем Лорену (города связывает {area:2257}).",
 
 	-- Step 2: High Priestess Laurena
-	-- {npc:376} High Priestess Laurena · {area:2257} Deeprun Tram · {object:171524} Tinker Town (no name in this language: may be words)
+	-- {npc:376} High Priestess Laurena · {area:2257} Deeprun Tram · {object:171524} Tinker Town
 	["If Rohan did not take it: {npc:376} is in the Cathedral of Light. Take the {area:2257} from {object:171524}."] = "Если Рохан не принял задание: {npc:376} — в Соборе Света. Поезжайте на поезде ({area:2257}) из места {object:171524}.",
 
 	-- Step 3: Chastise

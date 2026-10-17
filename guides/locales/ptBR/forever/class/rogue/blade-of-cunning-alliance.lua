@@ -16,7 +16,7 @@ return {
 	["At 10 {npc:917}, the rogue trainer in the Lion's Pride Inn in {area:87}, gives you a package for {npc:332} in {zone:1453}."] = "No nível 10, {npc:917}, o instrutor de ladinos na Estalagem Orgulho do Leão em {area:87}, dá a você um pacote para {npc:332} em {zone:1453}.",
 
 	-- Step 2: Master Mathias Shaw
-	-- {zone:1453} Stormwind · {object:2100} Old Town (no name in this language: may be words)
+	-- {zone:1453} Stormwind · {object:2100} Old Town
 	["Ride north to {zone:1453}; Mathias Shaw is at SI:7 in {object:2100}."] = "Cavalgue para o norte até {zone:1453}; Mestre Mathias Shaw está na AVIN, em {object:2100}.",
 
 	-- Step 3: Defias Dockmaster

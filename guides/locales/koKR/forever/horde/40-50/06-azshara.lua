@@ -13,7 +13,7 @@ return {
 	["From {area:3317}'s flight master, fly to the {area:1497}."] = "{area:3317}의 비행 조련사에게서 {area:1497}(으)로 날아가세요.",
 
 	-- Step 2: Oran Snakewrithe
-	-- {npc:7825} Oran Snakewrithe · {object:36082} Magic Quarter (no name in this language: may be words)
+	-- {npc:7825} Oran Snakewrithe · {object:36082} Magic Quarter
 	["{npc:7825} stands in the {object:36082}."] = "{npc:7825}은(는) {object:36082}에 있습니다.",
 
 	-- Step 3: Zeppelin to Orgrimmar
@@ -77,9 +77,9 @@ return {
 	["Xylem's tower stands on the cliff just north of {area:1237}; the path winds up its north side."] = "실렘의 탑은 {area:1237} 바로 북쪽 절벽 위에 있습니다. 길은 북쪽 면을 따라 구불구불 올라갑니다.",
 
 	-- Step 18: To Grom'gol
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["To {object:3202}"] = "{object:3202}(으)로",
-	-- {area:1237} Valormok · {zone:1454} Orgrimmar · {object:3202} Grom'gol (no name in this language: may be words)
+	-- {area:1237} Valormok · {zone:1454} Orgrimmar · {object:3202} Grom'gol
 	["Fly from {area:1237} to {zone:1454}, walk out of the main gate to the zeppelin towers and take the zeppelin to {object:3202}."] = "{area:1237}에서 {zone:1454}(으)로 날아간 뒤, 정문으로 나가 비행선 탑에서 {object:3202}행 비행선을 타세요.",
 
 	-- Step 19: Grom'gol Base Camp
@@ -97,7 +97,7 @@ return {
 	["Only once all three robots are home"] = "로봇 세 대가 모두 돌아온 뒤에만",
 
 	-- Step 22: Back to Grom'gol
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["Back to {object:3202}"] = "{object:3202}(으)로 돌아가기",
 
 	-- Step 23: Orgrimmar
@@ -105,7 +105,7 @@ return {
 	["Take the zeppelin back to {zone:1454}."] = "비행선을 타고 {zone:1454}(으)로 돌아가세요.",
 	-- {npc:6986} Dran Droffers
 	["{npc:6986}, the Drag"] = "골목길의 {npc:6986}",
-	-- {npc:8659} Jes'rimon · {object:172960} Cleft of Shadow (no name in this language: may be words)
+	-- {npc:8659} Jes'rimon · {object:172960} Cleft of Shadow
 	["{npc:8659}, the {object:172960}"] = "{object:172960}의 {npc:8659}",
 	-- {npc:8659} Jes'rimon · {quest:3504} Betrayed · {area:1237} Valormok
 	["Keep {npc:8659}'s payment and Ag'tor's {quest:3504}: they go back to {area:1237} on a later visit."] = "{npc:8659}의 대금과 아그토르의 {quest:3504}은(는) 보관하세요. 나중에 {area:1237}에 다시 갈 때 가져갑니다.",

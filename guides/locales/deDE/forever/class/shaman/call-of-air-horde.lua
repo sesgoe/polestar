@@ -13,7 +13,7 @@ return {
 	["The {item:5178} that lets you place air totems, then a weapon of your choice at 40."] = "{item:5178}, mit dem du Lufttotems aufstellen kannst, dann mit 40 eine Waffe deiner Wahl.",
 
 	-- Step 1: Searn Firewarder
-	-- {npc:5892} Searn Firewarder · {object:172957} Valley of Wisdom (no name in this language: may be words) · {npc:5905} Prate Cloudseer · {zone:1441} Thousand Needles
+	-- {npc:5892} Searn Firewarder · {object:172957} Valley of Wisdom · {npc:5905} Prate Cloudseer · {zone:1441} Thousand Needles
 	["At 30 {npc:5892} in the {object:172957} sends you to {npc:5905} in {zone:1441}."] = "Mit 30 schickt dich {npc:5892} im {object:172957} zu {npc:5905} in {zone:1441}.",
 
 	-- Step 2: Xanis Flameweaver

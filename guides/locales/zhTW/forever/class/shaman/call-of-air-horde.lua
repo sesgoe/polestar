@@ -13,7 +13,7 @@ return {
 	["The {item:5178} that lets you place air totems, then a weapon of your choice at 40."] = "讓你能放置風之圖騰的{item:5178}，40級時再獲得一把自選武器。",
 
 	-- Step 1: Searn Firewarder
-	-- {npc:5892} Searn Firewarder · {object:172957} Valley of Wisdom (no name in this language: may be words) · {npc:5905} Prate Cloudseer · {zone:1441} Thousand Needles
+	-- {npc:5892} Searn Firewarder · {object:172957} Valley of Wisdom · {npc:5905} Prate Cloudseer · {zone:1441} Thousand Needles
 	["At 30 {npc:5892} in the {object:172957} sends you to {npc:5905} in {zone:1441}."] = "30級時，{object:172957}的{npc:5892}會派你去找{zone:1441}的{npc:5905}。",
 
 	-- Step 2: Xanis Flameweaver

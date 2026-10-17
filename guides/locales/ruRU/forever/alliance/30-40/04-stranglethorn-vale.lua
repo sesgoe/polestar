@@ -12,11 +12,11 @@ return {
 
 	-- Step 2: Druid training
 	["Druid training"] = "Обучение друида",
-	-- {area:1537} Ironforge · {area:2257} Deeprun Tram · {object:171524} Tinker Town (no name in this language: may be words) · {zone:1453} Stormwind · {npc:5504} Sheldras Moontree
+	-- {area:1537} Ironforge · {area:2257} Deeprun Tram · {object:171524} Tinker Town · {zone:1453} Stormwind · {npc:5504} Sheldras Moontree
 	["{area:1537} has no druid trainer: take the {area:2257} from {object:171524} to {zone:1453} and train with {npc:5504}."] = "В городе {area:1537} нет учителя друидов: в районе {object:171524} сядьте на поезд ({area:2257}) до города {zone:1453} и обучитесь у NPC {npc:5504}.",
 
 	-- Step 3: Darkshire
-	-- {area:42} Darkshire · {npc:1573} Gryth Thurden · {area:1537} Ironforge · {object:32372} Great Forge (no name in this language: may be words) · {npc:352} Dungar Longdrink · {zone:1453} Stormwind · {object:2096} Trade District (no name in this language: may be words)
+	-- {area:42} Darkshire · {npc:1573} Gryth Thurden · {area:1537} Ironforge · {object:32372} Great Forge · {npc:352} Dungar Longdrink · {zone:1453} Stormwind · {object:2096} Trade District
 	["Fly to {area:42}: {npc:1573} in {area:1537}'s {object:32372}, or {npc:352} in {zone:1453}'s {object:2096}."] = "Летите в поселок {area:42}: {npc:1573} ({area:1537}, {object:32372}) или {npc:352} ({zone:1453}, {object:2096}).",
 
 	-- Step 4: Nesingwary's Expedition
@@ -70,11 +70,11 @@ return {
 	-- Step 16: Down to Booty Bay
 	-- {area:35} Booty Bay
 	["Down to {area:35}"] = "Вниз: {area:35}",
-	-- {object:3202} Grom'gol (no name in this language: may be words) · {area:35} Booty Bay
+	-- {object:3202} Grom'gol · {area:35} Booty Bay
 	["Follow the main road south the length of the jungle, past the {object:3202} turn-off, to {area:35} on the southern cape."] = "Идите по главной дороге на юг через все джунгли, мимо поворота на {object:3202}, до южного мыса: {area:35}.",
 	["Gyll, on the top floor by the docks"] = "Гилл – на верхнем этаже у причалов",
-	-- {npc:2832} Nixxrax Fillamug · {object:56910} The Salty Sailor Tavern (no name in this language: may be words)
-	["{npc:2832}, in the {object:56910}"] = "{npc:2832} – таверна «Старый моряк»",
+	-- {npc:2832} Nixxrax Fillamug · {object:56910} The Salty Sailor Tavern
+	["{npc:2832}, in the {object:56910}"] = "{npc:2832} – {object:56910}",
 	-- {npc:2495} Drizzlik
 	["{npc:2495}, by the bank"] = "{npc:2495} – у банка",
 	-- {npc:773} Krazek
@@ -141,7 +141,7 @@ return {
 
 	-- Step 32: Skullsplitter trolls
 	["Skullsplitter trolls"] = "Тролли из племени Дробителей Черепов",
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["The Skullsplitter trolls hold the ruins east of the road between Nesingwary and {object:3202}."] = "Тролли из племени Дробителей Черепов занимают руины к востоку от дороги между лагерем Эрнестуэя и местом {object:3202}.",
 
 	-- Step 34: Booty Bay

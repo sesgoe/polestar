@@ -152,13 +152,13 @@ return {
 	["Mine every Iron (125, green), Gold (155, yellow), Mithril (175, yellow) node you pass and circle the waypoints until {skill:186} 230. Smelt the ore at a forge when your bags fill: smelting also raises {skill:186}. Zone level 35-45."] = "Добывайте по пути: Залежи железа (125, зеленый), золотая жила (155, желтый), мифриловые залежи (175, желтый) – и обходите точки маршрута, пока {skill:186} не достигнет 230. Когда сумки заполнятся, переплавьте руду в горне: выплавка тоже повышает {skill:186}. Уровень зоны: 35-45.",
 
 	-- Step 26: Dark Iron & Truesilver: Searing Gorge (230-245)
-	-- {object:147516} Dark Iron (no name in this language: may be words) · {zone:1427} Searing Gorge
+	-- {object:147516} Dark Iron · {zone:1427} Searing Gorge
 	["{object:147516} & Truesilver: {zone:1427} (230-245)"] = "{object:147516} и залежи истинного серебра: {zone:1427} (230-245)",
-	-- {object:147516} Dark Iron (no name in this language: may be words) · {skill:186} Mining
+	-- {object:147516} Dark Iron · {skill:186} Mining
 	["Mine every Gold (155, green), Mithril (175, green), {object:147516} (230, orange), Truesilver (230, orange) node you pass and circle the waypoints until {skill:186} 245. Smelt the ore at a forge when your bags fill: smelting also raises {skill:186}. Zone level 43-50."] = "Добывайте по пути: Золотая жила (155, зеленый), мифриловые залежи (175, зеленый), {object:147516} (230, оранжевый), залежи истинного серебра (230, оранжевый) – и обходите точки маршрута, пока {skill:186} не достигнет 245. Когда сумки заполнятся, переплавьте руду в горне: выплавка тоже повышает {skill:186}. Уровень зоны: 43-50.",
-	-- {object:147516} Dark Iron (no name in this language: may be words)
+	-- {object:147516} Dark Iron
 	["Truesilver, {object:147516}"] = "Залежи истинного серебра, {object:147516}",
-	-- {object:147516} Dark Iron (no name in this language: may be words)
+	-- {object:147516} Dark Iron
 	["{object:147516}, Gold"] = "{object:147516}, золотая жила",
 
 	-- Step 27: Truesilver & Small Thorium: Blasted Lands (245-275)
@@ -170,8 +170,8 @@ return {
 	-- Step 28: Rich Thorium: Burning Steppes (275-300)
 	-- {zone:1428} Burning Steppes
 	["Rich Thorium: {zone:1428} (275-300)"] = "Богатая ториевая жила: {zone:1428} (275-300)",
-	-- {object:147516} Dark Iron (no name in this language: may be words) · {skill:186} Mining
+	-- {object:147516} Dark Iron · {skill:186} Mining
 	["Mine every {object:147516} (230, yellow), Truesilver (230, yellow), Small Thorium (245, yellow), Rich Thorium (275, orange) node you pass and circle the waypoints until {skill:186} 300. Smelt the ore at a forge when your bags fill: smelting also raises {skill:186}. Zone level 50-58."] = "Добывайте по пути: {object:147516} (230, желтый), залежи истинного серебра (230, желтый), малая ториевая жила (245, желтый), богатая ториевая жила (275, оранжевый) – и обходите точки маршрута, пока {skill:186} не достигнет 300. Когда сумки заполнятся, переплавьте руду в горне: выплавка тоже повышает {skill:186}. Уровень зоны: 50-58.",
-	-- {object:147516} Dark Iron (no name in this language: may be words)
+	-- {object:147516} Dark Iron
 	["{object:147516}, Rich Thorium"] = "{object:147516}, богатая ториевая жила",
 }

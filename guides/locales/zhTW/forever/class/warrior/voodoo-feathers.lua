@@ -12,7 +12,7 @@ return {
 	["Experience"] = "經驗值",
 
 	-- Step 1: A Troubled Spirit (Stormwind)
-	-- {npc:5479} Wu Shen · {object:2100} Old Town (no name in this language: may be words) · {npc:7572} Fallen Hero of the Horde · {zone:1435} Swamp of Sorrows
+	-- {npc:5479} Wu Shen · {object:2100} Old Town · {npc:7572} Fallen Hero of the Horde · {zone:1435} Swamp of Sorrows
 	["At 50, {npc:5479} in {object:2100}, beside the Pig and Whistle, sends you to the {npc:7572} in the {zone:1435}."] = "50級時，{object:2100}酒館旁的{npc:5479}會派你去{zone:1435}找{npc:7572}。",
 
 	-- Step 2: A Troubled Spirit (Ironforge)
@@ -24,7 +24,7 @@ return {
 	["At 50, {npc:7315}, the warrior trainer of {zone:1457}, sends you to the {npc:7572} in the {zone:1435}."] = "50級時，{zone:1457}的戰士訓練師{npc:7315}會派你去{zone:1435}找{npc:7572}。",
 
 	-- Step 4: A Troubled Spirit (Orgrimmar)
-	-- {npc:3354} Sorek · {object:172958} Valley of Honor (no name in this language: may be words) · {npc:7572} Fallen Hero of the Horde · {zone:1435} Swamp of Sorrows
+	-- {npc:3354} Sorek · {object:172958} Valley of Honor · {npc:7572} Fallen Hero of the Horde · {zone:1435} Swamp of Sorrows
 	["At 50, {npc:3354} in the {object:172958} sends you to the {npc:7572} in the {zone:1435}."] = "50級時，{object:172958}的{npc:3354}會派你去{zone:1435}找{npc:7572}。",
 
 	-- Step 5: A Troubled Spirit (Thunder Bluff)

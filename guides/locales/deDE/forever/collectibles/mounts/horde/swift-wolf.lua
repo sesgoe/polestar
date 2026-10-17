@@ -12,7 +12,7 @@ return {
 	-- Step 1: Journeyman Riding
 	-- {skill:762} Riding
 	["Journeyman {skill:762}"] = "{skill:762} (Geselle)",
-	-- {npc:4752} Kildar · {npc:3362} Ogunaro Wolfrunner · {zone:1454} Orgrimmar · {object:172958} Valley of Honor (no name in this language: may be words) · {skill:762} Riding
+	-- {npc:4752} Kildar · {npc:3362} Ogunaro Wolfrunner · {zone:1454} Orgrimmar · {object:172958} Valley of Honor · {skill:762} Riding
 	["{npc:4752} and {npc:3362}'s kennel are in {zone:1454}'s {object:172958}. At 60 {npc:4752} teaches Journeyman {skill:762} (1,000g per Blizzard's designers); Blizzard says learning riding grants a mount. The Forever client sells each swift wolf for 200g at level 60."] = "{npc:4752} und der Zwinger von {npc:3362} sind im {object:172958} von {zone:1454}. Auf Stufe 60 lehrt {npc:4752} {skill:762} (Geselle) (1.000g laut Blizzards Designern); laut Blizzard gibt das Erlernen ein Reittier. Der Forever-Client verkauft jeden schnellen Wolf für 200g auf Stufe 60.",
 	-- {npc:4752} Kildar
 	["{npc:4752}, riding trainer"] = "{npc:4752}, Reitlehrer",

@@ -10,7 +10,7 @@ return {
 	["A robe or a tunic for Undead and Troll mages in their late 20s."] = "Мантия или туника для магов-нежити и магов-троллей ближе к 30-му уровню.",
 
 	-- Step 1: Anastasia Hartwell
-	-- {npc:4568} Anastasia Hartwell · {zone:1458} Undercity · {object:36082} Magic Quarter (no name in this language: may be words) · {zone:1454} Orgrimmar · {zone:1420} Tirisfal Glades
+	-- {npc:4568} Anastasia Hartwell · {zone:1458} Undercity · {object:36082} Magic Quarter · {zone:1454} Orgrimmar · {zone:1420} Tirisfal Glades
 	["{npc:4568} stands in the {zone:1458}'s {object:36082}. Trolls take the zeppelin from {zone:1454} to {zone:1420} for her."] = "{npc:4568} стоит здесь: {zone:1458}, {object:36082}. Тролли летят к ней на дирижабле из города {zone:1454} в {zone:1420}.",
 
 	-- Step 2: Deino

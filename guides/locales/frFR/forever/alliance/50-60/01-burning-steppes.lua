@@ -87,7 +87,7 @@ return {
 	-- Step 23: The Tablet of the Seven
 	-- {quest:4296} Tablet of the Seven
 	["The {quest:4296}"] = "{quest:4296}",
-	-- {object:147516} Dark Iron (no name in this language: may be words) · {area:251} Flame Crest
+	-- {object:147516} Dark Iron · {area:251} Flame Crest
 	["Read the tablet in the {object:147516} camp among the ruins, south-west of {area:251}, to copy the transcript."] = "Lisez la tablette dans le camp {object:147516} parmi les ruines, au sud-ouest de {area:251}, pour en copier la transcription.",
 
 	-- Step 24: Broodling Essence

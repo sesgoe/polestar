@@ -10,7 +10,7 @@ return {
 	["A wand of your school for the 30s: frost, arcane or fire."] = "一根适合你30多级使用的本系魔杖：冰霜、奥术或火焰。",
 
 	-- Step 1: Journey to the Marsh (Stormwind)
-	-- {npc:5497} Jennea Cannon · {zone:1453} Stormwind · {object:2101} Mage Quarter (no name in this language: may be words) · {npc:6546} Tabetha · {zone:1455} Ironforge
+	-- {npc:5497} Jennea Cannon · {zone:1453} Stormwind · {object:2101} Mage Quarter · {npc:6546} Tabetha · {zone:1455} Ironforge
 	["{npc:5497} in the Wizard's Sanctum, {zone:1453}'s {object:2101}, sends you to {npc:6546}; Bink in {zone:1455} gives the same quest."] = "{zone:1453}{object:2101}巫师圣殿里的{npc:5497}会让你去找{npc:6546}；{zone:1455}的彬克也提供同样的任务。",
 
 	-- Step 2: Journey to the Marsh (Orgrimmar)

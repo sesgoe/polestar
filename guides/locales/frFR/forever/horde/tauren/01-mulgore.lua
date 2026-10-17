@@ -224,7 +224,7 @@ return {
 	["Tame it with the {item:15908}"] = "Apprivoisez-le avec le {item:15908}",
 
 	-- Step 56: The Moonkin Stone
-	-- {object:177525} Moonkin Stone (no name in this language: may be words)
+	-- {object:177525} Moonkin Stone
 	["The {object:177525}"] = "{object:177525}",
 	-- {zone:1412} Mulgore · {item:15710} Cenarion Lunardust
 	["The stone stands in the pass out of {zone:1412}, on your way east. Use the {item:15710} there and defeat Lunaclaw."] = "La pierre se dresse dans le col qui sort de {zone:1412}, sur votre route vers l'est. Utilisez-y la {item:15710} et vainquez Lunegriffe.",

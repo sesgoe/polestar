@@ -12,7 +12,7 @@ return {
 	["200 Horde reputation"] = "200 de reputación con la Horda",
 
 	-- Step 1: Sagorne Creststrider
-	-- {npc:13417} Sagorne Creststrider · {object:172957} Valley of Wisdom (no name in this language: may be words)
+	-- {npc:13417} Sagorne Creststrider · {object:172957} Valley of Wisdom
 	["At 58 {npc:13417}, the shaman trainer in the {object:172957}, asks for two rare diamonds."] = "A nivel 58, {npc:13417}, el instructor de chamanes de {object:172957}, pide dos diamantes raros.",
 
 	-- Step 2: Two diamonds
@@ -27,8 +27,8 @@ return {
 	["he hands you the {item:18746}"] = "te da el {item:18746}",
 
 	-- Step 4: The Great Ossuary
-	-- {area:2057} Scholomance · {area:2298} Caer Darrow · {zone:1422} Western Plaguelands · {item:18746} Divination Scryer · {object:179746} The Great Ossuary (no name in this language: may be words) · {npc:14516} Death Knight Darkreaver
-	["{area:2057} lies under {area:2298}, the island town in the south-east of the {zone:1422}. Use the {item:18746} in the heart of the {object:179746}'s basement, beat the spirits it calls, then {npc:14516}. All are elite: bring a group."] = "{area:2057} está bajo {area:2298}, el pueblo de la isla al sureste de {zone:1422}. Usa el {item:18746} en el centro del sótano de El Gran Osario, vence a los espíritus que invoca y luego a {npc:14516}. Todos son élite: lleva un grupo.",
+	-- {area:2057} Scholomance · {area:2298} Caer Darrow · {zone:1422} Western Plaguelands · {item:18746} Divination Scryer · {object:179746} The Great Ossuary · {npc:14516} Death Knight Darkreaver
+	["{area:2057} lies under {area:2298}, the island town in the south-east of the {zone:1422}. Use the {item:18746} in the heart of the {object:179746}'s basement, beat the spirits it calls, then {npc:14516}. All are elite: bring a group."] = "{area:2057} está bajo {area:2298}, el pueblo de la isla al sureste de {zone:1422}. Usa el {item:18746} en el centro del sótano de {object:179746}, vence a los espíritus que invoca y luego a {npc:14516}. Todos son élite: lleva un grupo.",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.
 	-- ["{area:2057} lies under {area:2298}, the island town in the south-east of the {zone:1422}. Use the {item:18746} in the heart of the {object:179746}'s basement, beat the spirits it calls, then {npc:14516}. All are elite: bring a group."] = "{area:2057} está bajo {area:2298}, el pueblo de la isla al sureste de {zone:1422}. Usa el {item:18746} en el centro del sótano de {object:179746}, vence a los espíritus que invoca y luego a {npc:14516}. Todos son élite: lleva un grupo.",

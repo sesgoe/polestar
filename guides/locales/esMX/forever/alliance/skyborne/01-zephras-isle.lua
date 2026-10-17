@@ -314,7 +314,7 @@ return {
 	["{npc:270459}, beside {npc:259084}: for {npc:5504} in {zone:1453}"] = "{npc:270459}, junto a {npc:259084}: para {npc:5504} en {zone:1453}",
 
 	-- Step 57: Stormwind Keep
-	-- {object:2117} Stormwind Keep (no name in this language: may be words) · {zone:1436} Westfall
+	-- {object:2117} Stormwind Keep · {zone:1436} Westfall
 	["Bolvar Fordragon stands in the throne room of {object:2117}, at the north end of the city. Then leave by the main gate for {zone:1436}."] = "Bolvar Fordragon está en la sala del trono de {object:2117}, en el extremo norte de la ciudad. Luego sal por la puerta principal hacia {zone:1436}.",
 	-- {npc:234} Gryan Stoutmantle · {area:108} Sentinel Hill
 	["For {npc:234} at {area:108}"] = "Para {npc:234} en {area:108}",
@@ -324,7 +324,7 @@ return {
 	["{npc:5504}, {zone:1453}'s druid trainer, teaches you {spell:18960}. {npc:11802}'s welcome waits for your {spell:499} trip at the end of {zone:1439}."] = "{npc:5504}, el instructor de druidas de {zone:1453}, te enseña {spell:18960}. La bienvenida de {npc:11802} espera tu viaje de {spell:499} al final de {zone:1439}.",
 
 	-- Step 59: Jennea Cannon
-	-- {npc:5497} Jennea Cannon · {object:2101} Mage Quarter (no name in this language: may be words) · {quest:1861} Mirror Lake
+	-- {npc:5497} Jennea Cannon · {object:2101} Mage Quarter · {quest:1861} Mirror Lake
 	["{npc:5497} stands in the Wizard's Sanctum, the tower of the {object:2101}; she gives you a flask for the {quest:1861} waterfall."] = "{npc:5497} está en la torre del {object:2101}; te da un frasco para la cascada de {quest:1861}.",
 
 	-- Step 60: Mirror Lake

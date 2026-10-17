@@ -122,7 +122,7 @@ return {
 	["{item:7908}, in the chest"] = "{item:7908}, no baú",
 
 	-- Step 27: Master Mathias Shaw
-	-- {zone:1453} Stormwind · {object:2100} Old Town (no name in this language: may be words)
+	-- {zone:1453} Stormwind · {object:2100} Old Town
 	["Ride north through Elwynn to {zone:1453}; Mathias Shaw is at SI:7 in {object:2100}."] = "Siga para o norte pela Floresta de Elwynn até {zone:1453}; Mathias Shaw fica no SI:7, em {object:2100}.",
 	-- {npc:332} Master Mathias Shaw · {item:18160} Recipe: Thistle Tea
 	["{npc:332}: Poisons, and {item:18160}"] = "{npc:332}: Venenos e {item:18160}",
@@ -140,6 +140,6 @@ return {
 
 	-- Step 29: Shaman training
 	["Shaman training"] = "Treinamento de xamã",
-	-- {zone:1453} Stormwind · {area:2257} Deeprun Tram · {object:28027} Dwarven District (no name in this language: may be words) · {zone:1455} Ironforge · {npc:258098} Eldrun Stormbreaker · {area:442} Auberdine
+	-- {zone:1453} Stormwind · {area:2257} Deeprun Tram · {object:28027} Dwarven District · {zone:1455} Ironforge · {npc:258098} Eldrun Stormbreaker · {area:442} Auberdine
 	["{zone:1453} has no shaman trainer: take the {area:2257} from the {object:28027} to {zone:1455}, train with {npc:258098}, then ride the tram back for the {area:442} boat."] = "{zone:1453} não tem instrutor de xamã: pegue o {area:2257} no {object:28027} até {zone:1455}, treine com {npc:258098} e volte de metrô para pegar o barco de {area:442}.",
 }

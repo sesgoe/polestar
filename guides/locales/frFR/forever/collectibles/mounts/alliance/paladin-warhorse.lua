@@ -11,7 +11,7 @@ return {
 	["Your first mount at 40, summoned at will: a paladin buys no horse."] = "Votre première monture au niveau 40, invoquée à volonté : un paladin n'achète pas de cheval.",
 
 	-- Step 1: The Tome of Nobility (Ironforge)
-	-- {npc:5149} Brandur Ironhammer · {object:32362} Mystic Ward (no name in this language: may be words) · {npc:6171} Duthorian Rall · {zone:1453} Stormwind · {zone:1455} Ironforge
+	-- {npc:5149} Brandur Ironhammer · {object:32362} Mystic Ward · {npc:6171} Duthorian Rall · {zone:1453} Stormwind · {zone:1455} Ironforge
 	["At 40 {npc:5149} in the {object:32362} sends you to {npc:6171} in {zone:1453}'s Cathedral of Light. Take the tram from {zone:1455} to {zone:1453}."] = "Au niveau 40, {npc:5149} dans {object:32362} vous envoie voir {npc:6171} à la cathédrale de la Lumière de {zone:1453}. Prenez le tram de {zone:1455} à {zone:1453}.",
 
 	-- Step 2: Summon Warhorse

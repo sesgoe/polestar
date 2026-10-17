@@ -10,7 +10,7 @@ return {
 	["A robe or a tunic for Undead and Troll mages in their late 20s."] = "20레벨대 후반 언데드 및 트롤 마법사를 위한 로브 또는 튜닉.",
 
 	-- Step 1: Anastasia Hartwell
-	-- {npc:4568} Anastasia Hartwell · {zone:1458} Undercity · {object:36082} Magic Quarter (no name in this language: may be words) · {zone:1454} Orgrimmar · {zone:1420} Tirisfal Glades
+	-- {npc:4568} Anastasia Hartwell · {zone:1458} Undercity · {object:36082} Magic Quarter · {zone:1454} Orgrimmar · {zone:1420} Tirisfal Glades
 	["{npc:4568} stands in the {zone:1458}'s {object:36082}. Trolls take the zeppelin from {zone:1454} to {zone:1420} for her."] = "{npc:4568}은(는) {zone:1458} {object:36082}에 있습니다. 트롤은 {zone:1454}에서 비행선을 타고 {zone:1420}(으)로 가십시오.",
 
 	-- Step 2: Deino

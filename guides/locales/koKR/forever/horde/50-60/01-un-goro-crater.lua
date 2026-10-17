@@ -168,17 +168,17 @@ return {
 	["Pestlezugg's next quest needs the {npc:10041}, an elite boss. Skip it."] = "페슬저그의 다음 퀘스트는 정예 우두머리 {npc:10041}이(가) 필요합니다. 건너뛰세요.",
 
 	-- Step 33: Orgrimmar
-	-- {area:1637} Orgrimmar · {object:3202} Grom'gol (no name in this language: may be words) · {zone:1458} Undercity
+	-- {area:1637} Orgrimmar · {object:3202} Grom'gol · {zone:1458} Undercity
 	["Fly to {area:1637} and train before the {object:3202} zeppelin: the {zone:1458} stop later in this guide has no Hunter or Shaman trainer."] = "{object:3202}행 비행선을 타기 전에 {area:1637}(으)로 날아가 기술을 배우세요. 이 가이드 후반의 {zone:1458}에는 사냥꾼과 주술사 상급자가 없습니다.",
 
 	-- Step 34: Thunder Bluff
-	-- {area:1638} Thunder Bluff · {npc:3033} Turak Runetotem · {area:1639} Elder Rise · {area:1637} Orgrimmar · {object:3202} Grom'gol (no name in this language: may be words)
+	-- {area:1638} Thunder Bluff · {npc:3033} Turak Runetotem · {area:1639} Elder Rise · {area:1637} Orgrimmar · {object:3202} Grom'gol
 	["Fly to {area:1638} and train with {npc:3033} on {area:1639}, then fly to {area:1637} for the {object:3202} zeppelin."] = "{area:1638}(으)로 날아가 {area:1639}의 {npc:3033}에게 기술을 배운 뒤, {area:1637}(으)로 날아가 {object:3202}행 비행선을 타세요.",
 
 	-- Step 35: Fly to Kargath
 	-- {area:340} Kargath
 	["Fly to {area:340}"] = "{area:340}(으)로 비행",
-	-- {area:1637} Orgrimmar · {object:3202} Grom'gol (no name in this language: may be words) · {area:340} Kargath · {zone:1418} Badlands
+	-- {area:1637} Orgrimmar · {object:3202} Grom'gol · {area:340} Kargath · {zone:1418} Badlands
 	["Fly to {area:1637}, take the zeppelin to {object:3202} and fly from there to {area:340}, built into the cliffs on the {zone:1418}' west edge."] = "{area:1637}(으)로 날아가 {object:3202}행 비행선을 탄 뒤, 그곳에서 {zone:1418} 서쪽 끝 절벽에 지어진 {area:340}(으)로 날아가세요.",
 
 	-- Step 36: Into the Searing Gorge
@@ -224,9 +224,9 @@ return {
 	["Theodora's next errand goes to Lotwil east of town and then into {area:1584}: skip it."] = "테오도라의 다음 심부름은 마을 동쪽의 로트윌을 거쳐 {area:1584}(으)로 이어집니다. 건너뛰세요.",
 
 	-- Step 44: Undercity
-	-- {npc:10879} Harbinger Balthazad · {object:36078} Trade Quarter (no name in this language: may be words)
+	-- {npc:10879} Harbinger Balthazad · {object:36078} Trade Quarter
 	["{npc:10879}, the {object:36078}, beside the bat master"] = "{object:36078}, 박쥐 조련사 옆의 {npc:10879}",
-	-- {npc:6522} Andron Gant · {object:36073} Rogues' Quarter (no name in this language: may be words)
+	-- {npc:6522} Andron Gant · {object:36073} Rogues' Quarter
 	["{npc:6522}, the {object:36073}"] = "{object:36073}의 {npc:6522}",
 	-- {npc:8390} Chemist Cuely · {zone:1447} Azshara
 	["{npc:8390}, the Apothecarium: the vials fill in {zone:1447} later"] = "연금술 실험실의 {npc:8390}: 약병은 나중에 {zone:1447}에서 채웁니다",

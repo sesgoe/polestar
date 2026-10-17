@@ -14,13 +14,13 @@ return {
 	-- Step 1: The Hunter's Charm (Alliance)
 	-- {quest:8151} The Hunter's Charm
 	["{quest:8151} (Alliance)"] = "{quest:8151} (얼라이언스)",
-	-- {npc:5516} Ulfir Ironbeard · {zone:1453} Stormwind · {object:28027} Dwarven District (no name in this language: may be words) · {npc:5116} Olmin Burningbeard · {zone:1455} Ironforge · {object:32390} Hall of Arms (no name in this language: may be words) · {zone:1457} Darnassus
+	-- {npc:5516} Ulfir Ironbeard · {zone:1453} Stormwind · {object:28027} Dwarven District · {npc:5116} Olmin Burningbeard · {zone:1455} Ironforge · {object:32390} Hall of Arms (no name in this language: may be words) · {zone:1457} Darnassus
 	["At 50 any Alliance hunter trainer offers it: {npc:5516} in {zone:1453}'s {object:28027}, {npc:5116} in {zone:1455}'s {object:32390} or Dorion in {zone:1457}' Cenarion Enclave."] = "50레벨이 되면 얼라이언스 사냥꾼 상급자 누구나 이 퀘스트를 줍니다: {zone:1453} {object:28027}의 {npc:5516}, {zone:1455} {object:32390}의 {npc:5116}, {zone:1457} 세나리온 자치령의 도리온.",
 
 	-- Step 2: The Hunter's Charm (Horde)
 	-- {quest:8151} The Hunter's Charm
 	["{quest:8151} (Horde)"] = "{quest:8151} (호드)",
-	-- {npc:3352} Ormak Grimshot · {zone:1454} Orgrimmar · {object:172958} Valley of Honor (no name in this language: may be words) · {npc:3039} Holt Thunderhorn · {area:1641} Hunter Rise · {zone:1456} Thunder Bluff
+	-- {npc:3352} Ormak Grimshot · {zone:1454} Orgrimmar · {object:172958} Valley of Honor · {npc:3039} Holt Thunderhorn · {area:1641} Hunter Rise · {zone:1456} Thunder Bluff
 	["At 50 any Horde hunter trainer offers it: {npc:3352} in {zone:1454}'s {object:172958} or {npc:3039} on {area:1641} in {zone:1456}."] = "50레벨이 되면 호드 사냥꾼 상급자 누구나 이 퀘스트를 줍니다. {zone:1454} {object:172958}의 {npc:3352}, {zone:1456} {area:1641}의 {npc:3039}.",
 
 	-- Step 3: Ogtinc

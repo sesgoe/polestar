@@ -26,9 +26,9 @@ return {
 	["Heavy War Golems patrol the floor of the Cauldron below Kalaran; Magma Elementals drift among them. Golems and elementals drop the oil, elementals the hearts."] = "Тяжелые боевые големы патрулируют дно Котлована под Калараном; среди них плавают элементали магмы. Масло падает с големов и элементалей, сердца — с элементалей.",
 
 	-- Step 6: Dark Iron dwarves
-	-- {object:147516} Dark Iron (no name in this language: may be words)
+	-- {object:147516} Dark Iron
 	["{object:147516} dwarves"] = "Дворфы: {object:147516}",
-	-- {item:10551} Thorium Plated Dagger · {item:18959} Smithing Tuyere · {object:147516} Dark Iron (no name in this language: may be words) · {item:11818} Grimesilt Outhouse Key
+	-- {item:10551} Thorium Plated Dagger · {item:18959} Smithing Tuyere · {object:147516} Dark Iron · {item:11818} Grimesilt Outhouse Key
 	["Taskmasters and Slavers drive the slaves all over the Cauldron, and any of them can carry a {item:10551}. The Steamsmiths work at the furnaces in the middle (the {item:18959}), the Lookouts stand on the southern ridges (the Spyglass). Any {object:147516} may drop the {item:11818}: keep it."] = "Надсмотрщики и поработители гоняют рабов по всему Котловану, и у любого из них может быть {item:10551}. Кузнецы работают у печей в центре ({item:18959}), наблюдатели стоят на южных гребнях (подзорная труба наблюдателя). С любого противника ({object:147516}) может выпасть {item:11818}: сохраните его.",
 
 	-- Step 7: Greater Lava Spiders
@@ -50,7 +50,7 @@ return {
 	["The prisoner's next task, Ledger from {zone:1446}, sends you to the {zone:1435} and {zone:1445}: skip it."] = "Следующее задание пленника, «Учетная книга из Танариса» ({zone:1446}), ведет в {zone:1435} и {zone:1445}: пропустите.",
 
 	-- Step 12: Dorius Stonetender
-	-- {object:147516} Dark Iron (no name in this language: may be words) · {object:175704} Singed Letter · {area:1959} Dustfire Valley
+	-- {object:147516} Dark Iron · {object:175704} Singed Letter · {area:1959} Dustfire Valley
 	["The dwarf stands by the road at the dig site. Follow him north along the road and fight off the {object:147516} ambushes. When it is over, read the {object:175704} he leaves on the road in {area:1959}."] = "Дворф стоит у дороги на карьере. Идите за ним на север по дороге и отбивайте засады ({object:147516}). Когда все закончится, прочтите {object:175704}, который он оставит на дороге ({area:1959}).",
 	-- {npc:8256} Curator Thorius · {zone:1455} Ironforge
 	["For {npc:8256} in {zone:1455}, later"] = "Для NPC {npc:8256} ({zone:1455}), позже",

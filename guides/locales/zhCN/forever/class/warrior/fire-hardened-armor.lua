@@ -11,7 +11,7 @@ return {
 	["A hauberk at 28, a coif, leggings or gauntlets by race, and a shield on the way."] = "28级的锁甲，按种族还有罩帽、护腿或护手，途中还有一面盾牌。",
 
 	-- Step 1: Yorus Barleybrew (Stormwind)
-	-- {npc:5479} Wu Shen · {object:2100} Old Town (no name in this language: may be words) · {quest:1698} Yorus Barleybrew
+	-- {npc:5479} Wu Shen · {object:2100} Old Town · {quest:1698} Yorus Barleybrew
 	["At 20, {npc:5479} in {object:2100}, beside the Pig and Whistle, sends you to {quest:1698} in Redridge."] = "20级时，{object:2100}酒馆旁的{npc:5479}会让你去赤脊山找{quest:1698}。",
 
 	-- Step 2: Yorus Barleybrew (Ironforge)
@@ -59,7 +59,7 @@ return {
 	["{item:6841}, from Roogug"] = "{item:6841}，来自鲁古格",
 
 	-- Step 9: Furen's Armor
-	-- {npc:5413} Furen Longbeard · {object:28027} Dwarven District (no name in this language: may be words)
+	-- {npc:5413} Furen Longbeard · {object:28027} Dwarven District
 	["Back to {npc:5413} in the {object:28027}. He sends you on to a smith of your own race."] = "回到{object:28027}找{npc:5413}。他会让你去找你自己种族的铁匠。",
 
 	-- Step 10: Grimand Elmore

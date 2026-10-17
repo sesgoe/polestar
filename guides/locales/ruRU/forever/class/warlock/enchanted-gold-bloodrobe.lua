@@ -11,7 +11,7 @@ return {
 	["A rare cloth robe for your 30s, which {npc:6266} makes from the parts you bring her."] = "Редкое тканевое одеяние для 30-х уровней; {npc:6266} создает его из принесенных вами частей.",
 
 	-- Step 1: In Search of Menara Voidrender (Stormwind)
-	-- {npc:461} Demisette Cloyce · {object:2164} Slaughtered Lamb (no name in this language: may be words) · {object:2101} Mage Quarter (no name in this language: may be words) · {npc:6266} Menara Voidrender · {area:392} Ratchet
+	-- {npc:461} Demisette Cloyce · {object:2164} Slaughtered Lamb · {object:2101} Mage Quarter · {npc:6266} Menara Voidrender · {area:392} Ratchet
 	["At 31 {npc:461} in the {object:2164}, in the {object:2101}, sends you to {npc:6266} in {area:392}."] = "На 31-м уровне {npc:461} ({object:2164}, {object:2101}) отправляет вас к персонажу {npc:6266} ({area:392}).",
 
 	-- Step 2: In Search of Menara Voidrender (Ironforge)
@@ -19,11 +19,11 @@ return {
 	["At 31 {npc:5172} in {zone:1455} sends you to {npc:6266} in {area:392}."] = "На 31-м уровне {npc:5172} ({zone:1455}) отправляет вас к персонажу {npc:6266} ({area:392}).",
 
 	-- Step 3: In Search of Menara Voidrender (Orgrimmar)
-	-- {npc:3326} Zevrost · {object:172960} Cleft of Shadow (no name in this language: may be words) · {npc:6266} Menara Voidrender · {area:392} Ratchet
+	-- {npc:3326} Zevrost · {object:172960} Cleft of Shadow · {npc:6266} Menara Voidrender · {area:392} Ratchet
 	["At 31 {npc:3326} in the {object:172960} sends you to {npc:6266} in {area:392}."] = "На 31-м уровне {npc:3326} ({object:172960}) отправляет вас к персонажу {npc:6266} ({area:392}).",
 
 	-- Step 4: In Search of Menara Voidrender (Undercity)
-	-- {npc:4563} Kaal Soulreaper · {object:36082} Magic Quarter (no name in this language: may be words) · {npc:6266} Menara Voidrender · {area:392} Ratchet · {zone:1420} Tirisfal Glades · {zone:1411} Durotar
+	-- {npc:4563} Kaal Soulreaper · {object:36082} Magic Quarter · {npc:6266} Menara Voidrender · {area:392} Ratchet · {zone:1420} Tirisfal Glades · {zone:1411} Durotar
 	["At 31 {npc:4563} in the {object:36082} sends you to {npc:6266} in {area:392}. The zeppelin from {zone:1420} flies to {zone:1411}."] = "На 31-м уровне {npc:4563} ({object:36082}) отправляет вас к персонажу {npc:6266} ({area:392}). Дирижабль летит: {zone:1420} → {zone:1411}.",
 
 	-- Step 5: Menara Voidrender

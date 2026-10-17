@@ -13,7 +13,7 @@ return {
 	["The Troll priest spells: {quest:5652} at 10, {quest:5642} at 20."] = "巨魔牧师法术：10级{quest:5652}，20级{quest:5642}。",
 
 	-- Step 1: Hex of Weakness
-	-- {npc:6018} Ur'kyo · {object:172961} Valley of Spirits (no name in this language: may be words) · {zone:1454} Orgrimmar · {npc:3706} Tai'jin · {area:362} Razor Hill · {npc:3044} Miles Welsh · {zone:1456} Thunder Bluff
+	-- {npc:6018} Ur'kyo · {object:172961} Valley of Spirits · {zone:1454} Orgrimmar · {npc:3706} Tai'jin · {area:362} Razor Hill · {npc:3044} Miles Welsh · {zone:1456} Thunder Bluff
 	["At 10, go to {npc:6018} in the {object:172961}, on {zone:1454}'s west side. Priest trainers elsewhere ({npc:3706} in {area:362}, {npc:3044} in {zone:1456}) send you to him with a quest of the same name."] = "10级时，去{zone:1454}西侧的{object:172961}找{npc:6018}。其他地方的牧师训练师（{area:362}的{npc:3706}、{zone:1456}的{npc:3044}）会用同名任务把你派去找他。",
 
 	-- Step 2: Shadowguard

@@ -12,11 +12,11 @@ return {
 
 	-- Step 2: Druid training
 	["Druid training"] = "Treinamento de druida",
-	-- {area:1537} Ironforge · {area:2257} Deeprun Tram · {object:171524} Tinker Town (no name in this language: may be words) · {zone:1453} Stormwind · {npc:5504} Sheldras Moontree
+	-- {area:1537} Ironforge · {area:2257} Deeprun Tram · {object:171524} Tinker Town · {zone:1453} Stormwind · {npc:5504} Sheldras Moontree
 	["{area:1537} has no druid trainer: take the {area:2257} from {object:171524} to {zone:1453} and train with {npc:5504}."] = "{area:1537} não tem instrutor de druida: pegue o {area:2257} em {object:171524} até {zone:1453} e treine com {npc:5504}.",
 
 	-- Step 3: Darkshire
-	-- {area:42} Darkshire · {npc:1573} Gryth Thurden · {area:1537} Ironforge · {object:32372} Great Forge (no name in this language: may be words) · {npc:352} Dungar Longdrink · {zone:1453} Stormwind · {object:2096} Trade District (no name in this language: may be words)
+	-- {area:42} Darkshire · {npc:1573} Gryth Thurden · {area:1537} Ironforge · {object:32372} Great Forge (no name in this language: may be words) · {npc:352} Dungar Longdrink · {zone:1453} Stormwind · {object:2096} Trade District
 	["Fly to {area:42}: {npc:1573} in {area:1537}'s {object:32372}, or {npc:352} in {zone:1453}'s {object:2096}."] = "Voe para {area:42}: {npc:1573}, em {object:32372} de {area:1537}, ou {npc:352}, em {object:2096} de {zone:1453}.",
 
 	-- Step 4: Nesingwary's Expedition
@@ -74,7 +74,7 @@ return {
 	["Follow the main road south the length of the jungle, past the {object:3202} turn-off, to {area:35} on the southern cape."] = "Siga a estrada principal para o sul por toda a selva, passando o desvio para {object:3202}, até {area:35}, no cabo ao sul.",
 	["Gyll, on the top floor by the docks"] = "Gyll, no último andar, junto às docas",
 	-- {npc:2832} Nixxrax Fillamug · {object:56910} The Salty Sailor Tavern (no name in this language: may be words)
-	["{npc:2832}, in the {object:56910}"] = "{npc:2832}, na Taverna do Marujo Salgado",
+	["{npc:2832}, in the {object:56910}"] = "{npc:2832}, na {object:56910}",
 	-- {npc:2495} Drizzlik
 	["{npc:2495}, by the bank"] = "{npc:2495}, junto ao banco",
 	-- {npc:773} Krazek

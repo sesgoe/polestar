@@ -12,7 +12,7 @@ return {
 	["{spell:71} and a one-hand weapon of your choice at 10."] = "10레벨에 {spell:71}와(과) 원하는 한손 무기 하나.",
 
 	-- Step 1: Defensive Stance
-	-- {npc:5480} Ilsa Corbin · {object:2100} Old Town (no name in this language: may be words) · {npc:6089} Harry Burlguard · {npc:6090} Bartleby · {object:2152} Pig and Whistle Tavern (no name in this language: may be words)
+	-- {npc:5480} Ilsa Corbin · {object:2100} Old Town · {npc:6089} Harry Burlguard · {npc:6090} Bartleby · {object:2152} Pig and Whistle Tavern
 	["{npc:5480} trains warriors in {object:2100}; {npc:6089} and {npc:6090} stand together by the {object:2152} there. {npc:6090} fights you for his mug."] = "{npc:5480}은(는) {object:2100}에서 전사를 훈련시킵니다. {npc:6089}와(과) {npc:6090}은(는) 그곳 {object:2152} 옆에 함께 서 있습니다. {npc:6090}은(는) 자기 잔을 걸고 당신과 싸웁니다.",
 
 	-- Step 2: Marshal Haggard

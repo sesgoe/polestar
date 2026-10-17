@@ -14,7 +14,7 @@ return {
 	["Experience and gold"] = "경험치와 골드",
 
 	-- Step 1: Sagorne Creststrider
-	-- {npc:13417} Sagorne Creststrider · {object:172957} Valley of Wisdom (no name in this language: may be words) · {npc:6176} Bath'rah the Windwatcher
+	-- {npc:13417} Sagorne Creststrider · {object:172957} Valley of Wisdom · {npc:6176} Bath'rah the Windwatcher
 	["At 50 {npc:13417}, the shaman trainer in the {object:172957}, sends you to {npc:6176}."] = "50레벨에 {object:172957}의 주술사 상급자 {npc:13417}이(가) {npc:6176}에게 보냅니다.",
 
 	-- Step 2: Beram Skychaser

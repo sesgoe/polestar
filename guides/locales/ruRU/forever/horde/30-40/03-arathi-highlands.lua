@@ -7,15 +7,15 @@
 -- The comments are rewritten by sync.
 return {
 	-- Step 1: Fly to Grom'gol
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["Fly to {object:3202}"] = "Летите сюда: {object:3202}",
-	-- {area:35} Booty Bay · {object:3202} Grom'gol (no name in this language: may be words) · {object:1661} The Undercity (no name in this language: may be words)
+	-- {area:35} Booty Bay · {object:3202} Grom'gol · {object:1661} The Undercity
 	["From {area:35}, fly to {object:3202}. {object:1661} zeppelin leaves from the tower on the west side of the camp."] = "Из места {area:35} летите сюда: {object:3202}. Дирижабль ({object:1661}) отправляется с башни в западной части лагеря.",
 	-- {zone:1458} Undercity
 	["Zeppelin to the {zone:1458}"] = "Дирижабль: {zone:1458}",
 
 	-- Step 2: Orgrimmar
-	-- {object:1661} The Undercity (no name in this language: may be words) · {zone:1454} Orgrimmar · {zone:1458} Undercity
+	-- {object:1661} The Undercity · {zone:1454} Orgrimmar · {zone:1458} Undercity
 	["{object:1661} has no Hunter or Shaman trainer: take the {zone:1454} zeppelin from the same tower instead and train in the city, then take the {zone:1458} zeppelin from the tower outside {zone:1454}'s main gate."] = "Здесь ({object:1661}) нет учителей охотников и шаманов: садитесь на дирижабль с той же башни ({zone:1454}) и обучитесь в городе, затем садитесь на дирижабль ({zone:1458}) с башни у главных ворот ({zone:1454}).",
 
 	-- Step 3: Thunder Bluff
@@ -25,7 +25,7 @@ return {
 	-- Step 4: Undercity trainers
 	-- {zone:1458} Undercity
 	["{zone:1458} trainers"] = "Учителя: {zone:1458}",
-	-- {zone:1458} Undercity · {object:36070} War Quarter (no name in this language: may be words) · {object:36073} Rogues' Quarter (no name in this language: may be words) · {object:36082} Magic Quarter (no name in this language: may be words) · {npc:260093} Garen Largo
+	-- {zone:1458} Undercity · {object:36070} War Quarter · {object:36073} Rogues' Quarter · {object:36082} Magic Quarter · {npc:260093} Garen Largo
 	["Train while you are in the {zone:1458}: the trainers stand in the {object:36070}, the {object:36073} and the {object:36082} (Paladins: {npc:260093})."] = "Обучитесь, пока вы здесь ({zone:1458}): учителя – здесь: {object:36070}, {object:36073} и {object:36082} (паладины: {npc:260093}).",
 
 	-- Step 5: Fly to Tarren Mill
@@ -65,7 +65,7 @@ return {
 	-- Step 13: The Stone of East Binding
 	-- {object:2691} Stone of East Binding
 	["The {object:2691}"] = "{object:2691}",
-	-- {object:180105} Circle of Binding (no name in this language: may be words) · {area:321} Hammerfall
+	-- {object:180105} Circle of Binding · {area:321} Hammerfall
 	["Each {object:180105} is a ring of standing stones; the key sits on the stone at its heart. The eastern circle is on the hills north-west of {area:321}."] = "{object:180105} – это кольцо стоячих камней; ключ лежит на камне в центре. Восточный круг – на холмах к северо-западу от места {area:321}.",
 
 	-- Step 14: Witherbark Village
@@ -209,7 +209,7 @@ return {
 	-- Step 47: Zeppelin to Orgrimmar
 	-- {zone:1454} Orgrimmar
 	["Zeppelin to {zone:1454}"] = "Дирижабль: {zone:1454}",
-	-- {zone:1454} Orgrimmar · {object:3202} Grom'gol (no name in this language: may be words)
+	-- {zone:1454} Orgrimmar · {object:3202} Grom'gol
 	["Take the {zone:1454} zeppelin from the tower on the west side of {object:3202}."] = "Садитесь на дирижабль ({zone:1454}) с башни в западной части лагеря ({object:3202}).",
 	["Zeppelin tower"] = "Башня дирижаблей",
 

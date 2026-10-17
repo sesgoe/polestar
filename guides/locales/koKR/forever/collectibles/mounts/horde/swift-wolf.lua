@@ -12,7 +12,7 @@ return {
 	-- Step 1: Journeyman Riding
 	-- {skill:762} Riding
 	["Journeyman {skill:762}"] = "수습 {skill:762}",
-	-- {npc:4752} Kildar · {npc:3362} Ogunaro Wolfrunner · {zone:1454} Orgrimmar · {object:172958} Valley of Honor (no name in this language: may be words) · {skill:762} Riding
+	-- {npc:4752} Kildar · {npc:3362} Ogunaro Wolfrunner · {zone:1454} Orgrimmar · {object:172958} Valley of Honor · {skill:762} Riding
 	["{npc:4752} and {npc:3362}'s kennel are in {zone:1454}'s {object:172958}. At 60 {npc:4752} teaches Journeyman {skill:762} (1,000g per Blizzard's designers); Blizzard says learning riding grants a mount. The Forever client sells each swift wolf for 200g at level 60."] = "{zone:1454} {object:172958}에 {npc:4752}와(과) {npc:3362}의 늑대 우리가 있습니다. 60레벨에 {npc:4752}이(가) 수습 {skill:762}을(를) 가르칩니다(블리자드 설계 기준 1,000골드). 블리자드에 따르면 탈것 타기를 배우면 탈것을 하나 얻습니다. Forever 클라이언트는 날쌘 늑대를 60레벨에 각 200골드에 팝니다.",
 	-- {npc:4752} Kildar
 	["{npc:4752}, riding trainer"] = "{npc:4752}, 탈것 상급자",

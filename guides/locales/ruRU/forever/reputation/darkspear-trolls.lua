@@ -10,7 +10,7 @@ return {
 	["Darkspear Trolls Reputation"] = "Репутация: Племя Черного Копья",
 
 	-- Step 1: Vehena: A Donation of Wool
-	-- {npc:14727} Vehena · {faction:530} Darkspear Trolls · {object:172961} Valley of Spirits (no name in this language: may be words) · {zone:1454} Orgrimmar · {item:14047} Runecloth · {quest:7837} Additional Runecloth
+	-- {npc:14727} Vehena · {faction:530} Darkspear Trolls · {object:172961} Valley of Spirits · {zone:1454} Orgrimmar · {item:14047} Runecloth · {quest:7837} Additional Runecloth
 	["{npc:14727} takes cloth for {faction:530} in the {object:172961}, {zone:1454}. The first donations of Wool, Silk, Mageweave and {item:14047} (60 cloth each) are done once and give the most reputation per cloth; after them, {quest:7837} repeats until Exalted. Exalted with another race's city lets you buy that race's mounts. Forever's Legacy Diplomat perk increases reputation gains."] = "{npc:14727} принимает ткань для фракции {faction:530} ({object:172961}, {zone:1454}). Первые пожертвования шерсти, шелкового материала, магической ткани и предмета {item:14047} (по 60 штук) делаются один раз и дают больше всего репутации за единицу ткани; после них {quest:7837} повторяется до превознесения. Превознесение у города другой расы позволяет покупать ее транспорт. Бонус наследия Forever «Дипломат» увеличивает получаемую репутацию.",
 
 	-- Step 2: Wool Cloth
@@ -25,7 +25,7 @@ return {
 	["Dunemaul ogres (level 45-48) drop it here. The Auction House works too."] = "Огры из клана Песчаного Молота (уровень 45-48) роняют ее здесь. Также можно купить на аукционе.",
 
 	-- Step 8: Runecloth
-	-- {object:92525} Argent Dawn (no name in this language: may be words)
+	-- {object:92525} Argent Dawn
 	-- plural, as words: Dark Adepts = {npc:8546} Dark Adept
 	["Dark Adepts and Shadowmages (level 58-60) drop it here; every Scourge kill here also counts toward the {object:92525} (see that guide). The Auction House works too."] = "Адепты Тьмы и темные маги (уровень 58-60) роняют его здесь; каждое убийство Плети здесь также идет в зачет фракции {object:92525} (см. тот гайд). Также можно купить на аукционе.",
 

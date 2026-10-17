@@ -10,7 +10,7 @@ return {
 	["A wand of your school for the 30s: frost, arcane or fire."] = "Uma varinha da sua escola para os níveis 30: gelo, arcano ou fogo.",
 
 	-- Step 1: Journey to the Marsh (Stormwind)
-	-- {npc:5497} Jennea Cannon · {zone:1453} Stormwind · {object:2101} Mage Quarter (no name in this language: may be words) · {npc:6546} Tabetha · {zone:1455} Ironforge
+	-- {npc:5497} Jennea Cannon · {zone:1453} Stormwind · {object:2101} Mage Quarter · {npc:6546} Tabetha · {zone:1455} Ironforge
 	["{npc:5497} in the Wizard's Sanctum, {zone:1453}'s {object:2101}, sends you to {npc:6546}; Bink in {zone:1455} gives the same quest."] = "{npc:5497}, no Santuário do Mago do {object:2101} de {zone:1453}, envia você a {npc:6546}; Bink, em {zone:1455}, dá a mesma missão.",
 
 	-- Step 2: Journey to the Marsh (Orgrimmar)

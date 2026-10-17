@@ -66,7 +66,7 @@ return {
 	["Further north, the goblins of the Venture Co. dig at the mine east of the road; miners, foremen, surveyors and tinkerers all drop the crystals."] = "Дальше к северу гоблины Торговой компании копают в руднике к востоку от дороги; кристаллы падают с шахтеров, десятников, геодезистов и механиков.",
 
 	-- Step 15: Grom'gol Base Camp
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["Ride north-west to {object:3202}."] = "Езжайте на северо-запад сюда: {object:3202}.",
 	-- {zone:1425} Hinterlands
 	["for later: the {zone:1425}, around level 48"] = "на потом: {zone:1425}, примерно на 48-м уровне",
@@ -80,14 +80,14 @@ return {
 	["West of the expedition, the Bloodscalp chiefs {npc:1061} and {npc:1062} stand together in the ruins of Zul'Kunda. Clear their guards first, then pull them."] = "К западу от экспедиции вожди племени Кровавого Скальпа – {npc:1061} и {npc:1062} – стоят вместе в руинах Зул'Кунды. Сначала перебейте охрану, затем выманите их.",
 
 	-- Step 18: Hearth to Grom'gol
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["Hearth to {object:3202}"] = "Камень возвращения: {object:3202}",
 	-- {object:2076} Bubbling Cauldron · {npc:2497} Nimboya
 	["the {object:2076}, beside {npc:2497}"] = "{object:2076}, рядом: {npc:2497}",
 
 	-- Step 19: Jungle stalkers
 	["Jungle stalkers"] = "Ящеры-ловчие",
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["The stalker raptors hunt the jungle south of {object:3202}, out towards the west coast."] = "Ящеры-ловчие охотятся в джунглях к югу от места {object:3202}, ближе к западному побережью.",
 
 	-- Step 20: Naga shore and the Holy Spring
@@ -115,11 +115,11 @@ return {
 	["The next trophy skulls stand in the small ruins just north of the warriors' camp."] = "Следующие трофейные черепа – в небольших руинах чуть к северу от лагеря воинов.",
 
 	-- Step 25: Ziata'jai Ruins
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["The last skulls are in the ruins a short ride west, on the way back to {object:3202}."] = "Последние черепа – в руинах недалеко к западу, по пути обратно сюда: {object:3202}.",
 
 	-- Step 26: Grom'gol Base Camp
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["Ride west to {object:3202}."] = "Езжайте на запад сюда: {object:3202}.",
 	-- {object:2076} Bubbling Cauldron
 	["the {object:2076}"] = "{object:2076}",
@@ -129,7 +129,7 @@ return {
 	["Hearth to {area:35}"] = "Камень возвращения: {area:35}",
 
 	-- Step 28: Fly to Grom'gol
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["Fly to {object:3202}"] = "Летите сюда: {object:3202}",
 
 	-- Step 29: Nesingwary's Expedition

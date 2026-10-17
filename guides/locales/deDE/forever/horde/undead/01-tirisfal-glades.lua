@@ -264,11 +264,11 @@ return {
 	["{npc:1496} stands in {area:159}. {npc:6390} waits in the mausoleum on the hill just north of town: open the gate and fight him."] = "{npc:1496} steht in {area:159}. {npc:6390} wartet im Mausoleum auf dem Hügel direkt nördlich des Ortes: Öffne das Tor und kämpfe gegen ihn.",
 
 	-- Step 50: Carendin Halgar
-	-- {area:159} Brill · {area:153} Ruins of Lordaeron · {zone:1458} Undercity · {npc:5675} Carendin Halgar · {object:36082} Magic Quarter (no name in this language: may be words)
+	-- {area:159} Brill · {area:153} Ruins of Lordaeron · {zone:1458} Undercity · {npc:5675} Carendin Halgar · {object:36082} Magic Quarter
 	["Walk south from {area:159} to the {area:153} and down into the {zone:1458}. {npc:5675} stands in the {object:36082}. The Scarlet camp is just west of the ruins."] = "Geh von {area:159} nach Süden zu {area:153} und hinab nach {zone:1458}. {npc:5675} steht im {object:36082}. Das scharlachrote Lager liegt direkt westlich der Ruinen.",
 
 	-- Step 51: Anastasia Hartwell
-	-- {area:159} Brill · {area:153} Ruins of Lordaeron · {zone:1458} Undercity · {npc:4568} Anastasia Hartwell · {object:36082} Magic Quarter (no name in this language: may be words)
+	-- {area:159} Brill · {area:153} Ruins of Lordaeron · {zone:1458} Undercity · {npc:4568} Anastasia Hartwell · {object:36082} Magic Quarter
 	["Walk south from {area:159} to the {area:153} and down into the {zone:1458}. {npc:4568} stands in the {object:36082}. The Scarlet camp is just west of the ruins."] = "Geh von {area:159} nach Süden zu {area:153} und hinab nach {zone:1458}. {npc:4568} steht im {object:36082}. Das scharlachrote Lager liegt direkt westlich der Ruinen.",
 
 	-- Step 52: The Scarlet camp
@@ -342,7 +342,7 @@ return {
 	["Listen to Leonid and {npc:246378}, then talk to him again"] = "Hör Leonid und {npc:246378} zu, dann sprich erneut mit ihm",
 
 	-- Step 68: The Undercity
-	-- {object:1661} The Undercity (no name in this language: may be words) · {area:153} Ruins of Lordaeron · {npc:5675} Carendin Halgar · {object:36082} Magic Quarter (no name in this language: may be words) · {item:6284} Runes of Summoning · {npc:4606} Aelthalyste · {object:36070} War Quarter (no name in this language: may be words) · {npc:4568} Anastasia Hartwell
+	-- {object:1661} The Undercity · {area:153} Ruins of Lordaeron · {npc:5675} Carendin Halgar · {object:36082} Magic Quarter · {item:6284} Runes of Summoning · {npc:4606} Aelthalyste · {object:36070} War Quarter · {npc:4568} Anastasia Hartwell
 	["{object:1661} is under the {area:153}, beside the zeppelin towers. {npc:5675} is in the {object:36082}: use the {item:6284} on the summoning circle beside him and defeat the voidwalker. {npc:4606} is in the {object:36070}. {npc:4568} is in the {object:36082} too."] = "{object:1661} liegt unter {area:153}, neben den Zeppelintürmen. {npc:5675} ist im {object:36082}: Benutze die {item:6284} am Beschwörungskreis neben ihm und besiege den Leerwandler. {npc:4606} ist im {object:36070}. {npc:4568} ist ebenfalls im {object:36082}.",
 
 	-- Step 69: Zeppelin to Durotar

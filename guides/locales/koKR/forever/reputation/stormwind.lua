@@ -24,7 +24,7 @@ return {
 	["Dunemaul ogres (level 45-48) drop it here. The Auction House works too."] = "이곳의 모래망치 오우거(45-48레벨)가 떨어뜨립니다. 경매장도 이용할 수 있습니다.",
 
 	-- Step 8: Runecloth
-	-- {object:92525} Argent Dawn (no name in this language: may be words)
+	-- {object:92525} Argent Dawn
 	-- plural, as words: Dark Adepts = {npc:8546} Dark Adept
 	["Dark Adepts and Shadowmages (level 58-60) drop it here; every Scourge kill here also counts toward the {object:92525} (see that guide). The Auction House works too."] = "이곳의 암흑의 수행사제와 어둠마법사(58-60레벨)가 떨어뜨립니다. 이곳의 스컬지 처치는 {object:92525}에도 집계됩니다(해당 가이드 참고). 경매장도 이용할 수 있습니다.",
 

@@ -15,13 +15,13 @@ return {
 	["At 16 {npc:3170}, the rogue trainer in {area:362}, sends you to {npc:3401} in {zone:1454}."] = "16레벨에 {area:362}의 도적 상급자 {npc:3170}이(가) {zone:1454}의 {npc:3401}에게 보냅니다.",
 
 	-- Step 2: Find the Shattered Hand
-	-- {npc:6467} Mennet Carkad · {object:36073} Rogues' Quarter (no name in this language: may be words) · {npc:3401} Shenthul · {zone:1454} Orgrimmar · {quest:1998} Fenwick Thatros · {zone:1421} Silverpine Forest
+	-- {npc:6467} Mennet Carkad · {object:36073} Rogues' Quarter · {npc:3401} Shenthul · {zone:1454} Orgrimmar · {quest:1998} Fenwick Thatros · {zone:1421} Silverpine Forest
 	["At 16 {npc:6467} in the {object:36073} sends you to {npc:3401} in {zone:1454}. Take {quest:1998} from him too; it is done in {zone:1421} at the end of this guide."] = "16레벨에 {object:36073}의 {npc:6467}이(가) {zone:1454}의 {npc:3401}에게 보냅니다. 그에게서 {quest:1998}도 받으십시오. 이 가이드 마지막에 {zone:1421}에서 완료합니다.",
 
 	-- Step 3: Shenthul and Zando'zan
 	-- {npc:3401} Shenthul · {quest:2379} Zando'zan
 	["{npc:3401} and {quest:2379}"] = "{npc:3401}와(과) {quest:2379}",
-	-- {zone:1458} Undercity · {zone:1411} Durotar · {npc:3401} Shenthul · {quest:2379} Zando'zan · {object:172960} Cleft of Shadow (no name in this language: may be words) · {object:172982} Valley of Strength (no name in this language: may be words)
+	-- {zone:1458} Undercity · {zone:1411} Durotar · {npc:3401} Shenthul · {quest:2379} Zando'zan · {object:172960} Cleft of Shadow · {object:172982} Valley of Strength
 	["Undead take the zeppelin from the towers outside the {zone:1458} to {zone:1411}. {npc:3401} and {quest:2379} stand in the {object:172960}, the canyon under the {object:172982}."] = "언데드는 {zone:1458} 밖의 탑에서 비행선을 타고 {zone:1411}(으)로 가십시오. {npc:3401}와(과) {quest:2379}은(는) {object:172982} 아래 협곡인 {object:172960}에 있습니다.",
 
 	-- Step 4: Wrenix the Wretched

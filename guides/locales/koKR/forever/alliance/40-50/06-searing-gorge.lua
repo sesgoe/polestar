@@ -26,9 +26,9 @@ return {
 	["Heavy War Golems patrol the floor of the Cauldron below Kalaran; Magma Elementals drift among them. Golems and elementals drop the oil, elementals the hearts."] = "칼라란 아래 용광로 바닥을 육중한 전투골렘이 순찰하고, 그 사이를 용암 정령이 떠다닙니다. 골렘 기름은 골렘과 정령이, 화염의 심장은 정령이 떨어뜨립니다.",
 
 	-- Step 6: Dark Iron dwarves
-	-- {object:147516} Dark Iron (no name in this language: may be words)
+	-- {object:147516} Dark Iron
 	["{object:147516} dwarves"] = "{object:147516} 드워프",
-	-- {item:10551} Thorium Plated Dagger · {item:18959} Smithing Tuyere · {object:147516} Dark Iron (no name in this language: may be words) · {item:11818} Grimesilt Outhouse Key
+	-- {item:10551} Thorium Plated Dagger · {item:18959} Smithing Tuyere · {object:147516} Dark Iron · {item:11818} Grimesilt Outhouse Key
 	["Taskmasters and Slavers drive the slaves all over the Cauldron, and any of them can carry a {item:10551}. The Steamsmiths work at the furnaces in the middle (the {item:18959}), the Lookouts stand on the southern ridges (the Spyglass). Any {object:147516} may drop the {item:11818}: keep it."] = "검은무쇠단 감독관과 검은무쇠단 노예상인이 용광로 곳곳에서 노예를 부리며, 누구든 {item:10551}을(를) 지니고 있을 수 있습니다. 검은무쇠단 증기기술자는 한가운데 용광로에서 일하고({item:18959}), 검은무쇠단 망꾼은 남쪽 능선에 서 있습니다(감시병의 망원경). {object:147516} 누구든 {item:11818}을(를) 떨어뜨릴 수 있으니 간직하십시오.",
 
 	-- Step 7: Greater Lava Spiders
@@ -50,7 +50,7 @@ return {
 	["The prisoner's next task, Ledger from {zone:1446}, sends you to the {zone:1435} and {zone:1445}: skip it."] = "포로의 다음 임무인 {zone:1446}의 장부는 {zone:1435}와(과) {zone:1445}(으)로 보냅니다: 건너뛰십시오.",
 
 	-- Step 12: Dorius Stonetender
-	-- {object:147516} Dark Iron (no name in this language: may be words) · {object:175704} Singed Letter · {area:1959} Dustfire Valley
+	-- {object:147516} Dark Iron · {object:175704} Singed Letter · {area:1959} Dustfire Valley
 	["The dwarf stands by the road at the dig site. Follow him north along the road and fight off the {object:147516} ambushes. When it is over, read the {object:175704} he leaves on the road in {area:1959}."] = "드워프 도리우스 스톤텐더는 발굴현장의 길가에 서 있습니다. 그를 따라 길을 북쪽으로 가며 {object:147516}의 매복을 물리치십시오. 끝나면 {area:1959}의 길에 그가 남긴 {object:175704}을(를) 읽으십시오.",
 	-- {npc:8256} Curator Thorius · {zone:1455} Ironforge
 	["For {npc:8256} in {zone:1455}, later"] = "나중에 {zone:1455}의 {npc:8256}에게",

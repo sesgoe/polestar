@@ -11,7 +11,7 @@ return {
 	["{spell:2458} at 30 and a {spell:1680} axe, sword or warhammer at 40."] = "30級學會{spell:2458}，40級獲得一把{spell:1680}斧、劍或戰錘。",
 
 	-- Step 1: The Islander (Stormwind)
-	-- {npc:5479} Wu Shen · {object:2100} Old Town (no name in this language: may be words) · {npc:6236} Klannoc Macleod · {area:720} Fray Island · {zone:1413} Barrens
+	-- {npc:5479} Wu Shen · {object:2100} Old Town · {npc:6236} Klannoc Macleod · {area:720} Fray Island · {zone:1413} Barrens
 	["At 30, {npc:5479} in {object:2100}, beside the Pig and Whistle, sends you to {npc:6236} on {area:720} in the {zone:1413}."] = "30級時，{object:2100}的{npc:5479}（在Pig and Whistle旁邊）會派你去找{zone:1413}{area:720}的{npc:6236}。",
 
 	-- Step 2: The Islander (Ironforge)
@@ -19,7 +19,7 @@ return {
 	["At 30, {npc:5113}, the warrior trainer of {zone:1455}, sends you to {npc:6236} on {area:720} in the {zone:1413}."] = "30級時，{zone:1455}的戰士訓練師{npc:5113}會派你去找{zone:1413}{area:720}的{npc:6236}。",
 
 	-- Step 3: The Islander (Orgrimmar)
-	-- {npc:3354} Sorek · {object:172958} Valley of Honor (no name in this language: may be words) · {npc:6236} Klannoc Macleod · {area:720} Fray Island · {zone:1413} Barrens
+	-- {npc:3354} Sorek · {object:172958} Valley of Honor · {npc:6236} Klannoc Macleod · {area:720} Fray Island · {zone:1413} Barrens
 	["At 30, {npc:3354} in the {object:172958} sends you to {npc:6236} on {area:720} in the {zone:1413}."] = "30級時，{object:172958}的{npc:3354}會派你去找{zone:1413}{area:720}的{npc:6236}。",
 
 	-- Step 4: The Islander (Thunder Bluff)

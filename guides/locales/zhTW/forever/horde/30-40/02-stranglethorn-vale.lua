@@ -7,9 +7,9 @@
 -- The comments are rewritten by sync.
 return {
 	-- Step 1: Zeppelin to Grom'gol
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["Zeppelin to {object:3202}"] = "搭飛艇前往{object:3202}",
-	-- {zone:1458} Undercity · {object:3202} Grom'gol (no name in this language: may be words)
+	-- {zone:1458} Undercity · {object:3202} Grom'gol
 	["Leave the {zone:1458} by the lift and walk up through the ruins to the zeppelin towers; the {object:3202} zeppelin is the one on the south-west tower."] = "搭升降梯離開{zone:1458}，穿過廢墟走上飛艇塔；前往{object:3202}的飛艇在西南邊那座塔。",
 	["Zeppelin towers"] = "飛艇塔",
 
@@ -17,22 +17,22 @@ return {
 	["The zeppelin lands at the tower on the west side of the camp."] = "飛艇降落在營地西側的塔。",
 
 	-- Step 3: Orgrimmar
-	-- {zone:1454} Orgrimmar · {object:3202} Grom'gol (no name in this language: may be words)
+	-- {zone:1454} Orgrimmar · {object:3202} Grom'gol
 	["Take the {zone:1454} zeppelin from the tower on the west side of {object:3202} and train in the city before you fly on."] = "在{object:3202}西側的塔搭乘前往{zone:1454}的飛艇，並在繼續飛行前於城裡學習技能。",
 
 	-- Step 4: Islen Waterseer
-	-- {zone:1454} Orgrimmar · {object:3202} Grom'gol (no name in this language: may be words) · {area:392} Ratchet · {npc:5901} Islen Waterseer
+	-- {zone:1454} Orgrimmar · {object:3202} Grom'gol · {area:392} Ratchet · {npc:5901} Islen Waterseer
 	["Take the {zone:1454} zeppelin from the tower on the west side of {object:3202} and fly to {area:392}. {npc:5901} camps on the coast a short ride south of it."] = "在{object:3202}西側的塔搭乘前往{zone:1454}的飛艇，然後飛往{area:392}。{npc:5901}在它南邊不遠處的海岸紮營。",
 	-- {npc:5901} Islen Waterseer · {npc:3527} Healing Stream Totem · {item:5177} Water Totem
 	["{npc:5901}: {npc:3527} and your {item:5177}"] = "{npc:5901}：{npc:3527}和你的{item:5177}",
 
 	-- Step 5: Back to Grom'gol
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["Back to {object:3202}"] = "返回{object:3202}",
 
 	-- Step 6: Nesingwary's camp
 	["Nesingwary's camp"] = "奈辛瓦里的營地",
-	-- {object:3202} Grom'gol (no name in this language: may be words) · {quest:338} The Green Hills of Stranglethorn · {npc:716} Barnil Stonepot
+	-- {object:3202} Grom'gol · {quest:338} The Green Hills of Stranglethorn · {npc:716} Barnil Stonepot
 	["Follow the road north out of {object:3202}; Nesingwary's hunting camp sits on the hill north-east of the river. From here on, keep every page of {quest:338} you loot: {npc:716} asks for them later."] = "沿著道路從{object:3202}向北走；奈辛瓦里的狩獵營地在河東北方的山丘上。從現在起，保留你拾取的每一頁{quest:338}：{npc:716}稍後會要。",
 
 	-- Step 7: Young tigers and panthers
@@ -53,12 +53,12 @@ return {
 
 	-- Step 12: Elder tigers and Lashtail raptors
 	["Elder tigers and Lashtail raptors"] = "老虎與鞭尾迅猛龍",
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	-- plural, as words: Elder Stranglethorn Tigers = {npc:1085} Elder Stranglethorn Tiger · Lashtail Raptors = {npc:686} Lashtail Raptor
 	["The Elder Stranglethorn Tigers (34-35) roam the hills south-west of the camp; the Lashtail Raptors (35-36) hunt further south, towards {object:3202}."] = "老年荊棘谷猛虎（34-35級）在營地西南方的山丘上遊蕩；鞭尾迅猛龍（35-36級）在更南邊、靠近{object:3202}處獵食。",
 
 	-- Step 13: Grom'gol
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["Follow the road south to {object:3202}."] = "沿著道路向南前往{object:3202}。",
 
 	-- Step 14: Nesingwary's camp
@@ -74,7 +74,7 @@ return {
 	["The Bloodscalp Headhunters (36-37) in the village on the coast carry the shrunken heads."] = "海岸村莊裡的血頂獵頭者（36-37級）身上帶著縮小的頭顱。",
 
 	-- Step 18: Hearth to Grom'gol
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["Hearth to {object:3202}"] = "使用爐石前往{object:3202}",
 
 	-- Step 19: Booty Bay
@@ -82,7 +82,7 @@ return {
 	["Follow the road south to {area:35} at the southern tip of the vale and enter through the tunnel in the cliffs. Stay on the road: the jungle beside it is well above your level. {npc:2858}, the Horde flight master, waits on the upper deck."] = "沿著道路向南前往山谷南端的{area:35}，從懸崖中的隧道進入。待在道路上：路旁叢林的等級比你高很多。部落飛行管理員{npc:2858}在上層平台等候。",
 
 	-- Step 20: Fly to Grom'gol
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["Fly to {object:3202}"] = "飛往{object:3202}",
 
 	-- Step 21: The camp by the river
@@ -99,7 +99,7 @@ return {
 	-- Step 23: Fly to Booty Bay
 	-- {area:35} Booty Bay
 	["Fly to {area:35}"] = "飛往{area:35}",
-	-- {object:3202} Grom'gol (no name in this language: may be words) · {area:35} Booty Bay
+	-- {object:3202} Grom'gol · {area:35} Booty Bay
 	["Ride south down the coast to {object:3202} and fly to {area:35}."] = "沿著海岸向南騎往{object:3202}，飛往{area:35}。",
 
 	-- Step 24: Fly to Grom'gol
@@ -108,13 +108,13 @@ return {
 
 	-- Step 25: Lashtail raptors
 	["Lashtail raptors"] = "鞭尾迅猛龍",
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	-- plural, as words: Lashtail Raptors = {npc:686} Lashtail Raptor
 	["The Lashtail Raptors (35-36) hunt the jungle just north-east of {object:3202}."] = "鞭尾迅猛龍（35-36級）在{object:3202}東北方不遠處的叢林中獵食。",
 
 	-- Step 27: Mosh'Ogg camp
 	["Mosh'Ogg camp"] = "莫什奧格營地",
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["The Mosh'Ogg ogres camp in the hills just east of {object:3202}. Kill one Brute and one Witch Doctor (36-37); pull them one at a time."] = "莫什奧格巨魔在{object:3202}東邊不遠處的山丘上紮營。擊殺一個莫什奧格蠻兵和一個莫什奧格巫醫（36-37級）；一次拉一隻。",
 
 	-- Step 28: Shadowmaw jungle and the Snapjaw river
@@ -124,7 +124,7 @@ return {
 	["East of the ogres, Shadowmaw Panthers (37-38) stalk unseen until they strike; the Stranglethorn Tigresses roam the same ground and now and then drop a pristine fang. Snapjaw Crocolisks line the river just west of the jungle; keep their skins for {npc:2495}."] = "在巨魔東邊，深喉獵豹（37-38級）在攻擊之前都隱形潛行；荊棘谷雌虎在同一區域遊蕩，偶爾會掉落完好的尖牙。鉗嘴鱷魚沿著叢林西邊的河岸分布；把牠們的皮留給{npc:2495}。",
 
 	-- Step 29: Grom'gol
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["Back to {object:3202}."] = "返回{object:3202}。",
 
 	-- Step 30: The Vile Reef
@@ -137,7 +137,7 @@ return {
 	["The Bloodscalp trolls hold the ruins up the coast north of the reef and the village beyond; every one can drop a {item:3915}. Keep looting pages of {quest:338}."] = "血頂食人妖佔據暗礁北邊海岸上的遺跡和更遠處的村莊；每一個都可能掉落{item:3915}。繼續拾取{quest:338}的書頁。",
 
 	-- Step 32: Grom'gol
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["Ride back south to {object:3202}."] = "向南騎回{object:3202}。",
 
 	-- Step 33: Nesingwary's camp
@@ -160,7 +160,7 @@ return {
 	-- Step 39: Jungle Stalkers
 	-- plural, as words: Jungle Stalkers = {npc:687} Jungle Stalker
 	["Jungle Stalkers"] = "叢林捕獵者",
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	-- plural, as words: Jungle Stalkers = {npc:687} Jungle Stalker
 	["The Jungle Stalkers (40-41) hunt the coast south of {object:3202}. They are well above you: pull one at a time and rest between fights."] = "叢林捕獵者（40-41級）在{object:3202}南邊的海岸獵食。牠們比你高很多：一次拉一隻，戰鬥之間休息。",
 

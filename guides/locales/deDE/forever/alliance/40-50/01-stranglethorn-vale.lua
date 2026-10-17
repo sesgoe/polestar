@@ -82,7 +82,7 @@ return {
 	["Boat to {area:35}"] = "Boot nach {area:35}",
 
 	-- Step 19: Booty Bay
-	-- {object:56910} The Salty Sailor Tavern (no name in this language: may be words)
+	-- {object:56910} The Salty Sailor Tavern
 	["{object:56910} is the tall building over the harbour; most of the quest givers are on its floors or the docks below."] = "{object:56910} ist das hohe Gebäude über dem Hafen; die meisten Questgeber sind auf seinen Stockwerken oder unten an den Docks.",
 	-- {zone:1446} Tanaris
 	["for Stoley in {zone:1446}: keep it"] = "für Stoley in {zone:1446}: Behalte es",
@@ -178,11 +178,11 @@ return {
 	["{npc:2498}'s next Zanzil errand starts in {zone:1441}: skip it."] = "{npc:2498}s nächster Zanzil-Auftrag beginnt in {zone:1441}: Überspring ihn.",
 
 	-- Step 38: Stormwind
-	-- {npc:1141} Angus Stern · {object:2169} Blue Recluse (no name in this language: may be words) · {npc:5384} Brohann Caskbelly · {object:28027} Dwarven District (no name in this language: may be words)
+	-- {npc:1141} Angus Stern · {object:2169} Blue Recluse · {npc:5384} Brohann Caskbelly · {object:28027} Dwarven District
 	["{npc:1141} cooks in the {object:2169}; {npc:5384} is in the {object:28027}."] = "{npc:1141} kocht im {object:2169}; {npc:5384} ist im {object:28027}.",
 	-- {npc:5694} High Sorcerer Andromath · {area:1438} Nethergarde Keep
 	["{npc:5694}: for {area:1438}, keep it"] = "{npc:5694}: für {area:1438}, behalte es",
-	-- {npc:1440} Milton Sheaf · {object:2117} Stormwind Keep (no name in this language: may be words)
+	-- {npc:1440} Milton Sheaf · {object:2117} Stormwind Keep
 	["{npc:1440}, the Royal Library in {object:2117}"] = "{npc:1440}, Königliche Bibliothek in {object:2117}",
 
 	-- Step 39: Riding at 40
@@ -213,7 +213,7 @@ return {
 	-- Step 43: Warlock: Summon Felsteed
 	-- {quest:3631} Summon Felsteed
 	["Warlock: {quest:3631}"] = "Hexenmeister: {quest:3631}",
-	-- {npc:461} Demisette Cloyce · {object:2164} Slaughtered Lamb (no name in this language: may be words) · {npc:6251} Strahad Farsan · {area:392} Ratchet
+	-- {npc:461} Demisette Cloyce · {object:2164} Slaughtered Lamb · {npc:6251} Strahad Farsan · {area:392} Ratchet
 	["{npc:461}, in the {object:2164}: {npc:6251} in {area:392} takes it at the end of the next guide"] = "{npc:461}, im {object:2164}: {npc:6251} in {area:392} nimmt es am Ende des nächsten Guides an",
 
 	-- Step 44: Watcher Biggs
@@ -246,7 +246,7 @@ return {
 	["for {npc:5635} at {area:348}: keep it"] = "für {npc:5635} in {area:348}: Behalte es",
 
 	-- Step 50: Ironforge
-	-- {area:2257} Deeprun Tram · {object:28027} Dwarven District (no name in this language: may be words) · {npc:5637} Roetten Stonehammer · {object:32356} Hall of Explorers (no name in this language: may be words) · {npc:1356} Prospector Stormpike · {npc:2786} Gerrig Bonegrip · {object:32383} Forlorn Cavern (no name in this language: may be words) · {area:144} Thelsamar
+	-- {area:2257} Deeprun Tram · {object:28027} Dwarven District · {npc:5637} Roetten Stonehammer · {object:32356} Hall of Explorers (no name in this language: may be words) · {npc:1356} Prospector Stormpike · {npc:2786} Gerrig Bonegrip · {object:32383} Forlorn Cavern · {area:144} Thelsamar
 	["Take the {area:2257} from the {object:28027}. {npc:5637} is in the Reclaimers' hall by the {object:32356}, {npc:1356} in the hall itself, {npc:2786} in the {object:32383}. The next guide flies on to {area:144}."] = "Nimm die {area:2257} vom {object:28027}. {npc:5637} ist in der Halle der Forscherliga beim {object:32356}, {npc:1356} in der Halle selbst, {npc:2786} im {object:32383}. Der nächste Guide fliegt weiter nach {area:144}.",
 	-- {npc:1356} Prospector Stormpike · {npc:1344} Prospector Ironband · {zone:1432} Loch Modan
 	["{npc:1356}: for {npc:1344} in {zone:1432}, keep it"] = "{npc:1356}: für {npc:1344} in {zone:1432}, behalte es",

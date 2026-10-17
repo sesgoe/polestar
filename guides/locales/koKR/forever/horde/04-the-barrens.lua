@@ -9,7 +9,7 @@ return {
 	-- Step 1: Fly to Ratchet
 	-- {area:392} Ratchet
 	["Fly to {area:392}"] = "{area:392}(으)로 비행",
-	-- {object:172982} Valley of Strength (no name in this language: may be words)
+	-- {object:172982} Valley of Strength
 	["Doras, the wind rider master, stands on the tower in the {object:172982}."] = "와이번 조련사 도라스는 {object:172982}의 탑 위에 있습니다.",
 
 	-- Step 2: Ratchet
@@ -66,23 +66,23 @@ return {
 	["grind on Thunderhawk Hatchlings south-west of the {area:380}"] = "{area:380} 남서쪽에서 새끼 천둥매 사냥",
 
 	-- Step 12: Orgrimmar
-	-- {area:1637} Orgrimmar · {npc:3354} Sorek · {object:172958} Valley of Honor (no name in this language: may be words) · {npc:5892} Searn Firewarder · {object:172957} Valley of Wisdom (no name in this language: may be words)
+	-- {area:1637} Orgrimmar · {npc:3354} Sorek · {object:172958} Valley of Honor · {npc:5892} Searn Firewarder · {object:172957} Valley of Wisdom
 	["Fly to {area:1637} to train your level 20 ranks. {npc:3354} is in the {object:172958}, {npc:5892} in the {object:172957}."] = "{area:1637}(으)로 비행해 20레벨 기술을 수련하십시오. {npc:3354}은(는) {object:172958}에, {npc:5892}은(는) {object:172957}에 있습니다.",
 
 	-- Step 13: Gan'rul Bloodeye
-	-- {object:172960} Cleft of Shadow (no name in this language: may be words) · {object:172982} Valley of Strength (no name in this language: may be words)
+	-- {object:172960} Cleft of Shadow · {object:172982} Valley of Strength
 	["The {object:172960} is the canyon under the {object:172982}."] = "{object:172960}은(는) {object:172982} 아래 협곡입니다.",
 	-- {npc:5909} Cazul
 	["{npc:5909}, a few steps away"] = "{npc:5909}, 몇 걸음 떨어진 곳",
 
 	-- Step 14: Shenthul
-	-- {npc:3401} Shenthul · {object:172960} Cleft of Shadow (no name in this language: may be words) · {quest:2460} The Shattered Salute
+	-- {npc:3401} Shenthul · {object:172960} Cleft of Shadow · {quest:2460} The Shattered Salute
 	["{npc:3401} stands in the {object:172960}. Target him and type /salute to finish {quest:2460}."] = "{npc:3401}은(는) {object:172960}에 있습니다. 그를 대상으로 지정하고 /salute를 입력해 {quest:2460}을(를) 완료하십시오.",
 	-- {quest:2458} Deep Cover · {npc:7233} Taskmaster Fizzule · {area:382} Sludge Fen
 	["{quest:2458}: {npc:7233}, by the {area:382}"] = "{quest:2458}: {area:382} 옆의 {npc:7233}",
 
 	-- Step 15: Ur'kyo
-	-- {npc:6018} Ur'kyo · {object:172961} Valley of Spirits (no name in this language: may be words)
+	-- {npc:6018} Ur'kyo · {object:172961} Valley of Spirits
 	["{npc:6018} stands in the {object:172961}, on the city's west side."] = "{npc:6018}은(는) 도시 서쪽 {object:172961}에 있습니다.",
 	-- {npc:6018} Ur'kyo · {npc:4606} Aelthalyste · {zone:1458} Undercity
 	["{npc:6018}: {npc:4606} in the {zone:1458}, two guides on"] = "{npc:6018}: 두 가이드 뒤 {zone:1458}의 {npc:4606}",
@@ -284,7 +284,7 @@ return {
 	["{npc:246344} teaches Paladins in {area:1638}. You have no flight path there yet: fly to {area:378}, ride west through {zone:1412} and up a lift, and take the flight path from {npc:2995} on the central rise."] = "{npc:246344}은(는) {area:1638}에서 성기사를 가르칩니다. 아직 그곳 비행 경로가 없으니 {area:378}(으)로 비행한 뒤 서쪽으로 {zone:1412}을(를) 지나 승강기를 타고 올라가, 중앙 언덕의 {npc:2995}에게서 비행 경로를 얻으십시오.",
 
 	-- Step 69: The Binding
-	-- {npc:5875} Gan'rul Bloodeye · {object:172960} Cleft of Shadow (no name in this language: may be words) · {item:6626} Dogran's Pendant
+	-- {npc:5875} Gan'rul Bloodeye · {object:172960} Cleft of Shadow · {item:6626} Dogran's Pendant
 	["{npc:5875} stands in the {object:172960}. Use {item:6626} on the summoning circle there and defeat the succubus to bind her."] = "{npc:5875}은(는) {object:172960}에 있습니다. 그곳 소환진에서 {item:6626}을(를) 사용하고 서큐버스를 쓰러뜨려 속박하십시오.",
 
 	-- Step 70: Shenthul

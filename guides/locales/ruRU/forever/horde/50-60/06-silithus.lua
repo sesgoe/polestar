@@ -108,7 +108,7 @@ return {
 	["Fly to {area:1637} and train."] = "Летите сюда: {area:1637} и обучитесь.",
 
 	-- Step 25: The Undercity
-	-- {area:1637} Orgrimmar · {zone:1420} Tirisfal Glades · {zone:1458} Undercity · {object:36126} Royal Quarter (no name in this language: may be words)
+	-- {area:1637} Orgrimmar · {zone:1420} Tirisfal Glades · {zone:1458} Undercity · {object:36126} Royal Quarter
 	["Take the zeppelin from the tower outside {area:1637} to {zone:1420} and ride into the {zone:1458}. Lady Sylvanas holds the {object:36126}."] = "Садитесь на дирижабль с башни у города {area:1637} в край {zone:1420} и езжайте в город {zone:1458}. Леди Сильвана – здесь: {object:36126}.",
 
 	-- Step 26: The Bulwark

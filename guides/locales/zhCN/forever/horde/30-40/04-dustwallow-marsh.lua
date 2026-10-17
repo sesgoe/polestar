@@ -58,7 +58,7 @@ return {
 
 	-- Step 12: Brackenwall Village
 	["Ride back west to Brackenwall with the head."] = "带着头颅向西骑回蕨墙村。",
-	-- {npc:2519} Kin'weelay · {object:3202} Grom'gol (no name in this language: may be words)
+	-- {npc:2519} Kin'weelay · {object:3202} Grom'gol
 	["For {npc:2519} at {object:3202}, in the next guide"] = "交给{object:3202}的{npc:2519}，在下一个指南中",
 
 	-- Step 13: Hearth to Ratchet

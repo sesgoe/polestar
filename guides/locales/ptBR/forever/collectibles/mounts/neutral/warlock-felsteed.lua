@@ -11,7 +11,7 @@ return {
 	["Your own mount at 40, summoned anywhere, with no gold spent on a riding horse."] = "Sua própria montaria no nível 40, evocada em qualquer lugar, sem gastar ouro num cavalo.",
 
 	-- Step 1: Summon Felsteed (Stormwind)
-	-- {npc:461} Demisette Cloyce · {object:2164} Slaughtered Lamb (no name in this language: may be words) · {object:2101} Mage Quarter (no name in this language: may be words) · {npc:6251} Strahad Farsan · {area:392} Ratchet
+	-- {npc:461} Demisette Cloyce · {object:2164} Slaughtered Lamb · {object:2101} Mage Quarter · {npc:6251} Strahad Farsan · {area:392} Ratchet
 	["At 40 {npc:461} in the {object:2164}, in the {object:2101}, sends you to {npc:6251} in {area:392}."] = "No nível 40, {npc:461}, em {object:2164}, no {object:2101}, envia você a {npc:6251} em {area:392}.",
 
 	-- Step 2: Summon Felsteed (Ironforge)

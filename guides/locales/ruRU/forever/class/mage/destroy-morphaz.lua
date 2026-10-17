@@ -12,7 +12,7 @@ return {
 	["Experience"] = "Опыт",
 
 	-- Step 1: Magecraft (Stormwind)
-	-- {npc:331} Maginor Dumas · {zone:1453} Stormwind · {object:2101} Mage Quarter (no name in this language: may be words) · {zone:1455} Ironforge
+	-- {npc:331} Maginor Dumas · {zone:1453} Stormwind · {object:2101} Mage Quarter · {zone:1455} Ironforge
 	["{npc:331}, the Master Mage, stands in the Wizard's Sanctum in {zone:1453}'s {object:2101}; Dink in {zone:1455} gives the same quest."] = "{npc:331}, верховный маг, стоит в святилище магов ({zone:1453}, {object:2101}); Динк ({zone:1455}) дает то же задание.",
 
 	-- Step 2: Magecraft (Orgrimmar)

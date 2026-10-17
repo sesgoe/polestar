@@ -13,13 +13,13 @@ return {
 	-- Step 1: A Simple Request (Alliance)
 	-- {quest:8233} A Simple Request
 	["{quest:8233} (Alliance)"] = "{quest:8233} (얼라이언스)",
-	-- {npc:918} Osborne the Night Man · {zone:1453} Stormwind · {object:2100} Old Town (no name in this language: may be words) · {zone:1457} Darnassus · {npc:5165} Hulfdan Blackbeard · {zone:1455} Ironforge
+	-- {npc:918} Osborne the Night Man · {zone:1453} Stormwind · {object:2100} Old Town · {zone:1457} Darnassus · {npc:5165} Hulfdan Blackbeard · {zone:1455} Ironforge
 	["At 50 {npc:918} in {zone:1453}'s {object:2100} has it; so do Syurna in {zone:1457} and {npc:5165} and Fenthwick in {zone:1455}."] = "50레벨에 {zone:1453} {object:2100}의 {npc:918}이(가) 줍니다. {zone:1457}의 시우르나, {zone:1455}의 {npc:5165}와(과) 펜스윅도 줍니다.",
 
 	-- Step 2: A Simple Request (Horde)
 	-- {quest:8233} A Simple Request
 	["{quest:8233} (Horde)"] = "{quest:8233} (호드)",
-	-- {npc:3328} Ormok · {object:172960} Cleft of Shadow (no name in this language: may be words) · {npc:4583} Miles Dexter · {zone:1458} Undercity · {object:36073} Rogues' Quarter (no name in this language: may be words)
+	-- {npc:3328} Ormok · {object:172960} Cleft of Shadow · {npc:4583} Miles Dexter · {zone:1458} Undercity · {object:36073} Rogues' Quarter
 	["At 50 {npc:3328} in the {object:172960} has it; so does {npc:4583} in the {zone:1458}'s {object:36073}."] = "50레벨에 {object:172960}의 {npc:3328}이(가) 줍니다. {zone:1458} {object:36073}의 {npc:4583}도 줍니다.",
 
 	-- Step 3: Lord Jorach Ravenholdt

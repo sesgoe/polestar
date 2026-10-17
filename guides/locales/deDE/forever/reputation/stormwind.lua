@@ -24,7 +24,7 @@ return {
 	["Dunemaul ogres (level 45-48) drop it here. The Auction House works too."] = "Oger der Dünenbrecher (Stufe 45-48) lassen ihn hier fallen. Das Auktionshaus geht auch.",
 
 	-- Step 8: Runecloth
-	-- {object:92525} Argent Dawn (no name in this language: may be words)
+	-- {object:92525} Argent Dawn
 	-- plural, as words: Dark Adepts = {npc:8546} Dark Adept
 	["Dark Adepts and Shadowmages (level 58-60) drop it here; every Scourge kill here also counts toward the {object:92525} (see that guide). The Auction House works too."] = "Dunkle Adepten und Schattenmagier (Stufe 58-60) lassen ihn hier fallen; jeder getötete Gegner der Geißel zählt hier auch für {object:92525} (siehe den Guide dazu). Das Auktionshaus geht auch.",
 

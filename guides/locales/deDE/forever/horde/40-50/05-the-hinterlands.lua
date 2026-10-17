@@ -45,7 +45,7 @@ return {
 	["Ride north back to {area:75} and fly to the {area:1497}."] = "Reite nach Norden zurück nach {area:75} und flieg nach {area:1497}.",
 
 	-- Step 8: Undercity
-	-- {npc:7825} Oran Snakewrithe · {object:36126} Royal Quarter (no name in this language: may be words)
+	-- {npc:7825} Oran Snakewrithe · {object:36126} Royal Quarter
 	["{npc:7825}, the {object:36126}"] = "{npc:7825}, {object:36126}",
 	-- {npc:6741} Innkeeper Norman · {zone:1456} Thunder Bluff
 	["{npc:6741}: for {zone:1456}, around level 50"] = "{npc:6741}: für {zone:1456}, etwa ab Stufe 50",

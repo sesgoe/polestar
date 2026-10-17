@@ -293,9 +293,9 @@ return {
 	["Take the portal up from {area:702} to {npc:4217} in the {area:1658}."] = "Nimm das Portal von {area:702} hinauf zu {npc:4217} im {area:1658}.",
 
 	-- Step 47: The Moonkin Stone
-	-- {object:177525} Moonkin Stone (no name in this language: may be words)
+	-- {object:177525} Moonkin Stone
 	["The {object:177525}"] = "Der {object:177525}",
-	-- {area:702} Rut'theran Village · {area:442} Auberdine · {object:177525} Moonkin Stone (no name in this language: may be words) · {item:15208} Cenarion Moondust · {npc:12144} Lunaclaw Spirit
+	-- {area:702} Rut'theran Village · {area:442} Auberdine · {object:177525} Moonkin Stone · {item:15208} Cenarion Moondust · {npc:12144} Lunaclaw Spirit
 	["Go back down to {area:702} and fly to {area:442}. The {object:177525} stands in the hills just east of the village: use the {item:15208} there, defeat Lunaclaw and speak to the {npc:12144}."] = "Geh zurück hinab nach {area:702} und flieg nach {area:442}. Der {object:177525} steht in den Hügeln gleich östlich des Dorfs: Benutze dort den {item:15208}, besiege Mondklaue und sprich mit dem {npc:12144}.",
 
 	-- Step 48: Body and Heart
@@ -311,7 +311,7 @@ return {
 	["From {area:17203}, ride through the city gates into {zone:1429} and follow the road west to {zone:1436}."] = "Reite vom {area:17203} durch die Stadttore in den {zone:1429} und folge der Straße nach Westen nach {zone:1436}.",
 
 	-- Step 50: Defensive Stance
-	-- {object:2100} Old Town (no name in this language: may be words) · {npc:5480} Ilsa Corbin · {npc:6089} Harry Burlguard · {npc:6090} Bartleby · {object:2152} Pig and Whistle Tavern (no name in this language: may be words)
+	-- {object:2100} Old Town · {npc:5480} Ilsa Corbin · {npc:6089} Harry Burlguard · {npc:6090} Bartleby · {object:2152} Pig and Whistle Tavern
 	["From the harbour walk into {object:2100}. {npc:5480} trains warriors there; {npc:6089} and {npc:6090} stand together by the {object:2152}. {npc:6090} fights you for his mug."] = "Geh vom Hafen in {object:2100}. {npc:5480} bildet dort Krieger aus; {npc:6089} und {npc:6090} stehen zusammen beim {object:2152}. {npc:6090} kämpft mit dir um seinen Krug.",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.

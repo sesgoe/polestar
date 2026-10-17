@@ -11,7 +11,7 @@ return {
 	["A hauberk at 28, a coif, leggings or gauntlets by race, and a shield on the way."] = "Una cota a nivel 28; un almófar, unas calzas o unos guanteletes según tu raza, y un escudo por el camino.",
 
 	-- Step 1: Yorus Barleybrew (Stormwind)
-	-- {npc:5479} Wu Shen · {object:2100} Old Town (no name in this language: may be words) · {quest:1698} Yorus Barleybrew
+	-- {npc:5479} Wu Shen · {object:2100} Old Town · {quest:1698} Yorus Barleybrew
 	["At 20, {npc:5479} in {object:2100}, beside the Pig and Whistle, sends you to {quest:1698} in Redridge."] = "A nivel 20, {npc:5479}, en {object:2100}, junto a la taberna El Cerdo Borracho, te envía con {quest:1698} en las Montañas Crestagrana.",
 
 	-- Step 2: Yorus Barleybrew (Ironforge)
@@ -59,7 +59,7 @@ return {
 	["{item:6841}, from Roogug"] = "{item:6841}, de Roogug",
 
 	-- Step 9: Furen's Armor
-	-- {npc:5413} Furen Longbeard · {object:28027} Dwarven District (no name in this language: may be words)
+	-- {npc:5413} Furen Longbeard · {object:28027} Dwarven District
 	["Back to {npc:5413} in the {object:28027}. He sends you on to a smith of your own race."] = "Regresa con {npc:5413} en {object:28027}. Te envía con un herrero de tu raza.",
 
 	-- Step 10: Grimand Elmore

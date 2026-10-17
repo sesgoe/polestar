@@ -13,7 +13,7 @@ return {
 	-- Step 1: A Simple Request (Alliance)
 	-- {quest:8233} A Simple Request
 	["{quest:8233} (Alliance)"] = "{quest:8233} (Aliança)",
-	-- {npc:918} Osborne the Night Man · {zone:1453} Stormwind · {object:2100} Old Town (no name in this language: may be words) · {zone:1457} Darnassus · {npc:5165} Hulfdan Blackbeard · {zone:1455} Ironforge
+	-- {npc:918} Osborne the Night Man · {zone:1453} Stormwind · {object:2100} Old Town · {zone:1457} Darnassus · {npc:5165} Hulfdan Blackbeard · {zone:1455} Ironforge
 	["At 50 {npc:918} in {zone:1453}'s {object:2100} has it; so do Syurna in {zone:1457} and {npc:5165} and Fenthwick in {zone:1455}."] = "No nível 50, {npc:918} em {object:2100} de {zone:1453} a tem; assim como Syurna em {zone:1457} e {npc:5165} e Degrauzinho em {zone:1455}.",
 
 	-- Step 2: A Simple Request (Horde)

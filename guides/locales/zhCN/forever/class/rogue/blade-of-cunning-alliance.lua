@@ -16,7 +16,7 @@ return {
 	["At 10 {npc:917}, the rogue trainer in the Lion's Pride Inn in {area:87}, gives you a package for {npc:332} in {zone:1453}."] = "10级时，{area:87}Lion's Pride Inn的潜行者训练师{npc:917}会给你一个包裹，交给{zone:1453}的{npc:332}。",
 
 	-- Step 2: Master Mathias Shaw
-	-- {zone:1453} Stormwind · {object:2100} Old Town (no name in this language: may be words)
+	-- {zone:1453} Stormwind · {object:2100} Old Town
 	["Ride north to {zone:1453}; Mathias Shaw is at SI:7 in {object:2100}."] = "向北骑行到{zone:1453}；马迪亚斯·肖尔在{object:2100}的军情七处。",
 
 	-- Step 3: Defias Dockmaster

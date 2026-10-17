@@ -13,13 +13,13 @@ return {
 	-- Step 1: A Simple Request (Alliance)
 	-- {quest:8233} A Simple Request
 	["{quest:8233} (Alliance)"] = "{quest:8233}（聯盟）",
-	-- {npc:918} Osborne the Night Man · {zone:1453} Stormwind · {object:2100} Old Town (no name in this language: may be words) · {zone:1457} Darnassus · {npc:5165} Hulfdan Blackbeard · {zone:1455} Ironforge
+	-- {npc:918} Osborne the Night Man · {zone:1453} Stormwind · {object:2100} Old Town · {zone:1457} Darnassus · {npc:5165} Hulfdan Blackbeard · {zone:1455} Ironforge
 	["At 50 {npc:918} in {zone:1453}'s {object:2100} has it; so do Syurna in {zone:1457} and {npc:5165} and Fenthwick in {zone:1455}."] = "50級時，{zone:1453}{object:2100}的{npc:918}提供此任務；{zone:1457}的塞尤娜，以及{zone:1455}的{npc:5165}和芬斯維克也有。",
 
 	-- Step 2: A Simple Request (Horde)
 	-- {quest:8233} A Simple Request
 	["{quest:8233} (Horde)"] = "{quest:8233}（部落）",
-	-- {npc:3328} Ormok · {object:172960} Cleft of Shadow (no name in this language: may be words) · {npc:4583} Miles Dexter · {zone:1458} Undercity · {object:36073} Rogues' Quarter (no name in this language: may be words)
+	-- {npc:3328} Ormok · {object:172960} Cleft of Shadow · {npc:4583} Miles Dexter · {zone:1458} Undercity · {object:36073} Rogues' Quarter
 	["At 50 {npc:3328} in the {object:172960} has it; so does {npc:4583} in the {zone:1458}'s {object:36073}."] = "50級時，{object:172960}的{npc:3328}提供此任務；{zone:1458}{object:36073}的{npc:4583}也有。",
 
 	-- Step 3: Lord Jorach Ravenholdt

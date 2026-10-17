@@ -152,13 +152,13 @@ return {
 	["Mine every Iron (125, green), Gold (155, yellow), Mithril (175, yellow) node you pass and circle the waypoints until {skill:186} 230. Smelt the ore at a forge when your bags fill: smelting also raises {skill:186}. Zone level 35-45."] = "Baue unterwegs jedes dieser Vorkommen ab: Eisenvorkommen (125, grün), Goldvorkommen (155, gelb), Mithrilablagerung (175, gelb). Lauf die Wegpunkte ab, bis {skill:186} 230 erreicht ist. Schmilz das Erz an einer Schmiede, wenn deine Taschen voll sind: Auch Schmelzen steigert {skill:186}. Gebietsstufe 35-45.",
 
 	-- Step 26: Dark Iron & Truesilver: Searing Gorge (230-245)
-	-- {object:147516} Dark Iron (no name in this language: may be words) · {zone:1427} Searing Gorge
+	-- {object:147516} Dark Iron · {zone:1427} Searing Gorge
 	["{object:147516} & Truesilver: {zone:1427} (230-245)"] = "{object:147516} & Echtsilberablagerung: {zone:1427} (230-245)",
-	-- {object:147516} Dark Iron (no name in this language: may be words) · {skill:186} Mining
+	-- {object:147516} Dark Iron · {skill:186} Mining
 	["Mine every Gold (155, green), Mithril (175, green), {object:147516} (230, orange), Truesilver (230, orange) node you pass and circle the waypoints until {skill:186} 245. Smelt the ore at a forge when your bags fill: smelting also raises {skill:186}. Zone level 43-50."] = "Baue unterwegs jedes dieser Vorkommen ab: Goldvorkommen (155, grün), Mithrilablagerung (175, grün), {object:147516} (230, orange), Echtsilberablagerung (230, orange). Lauf die Wegpunkte ab, bis {skill:186} 245 erreicht ist. Schmilz das Erz an einer Schmiede, wenn deine Taschen voll sind: Auch Schmelzen steigert {skill:186}. Gebietsstufe 43-50.",
-	-- {object:147516} Dark Iron (no name in this language: may be words)
+	-- {object:147516} Dark Iron
 	["Truesilver, {object:147516}"] = "Echtsilberablagerung, {object:147516}",
-	-- {object:147516} Dark Iron (no name in this language: may be words)
+	-- {object:147516} Dark Iron
 	["{object:147516}, Gold"] = "{object:147516}, Goldvorkommen",
 
 	-- Step 27: Truesilver & Small Thorium: Blasted Lands (245-275)
@@ -170,8 +170,8 @@ return {
 	-- Step 28: Rich Thorium: Burning Steppes (275-300)
 	-- {zone:1428} Burning Steppes
 	["Rich Thorium: {zone:1428} (275-300)"] = "Reiches Thoriumvorkommen: {zone:1428} (275-300)",
-	-- {object:147516} Dark Iron (no name in this language: may be words) · {skill:186} Mining
+	-- {object:147516} Dark Iron · {skill:186} Mining
 	["Mine every {object:147516} (230, yellow), Truesilver (230, yellow), Small Thorium (245, yellow), Rich Thorium (275, orange) node you pass and circle the waypoints until {skill:186} 300. Smelt the ore at a forge when your bags fill: smelting also raises {skill:186}. Zone level 50-58."] = "Baue unterwegs jedes dieser Vorkommen ab: {object:147516} (230, gelb), Echtsilberablagerung (230, gelb), Kleines Thoriumvorkommen (245, gelb), Reiches Thoriumvorkommen (275, orange). Lauf die Wegpunkte ab, bis {skill:186} 300 erreicht ist. Schmilz das Erz an einer Schmiede, wenn deine Taschen voll sind: Auch Schmelzen steigert {skill:186}. Gebietsstufe 50-58.",
-	-- {object:147516} Dark Iron (no name in this language: may be words)
+	-- {object:147516} Dark Iron
 	["{object:147516}, Rich Thorium"] = "{object:147516}, Reiches Thoriumvorkommen",
 }

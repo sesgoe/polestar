@@ -12,7 +12,7 @@ return {
 	-- Step 1: Journeyman Riding
 	-- {skill:762} Riding
 	["Journeyman {skill:762}"] = "中級{skill:762}",
-	-- {npc:4752} Kildar · {npc:3362} Ogunaro Wolfrunner · {zone:1454} Orgrimmar · {object:172958} Valley of Honor (no name in this language: may be words) · {skill:762} Riding
+	-- {npc:4752} Kildar · {npc:3362} Ogunaro Wolfrunner · {zone:1454} Orgrimmar · {object:172958} Valley of Honor · {skill:762} Riding
 	["{npc:4752} and {npc:3362}'s kennel are in {zone:1454}'s {object:172958}. At 60 {npc:4752} teaches Journeyman {skill:762} (1,000g per Blizzard's designers); Blizzard says learning riding grants a mount. The Forever client sells each swift wolf for 200g at level 60."] = "{npc:4752}和{npc:3362}的狼舍在{zone:1454}的{object:172958}。60級時{npc:4752}教授中級{skill:762}（依暴雪設計師為1,000金）；暴雪表示學會騎術會獲得一隻坐騎。Forever用戶端在60級時以每隻200金出售迅捷戰狼。",
 	-- {npc:4752} Kildar
 	["{npc:4752}, riding trainer"] = "騎術訓練師{npc:4752}",

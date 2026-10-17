@@ -314,7 +314,7 @@ return {
 	["{npc:270459}, beside {npc:259084}: for {npc:5504} in {zone:1453}"] = "{npc:270459}，在{npc:259084}身旁：前往{zone:1453}找{npc:5504}",
 
 	-- Step 57: Stormwind Keep
-	-- {object:2117} Stormwind Keep (no name in this language: may be words) · {zone:1436} Westfall
+	-- {object:2117} Stormwind Keep · {zone:1436} Westfall
 	["Bolvar Fordragon stands in the throne room of {object:2117}, at the north end of the city. Then leave by the main gate for {zone:1436}."] = "伯瓦尔·弗塔根公爵站在城市北端{object:2117}的王座大厅里。然后从正门离开，前往{zone:1436}。",
 	-- {npc:234} Gryan Stoutmantle · {area:108} Sentinel Hill
 	["For {npc:234} at {area:108}"] = "前往{area:108}找{npc:234}",
@@ -324,7 +324,7 @@ return {
 	["{npc:5504}, {zone:1453}'s druid trainer, teaches you {spell:18960}. {npc:11802}'s welcome waits for your {spell:499} trip at the end of {zone:1439}."] = "{zone:1453}的德鲁伊训练师{npc:5504}会教你{spell:18960}。{npc:11802}的问候要等到{zone:1439}结尾的{spell:499}之旅时再去。",
 
 	-- Step 59: Jennea Cannon
-	-- {npc:5497} Jennea Cannon · {object:2101} Mage Quarter (no name in this language: may be words) · {quest:1861} Mirror Lake
+	-- {npc:5497} Jennea Cannon · {object:2101} Mage Quarter · {quest:1861} Mirror Lake
 	["{npc:5497} stands in the Wizard's Sanctum, the tower of the {object:2101}; she gives you a flask for the {quest:1861} waterfall."] = "{npc:5497}站在{object:2101}的塔楼巫师圣殿里；她会给你一个瓶子，用于{quest:1861}的瀑布。",
 
 	-- Step 60: Mirror Lake

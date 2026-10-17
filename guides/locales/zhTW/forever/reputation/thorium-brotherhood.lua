@@ -14,7 +14,7 @@ return {
 	["{area:1446}, on the scaffolds in the north-west of {zone:1427}, is the Brotherhood's outpost. The {faction:59} starts out Neutral. Forever's Legacy Diplomat perk increases reputation gains."] = "位於{zone:1427}西北方鷹架上的{area:1446}是兄弟會的前哨。{faction:59}初始為中立。Forever的傳承外交官天賦可提高聲望獲取。",
 
 	-- Step 2: Secret Plans: Fiery Flux
-	-- {area:1443} Slag Pit · {object:147516} Dark Iron (no name in this language: may be words) · {item:18945} Dark Iron Residue
+	-- {area:1443} Slag Pit · {object:147516} Dark Iron · {item:18945} Dark Iron Residue
 	["The plans lie in the {area:1443} of the Cauldron, guarded by {object:147516} dwarves. {object:147516} dwarves also drop {item:18945}, which Burninate takes for Gaining Acceptance."] = "設計圖在大熔爐的{area:1443}裡，由{object:147516}矮人看守。{object:147516}矮人也會掉落{item:18945}，博恩奈特在「獲得信任」任務中收取它。",
 
 	-- Step 3: Back to Burninate

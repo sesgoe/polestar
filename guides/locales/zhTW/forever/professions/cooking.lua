@@ -19,7 +19,7 @@ return {
 	["Prowler (86%) in {zone:1429}, or wherever the arrow points"] = "{zone:1429}的覓食的灰狼（86%），或箭頭指向的地方",
 
 	-- Step 3: Charred Wolf Meat (1-50)
-	-- {spell:2538} Charred Wolf Meat · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
+	-- {spell:2538} Charred Wolf Meat · {object:29784} Basic Campfire · {skill:185} Cooking
 	["{spell:2538} is orange from 1 (yellow at 45, grey at 85): about 50 crafts to 50. Cook at any fire: {object:29784} comes with {skill:185}."] = "{spell:2538}從1起為橘色（45變黃，85變灰）：製作約50次到50。在任何火堆旁都能烹飪：{object:29784}隨{skill:185}一起學會。",
 
 	-- Step 4: Roasted Boar Meat: ingredients
@@ -29,7 +29,7 @@ return {
 	["{npc:1689} (38%), {npc:1127} (36%) in {zone:1426}, or wherever the arrow points"] = "{zone:1426}的{npc:1689}（38%）、{npc:1127}（36%），或箭頭指向的地方",
 
 	-- Step 5: Roasted Boar Meat (1-50)
-	-- {spell:2540} Roasted Boar Meat · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
+	-- {spell:2540} Roasted Boar Meat · {object:29784} Basic Campfire · {skill:185} Cooking
 	["{spell:2540} is orange from 1 (yellow at 45, grey at 85): about 50 crafts to 50. Cook at any fire: {object:29784} comes with {skill:185}."] = "{spell:2540}從1起為橘色（45變黃，85變灰）：製作約50次到50。在任何火堆旁都能烹飪：{object:29784}隨{skill:185}一起學會。",
 
 	-- Step 6: Brilliant Smallfish: shopping
@@ -46,7 +46,7 @@ return {
 	["Catch about 50 {item:6291} here by fishing (see the {skill:356} guide)."] = "在這裡釣約50條{item:6291}（見{skill:356}指南）。",
 
 	-- Step 8: Brilliant Smallfish (1-50)
-	-- {item:6290} Brilliant Smallfish · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking · {item:6291} Raw Brilliant Smallfish · {zone:1438} Teldrassil
+	-- {item:6290} Brilliant Smallfish · {object:29784} Basic Campfire · {skill:185} Cooking · {item:6291} Raw Brilliant Smallfish · {zone:1438} Teldrassil
 	["{item:6290} is orange from 1 (yellow at 45, grey at 85): about 50 crafts to 50. Cook at any fire: {object:29784} comes with {skill:185}. {item:6291} is the common catch in {zone:1438}'s waters."] = "{item:6290}從1起為橘色（45變黃，85變灰）：製作約50次到50。在任何火堆旁都能烹飪：{object:29784}隨{skill:185}一起學會。{item:6291}是{zone:1438}水域的常見漁獲。",
 
 	-- Step 9: Roasted Boar Meat: ingredients
@@ -78,7 +78,7 @@ return {
 	["{npc:547} (35%), {npc:157} (34%) in {zone:1436}, or wherever the arrow points"] = "{zone:1436}的{npc:547}（35%）、{npc:157}（34%），或箭頭指向的地方",
 
 	-- Step 18: Goretusk Liver Pie (50-100)
-	-- {item:724} Goretusk Liver Pie · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
+	-- {item:724} Goretusk Liver Pie · {object:29784} Basic Campfire · {skill:185} Cooking
 	["{item:724} is orange from 50 (yellow at 90, grey at 130): about 52 crafts to 100. Cook at any fire: {object:29784} comes with {skill:185}."] = "{item:724}從50起為橘色（90變黃，130變灰）：製作約52次到100。在任何火堆旁都能烹飪：{object:29784}隨{skill:185}一起學會。",
 
 	-- Step 19: Loch Frenzy Delight: shopping
@@ -92,7 +92,7 @@ return {
 	["{npc:1193} (50%) in {zone:1432}, or wherever the arrow points"] = "{zone:1432}的{npc:1193}（50%），或箭頭指向的地方",
 
 	-- Step 21: Loch Frenzy Delight (50-100)
-	-- {item:6316} Loch Frenzy Delight · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
+	-- {item:6316} Loch Frenzy Delight · {object:29784} Basic Campfire · {skill:185} Cooking
 	["{item:6316} is orange from 50 (yellow at 90, grey at 130): about 52 crafts to 100. Cook at any fire: {object:29784} comes with {skill:185}."] = "{item:6316}從50起為橘色（90變黃，130變灰）：製作約52次到100。在任何火堆旁都能烹飪：{object:29784}隨{skill:185}一起學會。",
 
 	-- Step 22: Rainbow Fin Albacore: shopping
@@ -108,7 +108,7 @@ return {
 	["Catch about 68 {item:6361} here by fishing (see the {skill:356} guide)."] = "在這裡釣約68條{item:6361}（見{skill:356}指南）。",
 
 	-- Step 24: Rainbow Fin Albacore (50-110)
-	-- {item:5095} Rainbow Fin Albacore · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking · {skill:356} Fishing · {area:442} Auberdine · {item:6361} Raw Rainbow Fin Albacore
+	-- {item:5095} Rainbow Fin Albacore · {object:29784} Basic Campfire · {skill:185} Cooking · {skill:356} Fishing · {area:442} Auberdine · {item:6361} Raw Rainbow Fin Albacore
 	["{item:5095} is orange from 50 (yellow at 90, grey at 130): about 68 crafts to 110. Cook at any fire: {object:29784} comes with {skill:185}. {skill:356} off the {area:442} docks catches {item:6361}."] = "{item:5095}從50起為橘色（90變黃，130變灰）：製作約68次到110。在任何火堆旁都能烹飪：{object:29784}隨{skill:185}一起學會。在{area:442}碼頭{skill:356}可釣到{item:6361}。",
 
 	-- Step 25: Strider Stew: shopping
@@ -122,7 +122,7 @@ return {
 	["{npc:3244} (33%) in {zone:1413}, or wherever the arrow points"] = "{zone:1413}的{npc:3244}（33%），或箭頭指向的地方",
 
 	-- Step 27: Strider Stew (50-100)
-	-- {item:5477} Strider Stew · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
+	-- {item:5477} Strider Stew · {object:29784} Basic Campfire · {skill:185} Cooking
 	["{item:5477} is orange from 50 (yellow at 90, grey at 130): about 52 crafts to 100. Cook at any fire: {object:29784} comes with {skill:185}."] = "{item:5477}從50起為橘色（90變黃，130變灰）：製作約52次到100。在任何火堆旁都能烹飪：{object:29784}隨{skill:185}一起學會。",
 
 	-- Step 28: Crocolisk Steak: shopping
@@ -136,7 +136,7 @@ return {
 	["{npc:1400} (50%) in {zone:1437}, or wherever the arrow points"] = "{zone:1437}的{npc:1400}（50%），或箭頭指向的地方",
 
 	-- Step 30: Crocolisk Steak (100-125)
-	-- {spell:3370} Crocolisk Steak · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
+	-- {spell:3370} Crocolisk Steak · {object:29784} Basic Campfire · {skill:185} Cooking
 	["{spell:3370} is orange from 100 (yellow at 120, grey at 160): about 26 crafts to 125. Cook at any fire: {object:29784} comes with {skill:185}."] = "{spell:3370}從100起為橘色（120變黃，160變灰）：製作約26次到125。在任何火堆旁都能烹飪：{object:29784}隨{skill:185}一起學會。",
 
 	-- Step 31: Lean Venison: shopping
@@ -150,7 +150,7 @@ return {
 	["{npc:3818} (53%) in {zone:1440}, or wherever the arrow points"] = "{zone:1440}的{npc:3818}（53%），或箭頭指向的地方",
 
 	-- Step 33: Lean Venison (110-125)
-	-- {item:5480} Lean Venison · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
+	-- {item:5480} Lean Venison · {object:29784} Basic Campfire · {skill:185} Cooking
 	["{item:5480} is orange from 110 (yellow at 150, grey at 190): about 15 crafts to 125. Cook at any fire: {object:29784} comes with {skill:185}."] = "{item:5480}從110起為橘色（150變黃，190變灰）：製作約15次到125。在任何火堆旁都能烹飪：{object:29784}隨{skill:185}一起學會。",
 
 	-- Step 34: Crispy Lizard Tail: shopping
@@ -164,7 +164,7 @@ return {
 	["{npc:3239} (59%), Owatanka (35%) in {zone:1413}, or wherever the arrow points"] = "{zone:1413}的{npc:3239}（59%）、奧瓦坦卡（35%），或箭頭指向的地方",
 
 	-- Step 36: Crispy Lizard Tail (100-125)
-	-- {item:5479} Crispy Lizard Tail · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
+	-- {item:5479} Crispy Lizard Tail · {object:29784} Basic Campfire · {skill:185} Cooking
 	["{item:5479} is orange from 100 (yellow at 140, grey at 180): about 25 crafts to 125. Cook at any fire: {object:29784} comes with {skill:185}."] = "{item:5479}從100起為橘色（140變黃，180變灰）：製作約25次到125。在任何火堆旁都能烹飪：{object:29784}隨{skill:185}一起學會。",
 
 	-- Step 37: Expert Cooking
@@ -176,7 +176,7 @@ return {
 	["Buy and read {item:16072} (Expert {skill:185})"] = "購買並閱讀{item:16072}（高級{skill:185}）",
 
 	-- Step 40: Crocolisk Steak (125-130)
-	-- {spell:3370} Crocolisk Steak · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
+	-- {spell:3370} Crocolisk Steak · {object:29784} Basic Campfire · {skill:185} Cooking
 	["{spell:3370} is yellow from 125 (yellow at 120, grey at 160): about 7 crafts to 130. Cook at any fire: {object:29784} comes with {skill:185}."] = "{spell:3370}從125起為黃色（120變黃，160變灰）：製作約7次到130。在任何火堆旁都能烹飪：{object:29784}隨{skill:185}一起學會。",
 
 	-- Step 41: Curiously Tasty Omelet: shopping
@@ -190,19 +190,19 @@ return {
 	["{npc:1018} (72%), {npc:1019} (67%) in {zone:1437}, or wherever the arrow points"] = "{zone:1437}的{npc:1018}（72%）、{npc:1019}（67%），或箭頭指向的地方",
 
 	-- Step 43: Curiously Tasty Omelet (130-175)
-	-- {spell:3376} Curiously Tasty Omelet · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
+	-- {spell:3376} Curiously Tasty Omelet · {object:29784} Basic Campfire · {skill:185} Cooking
 	["{spell:3376} is orange from 130 (yellow at 170, grey at 210): about 46 crafts to 175. Cook at any fire: {object:29784} comes with {skill:185}."] = "{spell:3376}從130起為橘色（170變黃，210變灰）：製作約46次到175。在任何火堆旁都能烹飪：{object:29784}隨{skill:185}一起學會。",
 
 	-- Step 46: Lean Venison (125-150)
-	-- {item:5480} Lean Venison · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
+	-- {item:5480} Lean Venison · {object:29784} Basic Campfire · {skill:185} Cooking
 	["{item:5480} is orange from 125 (yellow at 150, grey at 190): about 25 crafts to 150. Cook at any fire: {object:29784} comes with {skill:185}."] = "{item:5480}從125起為橘色（150變黃，190變灰）：製作約25次到150。在任何火堆旁都能烹飪：{object:29784}隨{skill:185}一起學會。",
 
 	-- Step 49: Curiously Tasty Omelet (150-175)
-	-- {spell:3376} Curiously Tasty Omelet · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
+	-- {spell:3376} Curiously Tasty Omelet · {object:29784} Basic Campfire · {skill:185} Cooking
 	["{spell:3376} is orange from 150 (yellow at 170, grey at 210): about 26 crafts to 175. Cook at any fire: {object:29784} comes with {skill:185}."] = "{spell:3376}從150起為橘色（170變黃，210變灰）：製作約26次到175。在任何火堆旁都能烹飪：{object:29784}隨{skill:185}一起學會。",
 
 	-- Step 52: Crispy Lizard Tail (125-140)
-	-- {item:5479} Crispy Lizard Tail · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
+	-- {item:5479} Crispy Lizard Tail · {object:29784} Basic Campfire · {skill:185} Cooking
 	["{item:5479} is orange from 125 (yellow at 140, grey at 180): about 15 crafts to 140. Cook at any fire: {object:29784} comes with {skill:185}."] = "{item:5479}從125起為橘色（140變黃，180變灰）：製作約15次到140。在任何火堆旁都能烹飪：{object:29784}隨{skill:185}一起學會。",
 
 	-- Step 53: Hot Lion Chops: shopping
@@ -216,7 +216,7 @@ return {
 	["{npc:2385} (56%) in {zone:1424}, or wherever the arrow points"] = "{zone:1424}的{npc:2385}（56%），或箭頭指向的地方",
 
 	-- Step 55: Hot Lion Chops (140-175)
-	-- {spell:3398} Hot Lion Chops · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
+	-- {spell:3398} Hot Lion Chops · {object:29784} Basic Campfire · {skill:185} Cooking
 	["{spell:3398} is orange from 140 (yellow at 175, grey at 215): about 35 crafts to 175. Cook at any fire: {object:29784} comes with {skill:185}."] = "{spell:3398}從140起為橘色（175變黃，215變灰）：製作約35次到175。在任何火堆旁都能烹飪：{object:29784}隨{skill:185}一起學會。",
 
 	-- Step 56: Roast Raptor: shopping
@@ -230,7 +230,7 @@ return {
 	["{npc:4352} (52%), {npc:4351} (51%) in {zone:1445}, or wherever the arrow points"] = "{zone:1445}的{npc:4352}（52%）、{npc:4351}（51%），或箭頭指向的地方",
 
 	-- Step 58: Roast Raptor (175-215)
-	-- {item:12210} Roast Raptor · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
+	-- {item:12210} Roast Raptor · {object:29784} Basic Campfire · {skill:185} Cooking
 	["{item:12210} is orange from 175 (yellow at 215, grey at 255): about 40 crafts to 215. Cook at any fire: {object:29784} comes with {skill:185}."] = "{item:12210}從175起為橘色（215變黃，255變灰）：製作約40次到215。在任何火堆旁都能烹飪：{object:29784}隨{skill:185}一起學會。",
 
 	-- Step 59: Heavy Kodo Stew: shopping
@@ -244,7 +244,7 @@ return {
 	["{npc:4701} (55%), {npc:4702} (54%), {npc:4700} (40%) in {zone:1443}, or wherever the arrow points"] = "{zone:1443}的{npc:4701}（55%）、{npc:4702}（54%）、{npc:4700}（40%），或箭頭指向的地方",
 
 	-- Step 61: Heavy Kodo Stew (215-225)
-	-- {item:12215} Heavy Kodo Stew · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
+	-- {item:12215} Heavy Kodo Stew · {object:29784} Basic Campfire · {skill:185} Cooking
 	["{item:12215} is orange from 215 (yellow at 240, grey at 280): about 10 crafts to 225. Cook at any fire: {object:29784} comes with {skill:185}."] = "{item:12215}從215起為橘色（240變黃，280變灰）：製作約10次到225。在任何火堆旁都能烹飪：{object:29784}隨{skill:185}一起學會。",
 
 	-- Step 62: Dirge Quikcleave
@@ -275,7 +275,7 @@ return {
 	["Artisan {skill:185}"] = "專家級{skill:185}",
 
 	-- Step 71: Heavy Kodo Stew (225-240)
-	-- {item:12215} Heavy Kodo Stew · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
+	-- {item:12215} Heavy Kodo Stew · {object:29784} Basic Campfire · {skill:185} Cooking
 	["{item:12215} is orange from 225 (yellow at 240, grey at 280): about 15 crafts to 240. Cook at any fire: {object:29784} comes with {skill:185}."] = "{item:12215}從225起為橘色（240變黃，280變灰）：製作約15次到240。在任何火堆旁都能烹飪：{object:29784}隨{skill:185}一起學會。",
 
 	-- Step 72: Monster Omelet: shopping
@@ -289,6 +289,6 @@ return {
 	["{npc:7099} (40%) in {zone:1448}, or wherever the arrow points"] = "{zone:1448}的{npc:7099}（40%），或箭頭指向的地方",
 
 	-- Step 74: Monster Omelet (240-300)
-	-- {item:12218} Monster Omelet · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
+	-- {item:12218} Monster Omelet · {object:29784} Basic Campfire · {skill:185} Cooking
 	["{item:12218} is orange from 240 (yellow at 265, grey at 305): about 105 crafts to 300. Cook at any fire: {object:29784} comes with {skill:185}."] = "{item:12218}從240起為橘色（265變黃，305變灰）：製作約105次到300。在任何火堆旁都能烹飪：{object:29784}隨{skill:185}一起學會。",
 }

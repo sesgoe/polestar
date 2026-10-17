@@ -182,7 +182,7 @@ return {
 	["{npc:11406}: for Ogtinc in {zone:1447}, keep it"] = "{npc:11406}: für Ogtinc in {zone:1447}, behalte es",
 
 	-- Step 42: Royal Historian Archesonus
-	-- {object:171709} High Seat (no name in this language: may be words)
+	-- {object:171709} High Seat
 	["Archesonus stands beside King Magni in the {object:171709}."] = "Archesonus steht neben König Magni im {object:171709}.",
 	-- {zone:1428} Burning Steppes
 	["The relics are in the {zone:1428}: keep it"] = "Die Relikte sind in der {zone:1428}: Behalte es",

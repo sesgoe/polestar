@@ -11,7 +11,7 @@ return {
 	["An off-hand orb or a staff for your late 30s, down the felhound's or the infernal's path, your pick."] = "Сфера для левой руки или посох ближе к 40-му уровню – на выбор путь гончей Скверны или инфернала.",
 
 	-- Step 1: Knowledge of the Orb of Orahil (Stormwind)
-	-- {npc:461} Demisette Cloyce · {object:2164} Slaughtered Lamb (no name in this language: may be words) · {object:2101} Mage Quarter (no name in this language: may be words) · {npc:6266} Menara Voidrender · {area:392} Ratchet
+	-- {npc:461} Demisette Cloyce · {object:2164} Slaughtered Lamb · {object:2101} Mage Quarter · {npc:6266} Menara Voidrender · {area:392} Ratchet
 	["At 35 {npc:461} in the {object:2164}, in the {object:2101}, sends you to {npc:6266} in {area:392}."] = "На 35-м уровне {npc:461} ({object:2164}, {object:2101}) отправит вас сюда: {npc:6266} ({area:392}).",
 
 	-- Step 2: Knowledge of the Orb of Orahil (Ironforge)
@@ -19,11 +19,11 @@ return {
 	["At 35 {npc:5172} in {zone:1455} sends you to {npc:6266} in {area:392}."] = "На 35-м уровне {npc:5172} ({zone:1455}) отправит вас сюда: {npc:6266} ({area:392}).",
 
 	-- Step 3: Knowledge of the Orb of Orahil (Orgrimmar)
-	-- {npc:3326} Zevrost · {object:172960} Cleft of Shadow (no name in this language: may be words) · {npc:6266} Menara Voidrender · {area:392} Ratchet
+	-- {npc:3326} Zevrost · {object:172960} Cleft of Shadow · {npc:6266} Menara Voidrender · {area:392} Ratchet
 	["At 35 {npc:3326} in the {object:172960} sends you to {npc:6266} in {area:392}."] = "На 35-м уровне {npc:3326} ({object:172960}) отправит вас сюда: {npc:6266} ({area:392}).",
 
 	-- Step 4: Knowledge of the Orb of Orahil (Undercity)
-	-- {npc:4563} Kaal Soulreaper · {object:36082} Magic Quarter (no name in this language: may be words) · {npc:6266} Menara Voidrender · {area:392} Ratchet · {zone:1420} Tirisfal Glades · {zone:1411} Durotar
+	-- {npc:4563} Kaal Soulreaper · {object:36082} Magic Quarter · {npc:6266} Menara Voidrender · {area:392} Ratchet · {zone:1420} Tirisfal Glades · {zone:1411} Durotar
 	["At 35 {npc:4563} in the {object:36082} sends you to {npc:6266} in {area:392}. The zeppelin from {zone:1420} flies to {zone:1411}."] = "На 35-м уровне {npc:4563} ({object:36082}) отправит вас сюда: {npc:6266} ({area:392}). Дирижабль из зоны {zone:1420} летит в зону {zone:1411}.",
 
 	-- Step 5: Menara Voidrender

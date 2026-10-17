@@ -49,7 +49,7 @@ return {
 	["{npc:246378} offers the first Lesson in Divinity at level 12."] = "{npc:246378} propose la première Leçon de divinité au niveau 12.",
 
 	-- Step 9: The Undercity
-	-- {area:159} Brill · {area:153} Ruins of Lordaeron · {zone:1458} Undercity · {npc:10181} Lady Sylvanas Windrunner · {object:36126} Royal Quarter (no name in this language: may be words) · {npc:257648} Tanis Alderwood · {object:36078} Trade Quarter (no name in this language: may be words)
+	-- {area:159} Brill · {area:153} Ruins of Lordaeron · {zone:1458} Undercity · {npc:10181} Lady Sylvanas Windrunner · {object:36126} Royal Quarter · {npc:257648} Tanis Alderwood · {object:36078} Trade Quarter
 	["Walk south from {area:159} to the {area:153} and down into the {zone:1458}. {npc:10181} holds court in the {object:36126}; {npc:257648} begs in the {object:36078}."] = "Marchez vers le sud depuis {area:159} jusqu'aux {area:153} et descendez dans {zone:1458}. {npc:10181} tient sa cour dans le {object:36126} ; {npc:257648} mendie dans le {object:36078}.",
 
 	-- Step 10: Linen Cloth

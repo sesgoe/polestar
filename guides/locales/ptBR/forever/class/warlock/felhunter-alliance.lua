@@ -12,11 +12,11 @@ return {
 	["The felhunter, the demon to bring against spellcasters, and a {item:22244} for your shards."] = "O caçador vil, o demônio para usar contra lançadores de feitiços, e uma {item:22244} para seus fragmentos.",
 
 	-- Step 1: Seeking Strahad (Stormwind)
-	-- {npc:6122} Gakin the Darkbinder · {object:2164} Slaughtered Lamb (no name in this language: may be words) · {object:2101} Mage Quarter (no name in this language: may be words) · {npc:6251} Strahad Farsan · {area:392} Ratchet
+	-- {npc:6122} Gakin the Darkbinder · {object:2164} Slaughtered Lamb · {object:2101} Mage Quarter · {npc:6251} Strahad Farsan · {area:392} Ratchet
 	["At 30 {npc:6122}, in the cellar of the {object:2164} in the {object:2101}, sends you to {npc:6251} in {area:392}."] = "No nível 30, {npc:6122}, no porão de {object:2164} no {object:2101}, envia você a {npc:6251} em {area:392}.",
 
 	-- Step 2: Seeking Strahad (Ironforge)
-	-- {npc:6120} Lago Blackwrench · {object:32383} Forlorn Cavern (no name in this language: may be words) · {npc:6251} Strahad Farsan · {area:392} Ratchet
+	-- {npc:6120} Lago Blackwrench · {object:32383} Forlorn Cavern · {npc:6251} Strahad Farsan · {area:392} Ratchet
 	["At 30 {npc:6120}, in the {object:32383}, sends you to {npc:6251} in {area:392}."] = "No nível 30, {npc:6120}, em {object:32383}, envia você a {npc:6251} em {area:392}.",
 
 	-- Step 3: Strahad Farsan

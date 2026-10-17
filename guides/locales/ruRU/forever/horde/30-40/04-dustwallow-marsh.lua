@@ -58,7 +58,7 @@ return {
 
 	-- Step 12: Brackenwall Village
 	["Ride back west to Brackenwall with the head."] = "Возвращайтесь с головой на запад в Гиблотопь.",
-	-- {npc:2519} Kin'weelay · {object:3202} Grom'gol (no name in this language: may be words)
+	-- {npc:2519} Kin'weelay · {object:3202} Grom'gol
 	["For {npc:2519} at {object:3202}, in the next guide"] = "Для персонажа {npc:2519} ({object:3202}), в следующем руководстве",
 
 	-- Step 13: Hearth to Ratchet

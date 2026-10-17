@@ -11,7 +11,7 @@ return {
 	["Your own mount at 40, summoned anywhere, with no gold spent on a riding horse."] = "Tu propia montura a nivel 40, invocable en cualquier lugar, sin gastar oro en un caballo.",
 
 	-- Step 1: Summon Felsteed (Stormwind)
-	-- {npc:461} Demisette Cloyce · {object:2164} Slaughtered Lamb (no name in this language: may be words) · {object:2101} Mage Quarter (no name in this language: may be words) · {npc:6251} Strahad Farsan · {area:392} Ratchet
+	-- {npc:461} Demisette Cloyce · {object:2164} Slaughtered Lamb · {object:2101} Mage Quarter · {npc:6251} Strahad Farsan · {area:392} Ratchet
 	["At 40 {npc:461} in the {object:2164}, in the {object:2101}, sends you to {npc:6251} in {area:392}."] = "A nivel 40, {npc:461}, en {object:2164} en {object:2101}, te envía con {npc:6251} en {area:392}.",
 
 	-- Step 2: Summon Felsteed (Ironforge)
@@ -19,11 +19,11 @@ return {
 	["At 40 {npc:5172} in {zone:1455} sends you to {npc:6251} in {area:392}."] = "A nivel 40, {npc:5172}, en {zone:1455}, te envía con {npc:6251} en {area:392}.",
 
 	-- Step 3: Summon Felsteed (Orgrimmar)
-	-- {npc:3326} Zevrost · {object:172960} Cleft of Shadow (no name in this language: may be words) · {npc:6251} Strahad Farsan · {area:392} Ratchet
+	-- {npc:3326} Zevrost · {object:172960} Cleft of Shadow · {npc:6251} Strahad Farsan · {area:392} Ratchet
 	["At 40 {npc:3326} in the {object:172960} sends you to {npc:6251} in {area:392}."] = "A nivel 40, {npc:3326}, en {object:172960}, te envía con {npc:6251} en {area:392}.",
 
 	-- Step 4: Summon Felsteed (Undercity)
-	-- {npc:4563} Kaal Soulreaper · {object:36082} Magic Quarter (no name in this language: may be words) · {npc:6251} Strahad Farsan · {area:392} Ratchet · {zone:1420} Tirisfal Glades · {zone:1411} Durotar
+	-- {npc:4563} Kaal Soulreaper · {object:36082} Magic Quarter · {npc:6251} Strahad Farsan · {area:392} Ratchet · {zone:1420} Tirisfal Glades · {zone:1411} Durotar
 	["At 40 {npc:4563} in the {object:36082} sends you to {npc:6251} in {area:392}. The zeppelin from {zone:1420} flies to {zone:1411}."] = "A nivel 40, {npc:4563}, en {object:36082}, te envía con {npc:6251} en {area:392}. El zepelín de {zone:1420} vuela a {zone:1411}.",
 
 	-- Step 5: Strahad Farsan in Ratchet

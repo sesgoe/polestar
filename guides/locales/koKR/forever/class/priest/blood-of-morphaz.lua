@@ -20,7 +20,7 @@ return {
 	-- Step 2: Cenarion Aid (Horde)
 	-- {quest:8254} Cenarion Aid
 	["{quest:8254} (Horde)"] = "{quest:8254}(호드)",
-	-- {npc:6018} Ur'kyo · {zone:1454} Orgrimmar · {object:172961} Valley of Spirits (no name in this language: may be words)
+	-- {npc:6018} Ur'kyo · {zone:1454} Orgrimmar · {object:172961} Valley of Spirits
 	["At 50 {npc:6018} in {zone:1454}'s {object:172961} offers it."] = "50레벨에 {zone:1454} {object:172961}의 {npc:6018}이(가) 줍니다.",
 
 	-- Step 3: Ogtinc

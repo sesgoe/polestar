@@ -10,7 +10,7 @@ return {
 	["Four armor pieces at 30 (hauberk, helm, gauntlets, legguards) and a shield on the way."] = "30레벨에 방어구 네 부위(사슬 갑옷, 투구, 건틀릿, 다리보호구), 도중에 방패도 얻습니다.",
 
 	-- Step 1: Speak with Ruga (Orgrimmar)
-	-- {npc:3354} Sorek · {object:172958} Valley of Honor (no name in this language: may be words) · {npc:6394} Ruga Ragetotem · {area:378} Camp Taurajo
+	-- {npc:3354} Sorek · {object:172958} Valley of Honor · {npc:6394} Ruga Ragetotem · {area:378} Camp Taurajo
 	["At 20, {npc:3354} in the {object:172958} sends you to {npc:6394} in {area:378}."] = "20레벨에 {object:172958}의 {npc:3354}이(가) 당신을 {area:378}의 {npc:6394}에게 보냅니다.",
 
 	-- Step 2: Speak with Ruga (Thunder Bluff)

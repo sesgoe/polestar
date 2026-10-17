@@ -11,7 +11,7 @@ return {
 	["Your epic mount at 60, summoned at will: the faster step up from the Warhorse."] = "60級的史詩坐騎，可隨時召喚：比戰馬更快的升級。",
 
 	-- Step 1: Lord Grayson Shadowbreaker (Ironforge)
-	-- {npc:5149} Brandur Ironhammer · {object:32362} Mystic Ward (no name in this language: may be words) · {quest:7638} Lord Grayson Shadowbreaker · {zone:1453} Stormwind
+	-- {npc:5149} Brandur Ironhammer · {object:32362} Mystic Ward · {quest:7638} Lord Grayson Shadowbreaker · {zone:1453} Stormwind
 	["At 60 {npc:5149} in the {object:32362} sends you to {quest:7638} in {zone:1453}'s Cathedral of Light."] = "60級時，{object:32362}的{npc:5149}會派你去找{zone:1453}光明大教堂的{quest:7638}。",
 
 	-- Step 2: Lord Grayson Shadowbreaker
@@ -21,7 +21,7 @@ return {
 	["{npc:6171}, Cathedral of Light"] = "{npc:6171}，光明大教堂",
 
 	-- Step 3: High Priest Rohan
-	-- {npc:11406} High Priest Rohan · {zone:1455} Ironforge · {object:32362} Mystic Ward (no name in this language: may be words)
+	-- {npc:11406} High Priest Rohan · {zone:1455} Ironforge · {object:32362} Mystic Ward
 	["{npc:11406} is in {zone:1455}'s {object:32362}. Bring 150 gold: the censer is yours for a donation."] = "{npc:11406}在{zone:1455}的{object:32362}。帶150金幣：捐獻後香爐就歸你。",
 	-- {npc:11406} High Priest Rohan
 	["{npc:11406}: 150 gold"] = "{npc:11406}：150金幣",
@@ -36,13 +36,13 @@ return {
 	["Terrordale Spirits"] = "恐懼谷的靈魂",
 
 	-- Step 7: Grimand Elmore
-	-- {npc:1416} Grimand Elmore · {zone:1453} Stormwind · {object:28027} Dwarven District (no name in this language: may be words)
+	-- {npc:1416} Grimand Elmore · {zone:1453} Stormwind · {object:28027} Dwarven District
 	["{npc:1416} works in {zone:1453}'s {object:28027}."] = "{npc:1416}在{zone:1453}的{object:28027}工作。",
 
 	-- Step 8: Grimand Elmore's materials
 	-- {npc:1416} Grimand Elmore
 	["{npc:1416}'s materials"] = "{npc:1416}的材料",
-	-- {item:14047} Runecloth · {item:8836} Arthas' Tears · {zone:1448} Felwood · {skill:171} Alchemy · {zone:1453} Stormwind · {object:2096} Trade District (no name in this language: may be words)
+	-- {item:14047} Runecloth · {item:8836} Arthas' Tears · {zone:1448} Felwood · {skill:171} Alchemy · {zone:1453} Stormwind · {object:2096} Trade District
 	-- plural, as words: Arcanite Bars = {item:12360} Arcanite Bar
 	["{item:14047} drops from humanoids around level 50 and up; {item:8836} is an herb of the Plaguelands and {zone:1448}; Arcanite Bars are an {skill:171} transmute. The Auction House in {zone:1453}'s {object:2096} sells all three, and so do crafters."] = "{item:14047}由50級以上的人型生物掉落；{item:8836}是瘟疫之地和{zone:1448}的草藥；奧金錠是{skill:171}轉化產物。{zone:1453}{object:2096}的拍賣場三樣都有賣，工匠也有。",
 	-- plural, as words: Arcanite Bars = {item:12360} Arcanite Bar
@@ -68,7 +68,7 @@ return {
 	-- Step 12: Enriched Manna Biscuits
 	-- plural, as words: Enriched Manna Biscuits = {item:13724} Enriched Manna Biscuit
 	["Enriched Manna Biscuits"] = "可口的魔法點心",
-	-- {object:2160} The Argent Dawn (no name in this language: may be words) · {object:92525} Argent Dawn (no name in this language: may be words) · {npc:10857} Argent Quartermaster Lightspark · {area:3197} Chillwind Camp · {npc:11536} Quartermaster Miranda Breechlock · {area:2268} Light's Hope Chapel · {npc:10856} Argent Quartermaster Hasana · {area:813} Bulwark
+	-- {object:2160} The Argent Dawn · {object:92525} Argent Dawn · {npc:10857} Argent Quartermaster Lightspark · {area:3197} Chillwind Camp · {npc:11536} Quartermaster Miranda Breechlock · {area:2268} Light's Hope Chapel · {npc:10856} Argent Quartermaster Hasana · {area:813} Bulwark
 	["{object:2160} quartermasters sell the biscuits in fives once the {object:92525} is Friendly with you: {npc:10857} at {area:3197}, {npc:11536} at {area:2268}, {npc:10856} at the {area:813}."] = "{object:92525}對你友善後，{object:2160}軍需官會以五個為一組出售點心：{area:3197}的{npc:10857}、{area:2268}的{npc:11536}、{area:813}的{npc:10856}。",
 	-- {npc:10857} Argent Quartermaster Lightspark · {area:3197} Chillwind Camp
 	-- plural, as words: Enriched Manna Biscuits = {item:13724} Enriched Manna Biscuit

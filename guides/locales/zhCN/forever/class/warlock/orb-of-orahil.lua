@@ -11,7 +11,7 @@ return {
 	["An off-hand orb or a staff for your late 30s, down the felhound's or the infernal's path, your pick."] = "三十多级的副手宝珠或法杖，可选地狱犬或地狱火路线。",
 
 	-- Step 1: Knowledge of the Orb of Orahil (Stormwind)
-	-- {npc:461} Demisette Cloyce · {object:2164} Slaughtered Lamb (no name in this language: may be words) · {object:2101} Mage Quarter (no name in this language: may be words) · {npc:6266} Menara Voidrender · {area:392} Ratchet
+	-- {npc:461} Demisette Cloyce · {object:2164} Slaughtered Lamb · {object:2101} Mage Quarter · {npc:6266} Menara Voidrender · {area:392} Ratchet
 	["At 35 {npc:461} in the {object:2164}, in the {object:2101}, sends you to {npc:6266} in {area:392}."] = "35级时，{object:2101}{object:2164}的{npc:461}会让你去{area:392}找{npc:6266}。",
 
 	-- Step 2: Knowledge of the Orb of Orahil (Ironforge)
@@ -19,11 +19,11 @@ return {
 	["At 35 {npc:5172} in {zone:1455} sends you to {npc:6266} in {area:392}."] = "35级时，{zone:1455}的{npc:5172}会让你去{area:392}找{npc:6266}。",
 
 	-- Step 3: Knowledge of the Orb of Orahil (Orgrimmar)
-	-- {npc:3326} Zevrost · {object:172960} Cleft of Shadow (no name in this language: may be words) · {npc:6266} Menara Voidrender · {area:392} Ratchet
+	-- {npc:3326} Zevrost · {object:172960} Cleft of Shadow · {npc:6266} Menara Voidrender · {area:392} Ratchet
 	["At 35 {npc:3326} in the {object:172960} sends you to {npc:6266} in {area:392}."] = "35级时，{object:172960}的{npc:3326}会让你去{area:392}找{npc:6266}。",
 
 	-- Step 4: Knowledge of the Orb of Orahil (Undercity)
-	-- {npc:4563} Kaal Soulreaper · {object:36082} Magic Quarter (no name in this language: may be words) · {npc:6266} Menara Voidrender · {area:392} Ratchet · {zone:1420} Tirisfal Glades · {zone:1411} Durotar
+	-- {npc:4563} Kaal Soulreaper · {object:36082} Magic Quarter · {npc:6266} Menara Voidrender · {area:392} Ratchet · {zone:1420} Tirisfal Glades · {zone:1411} Durotar
 	["At 35 {npc:4563} in the {object:36082} sends you to {npc:6266} in {area:392}. The zeppelin from {zone:1420} flies to {zone:1411}."] = "35级时，{object:36082}的{npc:4563}会让你去{area:392}找{npc:6266}。从{zone:1420}出发的飞艇飞往{zone:1411}。",
 
 	-- Step 5: Menara Voidrender

@@ -315,7 +315,7 @@ return {
 	["{npc:258930}, beside her: {spell:5149}"] = "{npc:258930}，在她旁邊：{spell:5149}",
 
 	-- Step 64: Jennea Cannon
-	-- {area:87} Goldshire · {zone:1453} Stormwind · {npc:5497} Jennea Cannon · {object:2101} Mage Quarter (no name in this language: may be words) · {quest:1861} Mirror Lake
+	-- {area:87} Goldshire · {zone:1453} Stormwind · {npc:5497} Jennea Cannon · {object:2101} Mage Quarter · {quest:1861} Mirror Lake
 	["Follow the road north from {area:87} into {zone:1453}. {npc:5497} stands in the Wizard's Sanctum, the tower of the {object:2101}; she gives you a flask for the {quest:1861} waterfall."] = "沿著道路從{area:87}向北進入{zone:1453}。{npc:5497}站在{object:2101}的高塔裡；她會給你一個瓶子，用於{quest:1861}瀑布。",
 
 	-- Step 65: Mirror Lake
@@ -323,7 +323,7 @@ return {
 	["Leave {zone:1453} by the main gate. The {quest:1861} waterfall is south-west of the gates, on the way west to {zone:1436}: fill {item:7207} at its base."] = "從正門離開{zone:1453}。{quest:1861}瀑布在城門西南方，位於往西前往{zone:1436}的路上：在瀑布底部裝滿{item:7207}。",
 
 	-- Step 66: Gakin the Darkbinder
-	-- {area:87} Goldshire · {zone:1453} Stormwind · {npc:6122} Gakin the Darkbinder · {object:2164} Slaughtered Lamb (no name in this language: may be words) · {object:2101} Mage Quarter (no name in this language: may be words)
+	-- {area:87} Goldshire · {zone:1453} Stormwind · {npc:6122} Gakin the Darkbinder · {object:2164} Slaughtered Lamb · {object:2101} Mage Quarter
 	["Follow the road north from {area:87} into {zone:1453}. {npc:6122} waits in the cellar of the {object:2164}, in the {object:2101}."] = "沿著道路從{area:87}向北進入{zone:1453}。{npc:6122}在{object:2101}的{object:2164}地下室等候。",
 
 	-- Step 67: Surena Caledon
@@ -331,12 +331,12 @@ return {
 	["Ride back out through {area:87} and east along the road to the {area:62}. {npc:881} (level 9) stands by its farmhouse."] = "騎馬穿過{area:87}，沿著道路向東前往{area:62}。{npc:881}（等級9）站在農舍旁。",
 
 	-- Step 68: The Binding
-	-- {npc:6122} Gakin the Darkbinder · {item:6928} Bloodstone Choker · {object:2164} Slaughtered Lamb (no name in this language: may be words)
+	-- {npc:6122} Gakin the Darkbinder · {item:6928} Bloodstone Choker · {object:2164} Slaughtered Lamb
 	["Back to {npc:6122}. Use the {item:6928} at the summoning circle in the {object:2164}'s cellar and defeat the voidwalker it calls."] = "回到{npc:6122}那裡。在{object:2164}地下室的召喚法陣使用{item:6928}，擊敗被召喚出的虛空行者。",
 	["Subdue the voidwalker"] = "制服虛空行者",
 
 	-- Step 69: The Tome of Divinity
-	-- {area:87} Goldshire · {zone:1453} Stormwind · {npc:6171} Duthorian Rall · {npc:6173} Gazin Tenorm · {npc:6174} Stephanie Turner · {object:2100} Old Town (no name in this language: may be words) · {item:2589} Linen Cloth
+	-- {area:87} Goldshire · {zone:1453} Stormwind · {npc:6171} Duthorian Rall · {npc:6173} Gazin Tenorm · {npc:6174} Stephanie Turner · {object:2100} Old Town · {item:2589} Linen Cloth
 	["Follow the road north from {area:87} into {zone:1453}. {npc:6171} and {npc:6173} are in the Cathedral of Light; {npc:6174} stands in {object:2100} and asks for ten {item:2589} (humanoids drop it; the Auction House sells it)."] = "沿著道路從{area:87}向北進入{zone:1453}。{npc:6171}和{npc:6173}在光明大教堂裡；{npc:6174}站在{object:2100}，向你要十塊{item:2589}（人型生物會掉落；拍賣場也有賣）。",
 	-- {quest:2998} Tome of Divinity
 	["From the {quest:2998} he gives you"] = "來自他給你的{quest:2998}",

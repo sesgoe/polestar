@@ -293,9 +293,9 @@ return {
 	["Take the portal up from {area:702} to {npc:4217} in the {area:1658}."] = "{area:702}에서 차원문을 타고 올라가 {area:1658}의 {npc:4217}에게 가세요.",
 
 	-- Step 47: The Moonkin Stone
-	-- {object:177525} Moonkin Stone (no name in this language: may be words)
+	-- {object:177525} Moonkin Stone
 	["The {object:177525}"] = "{object:177525}",
-	-- {area:702} Rut'theran Village · {area:442} Auberdine · {object:177525} Moonkin Stone (no name in this language: may be words) · {item:15208} Cenarion Moondust · {npc:12144} Lunaclaw Spirit
+	-- {area:702} Rut'theran Village · {area:442} Auberdine · {object:177525} Moonkin Stone · {item:15208} Cenarion Moondust · {npc:12144} Lunaclaw Spirit
 	["Go back down to {area:702} and fly to {area:442}. The {object:177525} stands in the hills just east of the village: use the {item:15208} there, defeat Lunaclaw and speak to the {npc:12144}."] = "{area:702}(으)로 다시 내려가 {area:442}(으)로 날아가세요. {object:177525}은(는) 마을 바로 동쪽 언덕에 있습니다. 그곳에서 {item:15208}을(를) 사용하고, 초승달발톱을 물리친 뒤 {npc:12144}와(과) 대화하세요.",
 
 	-- Step 48: Body and Heart
@@ -311,7 +311,7 @@ return {
 	["From {area:17203}, ride through the city gates into {zone:1429} and follow the road west to {zone:1436}."] = "{area:17203}에서 도시 성문을 지나 {zone:1429}(으)로 간 뒤 서쪽 길을 따라 {zone:1436}(으)로 가세요.",
 
 	-- Step 50: Defensive Stance
-	-- {object:2100} Old Town (no name in this language: may be words) · {npc:5480} Ilsa Corbin · {npc:6089} Harry Burlguard · {npc:6090} Bartleby · {object:2152} Pig and Whistle Tavern (no name in this language: may be words)
+	-- {object:2100} Old Town · {npc:5480} Ilsa Corbin · {npc:6089} Harry Burlguard · {npc:6090} Bartleby · {object:2152} Pig and Whistle Tavern
 	["From the harbour walk into {object:2100}. {npc:5480} trains warriors there; {npc:6089} and {npc:6090} stand together by the {object:2152}. {npc:6090} fights you for his mug."] = "항구에서 {object:2100}(으)로 걸어가세요. {npc:5480}이(가) 그곳에서 전사를 가르칩니다. {npc:6089}와(과) {npc:6090}은(는) {object:2152} 옆에 함께 서 있습니다. {npc:6090}은(는) 자기 머그잔을 걸고 당신과 싸웁니다.",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.

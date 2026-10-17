@@ -213,7 +213,7 @@ return {
 	["{quest:828} camps on the hill west of the naga beach, south of {quest:827}."] = "{quest:828}은(는) 나가 해변 서쪽, {quest:827} 남쪽 언덕에 진을 치고 있습니다.",
 
 	-- Step 52: Gan'rul Bloodeye
-	-- {zone:1454} Orgrimmar · {area:817} Skull Rock · {npc:5875} Gan'rul Bloodeye · {object:172960} Cleft of Shadow (no name in this language: may be words) · {object:172982} Valley of Strength (no name in this language: may be words)
+	-- {zone:1454} Orgrimmar · {area:817} Skull Rock · {npc:5875} Gan'rul Bloodeye · {object:172960} Cleft of Shadow · {object:172982} Valley of Strength
 	["{zone:1454}'s main gate is just west of {area:817}. {npc:5875} stands in the {object:172960}, the canyon under the {object:172982}."] = "{zone:1454} 정문은 {area:817} 바로 서쪽에 있습니다. {npc:5875}은(는) {object:172982} 아래 협곡인 {object:172960}에 서 있습니다.",
 
 	-- Step 53: Skull Rock's mouth
@@ -229,7 +229,7 @@ return {
 	["The {object:58595} stands in {area:817}, among the cultists you just fought."] = "{object:58595}은(는) 방금 싸운 이교도들 사이, {area:817} 안에 있습니다.",
 
 	-- Step 56: The Binding
-	-- {npc:5875} Gan'rul Bloodeye · {object:172960} Cleft of Shadow (no name in this language: may be words) · {item:7464} Glyphs of Summoning
+	-- {npc:5875} Gan'rul Bloodeye · {object:172960} Cleft of Shadow · {item:7464} Glyphs of Summoning
 	["Back to {npc:5875} in the {object:172960}. Use the {item:7464} on the summoning circle there and defeat the voidwalker to bind it."] = "{object:172960}의 {npc:5875}에게 돌아가세요. 그곳 소환진에서 {item:7464}을(를) 사용하고 공허방랑자를 물리쳐 속박하세요.",
 
 	-- Step 58: Razor Hill
@@ -262,7 +262,7 @@ return {
 	["{npc:3171}: {npc:3352} in {zone:1454} teaches {spell:5149}"] = "{npc:3171}: {zone:1454}의 {npc:3352}이(가) {spell:5149}을(를) 가르칩니다",
 
 	-- Step 63: Ormak Grimshot
-	-- {area:362} Razor Hill · {zone:1454} Orgrimmar · {area:817} Skull Rock · {npc:3352} Ormak Grimshot · {object:172958} Valley of Honor (no name in this language: may be words)
+	-- {area:362} Razor Hill · {zone:1454} Orgrimmar · {area:817} Skull Rock · {npc:3352} Ormak Grimshot · {object:172958} Valley of Honor
 	["Follow the road north from {area:362} to {zone:1454}'s main gate, just west of {area:817}. {npc:3352} stands with the hunter trainers in the {object:172958}."] = "길을 따라 {area:362}에서 북쪽 {area:817} 바로 서쪽의 {zone:1454} 정문까지 가세요. {npc:3352}은(는) {object:172958}에서 사냥꾼 상급자들과 함께 서 있습니다.",
 
 	-- Step 64: Far Watch Post

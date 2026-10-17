@@ -13,7 +13,7 @@ return {
 	["The {item:5177} that lets you place water totems, and {spell:5394} with it."] = "{item:5177}, que te permite colocar tótems de agua, y con él {spell:5394}.",
 
 	-- Step 1: Searn Firewarder
-	-- {npc:5892} Searn Firewarder · {object:172957} Valley of Wisdom (no name in this language: may be words) · {npc:5901} Islen Waterseer · {zone:1413} Barrens
+	-- {npc:5892} Searn Firewarder · {object:172957} Valley of Wisdom · {npc:5901} Islen Waterseer · {zone:1413} Barrens
 	["At 20 {npc:5892} in the {object:172957} sends you to {npc:5901} in the {zone:1413}."] = "A nivel 20, {npc:5892}, en {object:172957}, te envía con {npc:5901} en {zone:1413}.",
 
 	-- Step 2: Xanis Flameweaver

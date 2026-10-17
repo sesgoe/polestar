@@ -213,7 +213,7 @@ return {
 	["{quest:828} camps on the hill west of the naga beach, south of {quest:827}."] = "{quest:828}在纳迦海滩西边、{quest:827}南边的山丘上扎营。",
 
 	-- Step 52: Gan'rul Bloodeye
-	-- {zone:1454} Orgrimmar · {area:817} Skull Rock · {npc:5875} Gan'rul Bloodeye · {object:172960} Cleft of Shadow (no name in this language: may be words) · {object:172982} Valley of Strength (no name in this language: may be words)
+	-- {zone:1454} Orgrimmar · {area:817} Skull Rock · {npc:5875} Gan'rul Bloodeye · {object:172960} Cleft of Shadow · {object:172982} Valley of Strength
 	["{zone:1454}'s main gate is just west of {area:817}. {npc:5875} stands in the {object:172960}, the canyon under the {object:172982}."] = "{zone:1454}的正门就在{area:817}西边。{npc:5875}站在{object:172982}下方的峡谷{object:172960}里。",
 
 	-- Step 53: Skull Rock's mouth
@@ -229,7 +229,7 @@ return {
 	["The {object:58595} stands in {area:817}, among the cultists you just fought."] = "{object:58595}在{area:817}，就在你刚才对付的祭司中间。",
 
 	-- Step 56: The Binding
-	-- {npc:5875} Gan'rul Bloodeye · {object:172960} Cleft of Shadow (no name in this language: may be words) · {item:7464} Glyphs of Summoning
+	-- {npc:5875} Gan'rul Bloodeye · {object:172960} Cleft of Shadow · {item:7464} Glyphs of Summoning
 	["Back to {npc:5875} in the {object:172960}. Use the {item:7464} on the summoning circle there and defeat the voidwalker to bind it."] = "回到{object:172960}找{npc:5875}。在那里的召唤法阵上使用{item:7464}，击败虚空行者以束缚它。",
 
 	-- Step 58: Razor Hill
@@ -262,7 +262,7 @@ return {
 	["{npc:3171}: {npc:3352} in {zone:1454} teaches {spell:5149}"] = "{npc:3171}：{zone:1454}的{npc:3352}教授{spell:5149}",
 
 	-- Step 63: Ormak Grimshot
-	-- {area:362} Razor Hill · {zone:1454} Orgrimmar · {area:817} Skull Rock · {npc:3352} Ormak Grimshot · {object:172958} Valley of Honor (no name in this language: may be words)
+	-- {area:362} Razor Hill · {zone:1454} Orgrimmar · {area:817} Skull Rock · {npc:3352} Ormak Grimshot · {object:172958} Valley of Honor
 	["Follow the road north from {area:362} to {zone:1454}'s main gate, just west of {area:817}. {npc:3352} stands with the hunter trainers in the {object:172958}."] = "沿道路从{area:362}向北到{zone:1454}的正门，就在{area:817}西边。{npc:3352}和猎人训练师一起站在{object:172958}。",
 
 	-- Step 64: Far Watch Post

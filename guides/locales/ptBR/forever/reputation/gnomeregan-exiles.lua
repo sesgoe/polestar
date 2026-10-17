@@ -10,7 +10,7 @@ return {
 	["Gnomeregan Exiles Reputation"] = "Reputação: Exilados de Gnomeregan",
 
 	-- Step 1: Bubulo Acerbus: A Donation of Wool
-	-- {npc:14724} Bubulo Acerbus · {faction:54} Gnomeregan Exiles · {object:171524} Tinker Town (no name in this language: may be words) · {zone:1455} Ironforge · {item:14047} Runecloth · {quest:7812} Additional Runecloth
+	-- {npc:14724} Bubulo Acerbus · {faction:54} Gnomeregan Exiles · {object:171524} Tinker Town · {zone:1455} Ironforge · {item:14047} Runecloth · {quest:7812} Additional Runecloth
 	["{npc:14724} takes cloth for {faction:54} in {object:171524}, {zone:1455}. The first donations of Wool, Silk, Mageweave and {item:14047} (60 cloth each) are done once and give the most reputation per cloth; after them, {quest:7812} repeats until Exalted. Exalted with another race's city lets you buy that race's mounts. Forever's Legacy Diplomat perk increases reputation gains."] = "{npc:14724} aceita tecido para {faction:54} em {object:171524}, {zone:1455}. Os primeiros donativos de Lã, Seda, Magitrama e {item:14047} (60 tecidos cada) são feitos uma vez só e dão mais reputação por tecido; depois deles, {quest:7812} se repete até Exaltado. Ficar Exaltado com a cidade de outra raça permite comprar as montarias dessa raça. A vantagem de Legado Diplomata do Forever aumenta os ganhos de reputação.",
 
 	-- Step 2: Wool Cloth

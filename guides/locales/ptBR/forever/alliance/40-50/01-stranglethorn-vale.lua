@@ -178,11 +178,11 @@ return {
 	["{npc:2498}'s next Zanzil errand starts in {zone:1441}: skip it."] = "A próxima tarefa de {npc:2498} sobre Zanzil começa em {zone:1441}: pule-a.",
 
 	-- Step 38: Stormwind
-	-- {npc:1141} Angus Stern · {object:2169} Blue Recluse (no name in this language: may be words) · {npc:5384} Brohann Caskbelly · {object:28027} Dwarven District (no name in this language: may be words)
+	-- {npc:1141} Angus Stern · {object:2169} Blue Recluse · {npc:5384} Brohann Caskbelly · {object:28027} Dwarven District
 	["{npc:1141} cooks in the {object:2169}; {npc:5384} is in the {object:28027}."] = "{npc:1141} cozinha em {object:2169}; {npc:5384} fica em {object:28027}.",
 	-- {npc:5694} High Sorcerer Andromath · {area:1438} Nethergarde Keep
 	["{npc:5694}: for {area:1438}, keep it"] = "{npc:5694}: para {area:1438}, guarde",
-	-- {npc:1440} Milton Sheaf · {object:2117} Stormwind Keep (no name in this language: may be words)
+	-- {npc:1440} Milton Sheaf · {object:2117} Stormwind Keep
 	["{npc:1440}, the Royal Library in {object:2117}"] = "{npc:1440}, na Biblioteca Real, em {object:2117}",
 
 	-- Step 39: Riding at 40
@@ -213,7 +213,7 @@ return {
 	-- Step 43: Warlock: Summon Felsteed
 	-- {quest:3631} Summon Felsteed
 	["Warlock: {quest:3631}"] = "Bruxo: {quest:3631}",
-	-- {npc:461} Demisette Cloyce · {object:2164} Slaughtered Lamb (no name in this language: may be words) · {npc:6251} Strahad Farsan · {area:392} Ratchet
+	-- {npc:461} Demisette Cloyce · {object:2164} Slaughtered Lamb · {npc:6251} Strahad Farsan · {area:392} Ratchet
 	["{npc:461}, in the {object:2164}: {npc:6251} in {area:392} takes it at the end of the next guide"] = "{npc:461}, em {object:2164}: {npc:6251}, em {area:392}, recebe no fim do próximo guia",
 
 	-- Step 44: Watcher Biggs
@@ -246,7 +246,7 @@ return {
 	["for {npc:5635} at {area:348}: keep it"] = "para {npc:5635}, em {area:348}: guarde",
 
 	-- Step 50: Ironforge
-	-- {area:2257} Deeprun Tram · {object:28027} Dwarven District (no name in this language: may be words) · {npc:5637} Roetten Stonehammer · {object:32356} Hall of Explorers (no name in this language: may be words) · {npc:1356} Prospector Stormpike · {npc:2786} Gerrig Bonegrip · {object:32383} Forlorn Cavern (no name in this language: may be words) · {area:144} Thelsamar
+	-- {area:2257} Deeprun Tram · {object:28027} Dwarven District · {npc:5637} Roetten Stonehammer · {object:32356} Hall of Explorers (no name in this language: may be words) · {npc:1356} Prospector Stormpike · {npc:2786} Gerrig Bonegrip · {object:32383} Forlorn Cavern · {area:144} Thelsamar
 	["Take the {area:2257} from the {object:28027}. {npc:5637} is in the Reclaimers' hall by the {object:32356}, {npc:1356} in the hall itself, {npc:2786} in the {object:32383}. The next guide flies on to {area:144}."] = "Pegue o {area:2257} no {object:28027}. {npc:5637} fica no salão da Recuperação Ilimitada, junto a {object:32356}; {npc:1356}, no próprio salão; {npc:2786}, em {object:32383}. O próximo guia voa até {area:144}.",
 	-- {npc:1356} Prospector Stormpike · {npc:1344} Prospector Ironband · {zone:1432} Loch Modan
 	["{npc:1356}: for {npc:1344} in {zone:1432}, keep it"] = "{npc:1356}: para {npc:1344}, em {zone:1432}, guarde",

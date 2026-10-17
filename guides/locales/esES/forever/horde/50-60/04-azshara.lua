@@ -7,9 +7,9 @@
 -- The comments are rewritten by sync.
 return {
 	-- Step 1: Orgrimmar
-	-- {npc:8659} Jes'rimon · {object:172960} Cleft of Shadow (no name in this language: may be words)
+	-- {npc:8659} Jes'rimon · {object:172960} Cleft of Shadow
 	["{npc:8659}, the {object:172960}"] = "{npc:8659}, {object:172960}",
-	-- {npc:15188} Cenarion Emissary Blackhoof · {object:172957} Valley of Wisdom (no name in this language: may be words) · {zone:1451} Silithus
+	-- {npc:15188} Cenarion Emissary Blackhoof · {object:172957} Valley of Wisdom · {zone:1451} Silithus
 	["{npc:15188}, {object:172957}: keep it for {zone:1451}"] = "{npc:15188}, {object:172957}: guárdala para {zone:1451}",
 
 	-- Step 2: Fly to the Crossroads
@@ -43,11 +43,11 @@ return {
 	["Fly to {area:1637}"] = "Vuela a {area:1637}",
 
 	-- Step 8: Vehena
-	-- {object:172961} Valley of Spirits (no name in this language: may be words)
+	-- {object:172961} Valley of Spirits
 	["In the {object:172961}. Have the Wool, Silk and Mageweave in your bags."] = "En {object:172961}. Lleva el paño de lana, el paño de seda y la tela de paño mágico en las bolsas.",
 
 	-- Step 9: Rashona Straglash
-	-- {object:172958} Valley of Honor (no name in this language: may be words)
+	-- {object:172958} Valley of Honor
 	["In the {object:172958}."] = "En {object:172958}.",
 	-- {item:14047} Runecloth
 	["Both {item:14047} donations are handed in later in the route: start saving {item:14047}."] = "Las dos donaciones de {item:14047} se entregan más adelante en la ruta: empieza a guardar {item:14047}.",
@@ -74,7 +74,7 @@ return {
 	["Ride back west to {area:1237}."] = "Vuelve al oeste a {area:1237}.",
 
 	-- Step 16: Belgrom Rockmaul
-	-- {area:1637} Orgrimmar · {npc:4485} Belgrom Rockmaul · {object:172958} Valley of Honor (no name in this language: may be words)
+	-- {area:1637} Orgrimmar · {npc:4485} Belgrom Rockmaul · {object:172958} Valley of Honor
 	["Fly to {area:1637}; {npc:4485} is in the {object:172958}."] = "Vuela a {area:1637}; {npc:4485} está en {object:172958}.",
 
 	-- Step 17: Zeppelin to the Undercity

@@ -66,7 +66,7 @@ return {
 	["Further north, the goblins of the Venture Co. dig at the mine east of the road; miners, foremen, surveyors and tinkerers all drop the crystals."] = "더 북쪽, 길 동쪽 광산에서 투자개발회사 고블린이 채굴하고 있습니다. 광부, 현장감독, 감시관, 땜장이 모두 수정을 떨어뜨립니다.",
 
 	-- Step 15: Grom'gol Base Camp
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["Ride north-west to {object:3202}."] = "북서쪽의 {object:3202}(으)로 가세요.",
 	-- {zone:1425} Hinterlands
 	["for later: the {zone:1425}, around level 48"] = "나중에: 48레벨쯤 {zone:1425}",
@@ -80,14 +80,14 @@ return {
 	["West of the expedition, the Bloodscalp chiefs {npc:1061} and {npc:1062} stand together in the ruins of Zul'Kunda. Clear their guards first, then pull them."] = "원정대 서쪽, 줄쿤다의 폐허에 붉은머리부족 족장 {npc:1061}와(과) {npc:1062}이(가) 함께 서 있습니다. 먼저 호위병을 처치한 뒤 끌어오세요.",
 
 	-- Step 18: Hearth to Grom'gol
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["Hearth to {object:3202}"] = "귀환석으로 {object:3202}에 가기",
 	-- {object:2076} Bubbling Cauldron · {npc:2497} Nimboya
 	["the {object:2076}, beside {npc:2497}"] = "{npc:2497} 옆의 {object:2076}",
 
 	-- Step 19: Jungle stalkers
 	["Jungle stalkers"] = "줄무늬정글랩터",
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["The stalker raptors hunt the jungle south of {object:3202}, out towards the west coast."] = "랩터는 {object:3202} 남쪽 정글에서 서쪽 해안 쪽으로 사냥합니다.",
 
 	-- Step 20: Naga shore and the Holy Spring
@@ -115,11 +115,11 @@ return {
 	["The next trophy skulls stand in the small ruins just north of the warriors' camp."] = "다음 전리품 해골은 전사 야영지 바로 북쪽의 작은 폐허에 있습니다.",
 
 	-- Step 25: Ziata'jai Ruins
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["The last skulls are in the ruins a short ride west, on the way back to {object:3202}."] = "마지막 해골은 {object:3202}(으)로 돌아가는 길에, 조금 서쪽의 폐허에 있습니다.",
 
 	-- Step 26: Grom'gol Base Camp
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["Ride west to {object:3202}."] = "서쪽의 {object:3202}(으)로 가세요.",
 	-- {object:2076} Bubbling Cauldron
 	["the {object:2076}"] = "{object:2076}",
@@ -129,7 +129,7 @@ return {
 	["Hearth to {area:35}"] = "귀환석으로 {area:35}에 가기",
 
 	-- Step 28: Fly to Grom'gol
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["Fly to {object:3202}"] = "{object:3202}(으)로 날아가기",
 
 	-- Step 29: Nesingwary's Expedition

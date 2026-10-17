@@ -11,7 +11,7 @@ return {
 	["A second seducer demon, the male sayaad, and a soul shard bag to carry your shards."] = "Ein zweiter Verführerdämon, der männliche Sayaad, und eine Seelentasche für deine Splitter.",
 
 	-- Step 1: Devourer of Souls
-	-- {npc:6122} Gakin the Darkbinder · {object:2164} Slaughtered Lamb (no name in this language: may be words) · {object:2101} Mage Quarter (no name in this language: may be words) · {npc:6244} Takar the Seer · {zone:1413} Barrens
+	-- {npc:6122} Gakin the Darkbinder · {object:2164} Slaughtered Lamb · {object:2101} Mage Quarter · {npc:6244} Takar the Seer · {zone:1413} Barrens
 	["At 20 {npc:6122}, in the cellar of the {object:2164} in the {object:2101}, sends you to {npc:6244} in the {zone:1413}."] = "Auf Stufe 20 schickt dich {npc:6122} im Keller des {object:2164} im {object:2101} zu {npc:6244} im {zone:1413}.",
 
 	-- Step 2: Takar the Seer
@@ -23,7 +23,7 @@ return {
 	["From {area:415} take the road west to {area:413}: the figurine lies in a house among the trees north of the post."] = "Nimm von {area:415} die Straße nach Westen zu {area:413}: Die Figur liegt in einem Haus zwischen den Bäumen nördlich des Postens.",
 
 	-- Step 4: The Binding
-	-- {npc:6122} Gakin the Darkbinder · {object:2164} Slaughtered Lamb (no name in this language: may be words)
+	-- {npc:6122} Gakin the Darkbinder · {object:2164} Slaughtered Lamb
 	["Back to {npc:6122} in the {object:2164}. Place the figurine at the summoning circle in the crypt below him and defeat the incubus it calls."] = "Zurück zu {npc:6122} im {object:2164}. Stell die Figur in den Beschwörungskreis in der Gruft unter ihm und besiege den Inkubus, den sie ruft.",
 	-- {npc:6122} Gakin the Darkbinder
 	["{npc:6122}: he binds the incubus to you"] = "{npc:6122}: Er bindet den Inkubus an dich",

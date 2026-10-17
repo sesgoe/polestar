@@ -12,7 +12,7 @@ return {
 	["{spell:71} and a one-hand weapon of your choice at 10."] = "{spell:71} и одноручное оружие на выбор на 10-м уровне.",
 
 	-- Step 1: Defensive Stance
-	-- {npc:5480} Ilsa Corbin · {object:2100} Old Town (no name in this language: may be words) · {npc:6089} Harry Burlguard · {npc:6090} Bartleby · {object:2152} Pig and Whistle Tavern (no name in this language: may be words)
+	-- {npc:5480} Ilsa Corbin · {object:2100} Old Town · {npc:6089} Harry Burlguard · {npc:6090} Bartleby · {object:2152} Pig and Whistle Tavern
 	["{npc:5480} trains warriors in {object:2100}; {npc:6089} and {npc:6090} stand together by the {object:2152} there. {npc:6090} fights you for his mug."] = "{npc:5480} обучает воинов здесь: {object:2100}; {npc:6089} и {npc:6090} стоят вместе у таверны ({object:2152}). {npc:6090} сражается с вами за свою кружку.",
 
 	-- Step 2: Marshal Haggard

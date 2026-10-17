@@ -23,7 +23,7 @@ return {
 	["At 16 {npc:3599} in {area:186} sends you to {quest:2259} in {zone:1457}."] = "На 16-м уровне {npc:3599} ({area:186}) отправляет вас к NPC {quest:2259} ({zone:1457}).",
 
 	-- Step 5: Renzik "The Shiv"
-	-- {npc:6946} Renzik "The Shiv" · {npc:332} Master Mathias Shaw · {quest:2300} SI:7 · {object:2100} Old Town (no name in this language: may be words) · {area:2257} Deeprun Tram · {zone:1455} Ironforge · {area:442} Auberdine · {area:17203} Stormwind Harbor
+	-- {npc:6946} Renzik "The Shiv" · {npc:332} Master Mathias Shaw · {quest:2300} SI:7 · {object:2100} Old Town · {area:2257} Deeprun Tram · {zone:1455} Ironforge · {area:442} Auberdine · {area:17203} Stormwind Harbor
 	["{npc:6946} stands beside {npc:332} at {quest:2300} in {object:2100}. Dwarves and Gnomes take the {area:2257} from {zone:1455}; Night Elves take the boat from {area:442} to {area:17203}."] = "{npc:6946} стоит рядом с NPC {npc:332} в {quest:2300} ({object:2100}). Дворфы и гномы едут на поезде ({area:2257}) из города {zone:1455}; ночные эльфы плывут на корабле из места {area:442} в {area:17203}.",
 
 	-- Step 6: Lucius

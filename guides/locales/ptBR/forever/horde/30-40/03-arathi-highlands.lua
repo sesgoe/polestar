@@ -65,7 +65,7 @@ return {
 	-- Step 13: The Stone of East Binding
 	-- {object:2691} Stone of East Binding
 	["The {object:2691}"] = "{object:2691}",
-	-- {object:180105} Circle of Binding (no name in this language: may be words) · {area:321} Hammerfall
+	-- {object:180105} Circle of Binding · {area:321} Hammerfall
 	["Each {object:180105} is a ring of standing stones; the key sits on the stone at its heart. The eastern circle is on the hills north-west of {area:321}."] = "Cada {object:180105} é um anel de pedras erguidas; a chave fica na pedra do centro. O círculo leste fica nas colinas a noroeste de {area:321}.",
 
 	-- Step 14: Witherbark Village

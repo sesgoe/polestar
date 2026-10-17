@@ -13,7 +13,7 @@ return {
 	["Forever teaches {spell:2842} through this chain, not the trainer; the {item:7676} recipe comes with it."] = "Forever에서는 {spell:2842}을(를) 상급자가 아니라 이 연계 퀘스트로 배웁니다. {item:7676} 제조법도 함께 얻습니다.",
 
 	-- Step 1: The Shattered Salute
-	-- {npc:3401} Shenthul · {object:172960} Cleft of Shadow (no name in this language: may be words) · {object:172982} Valley of Strength (no name in this language: may be words)
+	-- {npc:3401} Shenthul · {object:172960} Cleft of Shadow · {object:172982} Valley of Strength
 	["At 20 {npc:3401} stands in the {object:172960}, the canyon under the {object:172982}. Target him and type /salute."] = "20레벨에 {npc:3401}은(는) {object:172982} 아래 협곡인 {object:172960}에 서 있습니다. 그를 대상으로 잡고 /경례를 입력하세요.",
 	-- {npc:3401} Shenthul
 	["/salute {npc:3401}"] = "/경례 {npc:3401}",

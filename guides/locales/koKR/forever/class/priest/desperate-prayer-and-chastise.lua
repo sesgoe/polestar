@@ -17,7 +17,7 @@ return {
 	["At 10, go to {npc:11406} in the {object:32386}, in {zone:1455}'s {object:32362}. Forever's quest text names Rohan, but the quest data has {npc:376} in {zone:1453}'s Cathedral of Light take it: try Rohan first, then Laurena (the {area:2257} links the cities)."] = "10레벨에 {zone:1455} {object:32362}의 {object:32386}에 있는 {npc:11406}에게 가십시오. Forever의 퀘스트 글에는 로한이 나오지만, 퀘스트 데이터상으로는 {zone:1453} 빛의 대성당의 {npc:376}이(가) 받습니다. 먼저 로한에게 시도한 뒤 로레나에게 가십시오({area:2257}이(가) 두 도시를 잇습니다).",
 
 	-- Step 2: High Priestess Laurena
-	-- {npc:376} High Priestess Laurena · {area:2257} Deeprun Tram · {object:171524} Tinker Town (no name in this language: may be words)
+	-- {npc:376} High Priestess Laurena · {area:2257} Deeprun Tram · {object:171524} Tinker Town
 	["If Rohan did not take it: {npc:376} is in the Cathedral of Light. Take the {area:2257} from {object:171524}."] = "로한이 받지 않았다면: {npc:376}은(는) 빛의 대성당에 있습니다. {object:171524}에서 {area:2257}을(를) 타십시오.",
 
 	-- Step 3: Chastise

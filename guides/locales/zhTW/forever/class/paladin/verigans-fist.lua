@@ -10,7 +10,7 @@ return {
 	["The Alliance paladin's rare two-handed mace for the 20s, with a shield on the way."] = "聯盟聖騎士 20 多級的稀有雙手錘，途中還能拿到一面盾牌。",
 
 	-- Step 1: The Tome of Valor (Ironforge)
-	-- {npc:6179} Tiza Battleforge · {object:32362} Mystic Ward (no name in this language: may be words) · {item:6776} Tome of Valor · {npc:6171} Duthorian Rall · {zone:1453} Stormwind · {zone:1455} Ironforge
+	-- {npc:6179} Tiza Battleforge · {object:32362} Mystic Ward · {item:6776} Tome of Valor · {npc:6171} Duthorian Rall · {zone:1453} Stormwind · {zone:1455} Ironforge
 	["At 20 {npc:6179} in the {object:32362} gives you the {item:6776}; it sends you to {npc:6171} in {zone:1453}'s Cathedral of Light. Take the tram from {zone:1455} to {zone:1453}."] = "20 級時，{object:32362}的{npc:6179}會給你{item:6776}；它會引導你去找{zone:1453}光明大教堂的{npc:6171}。從{zone:1455}搭地鐵前往{zone:1453}。",
 
 	-- Step 2: The Tome of Valor

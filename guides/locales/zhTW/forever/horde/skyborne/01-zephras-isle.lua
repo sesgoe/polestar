@@ -298,7 +298,7 @@ return {
 	["Back to {npc:268592}, then west into the {area:16623}: {npc:268605}'s home is in the hills south of the Windsong Crawlers' lakes."] = "回去找{npc:268592}，然後向西進入{area:16623}：{npc:268605}的家在風歌蟹所在湖泊南邊的丘陵中。",
 
 	-- Step 61: The Eternal Flame
-	-- {object:148418} Eternal Flame (no name in this language: may be words)
+	-- {object:148418} Eternal Flame
 	["The {object:148418}"] = "{object:148418}",
 	-- {npc:268592} Olariaan Swiftburn · {npc:268762} Brazier of Offering · {npc:268679} Brazier of Eternal Flame · {npc:252382} Sessaria Skystride · {area:16638} Valanaar
 	["Back to {npc:268592}. Wait for him to light the {npc:268762}, then carry the flame straight to the {npc:268679} beside {npc:252382} in {area:16638} before the timer runs out."] = "回去找{npc:268592}。等他點燃{npc:268762}，然後在計時結束前把火焰直接帶到{area:16638}中{npc:252382}身旁的{npc:268679}。",

@@ -13,7 +13,7 @@ return {
 	["Forever teaches {spell:2842} through this chain, not the trainer; the {item:7676} recipe comes with it."] = "Forever에서는 {spell:2842}을(를) 상급자가 아니라 이 연계 퀘스트로 배웁니다. {item:7676} 제조법도 함께 얻습니다.",
 
 	-- Step 1: Mathias and the Defias
-	-- {npc:332} Master Mathias Shaw · {object:2100} Old Town (no name in this language: may be words) · {npc:7024} Agent Kearnen · {zone:1436} Westfall
+	-- {npc:332} Master Mathias Shaw · {object:2100} Old Town · {npc:7024} Agent Kearnen · {zone:1436} Westfall
 	["At 20 {npc:332} at SI:7 in {object:2100} sends you to {npc:7024} in {zone:1436}."] = "20레벨에 {object:2100} SI:7의 {npc:332}이(가) {zone:1436}의 {npc:7024}에게 보냅니다.",
 
 	-- Step 2: Agent Kearnen
@@ -23,7 +23,7 @@ return {
 	["{item:7908}, in the {object:123214}"] = "{object:123214} 안의 {item:7908}",
 
 	-- Step 3: Master Mathias Shaw
-	-- {zone:1453} Stormwind · {object:2100} Old Town (no name in this language: may be words)
+	-- {zone:1453} Stormwind · {object:2100} Old Town
 	["Ride north through Elwynn to {zone:1453}; Mathias Shaw is at SI:7 in {object:2100}."] = "엘윈 숲을 지나 북쪽 {zone:1453}(으)로 달려가십시오. 마티아스 쇼는 {object:2100}의 SI:7에 있습니다.",
 
 	-- Step 4: Doc Mixilpixil

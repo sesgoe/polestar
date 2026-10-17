@@ -36,13 +36,13 @@ return {
 	["Terrordale Spirits"] = "{npc:14564}",
 
 	-- Step 7: Grimand Elmore
-	-- {npc:1416} Grimand Elmore · {zone:1453} Stormwind · {object:28027} Dwarven District (no name in this language: may be words)
+	-- {npc:1416} Grimand Elmore · {zone:1453} Stormwind · {object:28027} Dwarven District
 	["{npc:1416} works in {zone:1453}'s {object:28027}."] = "{npc:1416}은(는) {zone:1453}의 {object:28027}에서 일합니다.",
 
 	-- Step 8: Grimand Elmore's materials
 	-- {npc:1416} Grimand Elmore
 	["{npc:1416}'s materials"] = "{npc:1416}의 재료",
-	-- {item:14047} Runecloth · {item:8836} Arthas' Tears · {zone:1448} Felwood · {skill:171} Alchemy · {zone:1453} Stormwind · {object:2096} Trade District (no name in this language: may be words)
+	-- {item:14047} Runecloth · {item:8836} Arthas' Tears · {zone:1448} Felwood · {skill:171} Alchemy · {zone:1453} Stormwind · {object:2096} Trade District
 	-- plural, as words: Arcanite Bars = {item:12360} Arcanite Bar
 	["{item:14047} drops from humanoids around level 50 and up; {item:8836} is an herb of the Plaguelands and {zone:1448}; Arcanite Bars are an {skill:171} transmute. The Auction House in {zone:1453}'s {object:2096} sells all three, and so do crafters."] = "{item:14047}은(는) 약 50레벨 이상의 인간형 몹이 떨어뜨립니다. {item:8836}은(는) 역병지대와 {zone:1448}의 약초이고, 아케이나이트 주괴는 {skill:171} 변환으로 만듭니다. 셋 다 {zone:1453} {object:2096}의 경매장이나 제작자에게서 살 수 있습니다.",
 	-- plural, as words: Arcanite Bars = {item:12360} Arcanite Bar
@@ -68,7 +68,7 @@ return {
 	-- Step 12: Enriched Manna Biscuits
 	-- plural, as words: Enriched Manna Biscuits = {item:13724} Enriched Manna Biscuit
 	["Enriched Manna Biscuits"] = "맛 좋은 만나빵",
-	-- {object:2160} The Argent Dawn (no name in this language: may be words) · {object:92525} Argent Dawn (no name in this language: may be words) · {npc:10857} Argent Quartermaster Lightspark · {area:3197} Chillwind Camp · {npc:11536} Quartermaster Miranda Breechlock · {area:2268} Light's Hope Chapel · {npc:10856} Argent Quartermaster Hasana · {area:813} Bulwark
+	-- {object:2160} The Argent Dawn · {object:92525} Argent Dawn · {npc:10857} Argent Quartermaster Lightspark · {area:3197} Chillwind Camp · {npc:11536} Quartermaster Miranda Breechlock · {area:2268} Light's Hope Chapel · {npc:10856} Argent Quartermaster Hasana · {area:813} Bulwark
 	["{object:2160} quartermasters sell the biscuits in fives once the {object:92525} is Friendly with you: {npc:10857} at {area:3197}, {npc:11536} at {area:2268}, {npc:10856} at the {area:813}."] = "{object:92525} 평판이 우호적이 되면 {object:2160} 병참장교가 만나빵을 5개 단위로 팝니다. {area:3197}의 {npc:10857}, {area:2268}의 {npc:11536}, {area:813}의 {npc:10856}.",
 	-- {npc:10857} Argent Quartermaster Lightspark · {area:3197} Chillwind Camp
 	-- plural, as words: Enriched Manna Biscuits = {item:13724} Enriched Manna Biscuit

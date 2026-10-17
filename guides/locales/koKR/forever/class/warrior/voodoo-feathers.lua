@@ -12,7 +12,7 @@ return {
 	["Experience"] = "경험치",
 
 	-- Step 1: A Troubled Spirit (Stormwind)
-	-- {npc:5479} Wu Shen · {object:2100} Old Town (no name in this language: may be words) · {npc:7572} Fallen Hero of the Horde · {zone:1435} Swamp of Sorrows
+	-- {npc:5479} Wu Shen · {object:2100} Old Town · {npc:7572} Fallen Hero of the Horde · {zone:1435} Swamp of Sorrows
 	["At 50, {npc:5479} in {object:2100}, beside the Pig and Whistle, sends you to the {npc:7572} in the {zone:1435}."] = "50레벨에 돼지와 휘파람 선술집 옆 {object:2100}의 {npc:5479}이(가) {zone:1435}의 {npc:7572}에게 보냅니다.",
 
 	-- Step 2: A Troubled Spirit (Ironforge)
@@ -24,7 +24,7 @@ return {
 	["At 50, {npc:7315}, the warrior trainer of {zone:1457}, sends you to the {npc:7572} in the {zone:1435}."] = "50레벨에 {zone:1457}의 전사 상급자 {npc:7315}이(가) {zone:1435}의 {npc:7572}에게 보냅니다.",
 
 	-- Step 4: A Troubled Spirit (Orgrimmar)
-	-- {npc:3354} Sorek · {object:172958} Valley of Honor (no name in this language: may be words) · {npc:7572} Fallen Hero of the Horde · {zone:1435} Swamp of Sorrows
+	-- {npc:3354} Sorek · {object:172958} Valley of Honor · {npc:7572} Fallen Hero of the Horde · {zone:1435} Swamp of Sorrows
 	["At 50, {npc:3354} in the {object:172958} sends you to the {npc:7572} in the {zone:1435}."] = "50레벨에 {object:172958}의 {npc:3354}이(가) {zone:1435}의 {npc:7572}에게 보냅니다.",
 
 	-- Step 5: A Troubled Spirit (Thunder Bluff)

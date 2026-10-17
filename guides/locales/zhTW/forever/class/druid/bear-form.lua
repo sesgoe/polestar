@@ -30,9 +30,9 @@ return {
 	["Speak with the {quest:5929}"] = "與{quest:5929}交談",
 
 	-- Step 5: The Moonkin Stone
-	-- {object:177525} Moonkin Stone (no name in this language: may be words)
+	-- {object:177525} Moonkin Stone
 	["The {object:177525}"] = "{object:177525}",
-	-- {area:702} Rut'theran Village · {area:442} Auberdine · {object:177525} Moonkin Stone (no name in this language: may be words) · {item:15208} Cenarion Moondust · {npc:12144} Lunaclaw Spirit
+	-- {area:702} Rut'theran Village · {area:442} Auberdine · {object:177525} Moonkin Stone · {item:15208} Cenarion Moondust · {npc:12144} Lunaclaw Spirit
 	["Fly from {area:702} to {area:442}. The {object:177525} stands in the hills just east of the village: use the {item:15208} there, defeat Lunaclaw and speak to the {npc:12144}."] = "從{area:702}飛往{area:442}。{object:177525}位於村莊東邊不遠處的山丘上：在那裡使用{item:15208}，擊敗月爪梟獸並與{npc:12144}交談。",
 
 	-- Step 6: Body and Heart
@@ -56,7 +56,7 @@ return {
 	["Speak with the {quest:5930}"] = "與{quest:5930}交談",
 
 	-- Step 11: The Moonkin Stone
-	-- {object:177525} Moonkin Stone (no name in this language: may be words) · {zone:1412} Mulgore · {zone:1413} Barrens · {item:15710} Cenarion Lunardust · {npc:12144} Lunaclaw Spirit
+	-- {object:177525} Moonkin Stone · {zone:1412} Mulgore · {zone:1413} Barrens · {item:15710} Cenarion Lunardust · {npc:12144} Lunaclaw Spirit
 	["The {object:177525} stands in the pass from {zone:1412} into the {zone:1413}. Use the {item:15710} there, defeat Lunaclaw and speak to the {npc:12144}."] = "{object:177525}位於從{zone:1412}進入{zone:1413}的山口。在那裡使用{item:15710}，擊敗月爪梟獸並與{npc:12144}交談。",
 
 	-- Step 12: Body and Heart

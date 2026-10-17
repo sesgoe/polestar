@@ -36,13 +36,13 @@ return {
 	["Terrordale Spirits"] = "Espíritos da Várzea do Medo",
 
 	-- Step 7: Grimand Elmore
-	-- {npc:1416} Grimand Elmore · {zone:1453} Stormwind · {object:28027} Dwarven District (no name in this language: may be words)
+	-- {npc:1416} Grimand Elmore · {zone:1453} Stormwind · {object:28027} Dwarven District
 	["{npc:1416} works in {zone:1453}'s {object:28027}."] = "{npc:1416} trabalha no {object:28027} de {zone:1453}.",
 
 	-- Step 8: Grimand Elmore's materials
 	-- {npc:1416} Grimand Elmore
 	["{npc:1416}'s materials"] = "Materiais de {npc:1416}",
-	-- {item:14047} Runecloth · {item:8836} Arthas' Tears · {zone:1448} Felwood · {skill:171} Alchemy · {zone:1453} Stormwind · {object:2096} Trade District (no name in this language: may be words)
+	-- {item:14047} Runecloth · {item:8836} Arthas' Tears · {zone:1448} Felwood · {skill:171} Alchemy · {zone:1453} Stormwind · {object:2096} Trade District
 	-- plural, as words: Arcanite Bars = {item:12360} Arcanite Bar
 	["{item:14047} drops from humanoids around level 50 and up; {item:8836} is an herb of the Plaguelands and {zone:1448}; Arcanite Bars are an {skill:171} transmute. The Auction House in {zone:1453}'s {object:2096} sells all three, and so do crafters."] = "{item:14047} cai de humanoides a partir do nível 50; {item:8836} é uma erva das Terras Pestilentas e de {zone:1448}; Barras de Arcanita são uma transmutação de {skill:171}. A Casa de Leilões no {object:2096} de {zone:1453} vende os três, assim como os artesãos.",
 	-- plural, as words: Arcanite Bars = {item:12360} Arcanite Bar
@@ -68,7 +68,7 @@ return {
 	-- Step 12: Enriched Manna Biscuits
 	-- plural, as words: Enriched Manna Biscuits = {item:13724} Enriched Manna Biscuit
 	["Enriched Manna Biscuits"] = "Biscoitos de Maná Enriquecidos",
-	-- {object:2160} The Argent Dawn (no name in this language: may be words) · {object:92525} Argent Dawn (no name in this language: may be words) · {npc:10857} Argent Quartermaster Lightspark · {area:3197} Chillwind Camp · {npc:11536} Quartermaster Miranda Breechlock · {area:2268} Light's Hope Chapel · {npc:10856} Argent Quartermaster Hasana · {area:813} Bulwark
+	-- {object:2160} The Argent Dawn · {object:92525} Argent Dawn (no name in this language: may be words) · {npc:10857} Argent Quartermaster Lightspark · {area:3197} Chillwind Camp · {npc:11536} Quartermaster Miranda Breechlock · {area:2268} Light's Hope Chapel · {npc:10856} Argent Quartermaster Hasana · {area:813} Bulwark
 	["{object:2160} quartermasters sell the biscuits in fives once the {object:92525} is Friendly with you: {npc:10857} at {area:3197}, {npc:11536} at {area:2268}, {npc:10856} at the {area:813}."] = "Os intendentes da {object:2160} vendem os biscoitos de cinco em cinco quando a {object:92525} for Amistosa com você: {npc:10857} no {area:3197}, {npc:11536} na {area:2268}, {npc:10856} no {area:813}.",
 	-- {npc:10857} Argent Quartermaster Lightspark · {area:3197} Chillwind Camp
 	-- plural, as words: Enriched Manna Biscuits = {item:13724} Enriched Manna Biscuit

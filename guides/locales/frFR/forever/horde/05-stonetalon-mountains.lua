@@ -72,7 +72,7 @@ return {
 	-- Step 16: Sun Rock Retreat
 	-- {area:460} Sun Rock Retreat
 	["Follow the road west to {area:460}."] = "Suivez la route vers l'ouest jusqu'à {area:460}.",
-	-- {npc:11860} Maggran Earthbinder · {object:19844} Great Lift (no name in this language: may be words)
+	-- {npc:11860} Maggran Earthbinder · {object:19844} Great Lift
 	["{npc:11860}: Grish is at the {object:19844}, in the next guide"] = "{npc:11860} : Grish est au {object:19844}, dans le prochain guide",
 	-- {npc:11860} Maggran Earthbinder
 	-- plural, as words: Glittering Sunstones = {item:277936} Glittering Sunstone
@@ -120,13 +120,13 @@ return {
 	-- Step 23: To the Undercity
 	-- {area:1497} Undercity
 	["To the {area:1497}"] = "Vers {area:1497}",
-	-- {area:380} Crossroads · {zone:1454} Orgrimmar · {zone:1420} Tirisfal Glades · {area:1497} Undercity · {area:153} Ruins of Lordaeron · {object:36078} Trade Quarter (no name in this language: may be words)
+	-- {area:380} Crossroads · {zone:1454} Orgrimmar · {zone:1420} Tirisfal Glades · {area:1497} Undercity · {area:153} Ruins of Lordaeron · {object:36078} Trade Quarter
 	["Ride east to the {area:380} and fly to {zone:1454}. Take the zeppelin from the towers outside {zone:1454} to {zone:1420}; the {area:1497} lies below the {area:153}. The bat handler is in the {object:36078}."] = "Chevauchez vers l'est jusqu'à {area:380} et volez jusqu'à {zone:1454}. Prenez le zeppelin aux tours devant {zone:1454} pour {zone:1420} ; {area:1497} se trouve sous les {area:153}. Le maître des chauves-souris est dans {object:36078}.",
-	-- {npc:10181} Lady Sylvanas Windrunner · {object:36126} Royal Quarter (no name in this language: may be words) · {quest:93739} Exploring the Horde
+	-- {npc:10181} Lady Sylvanas Windrunner · {object:36126} Royal Quarter · {quest:93739} Exploring the Horde
 	["Speak with {npc:10181}, in the {object:36126}: {quest:93739}"] = "Parlez à {npc:10181}, dans {object:36126} : {quest:93739}",
 
 	-- Step 24: Aelthalyste
-	-- {npc:4606} Aelthalyste · {object:36070} War Quarter (no name in this language: may be words)
+	-- {npc:4606} Aelthalyste · {object:36070} War Quarter
 	["{npc:4606} stands in the {object:36070}."] = "{npc:4606} se tient dans {object:36070}.",
 
 	-- Step 25: Beren's Peril

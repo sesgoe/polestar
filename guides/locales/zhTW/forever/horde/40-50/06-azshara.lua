@@ -13,7 +13,7 @@ return {
 	["From {area:3317}'s flight master, fly to the {area:1497}."] = "在{area:3317}的飛行管理員處飛往{area:1497}。",
 
 	-- Step 2: Oran Snakewrithe
-	-- {npc:7825} Oran Snakewrithe · {object:36082} Magic Quarter (no name in this language: may be words)
+	-- {npc:7825} Oran Snakewrithe · {object:36082} Magic Quarter
 	["{npc:7825} stands in the {object:36082}."] = "{npc:7825}站在{object:36082}。",
 
 	-- Step 3: Zeppelin to Orgrimmar
@@ -77,9 +77,9 @@ return {
 	["Xylem's tower stands on the cliff just north of {area:1237}; the path winds up its north side."] = "克希雷姆的塔位於{area:1237}北邊的懸崖上；小路沿著它的北側蜿蜒而上。",
 
 	-- Step 18: To Grom'gol
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["To {object:3202}"] = "前往{object:3202}",
-	-- {area:1237} Valormok · {zone:1454} Orgrimmar · {object:3202} Grom'gol (no name in this language: may be words)
+	-- {area:1237} Valormok · {zone:1454} Orgrimmar · {object:3202} Grom'gol
 	["Fly from {area:1237} to {zone:1454}, walk out of the main gate to the zeppelin towers and take the zeppelin to {object:3202}."] = "從{area:1237}飛往{zone:1454}，走出正門前往飛艇塔，搭乘飛艇前往{object:3202}。",
 
 	-- Step 19: Grom'gol Base Camp
@@ -97,7 +97,7 @@ return {
 	["Only once all three robots are home"] = "三個機器人都回家後才能做",
 
 	-- Step 22: Back to Grom'gol
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["Back to {object:3202}"] = "返回{object:3202}",
 
 	-- Step 23: Orgrimmar
@@ -105,7 +105,7 @@ return {
 	["Take the zeppelin back to {zone:1454}."] = "搭飛艇回到{zone:1454}。",
 	-- {npc:6986} Dran Droffers
 	["{npc:6986}, the Drag"] = "{npc:6986}，在城裡",
-	-- {npc:8659} Jes'rimon · {object:172960} Cleft of Shadow (no name in this language: may be words)
+	-- {npc:8659} Jes'rimon · {object:172960} Cleft of Shadow
 	["{npc:8659}, the {object:172960}"] = "{npc:8659}，{object:172960}",
 	-- {npc:8659} Jes'rimon · {quest:3504} Betrayed · {area:1237} Valormok
 	["Keep {npc:8659}'s payment and Ag'tor's {quest:3504}: they go back to {area:1237} on a later visit."] = "保留{npc:8659}的報酬和阿格圖的{quest:3504}：下次造訪時帶回{area:1237}。",

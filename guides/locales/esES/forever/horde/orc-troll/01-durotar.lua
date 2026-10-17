@@ -213,7 +213,7 @@ return {
 	["{quest:828} camps on the hill west of the naga beach, south of {quest:827}."] = "{quest:828} acampa en la colina al oeste de la playa de los naga, al sur de {quest:827}.",
 
 	-- Step 52: Gan'rul Bloodeye
-	-- {zone:1454} Orgrimmar · {area:817} Skull Rock · {npc:5875} Gan'rul Bloodeye · {object:172960} Cleft of Shadow (no name in this language: may be words) · {object:172982} Valley of Strength (no name in this language: may be words)
+	-- {zone:1454} Orgrimmar · {area:817} Skull Rock · {npc:5875} Gan'rul Bloodeye · {object:172960} Cleft of Shadow · {object:172982} Valley of Strength
 	["{zone:1454}'s main gate is just west of {area:817}. {npc:5875} stands in the {object:172960}, the canyon under the {object:172982}."] = "La puerta principal de {zone:1454} está justo al oeste de {area:817}. {npc:5875} está en {object:172960}, el cañón bajo {object:172982}.",
 
 	-- Step 53: Skull Rock's mouth
@@ -229,7 +229,7 @@ return {
 	["The {object:58595} stands in {area:817}, among the cultists you just fought."] = "{object:58595} está en {area:817}, entre los fieles con los que acabas de luchar.",
 
 	-- Step 56: The Binding
-	-- {npc:5875} Gan'rul Bloodeye · {object:172960} Cleft of Shadow (no name in this language: may be words) · {item:7464} Glyphs of Summoning
+	-- {npc:5875} Gan'rul Bloodeye · {object:172960} Cleft of Shadow · {item:7464} Glyphs of Summoning
 	["Back to {npc:5875} in the {object:172960}. Use the {item:7464} on the summoning circle there and defeat the voidwalker to bind it."] = "Vuelve con {npc:5875} en {object:172960}. Usa {item:7464} en el círculo de invocación de allí y derrota al abisario para vincularlo.",
 
 	-- Step 58: Razor Hill
@@ -262,7 +262,7 @@ return {
 	["{npc:3171}: {npc:3352} in {zone:1454} teaches {spell:5149}"] = "{npc:3171}: {npc:3352}, en {zone:1454}, enseña {spell:5149}",
 
 	-- Step 63: Ormak Grimshot
-	-- {area:362} Razor Hill · {zone:1454} Orgrimmar · {area:817} Skull Rock · {npc:3352} Ormak Grimshot · {object:172958} Valley of Honor (no name in this language: may be words)
+	-- {area:362} Razor Hill · {zone:1454} Orgrimmar · {area:817} Skull Rock · {npc:3352} Ormak Grimshot · {object:172958} Valley of Honor
 	["Follow the road north from {area:362} to {zone:1454}'s main gate, just west of {area:817}. {npc:3352} stands with the hunter trainers in the {object:172958}."] = "Sigue el camino hacia el norte desde {area:362} hasta la puerta principal de {zone:1454}, justo al oeste de {area:817}. {npc:3352} está con los instructores de cazadores en {object:172958}.",
 
 	-- Step 64: Far Watch Post

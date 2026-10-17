@@ -9,13 +9,13 @@ return {
 	-- Step 1: Fly to Grom'gol
 	-- {object:3202} Grom'gol (no name in this language: may be words)
 	["Fly to {object:3202}"] = "Vuela a {object:3202}",
-	-- {area:35} Booty Bay · {object:3202} Grom'gol (no name in this language: may be words) · {object:1661} The Undercity (no name in this language: may be words)
+	-- {area:35} Booty Bay · {object:3202} Grom'gol (no name in this language: may be words) · {object:1661} The Undercity
 	["From {area:35}, fly to {object:3202}. {object:1661} zeppelin leaves from the tower on the west side of the camp."] = "Desde {area:35}, vuela a {object:3202}. El zepelín de {object:1661} sale de la torre del lado oeste del campamento.",
 	-- {zone:1458} Undercity
 	["Zeppelin to the {zone:1458}"] = "Zepelín a {zone:1458}",
 
 	-- Step 2: Orgrimmar
-	-- {object:1661} The Undercity (no name in this language: may be words) · {zone:1454} Orgrimmar · {zone:1458} Undercity
+	-- {object:1661} The Undercity · {zone:1454} Orgrimmar · {zone:1458} Undercity
 	["{object:1661} has no Hunter or Shaman trainer: take the {zone:1454} zeppelin from the same tower instead and train in the city, then take the {zone:1458} zeppelin from the tower outside {zone:1454}'s main gate."] = "{object:1661} no tiene instructor de cazadores ni de chamanes: toma en su lugar el zepelín a {zone:1454} desde la misma torre y entrena en la ciudad; luego toma el zepelín a {zone:1458} desde la torre a las afueras de la puerta principal de {zone:1454}.",
 
 	-- Step 3: Thunder Bluff
@@ -25,7 +25,7 @@ return {
 	-- Step 4: Undercity trainers
 	-- {zone:1458} Undercity
 	["{zone:1458} trainers"] = "Instructores de {zone:1458}",
-	-- {zone:1458} Undercity · {object:36070} War Quarter (no name in this language: may be words) · {object:36073} Rogues' Quarter (no name in this language: may be words) · {object:36082} Magic Quarter (no name in this language: may be words) · {npc:260093} Garen Largo
+	-- {zone:1458} Undercity · {object:36070} War Quarter · {object:36073} Rogues' Quarter · {object:36082} Magic Quarter · {npc:260093} Garen Largo
 	["Train while you are in the {zone:1458}: the trainers stand in the {object:36070}, the {object:36073} and the {object:36082} (Paladins: {npc:260093})."] = "Entrena mientras estás en {zone:1458}: los instructores están en {object:36070}, {object:36073} y {object:36082} (paladines: {npc:260093}).",
 
 	-- Step 5: Fly to Tarren Mill
@@ -65,7 +65,7 @@ return {
 	-- Step 13: The Stone of East Binding
 	-- {object:2691} Stone of East Binding
 	["The {object:2691}"] = "{object:2691}",
-	-- {object:180105} Circle of Binding (no name in this language: may be words) · {area:321} Hammerfall
+	-- {object:180105} Circle of Binding · {area:321} Hammerfall
 	["Each {object:180105} is a ring of standing stones; the key sits on the stone at its heart. The eastern circle is on the hills north-west of {area:321}."] = "Cada {object:180105} es un anillo de piedras erguidas; la llave está en la piedra del centro. El círculo del este está en las colinas al noroeste de {area:321}.",
 
 	-- Step 14: Witherbark Village

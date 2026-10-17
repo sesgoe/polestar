@@ -13,7 +13,7 @@ return {
 	["Forever teaches {spell:2842} through this chain, not the trainer; the {item:7676} recipe comes with it."] = "Forever lehrt {spell:2842} über diese Questreihe, nicht beim Lehrer; das Rezept für {item:7676} gibt es dazu.",
 
 	-- Step 1: The Shattered Salute
-	-- {npc:3401} Shenthul · {object:172960} Cleft of Shadow (no name in this language: may be words) · {object:172982} Valley of Strength (no name in this language: may be words)
+	-- {npc:3401} Shenthul · {object:172960} Cleft of Shadow · {object:172982} Valley of Strength
 	["At 20 {npc:3401} stands in the {object:172960}, the canyon under the {object:172982}. Target him and type /salute."] = "Mit 20 steht {npc:3401} in der {object:172960}, der Schlucht unter dem {object:172982}. Nimm ihn ins Ziel und gib /salutieren ein.",
 	-- {npc:3401} Shenthul
 	["/salute {npc:3401}"] = "/salutieren: {npc:3401}",

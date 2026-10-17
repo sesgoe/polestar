@@ -182,7 +182,7 @@ return {
 	["{npc:11406}: for Ogtinc in {zone:1447}, keep it"] = "{npc:11406}: {zone:1447}의 오그틴크에게 줄 것, 보관하세요",
 
 	-- Step 42: Royal Historian Archesonus
-	-- {object:171709} High Seat (no name in this language: may be words)
+	-- {object:171709} High Seat
 	["Archesonus stands beside King Magni in the {object:171709}."] = "아케소누스는 {object:171709}에서 국왕 마그니 브론즈비어드 옆에 서 있습니다.",
 	-- {zone:1428} Burning Steppes
 	["The relics are in the {zone:1428}: keep it"] = "유물은 {zone:1428}에 있습니다: 보관하세요",

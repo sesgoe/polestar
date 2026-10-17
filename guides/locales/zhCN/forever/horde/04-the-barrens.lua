@@ -9,7 +9,7 @@ return {
 	-- Step 1: Fly to Ratchet
 	-- {area:392} Ratchet
 	["Fly to {area:392}"] = "飞往{area:392}",
-	-- {object:172982} Valley of Strength (no name in this language: may be words)
+	-- {object:172982} Valley of Strength
 	["Doras, the wind rider master, stands on the tower in the {object:172982}."] = "双足飞龙管理员多拉斯站在{object:172982}的塔上。",
 
 	-- Step 2: Ratchet
@@ -66,23 +66,23 @@ return {
 	["grind on Thunderhawk Hatchlings south-west of the {area:380}"] = "在{area:380}西南刷雷鹰雏鸟",
 
 	-- Step 12: Orgrimmar
-	-- {area:1637} Orgrimmar · {npc:3354} Sorek · {object:172958} Valley of Honor (no name in this language: may be words) · {npc:5892} Searn Firewarder · {object:172957} Valley of Wisdom (no name in this language: may be words)
+	-- {area:1637} Orgrimmar · {npc:3354} Sorek · {object:172958} Valley of Honor · {npc:5892} Searn Firewarder · {object:172957} Valley of Wisdom
 	["Fly to {area:1637} to train your level 20 ranks. {npc:3354} is in the {object:172958}, {npc:5892} in the {object:172957}."] = "飞往{area:1637}训练20级技能。{npc:3354}在{object:172958}，{npc:5892}在{object:172957}。",
 
 	-- Step 13: Gan'rul Bloodeye
-	-- {object:172960} Cleft of Shadow (no name in this language: may be words) · {object:172982} Valley of Strength (no name in this language: may be words)
+	-- {object:172960} Cleft of Shadow · {object:172982} Valley of Strength
 	["The {object:172960} is the canyon under the {object:172982}."] = "{object:172960}是{object:172982}下方的峡谷。",
 	-- {npc:5909} Cazul
 	["{npc:5909}, a few steps away"] = "{npc:5909}，就在几步之外",
 
 	-- Step 14: Shenthul
-	-- {npc:3401} Shenthul · {object:172960} Cleft of Shadow (no name in this language: may be words) · {quest:2460} The Shattered Salute
+	-- {npc:3401} Shenthul · {object:172960} Cleft of Shadow · {quest:2460} The Shattered Salute
 	["{npc:3401} stands in the {object:172960}. Target him and type /salute to finish {quest:2460}."] = "{npc:3401}站在{object:172960}。选中他并输入 /salute 来完成{quest:2460}。",
 	-- {quest:2458} Deep Cover · {npc:7233} Taskmaster Fizzule · {area:382} Sludge Fen
 	["{quest:2458}: {npc:7233}, by the {area:382}"] = "{quest:2458}：{npc:7233}，在{area:382}旁",
 
 	-- Step 15: Ur'kyo
-	-- {npc:6018} Ur'kyo · {object:172961} Valley of Spirits (no name in this language: may be words)
+	-- {npc:6018} Ur'kyo · {object:172961} Valley of Spirits
 	["{npc:6018} stands in the {object:172961}, on the city's west side."] = "{npc:6018}站在城西侧的{object:172961}。",
 	-- {npc:6018} Ur'kyo · {npc:4606} Aelthalyste · {zone:1458} Undercity
 	["{npc:6018}: {npc:4606} in the {zone:1458}, two guides on"] = "{npc:6018}：{zone:1458}的{npc:4606}，见后面第二个指南",
@@ -284,7 +284,7 @@ return {
 	["{npc:246344} teaches Paladins in {area:1638}. You have no flight path there yet: fly to {area:378}, ride west through {zone:1412} and up a lift, and take the flight path from {npc:2995} on the central rise."] = "{npc:246344}在{area:1638}训练圣骑士。你还没有那里的飞行路线：飞往{area:378}，向西骑马穿过{zone:1412}，乘升降梯上去，在中央高台的{npc:2995}处开通飞行路线。",
 
 	-- Step 69: The Binding
-	-- {npc:5875} Gan'rul Bloodeye · {object:172960} Cleft of Shadow (no name in this language: may be words) · {item:6626} Dogran's Pendant
+	-- {npc:5875} Gan'rul Bloodeye · {object:172960} Cleft of Shadow · {item:6626} Dogran's Pendant
 	["{npc:5875} stands in the {object:172960}. Use {item:6626} on the summoning circle there and defeat the succubus to bind her."] = "{npc:5875}站在{object:172960}。在那里的召唤法阵上使用{item:6626}，击败魅魔来束缚她。",
 
 	-- Step 70: Shenthul

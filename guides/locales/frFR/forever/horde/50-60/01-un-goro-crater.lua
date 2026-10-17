@@ -224,9 +224,9 @@ return {
 	["Theodora's next errand goes to Lotwil east of town and then into {area:1584}: skip it."] = "La tâche suivante de Theodora passe par Lotwil à l'est du bourg, puis par les {area:1584} : passez-la.",
 
 	-- Step 44: Undercity
-	-- {npc:10879} Harbinger Balthazad · {object:36078} Trade Quarter (no name in this language: may be words)
+	-- {npc:10879} Harbinger Balthazad · {object:36078} Trade Quarter
 	["{npc:10879}, the {object:36078}, beside the bat master"] = "{npc:10879}, {object:36078}, près du maître des chauves-souris",
-	-- {npc:6522} Andron Gant · {object:36073} Rogues' Quarter (no name in this language: may be words)
+	-- {npc:6522} Andron Gant · {object:36073} Rogues' Quarter
 	["{npc:6522}, the {object:36073}"] = "{npc:6522}, {object:36073}",
 	-- {npc:8390} Chemist Cuely · {zone:1447} Azshara
 	["{npc:8390}, the Apothecarium: the vials fill in {zone:1447} later"] = "{npc:8390}, l'Apothicarium : les fioles se remplissent plus tard en {zone:1447}",

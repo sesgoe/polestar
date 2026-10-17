@@ -13,7 +13,7 @@ return {
 	["The Undead priest spells: {spell:2652} at 10, {quest:5644} at 20."] = "Les sorts de prêtre morts-vivants : {spell:2652} au niveau 10, {quest:5644} au niveau 20.",
 
 	-- Step 1: Touch of Weakness
-	-- {npc:4606} Aelthalyste · {zone:1458} Undercity · {object:36070} War Quarter (no name in this language: may be words) · {npc:6018} Ur'kyo · {zone:1454} Orgrimmar · {npc:3706} Tai'jin · {area:362} Razor Hill · {npc:3044} Miles Welsh · {zone:1456} Thunder Bluff
+	-- {npc:4606} Aelthalyste · {zone:1458} Undercity · {object:36070} War Quarter · {npc:6018} Ur'kyo · {zone:1454} Orgrimmar · {npc:3706} Tai'jin · {area:362} Razor Hill · {npc:3044} Miles Welsh · {zone:1456} Thunder Bluff
 	["At 10, go to {npc:4606} in the {zone:1458}'s {object:36070}. Priest trainers elsewhere ({npc:6018} in {zone:1454}, {npc:3706} in {area:362}, {npc:3044} in {zone:1456}) send you to her with a quest of the same name."] = "Au niveau 10, allez voir {npc:4606} dans le {object:36070} de {zone:1458}. Les maîtres des prêtres d'ailleurs ({npc:6018} à {zone:1454}, {npc:3706} à {area:362}, {npc:3044} aux {zone:1456}) vous envoient à elle avec une quête du même nom.",
 
 	-- Step 2: Dark Sacrifice

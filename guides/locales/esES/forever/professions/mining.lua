@@ -152,13 +152,13 @@ return {
 	["Mine every Iron (125, green), Gold (155, yellow), Mithril (175, yellow) node you pass and circle the waypoints until {skill:186} 230. Smelt the ore at a forge when your bags fill: smelting also raises {skill:186}. Zone level 35-45."] = "Extrae cada nodo de hierro (125, verde), oro (155, amarillo), mitril (175, amarillo) que encuentres y recorre los puntos de ruta hasta {skill:186} 230. Funde el mineral en una forja cuando se te llenen las bolsas: fundir también sube {skill:186}. Nivel de zona 35-45.",
 
 	-- Step 26: Dark Iron & Truesilver: Searing Gorge (230-245)
-	-- {object:147516} Dark Iron (no name in this language: may be words) · {zone:1427} Searing Gorge
+	-- {object:147516} Dark Iron · {zone:1427} Searing Gorge
 	["{object:147516} & Truesilver: {zone:1427} (230-245)"] = "{object:147516} y veraplata: {zone:1427} (230-245)",
-	-- {object:147516} Dark Iron (no name in this language: may be words) · {skill:186} Mining
+	-- {object:147516} Dark Iron · {skill:186} Mining
 	["Mine every Gold (155, green), Mithril (175, green), {object:147516} (230, orange), Truesilver (230, orange) node you pass and circle the waypoints until {skill:186} 245. Smelt the ore at a forge when your bags fill: smelting also raises {skill:186}. Zone level 43-50."] = "Extrae cada nodo de oro (155, verde), mitril (175, verde), {object:147516} (230, naranja), veraplata (230, naranja) que encuentres y recorre los puntos de ruta hasta {skill:186} 245. Funde el mineral en una forja cuando se te llenen las bolsas: fundir también sube {skill:186}. Nivel de zona 43-50.",
-	-- {object:147516} Dark Iron (no name in this language: may be words)
+	-- {object:147516} Dark Iron
 	["Truesilver, {object:147516}"] = "Veraplata, {object:147516}",
-	-- {object:147516} Dark Iron (no name in this language: may be words)
+	-- {object:147516} Dark Iron
 	["{object:147516}, Gold"] = "{object:147516}, oro",
 
 	-- Step 27: Truesilver & Small Thorium: Blasted Lands (245-275)
@@ -170,8 +170,8 @@ return {
 	-- Step 28: Rich Thorium: Burning Steppes (275-300)
 	-- {zone:1428} Burning Steppes
 	["Rich Thorium: {zone:1428} (275-300)"] = "Filón de torio enriquecido: {zone:1428} (275-300)",
-	-- {object:147516} Dark Iron (no name in this language: may be words) · {skill:186} Mining
+	-- {object:147516} Dark Iron · {skill:186} Mining
 	["Mine every {object:147516} (230, yellow), Truesilver (230, yellow), Small Thorium (245, yellow), Rich Thorium (275, orange) node you pass and circle the waypoints until {skill:186} 300. Smelt the ore at a forge when your bags fill: smelting also raises {skill:186}. Zone level 50-58."] = "Extrae cada nodo de {object:147516} (230, amarillo), veraplata (230, amarillo), filón pequeño de torio (245, amarillo), filón de torio enriquecido (275, naranja) que encuentres y recorre los puntos de ruta hasta {skill:186} 300. Funde el mineral en una forja cuando se te llenen las bolsas: fundir también sube {skill:186}. Nivel de zona 50-58.",
-	-- {object:147516} Dark Iron (no name in this language: may be words)
+	-- {object:147516} Dark Iron
 	["{object:147516}, Rich Thorium"] = "{object:147516}, filón de torio enriquecido",
 }

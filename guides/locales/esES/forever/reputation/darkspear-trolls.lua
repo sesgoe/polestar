@@ -10,7 +10,7 @@ return {
 	["Darkspear Trolls Reputation"] = "Reputación: Trols de Lanza Negra",
 
 	-- Step 1: Vehena: A Donation of Wool
-	-- {npc:14727} Vehena · {faction:530} Darkspear Trolls · {object:172961} Valley of Spirits (no name in this language: may be words) · {zone:1454} Orgrimmar · {item:14047} Runecloth · {quest:7837} Additional Runecloth
+	-- {npc:14727} Vehena · {faction:530} Darkspear Trolls · {object:172961} Valley of Spirits · {zone:1454} Orgrimmar · {item:14047} Runecloth · {quest:7837} Additional Runecloth
 	["{npc:14727} takes cloth for {faction:530} in the {object:172961}, {zone:1454}. The first donations of Wool, Silk, Mageweave and {item:14047} (60 cloth each) are done once and give the most reputation per cloth; after them, {quest:7837} repeats until Exalted. Exalted with another race's city lets you buy that race's mounts. Forever's Legacy Diplomat perk increases reputation gains."] = "{npc:14727} recoge paño para {faction:530} en el {object:172961}, {zone:1454}. Las primeras donaciones de lana, seda, paño mágico y {item:14047} (60 paños cada una) se hacen una sola vez y dan la mayor reputación por paño; después, {quest:7837} se repite hasta Exaltado. Ser Exaltado con la ciudad de otra raza te permite comprar sus monturas. La ventaja de Legado Diplomático de Forever aumenta la reputación que ganas.",
 
 	-- Step 2: Wool Cloth
@@ -25,7 +25,7 @@ return {
 	["Dunemaul ogres (level 45-48) drop it here. The Auction House works too."] = "Lo sueltan los ogros Machacaduna de aquí (nivel 45-48). También puedes comprarlo en la casa de subastas.",
 
 	-- Step 8: Runecloth
-	-- {object:92525} Argent Dawn (no name in this language: may be words)
+	-- {object:92525} Argent Dawn
 	-- plural, as words: Dark Adepts = {npc:8546} Dark Adept
 	["Dark Adepts and Shadowmages (level 58-60) drop it here; every Scourge kill here also counts toward the {object:92525} (see that guide). The Auction House works too."] = "Lo sueltan los Adeptos oscuros y Magos oscuros de aquí (nivel 58-60); cada miembro de la Plaga que mates aquí también cuenta para la reputación con {object:92525} (consulta esa guía). También puedes comprarlo en la casa de subastas.",
 

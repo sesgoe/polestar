@@ -315,7 +315,7 @@ return {
 	["{npc:258930}, beside her: {spell:5149}"] = "{npc:258930}, a su lado: {spell:5149}",
 
 	-- Step 64: Jennea Cannon
-	-- {area:87} Goldshire · {zone:1453} Stormwind · {npc:5497} Jennea Cannon · {object:2101} Mage Quarter (no name in this language: may be words) · {quest:1861} Mirror Lake
+	-- {area:87} Goldshire · {zone:1453} Stormwind · {npc:5497} Jennea Cannon · {object:2101} Mage Quarter · {quest:1861} Mirror Lake
 	["Follow the road north from {area:87} into {zone:1453}. {npc:5497} stands in the Wizard's Sanctum, the tower of the {object:2101}; she gives you a flask for the {quest:1861} waterfall."] = "Sigue el camino hacia el norte desde {area:87} hasta {zone:1453}. {npc:5497} está en el Wizard's Sanctum, la torre de {object:2101}; te da un frasco para la cascada de {quest:1861}.",
 
 	-- Step 65: Mirror Lake
@@ -323,7 +323,7 @@ return {
 	["Leave {zone:1453} by the main gate. The {quest:1861} waterfall is south-west of the gates, on the way west to {zone:1436}: fill {item:7207} at its base."] = "Sal de {zone:1453} por la puerta principal. La cascada de {quest:1861} está al suroeste de las puertas, de camino al oeste hacia {zone:1436}: llena {item:7207} en su base.",
 
 	-- Step 66: Gakin the Darkbinder
-	-- {area:87} Goldshire · {zone:1453} Stormwind · {npc:6122} Gakin the Darkbinder · {object:2164} Slaughtered Lamb (no name in this language: may be words) · {object:2101} Mage Quarter (no name in this language: may be words)
+	-- {area:87} Goldshire · {zone:1453} Stormwind · {npc:6122} Gakin the Darkbinder · {object:2164} Slaughtered Lamb · {object:2101} Mage Quarter
 	["Follow the road north from {area:87} into {zone:1453}. {npc:6122} waits in the cellar of the {object:2164}, in the {object:2101}."] = "Sigue el camino hacia el norte desde {area:87} hasta {zone:1453}. {npc:6122} espera en el sótano de {object:2164}, en {object:2101}.",
 
 	-- Step 67: Surena Caledon
@@ -331,12 +331,12 @@ return {
 	["Ride back out through {area:87} and east along the road to the {area:62}. {npc:881} (level 9) stands by its farmhouse."] = "Cabalga de vuelta por {area:87} y hacia el este por el camino hasta {area:62}. {npc:881} (nivel 9) está junto a la casa de la granja.",
 
 	-- Step 68: The Binding
-	-- {npc:6122} Gakin the Darkbinder · {item:6928} Bloodstone Choker · {object:2164} Slaughtered Lamb (no name in this language: may be words)
+	-- {npc:6122} Gakin the Darkbinder · {item:6928} Bloodstone Choker · {object:2164} Slaughtered Lamb
 	["Back to {npc:6122}. Use the {item:6928} at the summoning circle in the {object:2164}'s cellar and defeat the voidwalker it calls."] = "Regresa con {npc:6122}. Usa {item:6928} en el círculo de invocación del sótano de {object:2164} y derrota al abisario que convoca.",
 	["Subdue the voidwalker"] = "Somete al abisario",
 
 	-- Step 69: The Tome of Divinity
-	-- {area:87} Goldshire · {zone:1453} Stormwind · {npc:6171} Duthorian Rall · {npc:6173} Gazin Tenorm · {npc:6174} Stephanie Turner · {object:2100} Old Town (no name in this language: may be words) · {item:2589} Linen Cloth
+	-- {area:87} Goldshire · {zone:1453} Stormwind · {npc:6171} Duthorian Rall · {npc:6173} Gazin Tenorm · {npc:6174} Stephanie Turner · {object:2100} Old Town · {item:2589} Linen Cloth
 	["Follow the road north from {area:87} into {zone:1453}. {npc:6171} and {npc:6173} are in the Cathedral of Light; {npc:6174} stands in {object:2100} and asks for ten {item:2589} (humanoids drop it; the Auction House sells it)."] = "Sigue el camino hacia el norte desde {area:87} hasta {zone:1453}. {npc:6171} y {npc:6173} están en la Cathedral of Light; {npc:6174} está en {object:2100} y pide diez de {item:2589} (lo sueltan los humanoides; la casa de subastas lo vende).",
 	-- {quest:2998} Tome of Divinity
 	["From the {quest:2998} he gives you"] = "Del {quest:2998} que te da",

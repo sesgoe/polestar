@@ -21,7 +21,7 @@ return {
 
 	-- Step 4: Riding at 40
 	["Riding at 40"] = "Equitación a nivel 40",
-	-- {npc:4752} Kildar · {object:172958} Valley of Honor (no name in this language: may be words) · {npc:3362} Ogunaro Wolfrunner
+	-- {npc:4752} Kildar · {object:172958} Valley of Honor · {npc:3362} Ogunaro Wolfrunner
 	["Riding needs level 40 and costs 100 gold; learning it gives you a mount. {npc:4752} teaches Orcs in the {object:172958}, by {npc:3362}'s kennel; no Skyborne riding trainer is known, so Skyborne try {npc:4752} too. Your race's other mounts are 20 gold each: Collectibles, Mounts · Level 40 has a guide for each."] = "Equitación requiere nivel 40 y cuesta 100 de oro; al aprenderla recibes una montura. {npc:4752} entrena a los orcos en {object:172958}, junto a la perrera de {npc:3362}; no se conoce instructor de equitación Cielonato, así que los cielonatos también deben probar con {npc:4752}. Las demás monturas de tu raza cuestan 20 de oro cada una: Coleccionables, Monturas · Nivel 40 tiene una guía para cada una.",
 	-- {npc:4752} Kildar
 	["{npc:4752}, riding trainer"] = "{npc:4752}, instructor de equitación",
@@ -31,7 +31,7 @@ return {
 	["Galestriders: {npc:265756}, in {area:16638} on Zephras Isle."] = "Zancavendavales: {npc:265756}, en {area:16638}, en la Isla de Zephras.",
 
 	-- Step 5: Riding at 40
-	-- {npc:7953} Xar'Ti · {area:367} Sen'jin Village · {zone:1411} Durotar · {npc:4752} Kildar · {zone:1454} Orgrimmar · {object:172958} Valley of Honor (no name in this language: may be words)
+	-- {npc:7953} Xar'Ti · {area:367} Sen'jin Village · {zone:1411} Durotar · {npc:4752} Kildar · {zone:1454} Orgrimmar · {object:172958} Valley of Honor
 	["Riding needs level 40 and costs 100 gold; learning it gives you a mount. In Classic each race learns it from its own race's trainer: yours is {npc:7953} in {area:367} on the {zone:1411} coast, with Zjolnir's raptors (20 gold each) beside him. Forever may let any race learn from any riding trainer (not confirmed): try {npc:4752} in {zone:1454}'s {object:172958} first, as he is the nearest, and skip this step if he teaches you."] = "Equitación requiere nivel 40 y cuesta 100 de oro; al aprenderla recibes una montura. En Classic cada raza la aprende del instructor de su raza: el tuyo es {npc:7953}, en {area:367}, en la costa de {zone:1411}, con los raptores de Zjolnir (20 de oro cada uno) a su lado. Puede que en Forever cualquier raza aprenda de cualquier instructor de equitación (sin confirmar): prueba primero con {npc:4752} en {object:172958} de {zone:1454}, que es el más cercano, y omite este paso si te entrena.",
 	-- {npc:7953} Xar'Ti
 	["{npc:7953}, riding trainer"] = "{npc:7953}, instructor de equitación",
@@ -39,7 +39,7 @@ return {
 	["Raptors: Zjolnir, beside {npc:7953} in {area:367}."] = "Raptores: Zjolnir, junto a {npc:7953}, en {area:367}.",
 
 	-- Step 6: Riding at 40
-	-- {npc:3690} Kar Stormsinger · {area:222} Bloodhoof Village · {npc:3685} Harb Clawhoof · {npc:4752} Kildar · {zone:1454} Orgrimmar · {object:172958} Valley of Honor (no name in this language: may be words)
+	-- {npc:3690} Kar Stormsinger · {area:222} Bloodhoof Village · {npc:3685} Harb Clawhoof · {npc:4752} Kildar · {zone:1454} Orgrimmar · {object:172958} Valley of Honor
 	["Riding needs level 40 and costs 100 gold; learning it gives you a mount. In Classic each race learns it from its own race's trainer: yours is {npc:3690} in {area:222}, with {npc:3685}'s kodos (20 gold each) beside him. Forever may let any race learn from any riding trainer (not confirmed): try {npc:4752} in {zone:1454}'s {object:172958} first, as he is the nearest, and skip this step if he teaches you."] = "Equitación requiere nivel 40 y cuesta 100 de oro; al aprenderla recibes una montura. En Classic cada raza la aprende del instructor de su raza: el tuyo es {npc:3690}, en {area:222}, con los kodos de {npc:3685} (20 de oro cada uno) a su lado. Puede que en Forever cualquier raza aprenda de cualquier instructor de equitación (sin confirmar): prueba primero con {npc:4752} en {object:172958} de {zone:1454}, que es el más cercano, y omite este paso si te entrena.",
 	-- {npc:3690} Kar Stormsinger
 	["{npc:3690}, riding trainer"] = "{npc:3690}, instructor de equitación",
@@ -47,7 +47,7 @@ return {
 	["Kodos: {npc:3685}, beside {npc:3690} in {area:222}."] = "Kodos: {npc:3685}, junto a {npc:3690}, en {area:222}.",
 
 	-- Step 7: Riding at 40
-	-- {npc:4773} Velma Warnam · {area:159} Brill · {npc:4731} Zachariah Post · {npc:4752} Kildar · {zone:1454} Orgrimmar · {object:172958} Valley of Honor (no name in this language: may be words)
+	-- {npc:4773} Velma Warnam · {area:159} Brill · {npc:4731} Zachariah Post · {npc:4752} Kildar · {zone:1454} Orgrimmar · {object:172958} Valley of Honor
 	["Riding needs level 40 and costs 100 gold; learning it gives you a mount. In Classic each race learns it from its own race's trainer: yours is {npc:4773} in {area:159}, with {npc:4731}'s skeletal horses (20 gold each) beside her. Forever may let any race learn from any riding trainer (not confirmed): try {npc:4752} in {zone:1454}'s {object:172958} first, as he is the nearest, and skip this step if he teaches you."] = "Equitación requiere nivel 40 y cuesta 100 de oro; al aprenderla recibes una montura. En Classic cada raza la aprende del instructor de su raza: la tuya es {npc:4773}, en {area:159}, con los caballos esqueléticos de {npc:4731} (20 de oro cada uno) a su lado. Puede que en Forever cualquier raza aprenda de cualquier instructor de equitación (sin confirmar): prueba primero con {npc:4752} en {object:172958} de {zone:1454}, que es el más cercano, y omite este paso si te entrena.",
 	-- {npc:4773} Velma Warnam
 	["{npc:4773}, riding trainer"] = "{npc:4773}, instructora de equitación",

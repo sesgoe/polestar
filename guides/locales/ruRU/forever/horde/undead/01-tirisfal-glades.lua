@@ -264,11 +264,11 @@ return {
 	["{npc:1496} stands in {area:159}. {npc:6390} waits in the mausoleum on the hill just north of town: open the gate and fight him."] = "{npc:1496} стоит здесь: {area:159}. {npc:6390} ждет в мавзолее на холме чуть к северу от городка: откройте ворота и сразитесь с ним.",
 
 	-- Step 50: Carendin Halgar
-	-- {area:159} Brill · {area:153} Ruins of Lordaeron · {zone:1458} Undercity · {npc:5675} Carendin Halgar · {object:36082} Magic Quarter (no name in this language: may be words)
+	-- {area:159} Brill · {area:153} Ruins of Lordaeron · {zone:1458} Undercity · {npc:5675} Carendin Halgar · {object:36082} Magic Quarter
 	["Walk south from {area:159} to the {area:153} and down into the {zone:1458}. {npc:5675} stands in the {object:36082}. The Scarlet camp is just west of the ruins."] = "Идите на юг от места {area:159} сюда: {area:153} и спуститесь в город {zone:1458}. {npc:5675} стоит здесь: {object:36082}. Лагерь Алого ордена – чуть к западу от руин.",
 
 	-- Step 51: Anastasia Hartwell
-	-- {area:159} Brill · {area:153} Ruins of Lordaeron · {zone:1458} Undercity · {npc:4568} Anastasia Hartwell · {object:36082} Magic Quarter (no name in this language: may be words)
+	-- {area:159} Brill · {area:153} Ruins of Lordaeron · {zone:1458} Undercity · {npc:4568} Anastasia Hartwell · {object:36082} Magic Quarter
 	["Walk south from {area:159} to the {area:153} and down into the {zone:1458}. {npc:4568} stands in the {object:36082}. The Scarlet camp is just west of the ruins."] = "Идите на юг от места {area:159} сюда: {area:153} и спуститесь в город {zone:1458}. {npc:4568} стоит здесь: {object:36082}. Лагерь Алого ордена – чуть к западу от руин.",
 
 	-- Step 52: The Scarlet camp
@@ -342,13 +342,13 @@ return {
 	["Listen to Leonid and {npc:246378}, then talk to him again"] = "Выслушайте Леонида и персонажа {npc:246378}, затем снова поговорите с ним",
 
 	-- Step 68: The Undercity
-	-- {object:1661} The Undercity (no name in this language: may be words) · {area:153} Ruins of Lordaeron · {npc:5675} Carendin Halgar · {object:36082} Magic Quarter (no name in this language: may be words) · {item:6284} Runes of Summoning · {npc:4606} Aelthalyste · {object:36070} War Quarter (no name in this language: may be words) · {npc:4568} Anastasia Hartwell
+	-- {object:1661} The Undercity · {area:153} Ruins of Lordaeron · {npc:5675} Carendin Halgar · {object:36082} Magic Quarter · {item:6284} Runes of Summoning · {npc:4606} Aelthalyste · {object:36070} War Quarter · {npc:4568} Anastasia Hartwell
 	["{object:1661} is under the {area:153}, beside the zeppelin towers. {npc:5675} is in the {object:36082}: use the {item:6284} on the summoning circle beside him and defeat the voidwalker. {npc:4606} is in the {object:36070}. {npc:4568} is in the {object:36082} too."] = "{object:1661} – под местом {area:153}, рядом с башнями дирижаблей. {npc:5675} – здесь: {object:36082}: используйте предмет {item:6284} на круге призыва рядом с ним и одолейте демона Бездны. {npc:4606} – здесь: {object:36070}. {npc:4568} – тоже здесь: {object:36082}.",
 
 	-- Step 69: Zeppelin to Durotar
 	-- {zone:1411} Durotar
 	["Zeppelin to {zone:1411}"] = "Дирижабль: {zone:1411}",
-	-- {area:159} Brill · {area:153} Ruins of Lordaeron · {zone:1454} Orgrimmar · {object:3202} Grom'gol (no name in this language: may be words)
+	-- {area:159} Brill · {area:153} Ruins of Lordaeron · {zone:1454} Orgrimmar · {object:3202} Grom'gol
 	["Walk south-east from {area:159} to the zeppelin towers outside the {area:153} and board the zeppelin to {zone:1454} (the other one goes to {object:3202})."] = "Идите на юго-восток от места {area:159} к башням дирижаблей у места {area:153} и садитесь на дирижабль ({zone:1454}) (другой летит сюда: {object:3202}).",
 	["Zeppelin tower"] = "Башня дирижаблей",
 

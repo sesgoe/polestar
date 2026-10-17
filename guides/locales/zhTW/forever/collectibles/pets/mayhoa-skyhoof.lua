@@ -7,7 +7,7 @@
 -- The comments are rewritten by sync.
 return {
 	-- Step 1: Mayhoa Skyhoof
-	-- {npc:268745} Mayhoa Skyhoof · {zone:1454} Orgrimmar · {object:172982} Valley of Strength (no name in this language: may be words)
+	-- {npc:268745} Mayhoa Skyhoof · {zone:1454} Orgrimmar · {object:172982} Valley of Strength
 	["{npc:268745} walks a long loop through {zone:1454} (from the {object:172982} to the Drag); the waypoint is one point on her path. The carrier costs 60s. Each pet item teaches its companion when you use it; the goals stay ticked afterwards."] = "{npc:268745}在{zone:1454}走一大圈（從{object:172982}到城裡的商店區）；路徑點只是她路線上的一個點。寵物籠售價60銀。每個寵物物品使用後都會教會你該寵物；之後目標會保持勾選。",
 	["60s"] = "60銀",
 }

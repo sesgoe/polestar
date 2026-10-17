@@ -7,9 +7,9 @@
 -- The comments are rewritten by sync.
 return {
 	-- Step 1: Orgrimmar
-	-- {npc:8659} Jes'rimon · {object:172960} Cleft of Shadow (no name in this language: may be words)
+	-- {npc:8659} Jes'rimon · {object:172960} Cleft of Shadow
 	["{npc:8659}, the {object:172960}"] = "{npc:8659}，{object:172960}",
-	-- {npc:15188} Cenarion Emissary Blackhoof · {object:172957} Valley of Wisdom (no name in this language: may be words) · {zone:1451} Silithus
+	-- {npc:15188} Cenarion Emissary Blackhoof · {object:172957} Valley of Wisdom · {zone:1451} Silithus
 	["{npc:15188}, {object:172957}: keep it for {zone:1451}"] = "{npc:15188}，{object:172957}：保留給{zone:1451}",
 
 	-- Step 2: Fly to the Crossroads
@@ -43,11 +43,11 @@ return {
 	["Fly to {area:1637}"] = "飛往{area:1637}",
 
 	-- Step 8: Vehena
-	-- {object:172961} Valley of Spirits (no name in this language: may be words)
+	-- {object:172961} Valley of Spirits
 	["In the {object:172961}. Have the Wool, Silk and Mageweave in your bags."] = "在{object:172961}。背包裡要有毛料、絲綢和魔紋布。",
 
 	-- Step 9: Rashona Straglash
-	-- {object:172958} Valley of Honor (no name in this language: may be words)
+	-- {object:172958} Valley of Honor
 	["In the {object:172958}."] = "在{object:172958}。",
 	-- {item:14047} Runecloth
 	["Both {item:14047} donations are handed in later in the route: start saving {item:14047}."] = "兩個{item:14047}捐獻都在路線稍後繳交：開始存{item:14047}。",
@@ -74,7 +74,7 @@ return {
 	["Ride back west to {area:1237}."] = "向西騎回{area:1237}。",
 
 	-- Step 16: Belgrom Rockmaul
-	-- {area:1637} Orgrimmar · {npc:4485} Belgrom Rockmaul · {object:172958} Valley of Honor (no name in this language: may be words)
+	-- {area:1637} Orgrimmar · {npc:4485} Belgrom Rockmaul · {object:172958} Valley of Honor
 	["Fly to {area:1637}; {npc:4485} is in the {object:172958}."] = "飛往{area:1637}；{npc:4485}在{object:172958}。",
 
 	-- Step 17: Zeppelin to the Undercity

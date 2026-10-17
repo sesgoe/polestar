@@ -26,7 +26,7 @@ return {
 	["{npc:5492} is in the Cathedral of Light."] = "{npc:5492} est dans la cathédrale de la Lumière.",
 
 	-- Step 4: Ursula Deline
-	-- {object:2101} Mage Quarter (no name in this language: may be words) · {npc:5495} Ursula Deline
+	-- {object:2101} Mage Quarter · {npc:5495} Ursula Deline
 	["Katherine sends you to the warlocks in the {object:2101}; {npc:5495} speaks for them."] = "Katherine vous envoie voir les démonistes dans {object:2101} ; {npc:5495} parle en leur nom.",
 
 	-- Step 5: Summoner's Salt

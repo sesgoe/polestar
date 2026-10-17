@@ -11,7 +11,7 @@ return {
 	["{spell:2458} at 30 and a {spell:1680} axe, sword or warhammer at 40."] = "{spell:2458} no nível 30 e um machado, espada ou martelo de guerra de {spell:1680} no nível 40.",
 
 	-- Step 1: The Islander (Stormwind)
-	-- {npc:5479} Wu Shen · {object:2100} Old Town (no name in this language: may be words) · {npc:6236} Klannoc Macleod · {area:720} Fray Island · {zone:1413} Barrens
+	-- {npc:5479} Wu Shen · {object:2100} Old Town · {npc:6236} Klannoc Macleod · {area:720} Fray Island · {zone:1413} Barrens
 	["At 30, {npc:5479} in {object:2100}, beside the Pig and Whistle, sends you to {npc:6236} on {area:720} in the {zone:1413}."] = "No nível 30, {npc:5479}, em {object:2100}, ao lado da Porco e Apito, envia você a {npc:6236} na {area:720}, em {zone:1413}.",
 
 	-- Step 2: The Islander (Ironforge)

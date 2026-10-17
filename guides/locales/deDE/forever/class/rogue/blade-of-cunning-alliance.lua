@@ -16,7 +16,7 @@ return {
 	["At 10 {npc:917}, the rogue trainer in the Lion's Pride Inn in {area:87}, gives you a package for {npc:332} in {zone:1453}."] = "Auf Stufe 10 gibt dir {npc:917}, der Schurkenlehrer im Gasthaus „Zur Höhle des Löwen“ in {area:87}, ein Paket für {npc:332} in {zone:1453}.",
 
 	-- Step 2: Master Mathias Shaw
-	-- {zone:1453} Stormwind · {object:2100} Old Town (no name in this language: may be words)
+	-- {zone:1453} Stormwind · {object:2100} Old Town
 	["Ride north to {zone:1453}; Mathias Shaw is at SI:7 in {object:2100}."] = "Reite nach Norden nach {zone:1453}; Mathias Shaw ist bei SI:7 in {object:2100}.",
 
 	-- Step 3: Defias Dockmaster

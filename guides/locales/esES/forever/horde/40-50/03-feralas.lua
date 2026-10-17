@@ -52,7 +52,7 @@ return {
 	["Zeppelin tower"] = "Torre del zepelín",
 
 	-- Step 13: Orgrimmar
-	-- {object:172958} Valley of Honor (no name in this language: may be words) · {object:172960} Cleft of Shadow (no name in this language: may be words) · {object:172961} Valley of Spirits (no name in this language: may be words)
+	-- {object:172958} Valley of Honor · {object:172960} Cleft of Shadow · {object:172961} Valley of Spirits
 	["{object:172958}, then the {object:172960} and the {object:172961}."] = "{object:172958}, luego {object:172960} y {object:172961}.",
 
 	-- Step 14: Thunder Bluff

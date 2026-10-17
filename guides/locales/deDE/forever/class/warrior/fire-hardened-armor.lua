@@ -11,7 +11,7 @@ return {
 	["A hauberk at 28, a coif, leggings or gauntlets by race, and a shield on the way."] = "Eine Halsberge mit Stufe 28, je nach Volk eine Kettenhaube, Gamaschen oder Stulpen, und unterwegs ein Schild.",
 
 	-- Step 1: Yorus Barleybrew (Stormwind)
-	-- {npc:5479} Wu Shen · {object:2100} Old Town (no name in this language: may be words) · {quest:1698} Yorus Barleybrew
+	-- {npc:5479} Wu Shen · {object:2100} Old Town · {quest:1698} Yorus Barleybrew
 	["At 20, {npc:5479} in {object:2100}, beside the Pig and Whistle, sends you to {quest:1698} in Redridge."] = "Mit Stufe 20 schickt dich {npc:5479} in der {object:2100}, neben dem Pig and Whistle, zu {quest:1698} ins Rotkammgebirge.",
 
 	-- Step 2: Yorus Barleybrew (Ironforge)
@@ -59,7 +59,7 @@ return {
 	["{item:6841}, from Roogug"] = "{item:6841}, von Roogug",
 
 	-- Step 9: Furen's Armor
-	-- {npc:5413} Furen Longbeard · {object:28027} Dwarven District (no name in this language: may be words)
+	-- {npc:5413} Furen Longbeard · {object:28027} Dwarven District
 	["Back to {npc:5413} in the {object:28027}. He sends you on to a smith of your own race."] = "Zurück zu {npc:5413} im {object:28027}. Er schickt dich weiter zu einem Schmied deines eigenen Volkes.",
 
 	-- Step 10: Grimand Elmore

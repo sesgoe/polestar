@@ -293,9 +293,9 @@ return {
 	["Take the portal up from {area:702} to {npc:4217} in the {area:1658}."] = "從{area:702}搭傳送門上去，到{area:1658}找{npc:4217}。",
 
 	-- Step 47: The Moonkin Stone
-	-- {object:177525} Moonkin Stone (no name in this language: may be words)
+	-- {object:177525} Moonkin Stone
 	["The {object:177525}"] = "{object:177525}",
-	-- {area:702} Rut'theran Village · {area:442} Auberdine · {object:177525} Moonkin Stone (no name in this language: may be words) · {item:15208} Cenarion Moondust · {npc:12144} Lunaclaw Spirit
+	-- {area:702} Rut'theran Village · {area:442} Auberdine · {object:177525} Moonkin Stone · {item:15208} Cenarion Moondust · {npc:12144} Lunaclaw Spirit
 	["Go back down to {area:702} and fly to {area:442}. The {object:177525} stands in the hills just east of the village: use the {item:15208} there, defeat Lunaclaw and speak to the {npc:12144}."] = "回到{area:702}，飛往{area:442}。{object:177525}在村莊東邊的山丘上：在那裡使用{item:15208}，擊敗月爪梟獸，然後與{npc:12144}交談。",
 
 	-- Step 48: Body and Heart
@@ -311,7 +311,7 @@ return {
 	["From {area:17203}, ride through the city gates into {zone:1429} and follow the road west to {zone:1436}."] = "從{area:17203}騎馬穿過城門進入{zone:1429}，沿著道路向西前往{zone:1436}。",
 
 	-- Step 50: Defensive Stance
-	-- {object:2100} Old Town (no name in this language: may be words) · {npc:5480} Ilsa Corbin · {npc:6089} Harry Burlguard · {npc:6090} Bartleby · {object:2152} Pig and Whistle Tavern (no name in this language: may be words)
+	-- {object:2100} Old Town · {npc:5480} Ilsa Corbin · {npc:6089} Harry Burlguard · {npc:6090} Bartleby · {object:2152} Pig and Whistle Tavern
 	["From the harbour walk into {object:2100}. {npc:5480} trains warriors there; {npc:6089} and {npc:6090} stand together by the {object:2152}. {npc:6090} fights you for his mug."] = "從港口走進{object:2100}。{npc:5480}在那裡訓練戰士；{npc:6089}和{npc:6090}一起站在{object:2152}旁。{npc:6090}會為了他的杯子和你決鬥。",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.

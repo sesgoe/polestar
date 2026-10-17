@@ -12,7 +12,7 @@ return {
 	["200 Horde reputation"] = "200 Ruf bei der Horde",
 
 	-- Step 1: Sagorne Creststrider
-	-- {npc:13417} Sagorne Creststrider · {object:172957} Valley of Wisdom (no name in this language: may be words)
+	-- {npc:13417} Sagorne Creststrider · {object:172957} Valley of Wisdom
 	["At 58 {npc:13417}, the shaman trainer in the {object:172957}, asks for two rare diamonds."] = "Mit 58 verlangt {npc:13417}, der Schamanenlehrer im {object:172957}, zwei seltene Diamanten.",
 
 	-- Step 2: Two diamonds

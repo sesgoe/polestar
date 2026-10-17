@@ -12,13 +12,13 @@ return {
 	-- Step 1: Argent Dawn Commission (Alliance)
 	-- {quest:5401} Argent Dawn Commission
 	["{quest:5401} (Alliance)"] = "{quest:5401}（联盟）",
-	-- {object:2160} The Argent Dawn (no name in this language: may be words) · {npc:10840} Argent Officer Pureheart · {area:3197} Chillwind Camp · {quest:5401} Argent Dawn Commission
+	-- {object:2160} The Argent Dawn · {npc:10840} Argent Officer Pureheart · {area:3197} Chillwind Camp · {quest:5401} Argent Dawn Commission
 	["{object:2160} starts out Neutral. Take the Commission from {npc:10840} at {area:3197} and wear it: in Classic, Scourgestones only drop while the {quest:5401} trinket is equipped. Forever's Legacy Diplomat perk increases reputation gains."] = "{object:2160}初始为中立。从{area:3197}的{npc:10840}处领取委任徽章并装备：在经典版中，只有装备了{quest:5401}饰品时才会掉落天灾石。Forever的传承外交官特权可提高声望获取。",
 
 	-- Step 2: Argent Dawn Commission (Horde)
 	-- {quest:5401} Argent Dawn Commission
 	["{quest:5401} (Horde)"] = "{quest:5401}（部落）",
-	-- {object:2160} The Argent Dawn (no name in this language: may be words) · {npc:10839} Argent Officer Garush · {area:813} The Bulwark · {quest:5401} Argent Dawn Commission
+	-- {object:2160} The Argent Dawn · {npc:10839} Argent Officer Garush · {area:813} The Bulwark · {quest:5401} Argent Dawn Commission
 	["{object:2160} starts out Neutral. Take the Commission from {npc:10839} at {area:813} and wear it: in Classic, Scourgestones only drop while the {quest:5401} trinket is equipped. Forever's Legacy Diplomat perk increases reputation gains."] = "{object:2160}初始为中立。从{area:813}的{npc:10839}处领取委任徽章并装备：在经典版中，只有装备了{quest:5401}饰品时才会掉落天灾石。Forever的传承外交官特权可提高声望获取。",
 
 	-- Step 3: Minion's Scourgestones to Friendly

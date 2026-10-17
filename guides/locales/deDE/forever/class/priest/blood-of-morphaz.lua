@@ -20,7 +20,7 @@ return {
 	-- Step 2: Cenarion Aid (Horde)
 	-- {quest:8254} Cenarion Aid
 	["{quest:8254} (Horde)"] = "{quest:8254} (Horde)",
-	-- {npc:6018} Ur'kyo · {zone:1454} Orgrimmar · {object:172961} Valley of Spirits (no name in this language: may be words)
+	-- {npc:6018} Ur'kyo · {zone:1454} Orgrimmar · {object:172961} Valley of Spirits
 	["At 50 {npc:6018} in {zone:1454}'s {object:172961} offers it."] = "Mit Stufe 50 bietet sie {npc:6018} im {object:172961} in {zone:1454} an.",
 
 	-- Step 3: Ogtinc

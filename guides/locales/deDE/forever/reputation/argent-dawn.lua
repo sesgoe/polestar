@@ -12,13 +12,13 @@ return {
 	-- Step 1: Argent Dawn Commission (Alliance)
 	-- {quest:5401} Argent Dawn Commission
 	["{quest:5401} (Alliance)"] = "{quest:5401} (Allianz)",
-	-- {object:2160} The Argent Dawn (no name in this language: may be words) · {npc:10840} Argent Officer Pureheart · {area:3197} Chillwind Camp · {quest:5401} Argent Dawn Commission
+	-- {object:2160} The Argent Dawn · {npc:10840} Argent Officer Pureheart · {area:3197} Chillwind Camp · {quest:5401} Argent Dawn Commission
 	["{object:2160} starts out Neutral. Take the Commission from {npc:10840} at {area:3197} and wear it: in Classic, Scourgestones only drop while the {quest:5401} trinket is equipped. Forever's Legacy Diplomat perk increases reputation gains."] = "Bei {object:2160} beginnst du neutral. Hol dir die Ernennung bei {npc:10840} im {area:3197} und leg sie an: In Classic fallen Geißelsteine nur, solange das Schmuckstück aus {quest:5401} angelegt ist. Der Vermächtnis-Vorteil „Diplomat“ von Forever erhöht den Rufgewinn.",
 
 	-- Step 2: Argent Dawn Commission (Horde)
 	-- {quest:5401} Argent Dawn Commission
 	["{quest:5401} (Horde)"] = "{quest:5401} (Horde)",
-	-- {object:2160} The Argent Dawn (no name in this language: may be words) · {npc:10839} Argent Officer Garush · {area:813} The Bulwark · {quest:5401} Argent Dawn Commission
+	-- {object:2160} The Argent Dawn · {npc:10839} Argent Officer Garush · {area:813} The Bulwark · {quest:5401} Argent Dawn Commission
 	["{object:2160} starts out Neutral. Take the Commission from {npc:10839} at {area:813} and wear it: in Classic, Scourgestones only drop while the {quest:5401} trinket is equipped. Forever's Legacy Diplomat perk increases reputation gains."] = "Bei {object:2160} beginnst du neutral. Hol dir die Ernennung bei {npc:10839} am {area:813} und leg sie an: In Classic fallen Geißelsteine nur, solange das Schmuckstück aus {quest:5401} angelegt ist. Der Vermächtnis-Vorteil „Diplomat“ von Forever erhöht den Rufgewinn.",
 
 	-- Step 3: Minion's Scourgestones to Friendly

@@ -11,7 +11,7 @@ return {
 	["A rare cloth robe for your 30s, which {npc:6266} makes from the parts you bring her."] = "Um manto de tecido raro para seus 30 e poucos, que {npc:6266} faz com as partes que você trouxer.",
 
 	-- Step 1: In Search of Menara Voidrender (Stormwind)
-	-- {npc:461} Demisette Cloyce · {object:2164} Slaughtered Lamb (no name in this language: may be words) · {object:2101} Mage Quarter (no name in this language: may be words) · {npc:6266} Menara Voidrender · {area:392} Ratchet
+	-- {npc:461} Demisette Cloyce · {object:2164} Slaughtered Lamb · {object:2101} Mage Quarter · {npc:6266} Menara Voidrender · {area:392} Ratchet
 	["At 31 {npc:461} in the {object:2164}, in the {object:2101}, sends you to {npc:6266} in {area:392}."] = "No nível 31, {npc:461} no {object:2164}, no {object:2101}, manda você até {npc:6266} em {area:392}.",
 
 	-- Step 2: In Search of Menara Voidrender (Ironforge)

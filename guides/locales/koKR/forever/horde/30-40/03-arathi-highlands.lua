@@ -7,15 +7,15 @@
 -- The comments are rewritten by sync.
 return {
 	-- Step 1: Fly to Grom'gol
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["Fly to {object:3202}"] = "{object:3202}(으)로 날아가기",
-	-- {area:35} Booty Bay · {object:3202} Grom'gol (no name in this language: may be words) · {object:1661} The Undercity (no name in this language: may be words)
+	-- {area:35} Booty Bay · {object:3202} Grom'gol · {object:1661} The Undercity
 	["From {area:35}, fly to {object:3202}. {object:1661} zeppelin leaves from the tower on the west side of the camp."] = "{area:35}에서 {object:3202}(으)로 날아가세요. {object:1661}행 비행선은 야영지 서쪽 탑에서 출발합니다.",
 	-- {zone:1458} Undercity
 	["Zeppelin to the {zone:1458}"] = "{zone:1458}행 비행선",
 
 	-- Step 2: Orgrimmar
-	-- {object:1661} The Undercity (no name in this language: may be words) · {zone:1454} Orgrimmar · {zone:1458} Undercity
+	-- {object:1661} The Undercity · {zone:1454} Orgrimmar · {zone:1458} Undercity
 	["{object:1661} has no Hunter or Shaman trainer: take the {zone:1454} zeppelin from the same tower instead and train in the city, then take the {zone:1458} zeppelin from the tower outside {zone:1454}'s main gate."] = "{object:1661}에는 사냥꾼과 주술사 상급자가 없습니다. 대신 같은 탑에서 {zone:1454}행 비행선을 타고 도시에서 기술을 배운 뒤, {zone:1454} 정문 밖의 탑에서 {zone:1458}행 비행선을 타세요.",
 
 	-- Step 3: Thunder Bluff
@@ -25,7 +25,7 @@ return {
 	-- Step 4: Undercity trainers
 	-- {zone:1458} Undercity
 	["{zone:1458} trainers"] = "{zone:1458} 상급자",
-	-- {zone:1458} Undercity · {object:36070} War Quarter (no name in this language: may be words) · {object:36073} Rogues' Quarter (no name in this language: may be words) · {object:36082} Magic Quarter (no name in this language: may be words) · {npc:260093} Garen Largo
+	-- {zone:1458} Undercity · {object:36070} War Quarter · {object:36073} Rogues' Quarter · {object:36082} Magic Quarter · {npc:260093} Garen Largo
 	["Train while you are in the {zone:1458}: the trainers stand in the {object:36070}, the {object:36073} and the {object:36082} (Paladins: {npc:260093})."] = "{zone:1458}에 있는 동안 기술을 배우세요. 상급자는 {object:36070}, {object:36073}, {object:36082}에 있습니다(성기사: {npc:260093}).",
 
 	-- Step 5: Fly to Tarren Mill
@@ -65,7 +65,7 @@ return {
 	-- Step 13: The Stone of East Binding
 	-- {object:2691} Stone of East Binding
 	["The {object:2691}"] = "{object:2691}",
-	-- {object:180105} Circle of Binding (no name in this language: may be words) · {area:321} Hammerfall
+	-- {object:180105} Circle of Binding · {area:321} Hammerfall
 	["Each {object:180105} is a ring of standing stones; the key sits on the stone at its heart. The eastern circle is on the hills north-west of {area:321}."] = "각 {object:180105}은(는) 선돌이 둥글게 늘어선 곳으로, 열쇠는 한가운데 돌 위에 있습니다. 동쪽 결속의 원은 {area:321} 북서쪽 언덕에 있습니다.",
 
 	-- Step 14: Witherbark Village
@@ -209,7 +209,7 @@ return {
 	-- Step 47: Zeppelin to Orgrimmar
 	-- {zone:1454} Orgrimmar
 	["Zeppelin to {zone:1454}"] = "{zone:1454}행 비행선",
-	-- {zone:1454} Orgrimmar · {object:3202} Grom'gol (no name in this language: may be words)
+	-- {zone:1454} Orgrimmar · {object:3202} Grom'gol
 	["Take the {zone:1454} zeppelin from the tower on the west side of {object:3202}."] = "{object:3202} 서쪽 탑에서 {zone:1454}행 비행선을 타세요.",
 	["Zeppelin tower"] = "비행선 탑",
 

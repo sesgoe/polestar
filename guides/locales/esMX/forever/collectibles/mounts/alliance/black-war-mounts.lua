@@ -15,7 +15,7 @@ return {
 	["Forever's PvP ranks come from {spell:1299382} earned in battlegrounds and world PvP, with a weekly cap; Commander (rank 11) unlocks the Black War mounts. Polestar cannot read your rank, so this step waits for level 40 and the riding skill."] = "Los rangos JcJ de Forever salen de {spell:1299382} que ganas en campos de batalla y en JcJ del mundo, con un límite semanal; Comandante (rango 11) desbloquea las monturas de guerra negras. Polestar no puede leer tu rango, así que este paso espera al nivel 40 y a la habilidad de equitación.",
 
 	-- Step 2: Lieutenant Karter
-	-- {npc:12783} Lieutenant Karter · {area:2918} Champions' Hall · {zone:1453} Stormwind · {object:2100} Old Town (no name in this language: may be words) · {npc:12805} Officer Areyn
+	-- {npc:12783} Lieutenant Karter · {area:2918} Champions' Hall · {zone:1453} Stormwind · {object:2100} Old Town · {npc:12805} Officer Areyn
 	["{npc:12783} sells the mounts in the {area:2918} in {zone:1453}'s {object:2100}, beside the other honor quartermasters such as {npc:12805}. The Forever client lists each at 100g; choose one."] = "{npc:12783} vende las monturas en {area:2918}, en {object:2100} de {zone:1453}, junto a los demás intendentes de honor como {npc:12805}. El cliente de Forever pone cada una a 100g; elige una.",
 	["100g"] = "100g",
 }

@@ -10,7 +10,7 @@ return {
 	["A wand of your school for the 30s: frost, arcane or fire."] = "30레벨대를 위한 자신의 계열 마법봉: 냉기, 비전 또는 화염.",
 
 	-- Step 1: Journey to the Marsh (Stormwind)
-	-- {npc:5497} Jennea Cannon · {zone:1453} Stormwind · {object:2101} Mage Quarter (no name in this language: may be words) · {npc:6546} Tabetha · {zone:1455} Ironforge
+	-- {npc:5497} Jennea Cannon · {zone:1453} Stormwind · {object:2101} Mage Quarter · {npc:6546} Tabetha · {zone:1455} Ironforge
 	["{npc:5497} in the Wizard's Sanctum, {zone:1453}'s {object:2101}, sends you to {npc:6546}; Bink in {zone:1455} gives the same quest."] = "{zone:1453} {object:2101}의 마법사의 성소에 있는 {npc:5497}이(가) {npc:6546}에게 보냅니다. {zone:1455}의 빙크도 같은 퀘스트를 줍니다.",
 
 	-- Step 2: Journey to the Marsh (Orgrimmar)

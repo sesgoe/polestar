@@ -9,13 +9,13 @@ return {
 	-- Step 1: To Orgrimmar
 	-- {area:1637} Orgrimmar
 	["To {area:1637}"] = "Vers {area:1637}",
-	-- {area:380} Crossroads · {area:1637} Orgrimmar · {npc:3310} Doras · {object:172982} Valley of Strength (no name in this language: may be words)
+	-- {area:380} Crossroads · {area:1637} Orgrimmar · {npc:3310} Doras · {object:172982} Valley of Strength
 	["From the {area:380}, follow the road north-east to {area:1637} and walk in by the main gate. {npc:3310}, the wind rider master, stands on the tower in the {object:172982}."] = "Depuis {area:380}, suivez la route vers le nord-est jusqu'à {area:1637} et entrez par la porte principale. {npc:3310}, le maître des coursiers du vent, se tient sur la tour de {object:172982}.",
 
 	-- Step 2: Orgrimmar class quests
 	-- {zone:1454} Orgrimmar
 	["{zone:1454} class quests"] = "Quêtes de classe à {zone:1454}",
-	-- {npc:6018} Ur'kyo · {object:172961} Valley of Spirits (no name in this language: may be words)
+	-- {npc:6018} Ur'kyo · {object:172961} Valley of Spirits
 	["{npc:6018} stands in the {object:172961} on the city's west side."] = "{npc:6018} se tient dans {object:172961}, à l'ouest de la ville.",
 
 	-- Step 3: Thunder Bluff
@@ -158,11 +158,11 @@ return {
 	["Follow the road north out of Silverpine into {zone:1420} and east to the zeppelin towers outside the {area:153}. Take the zeppelin to {zone:1454}."] = "Suivez la route vers le nord hors de la forêt des Pins argentés, dans {zone:1420}, puis vers l'est jusqu'aux tours des zeppelins devant {area:153}. Prenez le zeppelin pour {zone:1454}.",
 
 	-- Step 32: Valley of Strength
-	-- {npc:268701} Thatog · {object:172982} Valley of Strength (no name in this language: may be words) · {object:173016} Borstan's Firepit (no name in this language: may be words)
+	-- {npc:268701} Thatog · {object:172982} Valley of Strength · {object:173016} Borstan's Firepit
 	["Walk in through the main gate. {npc:268701} stands in the {object:172982}; {object:173016} is a few steps north."] = "Entrez par la porte principale. {npc:268701} se tient dans {object:172982} ; {object:173016} est à quelques pas au nord.",
 
 	-- Step 33: Cleft of Shadow
-	-- {object:172960} Cleft of Shadow (no name in this language: may be words) · {object:172982} Valley of Strength (no name in this language: may be words) · {npc:3216} Neeru Fireblade
+	-- {object:172960} Cleft of Shadow · {object:172982} Valley of Strength · {npc:3216} Neeru Fireblade
 	["The {object:172960} is the canyon under the {object:172982}; {npc:3216} stands at its far end."] = "{object:172960} est le canyon sous {object:172982} ; {npc:3216} se tient tout au fond.",
 
 	-- Step 34: The Drag
@@ -170,11 +170,11 @@ return {
 	["{npc:3348} and {npc:3347} run the alchemy shop in the Drag; {npc:11046} is next door."] = "{npc:3348} et {npc:3347} tiennent la boutique d'alchimie de la Herse ; {npc:11046} est juste à côté.",
 
 	-- Step 35: Valley of Honor
-	-- {object:172958} Valley of Honor (no name in this language: may be words)
+	-- {object:172958} Valley of Honor
 	["The cattails and speargrass grow along the water in the {object:172958}, east of the Drag."] = "Les massettes et les herbes-lances poussent au bord de l'eau dans {object:172958}, à l'est de la Herse.",
 
 	-- Step 37: Valley of Wisdom
-	-- {npc:268684} Thra · {npc:268682} Migi · {object:172957} Valley of Wisdom (no name in this language: may be words) · {npc:3310} Doras · {object:172982} Valley of Strength (no name in this language: may be words)
+	-- {npc:268684} Thra · {npc:268682} Migi · {object:172957} Valley of Wisdom · {npc:3310} Doras · {object:172982} Valley of Strength
 	-- plural, as words: Smooth Boulders = {item:277952} Smooth Boulder
 	["{npc:268684} and {npc:268682} sit behind Grommash Hold in the {object:172957}; the Smooth Boulders lie around them. Train while you are in the city (Druids and Paladins have no trainer here). The next guide starts at {npc:3310}, the wind rider master in the {object:172982}."] = "{npc:268684} et {npc:268682} sont assis derrière le fort Grommash, dans {object:172957} ; les Rochers lisses sont autour d'eux. Entraînez-vous pendant que vous êtes en ville (les druides et les paladins n'ont pas de maître ici). Le guide suivant commence auprès de {npc:3310}, le maître des coursiers du vent de {object:172982}.",
 	-- {npc:4949} Thrall

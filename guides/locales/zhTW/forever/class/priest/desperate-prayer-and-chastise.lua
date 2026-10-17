@@ -13,11 +13,11 @@ return {
 	["The Human and Dwarf priest spells: {quest:5634} at 10, {quest:5641} for Dwarves at 20."] = "人類和矮人的牧師法術：10級的{quest:5634}，以及矮人20級的{quest:5641}。",
 
 	-- Step 1: Desperate Prayer
-	-- {npc:11406} High Priest Rohan · {object:32386} Hall of Mysteries (no name in this language: may be words) · {zone:1455} Ironforge · {object:32362} Mystic Ward (no name in this language: may be words) · {npc:376} High Priestess Laurena · {zone:1453} Stormwind · {area:2257} Deeprun Tram
+	-- {npc:11406} High Priest Rohan · {object:32386} Hall of Mysteries · {zone:1455} Ironforge · {object:32362} Mystic Ward · {npc:376} High Priestess Laurena · {zone:1453} Stormwind · {area:2257} Deeprun Tram
 	["At 10, go to {npc:11406} in the {object:32386}, in {zone:1455}'s {object:32362}. Forever's quest text names Rohan, but the quest data has {npc:376} in {zone:1453}'s Cathedral of Light take it: try Rohan first, then Laurena (the {area:2257} links the cities)."] = "10級時，到{zone:1455}{object:32362}的{object:32386}找{npc:11406}。Forever 的任務文字寫的是洛漢，但任務資料顯示由{zone:1453}光明大教堂的{npc:376}接收：先試洛漢，再試勞瑞娜（{area:2257}連接兩座城市）。",
 
 	-- Step 2: High Priestess Laurena
-	-- {npc:376} High Priestess Laurena · {area:2257} Deeprun Tram · {object:171524} Tinker Town (no name in this language: may be words)
+	-- {npc:376} High Priestess Laurena · {area:2257} Deeprun Tram · {object:171524} Tinker Town
 	["If Rohan did not take it: {npc:376} is in the Cathedral of Light. Take the {area:2257} from {object:171524}."] = "如果洛漢沒有接收：{npc:376}在光明大教堂。從{object:171524}搭乘{area:2257}。",
 
 	-- Step 3: Chastise

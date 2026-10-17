@@ -10,11 +10,11 @@ return {
 	["A robe or a blouse for Human and Gnome mages in their late 20s."] = "Мантия или блуза для магов-людей и гномов ближе к 30-му уровню.",
 
 	-- Step 1: Bink (Ironforge)
-	-- {npc:5144} Bink · {zone:1455} Ironforge · {object:32362} Mystic Ward (no name in this language: may be words) · {area:2257} Deeprun Tram · {object:171524} Tinker Town (no name in this language: may be words) · {zone:1453} Stormwind
+	-- {npc:5144} Bink · {zone:1455} Ironforge · {object:32362} Mystic Ward · {area:2257} Deeprun Tram · {object:171524} Tinker Town · {zone:1453} Stormwind
 	["{npc:5144} teaches mages in {zone:1455}'s {object:32362}. Take the {area:2257} from {object:171524} to {zone:1453} afterwards."] = "{npc:5144} обучает магов ({zone:1455}, {object:32362}). Затем сядьте на поезд ({area:2257}) в районе {object:171524} до города {zone:1453}.",
 
 	-- Step 2: Jennea Cannon (Stormwind)
-	-- {npc:5497} Jennea Cannon · {object:2101} Mage Quarter (no name in this language: may be words)
+	-- {npc:5497} Jennea Cannon · {object:2101} Mage Quarter
 	["{npc:5497} stands in the Wizard's Sanctum, the tower of the {object:2101}."] = "{npc:5497} стоит в башне ({object:2101}).",
 
 	-- Step 3: High Sorcerer Andromath
@@ -38,6 +38,6 @@ return {
 	["Carrion Recluses lurk in the woods of western {zone:1431} and each one drops the silk. The Black Widow Hatchlings further east drop it now and then."] = "Падальщики-отшельники скрываются в лесах на западе зоны {zone:1431}, шелк падает с каждого. С детенышей черной вдовы дальше к востоку он падает иногда.",
 
 	-- Step 7: Wynne Larson
-	-- {npc:1309} Wynne Larson · {object:23296} Larson Clothiers (no name in this language: may be words) · {object:2101} Mage Quarter (no name in this language: may be words)
+	-- {npc:1309} Wynne Larson · {object:23296} Larson Clothiers · {object:2101} Mage Quarter
 	["{npc:1309} works at {object:23296} in the {object:2101}."] = "{npc:1309} работает здесь: {object:23296} ({object:2101}).",
 }

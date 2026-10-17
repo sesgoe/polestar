@@ -41,18 +41,18 @@ return {
 	["for the {npc:5598} in the {zone:1425}, around level 48"] = "之後給{zone:1425}的{npc:5598}，約48級",
 
 	-- Step 11: Fly to Grom'gol
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["Fly to {object:3202}"] = "飛往{object:3202}",
 
 	-- Step 12: Zeppelin to Orgrimmar
 	-- {zone:1454} Orgrimmar
 	["Zeppelin to {zone:1454}"] = "搭飛艇前往{zone:1454}",
-	-- {zone:1454} Orgrimmar · {object:3202} Grom'gol (no name in this language: may be words)
+	-- {zone:1454} Orgrimmar · {object:3202} Grom'gol
 	["The zeppelin to {zone:1454} leaves from the tower beside {object:3202}; it lands just north-east of {zone:1454}'s main gate."] = "前往{zone:1454}的飛艇從{object:3202}旁的塔出發；降落在{zone:1454}正門東北方不遠處。",
 	["Zeppelin tower"] = "飛艇塔",
 
 	-- Step 13: Orgrimmar
-	-- {object:172958} Valley of Honor (no name in this language: may be words) · {object:172960} Cleft of Shadow (no name in this language: may be words) · {object:172961} Valley of Spirits (no name in this language: may be words)
+	-- {object:172958} Valley of Honor · {object:172960} Cleft of Shadow · {object:172961} Valley of Spirits
 	["{object:172958}, then the {object:172960} and the {object:172961}."] = "{object:172958}，然後是{object:172960}和{object:172961}。",
 
 	-- Step 14: Thunder Bluff

@@ -13,7 +13,7 @@ return {
 	["The {item:5178} that lets you place air totems, then a weapon of your choice at 40."] = "{item:5178}, qui permet de poser les totems d'air, puis une arme de votre choix au niveau 40.",
 
 	-- Step 1: Searn Firewarder
-	-- {npc:5892} Searn Firewarder · {object:172957} Valley of Wisdom (no name in this language: may be words) · {npc:5905} Prate Cloudseer · {zone:1441} Thousand Needles
+	-- {npc:5892} Searn Firewarder · {object:172957} Valley of Wisdom · {npc:5905} Prate Cloudseer · {zone:1441} Thousand Needles
 	["At 30 {npc:5892} in the {object:172957} sends you to {npc:5905} in {zone:1441}."] = "Au niveau 30, {npc:5892}, à {object:172957}, vous envoie voir {npc:5905} dans {zone:1441}.",
 
 	-- Step 2: Xanis Flameweaver

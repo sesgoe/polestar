@@ -11,7 +11,7 @@ return {
 	["An off-hand orb or a staff for your late 30s, down the felhound's or the infernal's path, your pick."] = "Um orbe de mão secundária ou um cajado perto do nível 40, pelo caminho do canisvil ou do infernal, à sua escolha.",
 
 	-- Step 1: Knowledge of the Orb of Orahil (Stormwind)
-	-- {npc:461} Demisette Cloyce · {object:2164} Slaughtered Lamb (no name in this language: may be words) · {object:2101} Mage Quarter (no name in this language: may be words) · {npc:6266} Menara Voidrender · {area:392} Ratchet
+	-- {npc:461} Demisette Cloyce · {object:2164} Slaughtered Lamb · {object:2101} Mage Quarter · {npc:6266} Menara Voidrender · {area:392} Ratchet
 	["At 35 {npc:461} in the {object:2164}, in the {object:2101}, sends you to {npc:6266} in {area:392}."] = "No nível 35, {npc:461}, em {object:2164}, no {object:2101}, envia você a {npc:6266} em {area:392}.",
 
 	-- Step 2: Knowledge of the Orb of Orahil (Ironforge)

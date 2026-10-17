@@ -14,13 +14,13 @@ return {
 	-- Step 1: The Hunter's Charm (Alliance)
 	-- {quest:8151} The Hunter's Charm
 	["{quest:8151} (Alliance)"] = "{quest:8151}（聯盟）",
-	-- {npc:5516} Ulfir Ironbeard · {zone:1453} Stormwind · {object:28027} Dwarven District (no name in this language: may be words) · {npc:5116} Olmin Burningbeard · {zone:1455} Ironforge · {object:32390} Hall of Arms (no name in this language: may be words) · {zone:1457} Darnassus
+	-- {npc:5516} Ulfir Ironbeard · {zone:1453} Stormwind · {object:28027} Dwarven District · {npc:5116} Olmin Burningbeard · {zone:1455} Ironforge · {object:32390} Hall of Arms · {zone:1457} Darnassus
 	["At 50 any Alliance hunter trainer offers it: {npc:5516} in {zone:1453}'s {object:28027}, {npc:5116} in {zone:1455}'s {object:32390} or Dorion in {zone:1457}' Cenarion Enclave."] = "50級時任何聯盟獵人訓練師都提供此任務：{zone:1453}{object:28027}的{npc:5516}、{zone:1455}{object:32390}的{npc:5116}，或{zone:1457}塞納里奧區的多利安。",
 
 	-- Step 2: The Hunter's Charm (Horde)
 	-- {quest:8151} The Hunter's Charm
 	["{quest:8151} (Horde)"] = "{quest:8151}（部落）",
-	-- {npc:3352} Ormak Grimshot · {zone:1454} Orgrimmar · {object:172958} Valley of Honor (no name in this language: may be words) · {npc:3039} Holt Thunderhorn · {area:1641} Hunter Rise · {zone:1456} Thunder Bluff
+	-- {npc:3352} Ormak Grimshot · {zone:1454} Orgrimmar · {object:172958} Valley of Honor · {npc:3039} Holt Thunderhorn · {area:1641} Hunter Rise · {zone:1456} Thunder Bluff
 	["At 50 any Horde hunter trainer offers it: {npc:3352} in {zone:1454}'s {object:172958} or {npc:3039} on {area:1641} in {zone:1456}."] = "50級時任何部落獵人訓練師都提供此任務：{zone:1454}{object:172958}的{npc:3352}，或{zone:1456}{area:1641}的{npc:3039}。",
 
 	-- Step 3: Ogtinc

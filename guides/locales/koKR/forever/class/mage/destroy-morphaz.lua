@@ -12,7 +12,7 @@ return {
 	["Experience"] = "경험치",
 
 	-- Step 1: Magecraft (Stormwind)
-	-- {npc:331} Maginor Dumas · {zone:1453} Stormwind · {object:2101} Mage Quarter (no name in this language: may be words) · {zone:1455} Ironforge
+	-- {npc:331} Maginor Dumas · {zone:1453} Stormwind · {object:2101} Mage Quarter · {zone:1455} Ironforge
 	["{npc:331}, the Master Mage, stands in the Wizard's Sanctum in {zone:1453}'s {object:2101}; Dink in {zone:1455} gives the same quest."] = "마법사 길드장 {npc:331}은(는) {zone:1453} {object:2101}의 마법사의 성소에 있습니다. {zone:1455}의 딩크도 같은 퀘스트를 줍니다.",
 
 	-- Step 2: Magecraft (Orgrimmar)

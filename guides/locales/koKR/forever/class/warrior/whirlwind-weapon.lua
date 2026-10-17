@@ -11,7 +11,7 @@ return {
 	["{spell:2458} at 30 and a {spell:1680} axe, sword or warhammer at 40."] = "30레벨에 {spell:2458}, 40레벨에 {spell:1680} 도끼, 검 또는 전투망치.",
 
 	-- Step 1: The Islander (Stormwind)
-	-- {npc:5479} Wu Shen · {object:2100} Old Town (no name in this language: may be words) · {npc:6236} Klannoc Macleod · {area:720} Fray Island · {zone:1413} Barrens
+	-- {npc:5479} Wu Shen · {object:2100} Old Town · {npc:6236} Klannoc Macleod · {area:720} Fray Island · {zone:1413} Barrens
 	["At 30, {npc:5479} in {object:2100}, beside the Pig and Whistle, sends you to {npc:6236} on {area:720} in the {zone:1413}."] = "30레벨에 돼지와 휘파람 선술집 옆 {object:2100}의 {npc:5479}이(가) {zone:1413} {area:720}의 {npc:6236}에게 보냅니다.",
 
 	-- Step 2: The Islander (Ironforge)
@@ -19,7 +19,7 @@ return {
 	["At 30, {npc:5113}, the warrior trainer of {zone:1455}, sends you to {npc:6236} on {area:720} in the {zone:1413}."] = "30레벨에 {zone:1455}의 전사 상급자 {npc:5113}이(가) {zone:1413} {area:720}의 {npc:6236}에게 보냅니다.",
 
 	-- Step 3: The Islander (Orgrimmar)
-	-- {npc:3354} Sorek · {object:172958} Valley of Honor (no name in this language: may be words) · {npc:6236} Klannoc Macleod · {area:720} Fray Island · {zone:1413} Barrens
+	-- {npc:3354} Sorek · {object:172958} Valley of Honor · {npc:6236} Klannoc Macleod · {area:720} Fray Island · {zone:1413} Barrens
 	["At 30, {npc:3354} in the {object:172958} sends you to {npc:6236} on {area:720} in the {zone:1413}."] = "30레벨에 {object:172958}의 {npc:3354}이(가) {zone:1413} {area:720}의 {npc:6236}에게 보냅니다.",
 
 	-- Step 4: The Islander (Thunder Bluff)

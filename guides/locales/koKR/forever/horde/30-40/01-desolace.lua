@@ -13,7 +13,7 @@ return {
 	["From {area:484}, fly to {area:1637}."] = "{area:484}에서 {area:1637}(으)로 날아가세요.",
 
 	-- Step 2: Alliance Relations
-	-- {npc:5639} Craven Drok · {npc:5640} Keldran · {object:172961} Valley of Spirits (no name in this language: may be words) · {npc:4949} Thrall · {object:172957} Valley of Wisdom (no name in this language: may be words)
+	-- {npc:5639} Craven Drok · {npc:5640} Keldran · {object:172961} Valley of Spirits · {npc:4949} Thrall · {object:172957} Valley of Wisdom
 	["{npc:5639} waits in the Drag; {npc:5640} stands in the {object:172961} on the west side of the city. Skyborne: {npc:4949} waits in Grommash Hold, in the {object:172957}."] = "{npc:5639}은(는) 골목길에서 기다리고, {npc:5640}은(는) 도시 서쪽의 {object:172961}에 서 있습니다. 스카이본: {npc:4949}은(는) {object:172957}의 그롬마쉬 요새에서 기다립니다.",
 	-- {npc:4949} Thrall
 	["{npc:4949}, Grommash Hold, if you carry it"] = "그롬마쉬 요새의 {npc:4949}, 가지고 있다면",
@@ -29,7 +29,7 @@ return {
 	-- Step 5: Orgrimmar class quests
 	-- {zone:1454} Orgrimmar
 	["{zone:1454} class quests"] = "{zone:1454} 직업 퀘스트",
-	-- {npc:5892} Searn Firewarder · {object:172957} Valley of Wisdom (no name in this language: may be words)
+	-- {npc:5892} Searn Firewarder · {object:172957} Valley of Wisdom
 	["{npc:5892} stands in the {object:172957}."] = "{npc:5892}은(는) {object:172957}에 서 있습니다.",
 
 	-- Step 6: Ratchet
@@ -198,7 +198,7 @@ return {
 	-- {area:272} Tarren Mill
 	["Back to {area:272}"] = "{area:272}(으)로 돌아가기",
 	["Hearth back (or ride north if it is on cooldown)."] = "귀환석으로 돌아가세요(재사용 대기 중이면 북쪽으로 달려가세요).",
-	-- {object:1729} Tainted Keg (no name in this language: may be words) · {object:1728} Dusty Rug
+	-- {object:1729} Tainted Keg · {object:1728} Dusty Rug
 	["Place the {object:1729} on the {object:1728} beside the inn"] = "여관 옆의 {object:1728} 위에 {object:1729}을(를) 놓으세요",
 
 	-- Step 42: Henchman Valik
@@ -239,6 +239,6 @@ return {
 	-- Step 49: Fly to the Undercity
 	-- {area:1497} Undercity
 	["Fly to the {area:1497}"] = "{area:1497}(으)로 날아가기",
-	-- {area:1497} Undercity · {object:3202} Grom'gol (no name in this language: may be words)
+	-- {area:1497} Undercity · {object:3202} Grom'gol
 	["The next guide starts in the {area:1497}, at the {object:3202} zeppelin."] = "다음 가이드는 {area:1497}의 {object:3202}행 비행선에서 시작합니다.",
 }

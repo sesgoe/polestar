@@ -10,7 +10,7 @@ return {
 	["Four armor pieces at 30 (hauberk, helm, gauntlets, legguards) and a shield on the way."] = "Cuatro piezas de armadura a nivel 30 (camisote, yelmo, guanteletes y musleras) y un escudo por el camino.",
 
 	-- Step 1: Speak with Ruga (Orgrimmar)
-	-- {npc:3354} Sorek · {object:172958} Valley of Honor (no name in this language: may be words) · {npc:6394} Ruga Ragetotem · {area:378} Camp Taurajo
+	-- {npc:3354} Sorek · {object:172958} Valley of Honor · {npc:6394} Ruga Ragetotem · {area:378} Camp Taurajo
 	["At 20, {npc:3354} in the {object:172958} sends you to {npc:6394} in {area:378}."] = "A nivel 20, {npc:3354}, en {object:172958}, te envía con {npc:6394} en {area:378}.",
 
 	-- Step 2: Speak with Ruga (Thunder Bluff)

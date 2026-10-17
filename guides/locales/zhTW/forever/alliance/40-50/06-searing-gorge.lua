@@ -26,9 +26,9 @@ return {
 	["Heavy War Golems patrol the floor of the Cauldron below Kalaran; Magma Elementals drift among them. Golems and elementals drop the oil, elementals the hearts."] = "重型作戰傀儡在卡拉然下方的大熔爐底部巡邏；熔岩元素在牠們之間飄蕩。傀儡和元素會掉落油，元素會掉落核心。",
 
 	-- Step 6: Dark Iron dwarves
-	-- {object:147516} Dark Iron (no name in this language: may be words)
+	-- {object:147516} Dark Iron
 	["{object:147516} dwarves"] = "{object:147516}矮人",
-	-- {item:10551} Thorium Plated Dagger · {item:18959} Smithing Tuyere · {object:147516} Dark Iron (no name in this language: may be words) · {item:11818} Grimesilt Outhouse Key
+	-- {item:10551} Thorium Plated Dagger · {item:18959} Smithing Tuyere · {object:147516} Dark Iron · {item:11818} Grimesilt Outhouse Key
 	["Taskmasters and Slavers drive the slaves all over the Cauldron, and any of them can carry a {item:10551}. The Steamsmiths work at the furnaces in the middle (the {item:18959}), the Lookouts stand on the southern ridges (the Spyglass). Any {object:147516} may drop the {item:11818}: keep it."] = "黑鐵工頭和黑鐵奴隸販子在大熔爐各處驅趕奴隸，任何一個都可能帶著{item:10551}。黑鐵鍛造師在中央的熔爐工作（{item:18959}），黑鐵哨兵站在南邊的山脊上（偵查員的望遠鏡）。任何{object:147516}都可能掉落{item:11818}：留著它。",
 
 	-- Step 7: Greater Lava Spiders
@@ -50,7 +50,7 @@ return {
 	["The prisoner's next task, Ledger from {zone:1446}, sends you to the {zone:1435} and {zone:1445}: skip it."] = "囚犯的下一個任務「{zone:1446}的帳本」會派你去{zone:1435}和{zone:1445}：跳過它。",
 
 	-- Step 12: Dorius Stonetender
-	-- {object:147516} Dark Iron (no name in this language: may be words) · {object:175704} Singed Letter · {area:1959} Dustfire Valley
+	-- {object:147516} Dark Iron · {object:175704} Singed Letter · {area:1959} Dustfire Valley
 	["The dwarf stands by the road at the dig site. Follow him north along the road and fight off the {object:147516} ambushes. When it is over, read the {object:175704} he leaves on the road in {area:1959}."] = "杜里奧斯·裂石站在挖掘場旁的道路邊。跟著他沿道路向北，擊退{object:147516}的伏擊。結束後，閱讀他留在{area:1959}道路上的{object:175704}。",
 	-- {npc:8256} Curator Thorius · {zone:1455} Ironforge
 	["For {npc:8256} in {zone:1455}, later"] = "之後給{zone:1455}的{npc:8256}",

@@ -12,11 +12,11 @@ return {
 	["The felhunter, the demon to bring against spellcasters, and a {item:22244} for your shards."] = "Der Teufelsjäger, der Dämon gegen Zauberwirker, und ein {item:22244} für deine Splitter.",
 
 	-- Step 1: Seeking Strahad (Orgrimmar)
-	-- {npc:5875} Gan'rul Bloodeye · {object:172960} Cleft of Shadow (no name in this language: may be words) · {object:172982} Valley of Strength (no name in this language: may be words) · {npc:6251} Strahad Farsan · {area:392} Ratchet
+	-- {npc:5875} Gan'rul Bloodeye · {object:172960} Cleft of Shadow · {object:172982} Valley of Strength · {npc:6251} Strahad Farsan · {area:392} Ratchet
 	["At 30 {npc:5875}, in the {object:172960} under the {object:172982}, sends you to {npc:6251} in {area:392}."] = "Mit Stufe 30 schickt dich {npc:5875}, im Gebiet {object:172960} unter dem {object:172982}, zu {npc:6251} in {area:392}.",
 
 	-- Step 2: Seeking Strahad (Undercity)
-	-- {npc:5675} Carendin Halgar · {object:36082} Magic Quarter (no name in this language: may be words) · {npc:6251} Strahad Farsan · {area:392} Ratchet · {zone:1420} Tirisfal Glades · {zone:1411} Durotar
+	-- {npc:5675} Carendin Halgar · {object:36082} Magic Quarter · {npc:6251} Strahad Farsan · {area:392} Ratchet · {zone:1420} Tirisfal Glades · {zone:1411} Durotar
 	["At 30 {npc:5675}, in the {object:36082}, sends you to {npc:6251} in {area:392}. The zeppelin from {zone:1420} flies to {zone:1411}."] = "Mit Stufe 30 schickt dich {npc:5675}, im {object:36082}, zu {npc:6251} in {area:392}. Der Zeppelin von {zone:1420} fliegt nach {zone:1411}.",
 
 	-- Step 3: Strahad Farsan
@@ -24,7 +24,7 @@ return {
 	["Fly to {area:392}; {npc:6251} stands on the hill in town."] = "Flieg nach {area:392}; {npc:6251} steht auf dem Hügel im Ort.",
 
 	-- Step 4: Jorah Annison
-	-- {npc:6293} Jorah Annison · {object:36082} Magic Quarter (no name in this language: may be words)
+	-- {npc:6293} Jorah Annison · {object:36082} Magic Quarter
 	["{npc:6293} stands in the {object:36082}."] = "{npc:6293} steht im {object:36082}.",
 
 	-- Step 5: Moldy Tome

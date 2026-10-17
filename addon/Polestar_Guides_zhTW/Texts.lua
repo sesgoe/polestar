@@ -559,7 +559,7 @@ t.guides["forever/alliance/30-40/04-stranglethorn-vale"] = (function() return {
 		["{item:2634}, from a {object:263} crate"] = "{item:2634}，來自{object:263}箱子",
 		["{npc:2495}, by the bank"] = "{npc:2495}，在銀行旁",
 		["{npc:2496}, upstairs in the tavern"] = "{npc:2496}，在酒館樓上",
-		["{npc:2832}, in the {object:56910}"] = "{npc:2832}，在老水手酒館",
+		["{npc:2832}, in the {object:56910}"] = "{npc:2832}，在{object:56910}",
 		["{npc:469}, in the hut"] = "{npc:469}，在小屋裡",
 		["{npc:715}, from {zone:1441}"] = "{npc:715}，來自{zone:1441}",
 		["{npc:716} collects the {item:2755}: the pages drop from almost every humanoid in the jungle. Turn the pages into chapters as you go."] = "{npc:716}收集{item:2755}：叢林中幾乎每個人形生物都會掉落書頁。邊走邊把書頁整理成章節。",
@@ -2589,7 +2589,7 @@ t.guides["forever/class/warlock/incubus-horde"] = (function() return {
 		["{npc:3363} keeps {object:173018}, east of the {object:172960} along the main street. He asks you to look for his mate, Krilge."] = "{npc:3363}經營{object:173018}，位於{object:172960}東邊的主街上。他請你去找他的伴侶。",
 		["{npc:5675}: he binds the incubus to you"] = "{npc:5675}：他會把夢魔束縛給你",
 		["{npc:5875}: he binds the incubus to you"] = "{npc:5875}：他會把夢魔束縛給你",
-		["{object:1661}'s version, for warlocks who took {npc:5675}'s {quest:1472} instead of {npc:5875}'s. At 20 {npc:5675}, in the {object:36082}, sends you to {npc:5693} in the Temple of the Damned, just north of him."] = "幽暗城的版本，給接了{npc:5675}而非{npc:5875}的{quest:1472}的術士。20級時，{object:36082}的{npc:5675}會派你去找就在他北邊詛咒者神殿裡的{npc:5693}。",
+		["{object:1661}'s version, for warlocks who took {npc:5675}'s {quest:1472} instead of {npc:5875}'s. At 20 {npc:5675}, in the {object:36082}, sends you to {npc:5693} in the Temple of the Damned, just north of him."] = "{object:1661}的版本，給接了{npc:5675}而非{npc:5875}的{quest:1472}的術士。20級時，{object:36082}的{npc:5675}會派你去找就在他北邊詛咒者神殿裡的{npc:5693}。",
 } end)()
 t.guides["forever/class/warlock/orb-of-orahil"] = (function() return {
 		["An off-hand orb or a staff for your late 30s, down the felhound's or the infernal's path, your pick."] = "30多級後期的副手寶珠或法杖，走地獄犬或地獄火的路線，任你選擇。",

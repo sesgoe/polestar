@@ -7,7 +7,7 @@
 -- The comments are rewritten by sync.
 return {
 	-- Step 1: Thelsamar
-	-- {npc:1573} Gryth Thurden · {object:32372} Great Forge (no name in this language: may be words)
+	-- {npc:1573} Gryth Thurden · {object:32372} Great Forge
 	["{npc:1573}, the {object:32372}"] = "{npc:1573}，{object:32372}",
 
 	-- Step 2: Hammertoe's Digsite

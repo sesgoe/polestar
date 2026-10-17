@@ -12,11 +12,11 @@ return {
 	["The felhunter, the demon to bring against spellcasters, and a {item:22244} for your shards."] = "地獄獵犬是對付施法者的惡魔，另附一個{item:22244}存放靈魂碎片。",
 
 	-- Step 1: Seeking Strahad (Orgrimmar)
-	-- {npc:5875} Gan'rul Bloodeye · {object:172960} Cleft of Shadow (no name in this language: may be words) · {object:172982} Valley of Strength (no name in this language: may be words) · {npc:6251} Strahad Farsan · {area:392} Ratchet
+	-- {npc:5875} Gan'rul Bloodeye · {object:172960} Cleft of Shadow · {object:172982} Valley of Strength · {npc:6251} Strahad Farsan · {area:392} Ratchet
 	["At 30 {npc:5875}, in the {object:172960} under the {object:172982}, sends you to {npc:6251} in {area:392}."] = "30級時，{object:172982}下方{object:172960}的{npc:5875}會派你去找{area:392}的{npc:6251}。",
 
 	-- Step 2: Seeking Strahad (Undercity)
-	-- {npc:5675} Carendin Halgar · {object:36082} Magic Quarter (no name in this language: may be words) · {npc:6251} Strahad Farsan · {area:392} Ratchet · {zone:1420} Tirisfal Glades · {zone:1411} Durotar
+	-- {npc:5675} Carendin Halgar · {object:36082} Magic Quarter · {npc:6251} Strahad Farsan · {area:392} Ratchet · {zone:1420} Tirisfal Glades · {zone:1411} Durotar
 	["At 30 {npc:5675}, in the {object:36082}, sends you to {npc:6251} in {area:392}. The zeppelin from {zone:1420} flies to {zone:1411}."] = "30級時，{object:36082}的{npc:5675}會派你去找{area:392}的{npc:6251}。從{zone:1420}出發的飛艇飛往{zone:1411}。",
 
 	-- Step 3: Strahad Farsan
@@ -24,7 +24,7 @@ return {
 	["Fly to {area:392}; {npc:6251} stands on the hill in town."] = "飛往{area:392}；{npc:6251}站在鎮上的山丘上。",
 
 	-- Step 4: Jorah Annison
-	-- {npc:6293} Jorah Annison · {object:36082} Magic Quarter (no name in this language: may be words)
+	-- {npc:6293} Jorah Annison · {object:36082} Magic Quarter
 	["{npc:6293} stands in the {object:36082}."] = "{npc:6293}站在{object:36082}。",
 
 	-- Step 5: Moldy Tome

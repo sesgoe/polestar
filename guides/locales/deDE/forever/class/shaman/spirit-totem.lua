@@ -14,7 +14,7 @@ return {
 	["Experience and gold"] = "Erfahrung und Gold",
 
 	-- Step 1: Sagorne Creststrider
-	-- {npc:13417} Sagorne Creststrider · {object:172957} Valley of Wisdom (no name in this language: may be words) · {npc:6176} Bath'rah the Windwatcher
+	-- {npc:13417} Sagorne Creststrider · {object:172957} Valley of Wisdom · {npc:6176} Bath'rah the Windwatcher
 	["At 50 {npc:13417}, the shaman trainer in the {object:172957}, sends you to {npc:6176}."] = "Mit 50 schickt dich {npc:13417}, der Schamanenlehrer in {object:172957}, zu {npc:6176}.",
 
 	-- Step 2: Beram Skychaser

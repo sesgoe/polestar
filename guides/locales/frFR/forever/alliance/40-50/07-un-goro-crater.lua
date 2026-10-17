@@ -182,7 +182,7 @@ return {
 	["{npc:11406}: for Ogtinc in {zone:1447}, keep it"] = "{npc:11406} : pour Ogtinc en {zone:1447}, gardez-la",
 
 	-- Step 42: Royal Historian Archesonus
-	-- {object:171709} High Seat (no name in this language: may be words)
+	-- {object:171709} High Seat
 	["Archesonus stands beside King Magni in the {object:171709}."] = "Archesonus se tient à côté du roi Magni dans {object:171709}.",
 	-- {zone:1428} Burning Steppes
 	["The relics are in the {zone:1428}: keep it"] = "Les reliques sont dans {zone:1428} : gardez-la",
@@ -191,7 +191,7 @@ return {
 	["Bind and train"] = "Lier la pierre de foyer et s'entraîner",
 
 	-- Step 44: Xiggs Fuselighter
-	-- {object:32359} Military Ward (no name in this language: may be words)
+	-- {object:32359} Military Ward
 	["Xiggs waits in the {object:32359}."] = "Xiggs attend dans {object:32359}.",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.

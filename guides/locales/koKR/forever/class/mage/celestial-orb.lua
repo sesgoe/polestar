@@ -12,7 +12,7 @@ return {
 	["An off-hand orb or a staff for the late 30s, your pick."] = "30대 후반용 보조장비 구슬이나 지팡이 중 선택.",
 
 	-- Step 1: Return to the Marsh (Stormwind)
-	-- {npc:5497} Jennea Cannon · {zone:1453} Stormwind · {object:2101} Mage Quarter (no name in this language: may be words) · {npc:6546} Tabetha · {zone:1455} Ironforge
+	-- {npc:5497} Jennea Cannon · {zone:1453} Stormwind · {object:2101} Mage Quarter · {npc:6546} Tabetha · {zone:1455} Ironforge
 	["{npc:5497} in the Wizard's Sanctum, {zone:1453}'s {object:2101}, sends you back to {npc:6546}; Bink in {zone:1455} gives the same quest."] = "{zone:1453} {object:2101}의 마법사의 성소에 있는 {npc:5497}이(가) 당신을 {npc:6546}에게 다시 보냅니다. {zone:1455}의 빙크도 같은 퀘스트를 줍니다.",
 
 	-- Step 2: Return to the Marsh (Orgrimmar)
@@ -33,7 +33,7 @@ return {
 	["{npc:6546} draws the demon out of the orb beside her cottage. The {npc:6549} is elite: grouping up is advised. You have three minutes before it slips back into the orb."] = "{npc:6546}이(가) 오두막 옆에서 구슬 속 악마를 끌어냅니다. {npc:6549}은(는) 정예이니 파티를 권장합니다. 악마가 구슬로 돌아가기까지 3분이 있습니다.",
 
 	-- Step 6: Power in Uldaman
-	-- {area:1517} Uldaman · {zone:1418} Badlands · {object:178824} Meeting Stone (no name in this language: may be words) · {npc:7023} Obsidian Sentinel
+	-- {area:1517} Uldaman · {zone:1418} Badlands · {object:178824} Meeting Stone · {npc:7023} Obsidian Sentinel
 	["{area:1517} is a dungeon in the northern {zone:1418}, by the {object:178824}: a group of five. Defeat the {npc:7023} inside for its power source."] = "{area:1517}은(는) {zone:1418} 북부, {object:178824} 옆에 있는 5인 던전입니다. 안에서 {npc:7023}을(를) 물리치고 동력원을 얻으세요.",
 
 	-- Step 7: Mana Surges

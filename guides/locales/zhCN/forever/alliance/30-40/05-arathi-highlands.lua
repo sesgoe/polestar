@@ -53,7 +53,7 @@ return {
 	["{npc:1440}, the Royal Library in the keep"] = "{npc:1440}，城堡里的皇家图书馆",
 
 	-- Step 13: The Binding
-	-- {npc:6122} Gakin the Darkbinder · {object:2164} Slaughtered Lamb (no name in this language: may be words) · {object:2101} Mage Quarter (no name in this language: may be words) · {item:6913} Heartswood Core · {quest:65602} What Is Love? · {item:190309} Wooden Figurine
+	-- {npc:6122} Gakin the Darkbinder · {object:2164} Slaughtered Lamb · {object:2101} Mage Quarter · {item:6913} Heartswood Core · {quest:65602} What Is Love? · {item:190309} Wooden Figurine
 	["{npc:6122} waits in the {object:2164}'s cellar, in the {object:2101}. Use the {item:6913} at the summoning circle there and defeat the succubus it calls. If you took {quest:65602}, hand him the {item:190309} too, place it at the same circle and defeat the incubus."] = "{npc:6122}在{object:2101}{object:2164}的地下室等候。在那里的召唤法阵使用{item:6913}，击败召来的魅魔。如果你接了{quest:65602}，也把{item:190309}交给他，放在同一个法阵上，然后击败梦魇。",
 	["Subdue the succubus"] = "制服魅魔",
 	-- {quest:65602} What Is Love?
@@ -65,7 +65,7 @@ return {
 
 	-- Step 14: Shaman training
 	["Shaman training"] = "萨满祭司训练",
-	-- {zone:1453} Stormwind · {area:2257} Deeprun Tram · {object:28027} Dwarven District (no name in this language: may be words) · {zone:1455} Ironforge · {npc:258098} Eldrun Stormbreaker · {npc:1573} Gryth Thurden · {object:32372} Great Forge (no name in this language: may be words) · {area:271} Southshore
+	-- {zone:1453} Stormwind · {area:2257} Deeprun Tram · {object:28027} Dwarven District · {zone:1455} Ironforge · {npc:258098} Eldrun Stormbreaker · {npc:1573} Gryth Thurden · {object:32372} Great Forge · {area:271} Southshore
 	["{zone:1453} has no shaman trainer: take the {area:2257} from the {object:28027} to {zone:1455} and train with {npc:258098}. {npc:1573} in the {object:32372} flies to {area:271} too."] = "{zone:1453}没有萨满祭司训练师：从{object:28027}乘{area:2257}前往{zone:1455}，在{npc:258098}处学习。{object:32372}的{npc:1573}也能飞往{area:271}。",
 
 	-- Step 15: Fly to Southshore

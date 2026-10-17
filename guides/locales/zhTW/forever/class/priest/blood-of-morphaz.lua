@@ -14,13 +14,13 @@ return {
 	-- Step 1: Cenarion Aid (Alliance)
 	-- {quest:8254} Cenarion Aid
 	["{quest:8254} (Alliance)"] = "{quest:8254}（聯盟）",
-	-- {npc:5489} Brother Joshua · {zone:1453} Stormwind · {npc:11406} High Priest Rohan · {zone:1455} Ironforge · {object:32386} Hall of Mysteries (no name in this language: may be words)
+	-- {npc:5489} Brother Joshua · {zone:1453} Stormwind · {npc:11406} High Priest Rohan · {zone:1455} Ironforge · {object:32386} Hall of Mysteries
 	["At 50 {npc:5489} in {zone:1453}'s Cathedral of Light or {npc:11406} in {zone:1455}'s {object:32386} offers it."] = "50級時，{zone:1453}光明大教堂的{npc:5489}或{zone:1455}{object:32386}的{npc:11406}會提供此任務。",
 
 	-- Step 2: Cenarion Aid (Horde)
 	-- {quest:8254} Cenarion Aid
 	["{quest:8254} (Horde)"] = "{quest:8254}（部落）",
-	-- {npc:6018} Ur'kyo · {zone:1454} Orgrimmar · {object:172961} Valley of Spirits (no name in this language: may be words)
+	-- {npc:6018} Ur'kyo · {zone:1454} Orgrimmar · {object:172961} Valley of Spirits
 	["At 50 {npc:6018} in {zone:1454}'s {object:172961} offers it."] = "50級時，{zone:1454}{object:172961}的{npc:6018}會提供此任務。",
 
 	-- Step 3: Ogtinc

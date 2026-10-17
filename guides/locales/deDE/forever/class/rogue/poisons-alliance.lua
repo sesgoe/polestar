@@ -13,7 +13,7 @@ return {
 	["Forever teaches {spell:2842} through this chain, not the trainer; the {item:7676} recipe comes with it."] = "Forever lehrt {spell:2842} über diese Questreihe, nicht beim Lehrer; das Rezept für {item:7676} gibt es dazu.",
 
 	-- Step 1: Mathias and the Defias
-	-- {npc:332} Master Mathias Shaw · {object:2100} Old Town (no name in this language: may be words) · {npc:7024} Agent Kearnen · {zone:1436} Westfall
+	-- {npc:332} Master Mathias Shaw · {object:2100} Old Town · {npc:7024} Agent Kearnen · {zone:1436} Westfall
 	["At 20 {npc:332} at SI:7 in {object:2100} sends you to {npc:7024} in {zone:1436}."] = "Auf Stufe 20 schickt dich {npc:332} bei SI:7 in {object:2100} zu {npc:7024} in {zone:1436}.",
 
 	-- Step 2: Agent Kearnen
@@ -23,7 +23,7 @@ return {
 	["{item:7908}, in the {object:123214}"] = "{item:7908}, in der {object:123214}",
 
 	-- Step 3: Master Mathias Shaw
-	-- {zone:1453} Stormwind · {object:2100} Old Town (no name in this language: may be words)
+	-- {zone:1453} Stormwind · {object:2100} Old Town
 	["Ride north through Elwynn to {zone:1453}; Mathias Shaw is at SI:7 in {object:2100}."] = "Reite nach Norden durch den Wald von Elwynn nach {zone:1453}; Mathias Shaw ist bei SI:7 in {object:2100}.",
 
 	-- Step 4: Doc Mixilpixil

@@ -293,9 +293,9 @@ return {
 	["Take the portal up from {area:702} to {npc:4217} in the {area:1658}."] = "Toma el portal para subir desde {area:702} con {npc:4217} en {area:1658}.",
 
 	-- Step 47: The Moonkin Stone
-	-- {object:177525} Moonkin Stone (no name in this language: may be words)
+	-- {object:177525} Moonkin Stone
 	["The {object:177525}"] = "{object:177525}",
-	-- {area:702} Rut'theran Village · {area:442} Auberdine · {object:177525} Moonkin Stone (no name in this language: may be words) · {item:15208} Cenarion Moondust · {npc:12144} Lunaclaw Spirit
+	-- {area:702} Rut'theran Village · {area:442} Auberdine · {object:177525} Moonkin Stone · {item:15208} Cenarion Moondust · {npc:12144} Lunaclaw Spirit
 	["Go back down to {area:702} and fly to {area:442}. The {object:177525} stands in the hills just east of the village: use the {item:15208} there, defeat Lunaclaw and speak to the {npc:12144}."] = "Baja de vuelta a {area:702} y vuela a {area:442}. {object:177525} está en las colinas justo al este del pueblo: usa {item:15208} allí, derrota a Garraluna y habla con {npc:12144}.",
 
 	-- Step 48: Body and Heart
@@ -311,7 +311,7 @@ return {
 	["From {area:17203}, ride through the city gates into {zone:1429} and follow the road west to {zone:1436}."] = "Desde {area:17203}, cabalga por las puertas de la ciudad hacia {zone:1429} y sigue el camino al oeste hasta {zone:1436}.",
 
 	-- Step 50: Defensive Stance
-	-- {object:2100} Old Town (no name in this language: may be words) · {npc:5480} Ilsa Corbin · {npc:6089} Harry Burlguard · {npc:6090} Bartleby · {object:2152} Pig and Whistle Tavern (no name in this language: may be words)
+	-- {object:2100} Old Town · {npc:5480} Ilsa Corbin · {npc:6089} Harry Burlguard · {npc:6090} Bartleby · {object:2152} Pig and Whistle Tavern
 	["From the harbour walk into {object:2100}. {npc:5480} trains warriors there; {npc:6089} and {npc:6090} stand together by the {object:2152}. {npc:6090} fights you for his mug."] = "Desde el puerto entra en {object:2100}. {npc:5480} entrena a los guerreros allí; {npc:6089} y {npc:6090} están juntos junto a {object:2152}. {npc:6090} pelea contigo por su jarra.",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.

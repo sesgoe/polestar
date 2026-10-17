@@ -168,17 +168,17 @@ return {
 	["Pestlezugg's next quest needs the {npc:10041}, an elite boss. Skip it."] = "匹斯特蘇格的下一個任務需要擊殺精英首領{npc:10041}。跳過。",
 
 	-- Step 33: Orgrimmar
-	-- {area:1637} Orgrimmar · {object:3202} Grom'gol (no name in this language: may be words) · {zone:1458} Undercity
+	-- {area:1637} Orgrimmar · {object:3202} Grom'gol · {zone:1458} Undercity
 	["Fly to {area:1637} and train before the {object:3202} zeppelin: the {zone:1458} stop later in this guide has no Hunter or Shaman trainer."] = "飛往{area:1637}，在搭往{object:3202}的飛艇前先訓練：這份指南稍後在{zone:1458}的停留沒有獵人或薩滿訓練師。",
 
 	-- Step 34: Thunder Bluff
-	-- {area:1638} Thunder Bluff · {npc:3033} Turak Runetotem · {area:1639} Elder Rise · {area:1637} Orgrimmar · {object:3202} Grom'gol (no name in this language: may be words)
+	-- {area:1638} Thunder Bluff · {npc:3033} Turak Runetotem · {area:1639} Elder Rise · {area:1637} Orgrimmar · {object:3202} Grom'gol
 	["Fly to {area:1638} and train with {npc:3033} on {area:1639}, then fly to {area:1637} for the {object:3202} zeppelin."] = "飛往{area:1638}，在{area:1639}向{npc:3033}訓練，然後飛往{area:1637}搭乘前往{object:3202}的飛艇。",
 
 	-- Step 35: Fly to Kargath
 	-- {area:340} Kargath
 	["Fly to {area:340}"] = "飛往{area:340}",
-	-- {area:1637} Orgrimmar · {object:3202} Grom'gol (no name in this language: may be words) · {area:340} Kargath · {zone:1418} Badlands
+	-- {area:1637} Orgrimmar · {object:3202} Grom'gol · {area:340} Kargath · {zone:1418} Badlands
 	["Fly to {area:1637}, take the zeppelin to {object:3202} and fly from there to {area:340}, built into the cliffs on the {zone:1418}' west edge."] = "飛往{area:1637}，搭飛艇前往{object:3202}，再從那裡飛往{area:340}，它建在{zone:1418}西緣的懸崖中。",
 
 	-- Step 36: Into the Searing Gorge
@@ -224,9 +224,9 @@ return {
 	["Theodora's next errand goes to Lotwil east of town and then into {area:1584}: skip it."] = "塞朵拉的下一個差事要去鎮東找魯特維爾，然後進入{area:1584}：跳過。",
 
 	-- Step 44: Undercity
-	-- {npc:10879} Harbinger Balthazad · {object:36078} Trade Quarter (no name in this language: may be words)
+	-- {npc:10879} Harbinger Balthazad · {object:36078} Trade Quarter
 	["{npc:10879}, the {object:36078}, beside the bat master"] = "{npc:10879}，{object:36078}，在蝙蝠管理員旁邊",
-	-- {npc:6522} Andron Gant · {object:36073} Rogues' Quarter (no name in this language: may be words)
+	-- {npc:6522} Andron Gant · {object:36073} Rogues' Quarter
 	["{npc:6522}, the {object:36073}"] = "{npc:6522}，{object:36073}",
 	-- {npc:8390} Chemist Cuely · {zone:1447} Azshara
 	["{npc:8390}, the Apothecarium: the vials fill in {zone:1447} later"] = "{npc:8390}，皇家藥劑師協會：瓶子稍後在{zone:1447}裝滿",

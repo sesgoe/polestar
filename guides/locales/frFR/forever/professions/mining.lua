@@ -152,13 +152,13 @@ return {
 	["Mine every Iron (125, green), Gold (155, yellow), Mithril (175, yellow) node you pass and circle the waypoints until {skill:186} 230. Smelt the ore at a forge when your bags fill: smelting also raises {skill:186}. Zone level 35-45."] = "Minez tous les gisements sur votre passage : Fer (125, vert), Or (155, jaune), Mithril (175, jaune). Faites le tour des points de passage jusqu'à {skill:186} 230. Fondez le minerai à une forge quand vos sacs sont pleins : la fonte augmente aussi {skill:186}. Niveau de zone 35-45.",
 
 	-- Step 26: Dark Iron & Truesilver: Searing Gorge (230-245)
-	-- {object:147516} Dark Iron (no name in this language: may be words) · {zone:1427} Searing Gorge
+	-- {object:147516} Dark Iron · {zone:1427} Searing Gorge
 	["{object:147516} & Truesilver: {zone:1427} (230-245)"] = "{object:147516} et Vrai-argent : {zone:1427} (230-245)",
-	-- {object:147516} Dark Iron (no name in this language: may be words) · {skill:186} Mining
+	-- {object:147516} Dark Iron · {skill:186} Mining
 	["Mine every Gold (155, green), Mithril (175, green), {object:147516} (230, orange), Truesilver (230, orange) node you pass and circle the waypoints until {skill:186} 245. Smelt the ore at a forge when your bags fill: smelting also raises {skill:186}. Zone level 43-50."] = "Minez tous les gisements sur votre passage : Or (155, vert), Mithril (175, vert), {object:147516} (230, orange), Vrai-argent (230, orange). Faites le tour des points de passage jusqu'à {skill:186} 245. Fondez le minerai à une forge quand vos sacs sont pleins : la fonte augmente aussi {skill:186}. Niveau de zone 43-50.",
-	-- {object:147516} Dark Iron (no name in this language: may be words)
+	-- {object:147516} Dark Iron
 	["Truesilver, {object:147516}"] = "Vrai-argent, {object:147516}",
-	-- {object:147516} Dark Iron (no name in this language: may be words)
+	-- {object:147516} Dark Iron
 	["{object:147516}, Gold"] = "{object:147516}, Or",
 
 	-- Step 27: Truesilver & Small Thorium: Blasted Lands (245-275)
@@ -170,8 +170,8 @@ return {
 	-- Step 28: Rich Thorium: Burning Steppes (275-300)
 	-- {zone:1428} Burning Steppes
 	["Rich Thorium: {zone:1428} (275-300)"] = "Riche thorium : {zone:1428} (275-300)",
-	-- {object:147516} Dark Iron (no name in this language: may be words) · {skill:186} Mining
+	-- {object:147516} Dark Iron · {skill:186} Mining
 	["Mine every {object:147516} (230, yellow), Truesilver (230, yellow), Small Thorium (245, yellow), Rich Thorium (275, orange) node you pass and circle the waypoints until {skill:186} 300. Smelt the ore at a forge when your bags fill: smelting also raises {skill:186}. Zone level 50-58."] = "Minez tous les gisements sur votre passage : {object:147516} (230, jaune), Vrai-argent (230, jaune), Petit thorium (245, jaune), Riche thorium (275, orange). Faites le tour des points de passage jusqu'à {skill:186} 300. Fondez le minerai à une forge quand vos sacs sont pleins : la fonte augmente aussi {skill:186}. Niveau de zone 50-58.",
-	-- {object:147516} Dark Iron (no name in this language: may be words)
+	-- {object:147516} Dark Iron
 	["{object:147516}, Rich Thorium"] = "{object:147516}, Riche thorium",
 }

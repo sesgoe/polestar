@@ -9,13 +9,13 @@ return {
 	-- Step 1: To Orgrimmar
 	-- {area:1637} Orgrimmar
 	["To {area:1637}"] = "前往{area:1637}",
-	-- {area:380} Crossroads · {area:1637} Orgrimmar · {npc:3310} Doras · {object:172982} Valley of Strength (no name in this language: may be words)
+	-- {area:380} Crossroads · {area:1637} Orgrimmar · {npc:3310} Doras · {object:172982} Valley of Strength
 	["From the {area:380}, follow the road north-east to {area:1637} and walk in by the main gate. {npc:3310}, the wind rider master, stands on the tower in the {object:172982}."] = "從{area:380}沿著道路向東北前往{area:1637}，從正門走進去。雙足飛龍管理員{npc:3310}站在{object:172982}的塔上。",
 
 	-- Step 2: Orgrimmar class quests
 	-- {zone:1454} Orgrimmar
 	["{zone:1454} class quests"] = "{zone:1454}職業任務",
-	-- {npc:6018} Ur'kyo · {object:172961} Valley of Spirits (no name in this language: may be words)
+	-- {npc:6018} Ur'kyo · {object:172961} Valley of Spirits
 	["{npc:6018} stands in the {object:172961} on the city's west side."] = "{npc:6018}站在城市西側的{object:172961}。",
 
 	-- Step 3: Thunder Bluff
@@ -36,7 +36,7 @@ return {
 	-- Step 5: Zeppelin to Tirisfal Glades
 	-- {zone:1420} Tirisfal Glades
 	["Zeppelin to {zone:1420}"] = "搭飛艇前往{zone:1420}",
-	-- {zone:1454} Orgrimmar · {zone:1420} Tirisfal Glades · {object:3202} Grom'gol (no name in this language: may be words)
+	-- {zone:1454} Orgrimmar · {zone:1420} Tirisfal Glades · {object:3202} Grom'gol
 	["The zeppelin towers stand just outside {zone:1454}'s main gate. Take the zeppelin to {zone:1420} (the other one goes to {object:3202})."] = "飛艇塔就在{zone:1454}正門外。搭乘前往{zone:1420}的飛艇（另一艘前往{object:3202}）。",
 	["Zeppelin tower"] = "飛艇塔",
 
@@ -158,11 +158,11 @@ return {
 	["Follow the road north out of Silverpine into {zone:1420} and east to the zeppelin towers outside the {area:153}. Take the zeppelin to {zone:1454}."] = "沿著道路向北離開銀松森林進入{zone:1420}，向東前往{area:153}外的飛艇塔。搭乘前往{zone:1454}的飛艇。",
 
 	-- Step 32: Valley of Strength
-	-- {npc:268701} Thatog · {object:172982} Valley of Strength (no name in this language: may be words) · {object:173016} Borstan's Firepit (no name in this language: may be words)
+	-- {npc:268701} Thatog · {object:172982} Valley of Strength · {object:173016} Borstan's Firepit
 	["Walk in through the main gate. {npc:268701} stands in the {object:172982}; {object:173016} is a few steps north."] = "從正門走進去。{npc:268701}站在{object:172982}；{object:173016}往北走幾步就到。",
 
 	-- Step 33: Cleft of Shadow
-	-- {object:172960} Cleft of Shadow (no name in this language: may be words) · {object:172982} Valley of Strength (no name in this language: may be words) · {npc:3216} Neeru Fireblade
+	-- {object:172960} Cleft of Shadow · {object:172982} Valley of Strength · {npc:3216} Neeru Fireblade
 	["The {object:172960} is the canyon under the {object:172982}; {npc:3216} stands at its far end."] = "{object:172960}是{object:172982}下方的峽谷；{npc:3216}站在峽谷盡頭。",
 
 	-- Step 34: The Drag
@@ -170,11 +170,11 @@ return {
 	["{npc:3348} and {npc:3347} run the alchemy shop in the Drag; {npc:11046} is next door."] = "{npc:3348}和{npc:3347}在the Drag經營煉金店；{npc:11046}在隔壁。",
 
 	-- Step 35: Valley of Honor
-	-- {object:172958} Valley of Honor (no name in this language: may be words)
+	-- {object:172958} Valley of Honor
 	["The cattails and speargrass grow along the water in the {object:172958}, east of the Drag."] = "香蒲和長矛草沿著the Drag東邊{object:172958}的水邊生長。",
 
 	-- Step 37: Valley of Wisdom
-	-- {npc:268684} Thra · {npc:268682} Migi · {object:172957} Valley of Wisdom (no name in this language: may be words) · {npc:3310} Doras · {object:172982} Valley of Strength (no name in this language: may be words)
+	-- {npc:268684} Thra · {npc:268682} Migi · {object:172957} Valley of Wisdom · {npc:3310} Doras · {object:172982} Valley of Strength
 	-- plural, as words: Smooth Boulders = {item:277952} Smooth Boulder
 	["{npc:268684} and {npc:268682} sit behind Grommash Hold in the {object:172957}; the Smooth Boulders lie around them. Train while you are in the city (Druids and Paladins have no trainer here). The next guide starts at {npc:3310}, the wind rider master in the {object:172982}."] = "{npc:268684}和{npc:268682}坐在{object:172957}的Grommash Hold後面；光滑巨石就在他們周圍。趁在城裡時訓練（德魯伊和聖騎士在這裡沒有訓練師）。下一份指南從{object:172982}的雙足飛龍管理員{npc:3310}開始。",
 	-- {npc:4949} Thrall

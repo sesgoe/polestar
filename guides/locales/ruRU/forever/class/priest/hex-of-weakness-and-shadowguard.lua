@@ -13,7 +13,7 @@ return {
 	["The Troll priest spells: {quest:5652} at 10, {quest:5642} at 20."] = "Заклинания жрецов-троллей: {quest:5652} на 10-м уровне, {quest:5642} на 20-м.",
 
 	-- Step 1: Hex of Weakness
-	-- {npc:6018} Ur'kyo · {object:172961} Valley of Spirits (no name in this language: may be words) · {zone:1454} Orgrimmar · {npc:3706} Tai'jin · {area:362} Razor Hill · {npc:3044} Miles Welsh · {zone:1456} Thunder Bluff
+	-- {npc:6018} Ur'kyo · {object:172961} Valley of Spirits · {zone:1454} Orgrimmar · {npc:3706} Tai'jin · {area:362} Razor Hill · {npc:3044} Miles Welsh · {zone:1456} Thunder Bluff
 	["At 10, go to {npc:6018} in the {object:172961}, on {zone:1454}'s west side. Priest trainers elsewhere ({npc:3706} in {area:362}, {npc:3044} in {zone:1456}) send you to him with a quest of the same name."] = "На 10-м уровне идите к NPC {npc:6018} ({object:172961}, западная часть города {zone:1454}). Учителя жрецов в других местах ({npc:3706} — {area:362}, {npc:3044} — {zone:1456}) отправляют вас к нему с одноименным заданием.",
 
 	-- Step 2: Shadowguard

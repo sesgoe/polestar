@@ -13,7 +13,7 @@ return {
 	["The Undead priest spells: {spell:2652} at 10, {quest:5644} at 20."] = "Los hechizos de sacerdote no-muerto: {spell:2652} a nivel 10, {quest:5644} a nivel 20.",
 
 	-- Step 1: Touch of Weakness
-	-- {npc:4606} Aelthalyste · {zone:1458} Undercity · {object:36070} War Quarter (no name in this language: may be words) · {npc:6018} Ur'kyo · {zone:1454} Orgrimmar · {npc:3706} Tai'jin · {area:362} Razor Hill · {npc:3044} Miles Welsh · {zone:1456} Thunder Bluff
+	-- {npc:4606} Aelthalyste · {zone:1458} Undercity · {object:36070} War Quarter · {npc:6018} Ur'kyo · {zone:1454} Orgrimmar · {npc:3706} Tai'jin · {area:362} Razor Hill · {npc:3044} Miles Welsh · {zone:1456} Thunder Bluff
 	["At 10, go to {npc:4606} in the {zone:1458}'s {object:36070}. Priest trainers elsewhere ({npc:6018} in {zone:1454}, {npc:3706} in {area:362}, {npc:3044} in {zone:1456}) send you to her with a quest of the same name."] = "A nivel 10, ve con {npc:4606} en {object:36070} de {zone:1458}. Los instructores de sacerdote de otros lugares ({npc:6018} en {zone:1454}, {npc:3706} en {area:362}, {npc:3044} en {zone:1456}) te envían con ella mediante una misión del mismo nombre.",
 
 	-- Step 2: Dark Sacrifice

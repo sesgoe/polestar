@@ -11,7 +11,7 @@ return {
 	["Your epic mount at 60, summoned at will: the faster step up from the Warhorse."] = "Votre monture épique au niveau 60, invoquée à volonté : l'étape plus rapide après le Cheval de guerre.",
 
 	-- Step 1: Lord Grayson Shadowbreaker (Ironforge)
-	-- {npc:5149} Brandur Ironhammer · {object:32362} Mystic Ward (no name in this language: may be words) · {quest:7638} Lord Grayson Shadowbreaker · {zone:1453} Stormwind
+	-- {npc:5149} Brandur Ironhammer · {object:32362} Mystic Ward · {quest:7638} Lord Grayson Shadowbreaker · {zone:1453} Stormwind
 	["At 60 {npc:5149} in the {object:32362} sends you to {quest:7638} in {zone:1453}'s Cathedral of Light."] = "Au niveau 60, {npc:5149}, dans {object:32362}, vous envoie voir {quest:7638} à la cathédrale de la Lumière de {zone:1453}.",
 
 	-- Step 2: Lord Grayson Shadowbreaker
@@ -21,7 +21,7 @@ return {
 	["{npc:6171}, Cathedral of Light"] = "{npc:6171}, cathédrale de la Lumière",
 
 	-- Step 3: High Priest Rohan
-	-- {npc:11406} High Priest Rohan · {zone:1455} Ironforge · {object:32362} Mystic Ward (no name in this language: may be words)
+	-- {npc:11406} High Priest Rohan · {zone:1455} Ironforge · {object:32362} Mystic Ward
 	["{npc:11406} is in {zone:1455}'s {object:32362}. Bring 150 gold: the censer is yours for a donation."] = "{npc:11406} est à {zone:1455}, dans {object:32362}. Apportez 150 pièces d'or : l'encensoir est à vous contre un don.",
 	-- {npc:11406} High Priest Rohan
 	["{npc:11406}: 150 gold"] = "{npc:11406} : 150 pièces d'or",
@@ -36,13 +36,13 @@ return {
 	["Terrordale Spirits"] = "Esprits de Val-Terreur ({npc:14564})",
 
 	-- Step 7: Grimand Elmore
-	-- {npc:1416} Grimand Elmore · {zone:1453} Stormwind · {object:28027} Dwarven District (no name in this language: may be words)
+	-- {npc:1416} Grimand Elmore · {zone:1453} Stormwind · {object:28027} Dwarven District
 	["{npc:1416} works in {zone:1453}'s {object:28027}."] = "{npc:1416} travaille à {zone:1453}, dans {object:28027}.",
 
 	-- Step 8: Grimand Elmore's materials
 	-- {npc:1416} Grimand Elmore
 	["{npc:1416}'s materials"] = "Matériaux de {npc:1416}",
-	-- {item:14047} Runecloth · {item:8836} Arthas' Tears · {zone:1448} Felwood · {skill:171} Alchemy · {zone:1453} Stormwind · {object:2096} Trade District (no name in this language: may be words)
+	-- {item:14047} Runecloth · {item:8836} Arthas' Tears · {zone:1448} Felwood · {skill:171} Alchemy · {zone:1453} Stormwind · {object:2096} Trade District
 	-- plural, as words: Arcanite Bars = {item:12360} Arcanite Bar
 	["{item:14047} drops from humanoids around level 50 and up; {item:8836} is an herb of the Plaguelands and {zone:1448}; Arcanite Bars are an {skill:171} transmute. The Auction House in {zone:1453}'s {object:2096} sells all three, and so do crafters."] = "{item:14047} est lâchée par les humanoïdes à partir du niveau 50 environ ; {item:8836} est une herbe des Maleterres et de {zone:1448} ; les Barres d'arcanite sont une transmutation d'{skill:171}. L'hôtel des ventes de {zone:1453}, dans {object:2096}, vend les trois, tout comme les artisans.",
 	-- plural, as words: Arcanite Bars = {item:12360} Arcanite Bar
@@ -68,7 +68,7 @@ return {
 	-- Step 12: Enriched Manna Biscuits
 	-- plural, as words: Enriched Manna Biscuits = {item:13724} Enriched Manna Biscuit
 	["Enriched Manna Biscuits"] = "Biscuits enrichis en manne",
-	-- {object:2160} The Argent Dawn (no name in this language: may be words) · {object:92525} Argent Dawn (no name in this language: may be words) · {npc:10857} Argent Quartermaster Lightspark · {area:3197} Chillwind Camp · {npc:11536} Quartermaster Miranda Breechlock · {area:2268} Light's Hope Chapel · {npc:10856} Argent Quartermaster Hasana · {area:813} Bulwark
+	-- {object:2160} The Argent Dawn · {object:92525} Argent Dawn · {npc:10857} Argent Quartermaster Lightspark · {area:3197} Chillwind Camp · {npc:11536} Quartermaster Miranda Breechlock · {area:2268} Light's Hope Chapel · {npc:10856} Argent Quartermaster Hasana · {area:813} Bulwark
 	["{object:2160} quartermasters sell the biscuits in fives once the {object:92525} is Friendly with you: {npc:10857} at {area:3197}, {npc:11536} at {area:2268}, {npc:10856} at the {area:813}."] = "Les intendants de {object:2160} vendent les biscuits par cinq dès que vous êtes Amical avec {object:92525} : {npc:10857} à {area:3197}, {npc:11536} à {area:2268}, {npc:10856} à {area:813}.",
 	-- {npc:10857} Argent Quartermaster Lightspark · {area:3197} Chillwind Camp
 	-- plural, as words: Enriched Manna Biscuits = {item:13724} Enriched Manna Biscuit

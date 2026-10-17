@@ -298,7 +298,7 @@ return {
 	["Back to {npc:268592}, then west into the {area:16623}: {npc:268605}'s home is in the hills south of the Windsong Crawlers' lakes."] = "{npc:268592}에게 돌아간 뒤 서쪽 {area:16623}(으)로 가세요. {npc:268605}의 집은 바람노래 집게발 호수 남쪽 언덕에 있습니다.",
 
 	-- Step 61: The Eternal Flame
-	-- {object:148418} Eternal Flame (no name in this language: may be words)
+	-- {object:148418} Eternal Flame
 	["The {object:148418}"] = "{object:148418}",
 	-- {npc:268592} Olariaan Swiftburn · {npc:268762} Brazier of Offering · {npc:268679} Brazier of Eternal Flame · {npc:252382} Sessaria Skystride · {area:16638} Valanaar
 	["Back to {npc:268592}. Wait for him to light the {npc:268762}, then carry the flame straight to the {npc:268679} beside {npc:252382} in {area:16638} before the timer runs out."] = "{npc:268592}에게 돌아가세요. 그가 {npc:268762}에 불을 붙이면, 시간이 끝나기 전에 불꽃을 곧장 {area:16638}의 {npc:252382} 옆 {npc:268679}(으)로 가져가세요.",

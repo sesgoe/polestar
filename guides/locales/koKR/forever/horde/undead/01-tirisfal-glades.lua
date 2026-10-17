@@ -264,11 +264,11 @@ return {
 	["{npc:1496} stands in {area:159}. {npc:6390} waits in the mausoleum on the hill just north of town: open the gate and fight him."] = "{npc:1496}은(는) {area:159}에 있습니다. {npc:6390}은(는) 마을 바로 북쪽 언덕의 묘지에서 기다립니다. 문을 열고 그와 싸우십시오.",
 
 	-- Step 50: Carendin Halgar
-	-- {area:159} Brill · {area:153} Ruins of Lordaeron · {zone:1458} Undercity · {npc:5675} Carendin Halgar · {object:36082} Magic Quarter (no name in this language: may be words)
+	-- {area:159} Brill · {area:153} Ruins of Lordaeron · {zone:1458} Undercity · {npc:5675} Carendin Halgar · {object:36082} Magic Quarter
 	["Walk south from {area:159} to the {area:153} and down into the {zone:1458}. {npc:5675} stands in the {object:36082}. The Scarlet camp is just west of the ruins."] = "{area:159}에서 남쪽 {area:153}(으)로 가서 {zone:1458}(으)로 내려가세요. {npc:5675}은(는) {object:36082}에 있습니다. 붉은십자군 야영지는 폐허 바로 서쪽입니다.",
 
 	-- Step 51: Anastasia Hartwell
-	-- {area:159} Brill · {area:153} Ruins of Lordaeron · {zone:1458} Undercity · {npc:4568} Anastasia Hartwell · {object:36082} Magic Quarter (no name in this language: may be words)
+	-- {area:159} Brill · {area:153} Ruins of Lordaeron · {zone:1458} Undercity · {npc:4568} Anastasia Hartwell · {object:36082} Magic Quarter
 	["Walk south from {area:159} to the {area:153} and down into the {zone:1458}. {npc:4568} stands in the {object:36082}. The Scarlet camp is just west of the ruins."] = "{area:159}에서 남쪽 {area:153}(으)로 가서 {zone:1458}(으)로 내려가세요. {npc:4568}은(는) {object:36082}에 있습니다. 붉은십자군 야영지는 폐허 바로 서쪽입니다.",
 
 	-- Step 52: The Scarlet camp
@@ -342,13 +342,13 @@ return {
 	["Listen to Leonid and {npc:246378}, then talk to him again"] = "리어니드와 {npc:246378}의 대화를 들은 뒤 그에게 다시 말을 거세요",
 
 	-- Step 68: The Undercity
-	-- {object:1661} The Undercity (no name in this language: may be words) · {area:153} Ruins of Lordaeron · {npc:5675} Carendin Halgar · {object:36082} Magic Quarter (no name in this language: may be words) · {item:6284} Runes of Summoning · {npc:4606} Aelthalyste · {object:36070} War Quarter (no name in this language: may be words) · {npc:4568} Anastasia Hartwell
+	-- {object:1661} The Undercity · {area:153} Ruins of Lordaeron · {npc:5675} Carendin Halgar · {object:36082} Magic Quarter · {item:6284} Runes of Summoning · {npc:4606} Aelthalyste · {object:36070} War Quarter · {npc:4568} Anastasia Hartwell
 	["{object:1661} is under the {area:153}, beside the zeppelin towers. {npc:5675} is in the {object:36082}: use the {item:6284} on the summoning circle beside him and defeat the voidwalker. {npc:4606} is in the {object:36070}. {npc:4568} is in the {object:36082} too."] = "{object:1661}은(는) 비행선 탑 옆 {area:153} 아래에 있습니다. {npc:5675}은(는) {object:36082}에 있습니다. 그 옆의 소환진에서 {item:6284}을(를) 사용하고 공허방랑자를 물리치세요. {npc:4606}은(는) {object:36070}에 있습니다. {npc:4568}도 {object:36082}에 있습니다.",
 
 	-- Step 69: Zeppelin to Durotar
 	-- {zone:1411} Durotar
 	["Zeppelin to {zone:1411}"] = "비행선으로 {zone:1411}에 가기",
-	-- {area:159} Brill · {area:153} Ruins of Lordaeron · {zone:1454} Orgrimmar · {object:3202} Grom'gol (no name in this language: may be words)
+	-- {area:159} Brill · {area:153} Ruins of Lordaeron · {zone:1454} Orgrimmar · {object:3202} Grom'gol
 	["Walk south-east from {area:159} to the zeppelin towers outside the {area:153} and board the zeppelin to {zone:1454} (the other one goes to {object:3202})."] = "{area:159}에서 남동쪽으로 {area:153} 밖의 비행선 탑으로 가서 {zone:1454}행 비행선에 타세요(다른 하나는 {object:3202}(으)로 갑니다).",
 	["Zeppelin tower"] = "비행선 탑",
 

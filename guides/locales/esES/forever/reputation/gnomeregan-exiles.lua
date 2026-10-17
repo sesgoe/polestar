@@ -10,7 +10,7 @@ return {
 	["Gnomeregan Exiles Reputation"] = "Reputación: Exiliado de Gnomeregan",
 
 	-- Step 1: Bubulo Acerbus: A Donation of Wool
-	-- {npc:14724} Bubulo Acerbus · {faction:54} Gnomeregan Exiles · {object:171524} Tinker Town (no name in this language: may be words) · {zone:1455} Ironforge · {item:14047} Runecloth · {quest:7812} Additional Runecloth
+	-- {npc:14724} Bubulo Acerbus · {faction:54} Gnomeregan Exiles · {object:171524} Tinker Town · {zone:1455} Ironforge · {item:14047} Runecloth · {quest:7812} Additional Runecloth
 	["{npc:14724} takes cloth for {faction:54} in {object:171524}, {zone:1455}. The first donations of Wool, Silk, Mageweave and {item:14047} (60 cloth each) are done once and give the most reputation per cloth; after them, {quest:7812} repeats until Exalted. Exalted with another race's city lets you buy that race's mounts. Forever's Legacy Diplomat perk increases reputation gains."] = "{npc:14724} acepta paño para {faction:54} en {object:171524}, {zone:1455}. Los primeros donativos de Paño de lana, Paño de seda, Tela de paño mágico y {item:14047} (60 paños cada uno) se hacen una sola vez y dan la mayor reputación por paño; después, {quest:7812} se repite hasta Exaltado. Ser Exaltado con la ciudad de otra raza te permite comprar las monturas de esa raza. La ventaja de Legado Diplomático de Forever aumenta la reputación obtenida.",
 
 	-- Step 2: Wool Cloth
@@ -24,7 +24,7 @@ return {
 	["Dunemaul ogres (level 45-48) drop it here. The Auction House works too."] = "Los Ogros Machacaduna (nivel 45-48) lo sueltan aquí. La casa de subastas también sirve.",
 
 	-- Step 8: Runecloth
-	-- {object:92525} Argent Dawn (no name in this language: may be words)
+	-- {object:92525} Argent Dawn
 	-- plural, as words: Dark Adepts = {npc:8546} Dark Adept
 	["Dark Adepts and Shadowmages (level 58-60) drop it here; every Scourge kill here also counts toward the {object:92525} (see that guide). The Auction House works too."] = "Adeptos oscuros y Magos oscuros (nivel 58-60) lo sueltan aquí; cada muerte de la Plaga aquí también cuenta para {object:92525} (mira esa guía). La casa de subastas también sirve.",
 

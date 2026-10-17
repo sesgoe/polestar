@@ -62,7 +62,7 @@ return {
 	["{npc:12759}, a corrupted water elemental, drifts in {area:421}. Her {item:16408} starts a quest for Splintertree."] = "{npc:12759}, un elemental de agua corrupto, flota en {area:421}. Su {item:16408} inicia una misión para Puesto del Hachazo.",
 
 	-- Step 13: King of the Foulweald
-	-- {area:421} Mystral Lake · {item:16972} Karang's Banner · {object:178206} Foulweald Totem Mound (no name in this language: may be words) · {npc:12918} Chief Murgut
+	-- {area:421} Mystral Lake · {item:16972} Karang's Banner · {object:178206} Foulweald Totem Mound · {npc:12918} Chief Murgut
 	["The Foulweald furbolgs hold the woods east of {area:421}, south of the road. Place {item:16972} on the {object:178206} and guard it: the furbolgs come to tear it down. {npc:12918} comes last; his totem drops in the basket."] = "Los furbolgs Maderiza ocupan el bosque al este de {area:421}, al sur del camino. Coloca {item:16972} en {object:178206} y defiéndelo: los furbolgs vienen a derribarlo. {npc:12918} llega al final; su tótem cae en la canasta.",
 
 	-- Step 14: Torek's Assault

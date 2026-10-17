@@ -11,7 +11,7 @@ return {
 	["A staff, off-hand or robe for your 50s; {npc:14470}'s own errand, not a step of the Dreadsteed chain."] = "Um cajado, item de mão secundária ou toga para os 50; tarefa própria de {npc:14470}, não uma etapa da série do Corcel Medonho.",
 
 	-- Step 1: An Imp's Request (Stormwind)
-	-- {npc:461} Demisette Cloyce · {object:2164} Slaughtered Lamb (no name in this language: may be words) · {object:2101} Mage Quarter (no name in this language: may be words) · {npc:14470} Impsy · {zone:1448} Felwood
+	-- {npc:461} Demisette Cloyce · {object:2164} Slaughtered Lamb · {object:2101} Mage Quarter · {npc:14470} Impsy · {zone:1448} Felwood
 	["At 50 {npc:461} in the {object:2164}, in the {object:2101}, sends you to {npc:14470} in {zone:1448}."] = "No nível 50, {npc:461} no {object:2164}, no {object:2101}, manda você a {npc:14470} em {zone:1448}.",
 
 	-- Step 2: An Imp's Request (Ironforge)

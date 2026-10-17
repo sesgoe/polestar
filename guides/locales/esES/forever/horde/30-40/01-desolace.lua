@@ -13,7 +13,7 @@ return {
 	["From {area:484}, fly to {area:1637}."] = "Desde {area:484}, vuela a {area:1637}.",
 
 	-- Step 2: Alliance Relations
-	-- {npc:5639} Craven Drok · {npc:5640} Keldran · {object:172961} Valley of Spirits (no name in this language: may be words) · {npc:4949} Thrall · {object:172957} Valley of Wisdom (no name in this language: may be words)
+	-- {npc:5639} Craven Drok · {npc:5640} Keldran · {object:172961} Valley of Spirits · {npc:4949} Thrall · {object:172957} Valley of Wisdom
 	["{npc:5639} waits in the Drag; {npc:5640} stands in the {object:172961} on the west side of the city. Skyborne: {npc:4949} waits in Grommash Hold, in the {object:172957}."] = "{npc:5639} espera en La Calle Mayor; {npc:5640} está en {object:172961}, en el lado oeste de la ciudad. Cielonato: {npc:4949} espera en el Fuerte Grommash, en {object:172957}.",
 	-- {npc:4949} Thrall
 	["{npc:4949}, Grommash Hold, if you carry it"] = "{npc:4949}, Fuerte Grommash, si la llevas",
@@ -29,7 +29,7 @@ return {
 	-- Step 5: Orgrimmar class quests
 	-- {zone:1454} Orgrimmar
 	["{zone:1454} class quests"] = "Misiones de clase en {zone:1454}",
-	-- {npc:5892} Searn Firewarder · {object:172957} Valley of Wisdom (no name in this language: may be words)
+	-- {npc:5892} Searn Firewarder · {object:172957} Valley of Wisdom
 	["{npc:5892} stands in the {object:172957}."] = "{npc:5892} está en {object:172957}.",
 
 	-- Step 6: Ratchet
@@ -198,7 +198,7 @@ return {
 	-- {area:272} Tarren Mill
 	["Back to {area:272}"] = "De vuelta a {area:272}",
 	["Hearth back (or ride north if it is on cooldown)."] = "Usa la piedra de hogar para volver (o ve a caballo al norte si está en tiempo de reutilización).",
-	-- {object:1729} Tainted Keg (no name in this language: may be words) · {object:1728} Dusty Rug
+	-- {object:1729} Tainted Keg · {object:1728} Dusty Rug
 	["Place the {object:1729} on the {object:1728} beside the inn"] = "Coloca el {object:1729} sobre la {object:1728} junto a la posada",
 
 	-- Step 42: Henchman Valik

@@ -82,7 +82,7 @@ return {
 	["Boat to {area:35}"] = "배를 타고 {area:35}(으)로",
 
 	-- Step 19: Booty Bay
-	-- {object:56910} The Salty Sailor Tavern (no name in this language: may be words)
+	-- {object:56910} The Salty Sailor Tavern
 	["{object:56910} is the tall building over the harbour; most of the quest givers are on its floors or the docks below."] = "{object:56910}은(는) 항구 위의 높은 건물입니다. 퀘스트 제공자 대부분이 그 층들이나 아래 부두에 있습니다.",
 	-- {zone:1446} Tanaris
 	["for Stoley in {zone:1446}: keep it"] = "{zone:1446}의 스톨리에게 줄 것: 보관하세요",
@@ -178,11 +178,11 @@ return {
 	["{npc:2498}'s next Zanzil errand starts in {zone:1441}: skip it."] = "{npc:2498}의 다음 잔질 심부름은 {zone:1441}에서 시작합니다. 건너뛰세요.",
 
 	-- Step 38: Stormwind
-	-- {npc:1141} Angus Stern · {object:2169} Blue Recluse (no name in this language: may be words) · {npc:5384} Brohann Caskbelly · {object:28027} Dwarven District (no name in this language: may be words)
+	-- {npc:1141} Angus Stern · {object:2169} Blue Recluse · {npc:5384} Brohann Caskbelly · {object:28027} Dwarven District
 	["{npc:1141} cooks in the {object:2169}; {npc:5384} is in the {object:28027}."] = "{npc:1141}은(는) {object:2169}에서 요리하고, {npc:5384}은(는) {object:28027}에 있습니다.",
 	-- {npc:5694} High Sorcerer Andromath · {area:1438} Nethergarde Keep
 	["{npc:5694}: for {area:1438}, keep it"] = "{npc:5694}: {area:1438}에 쓸 것, 보관하세요",
-	-- {npc:1440} Milton Sheaf · {object:2117} Stormwind Keep (no name in this language: may be words)
+	-- {npc:1440} Milton Sheaf · {object:2117} Stormwind Keep
 	["{npc:1440}, the Royal Library in {object:2117}"] = "{npc:1440}, {object:2117}의 왕실 도서관",
 
 	-- Step 39: Riding at 40
@@ -213,7 +213,7 @@ return {
 	-- Step 43: Warlock: Summon Felsteed
 	-- {quest:3631} Summon Felsteed
 	["Warlock: {quest:3631}"] = "흑마법사: {quest:3631}",
-	-- {npc:461} Demisette Cloyce · {object:2164} Slaughtered Lamb (no name in this language: may be words) · {npc:6251} Strahad Farsan · {area:392} Ratchet
+	-- {npc:461} Demisette Cloyce · {object:2164} Slaughtered Lamb · {npc:6251} Strahad Farsan · {area:392} Ratchet
 	["{npc:461}, in the {object:2164}: {npc:6251} in {area:392} takes it at the end of the next guide"] = "{npc:461}, {object:2164} 안: 다음 가이드 끝에 {area:392}의 {npc:6251}이(가) 받습니다",
 
 	-- Step 44: Watcher Biggs
@@ -246,7 +246,7 @@ return {
 	["for {npc:5635} at {area:348}: keep it"] = "{area:348}의 {npc:5635}에게 줄 것: 보관하세요",
 
 	-- Step 50: Ironforge
-	-- {area:2257} Deeprun Tram · {object:28027} Dwarven District (no name in this language: may be words) · {npc:5637} Roetten Stonehammer · {object:32356} Hall of Explorers (no name in this language: may be words) · {npc:1356} Prospector Stormpike · {npc:2786} Gerrig Bonegrip · {object:32383} Forlorn Cavern (no name in this language: may be words) · {area:144} Thelsamar
+	-- {area:2257} Deeprun Tram · {object:28027} Dwarven District · {npc:5637} Roetten Stonehammer · {object:32356} Hall of Explorers (no name in this language: may be words) · {npc:1356} Prospector Stormpike · {npc:2786} Gerrig Bonegrip · {object:32383} Forlorn Cavern · {area:144} Thelsamar
 	["Take the {area:2257} from the {object:28027}. {npc:5637} is in the Reclaimers' hall by the {object:32356}, {npc:1356} in the hall itself, {npc:2786} in the {object:32383}. The next guide flies on to {area:144}."] = "{object:28027}에서 {area:2257}을(를) 타세요. {npc:5637}은(는) {object:32356} 옆 개척자 연맹 전당에, {npc:1356}은(는) 전당 안에, {npc:2786}은(는) {object:32383}에 있습니다. 다음 가이드에서 {area:144}(으)로 날아갑니다.",
 	-- {npc:1356} Prospector Stormpike · {npc:1344} Prospector Ironband · {zone:1432} Loch Modan
 	["{npc:1356}: for {npc:1344} in {zone:1432}, keep it"] = "{npc:1356}: {zone:1432}의 {npc:1344}에게 줄 것, 보관하세요",

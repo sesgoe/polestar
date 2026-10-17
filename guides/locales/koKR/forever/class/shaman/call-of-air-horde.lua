@@ -13,7 +13,7 @@ return {
 	["The {item:5178} that lets you place air totems, then a weapon of your choice at 40."] = "바람의 토템을 놓을 수 있게 해 주는 {item:5178}, 그리고 40레벨에 원하는 무기 하나.",
 
 	-- Step 1: Searn Firewarder
-	-- {npc:5892} Searn Firewarder · {object:172957} Valley of Wisdom (no name in this language: may be words) · {npc:5905} Prate Cloudseer · {zone:1441} Thousand Needles
+	-- {npc:5892} Searn Firewarder · {object:172957} Valley of Wisdom · {npc:5905} Prate Cloudseer · {zone:1441} Thousand Needles
 	["At 30 {npc:5892} in the {object:172957} sends you to {npc:5905} in {zone:1441}."] = "30레벨에 {object:172957}의 {npc:5892}이(가) 당신을 {zone:1441}의 {npc:5905}에게 보냅니다.",
 
 	-- Step 2: Xanis Flameweaver

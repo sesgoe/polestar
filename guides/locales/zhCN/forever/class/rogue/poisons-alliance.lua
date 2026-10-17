@@ -13,7 +13,7 @@ return {
 	["Forever teaches {spell:2842} through this chain, not the trainer; the {item:7676} recipe comes with it."] = "Forever 通过这条任务线而不是训练师教授{spell:2842}；同时获得{item:7676}的配方。",
 
 	-- Step 1: Mathias and the Defias
-	-- {npc:332} Master Mathias Shaw · {object:2100} Old Town (no name in this language: may be words) · {npc:7024} Agent Kearnen · {zone:1436} Westfall
+	-- {npc:332} Master Mathias Shaw · {object:2100} Old Town · {npc:7024} Agent Kearnen · {zone:1436} Westfall
 	["At 20 {npc:332} at SI:7 in {object:2100} sends you to {npc:7024} in {zone:1436}."] = "20级时，{object:2100}军情七处的{npc:332}会让你去找{zone:1436}的{npc:7024}。",
 
 	-- Step 2: Agent Kearnen
@@ -23,7 +23,7 @@ return {
 	["{item:7908}, in the {object:123214}"] = "{item:7908}，在{object:123214}里",
 
 	-- Step 3: Master Mathias Shaw
-	-- {zone:1453} Stormwind · {object:2100} Old Town (no name in this language: may be words)
+	-- {zone:1453} Stormwind · {object:2100} Old Town
 	["Ride north through Elwynn to {zone:1453}; Mathias Shaw is at SI:7 in {object:2100}."] = "向北穿过艾尔文森林前往{zone:1453}；马迪亚斯·肖尔在{object:2100}的军情七处。",
 
 	-- Step 4: Doc Mixilpixil

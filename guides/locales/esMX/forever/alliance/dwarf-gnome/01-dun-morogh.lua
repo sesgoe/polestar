@@ -344,7 +344,7 @@ return {
 	-- Step 72: Ironforge class quests
 	-- {zone:1455} Ironforge
 	["{zone:1455} class quests"] = "Misiones de clase de {zone:1455}",
-	-- {npc:10090} Belia Thundergranite · {object:32390} Hall of Arms (no name in this language: may be words) · {npc:258785} High Priestess Mims · {object:32386} Hall of Mysteries (no name in this language: may be words) · {npc:6120} Lago Blackwrench · {object:32383} Forlorn Cavern (no name in this language: may be words)
+	-- {npc:10090} Belia Thundergranite · {object:32390} Hall of Arms (no name in this language: may be words) · {npc:258785} High Priestess Mims · {object:32386} Hall of Mysteries (no name in this language: may be words) · {npc:6120} Lago Blackwrench · {object:32383} Forlorn Cavern
 	["{npc:10090} is in the {object:32390}, {npc:258785} in the {object:32386}, {npc:6120} in the {object:32383}."] = "{npc:10090} está en {object:32390}; {npc:258785}, en {object:32386}; {npc:6120}, en {object:32383}.",
 	-- {npc:6120} Lago Blackwrench · {npc:6122} Gakin the Darkbinder · {zone:1453} Stormwind
 	["{npc:6120}: {npc:6122} in {zone:1453} takes it"] = "{npc:6120}: la recibe {npc:6122} en {zone:1453}",
@@ -352,15 +352,15 @@ return {
 	-- Step 73: The Deeprun Tram
 	-- {area:2257} Deeprun Tram
 	["The {area:2257}"] = "{area:2257}",
-	-- {zone:1455} Ironforge · {area:2257} Deeprun Tram · {object:171524} Tinker Town (no name in this language: may be words) · {zone:1453} Stormwind
+	-- {zone:1455} Ironforge · {area:2257} Deeprun Tram · {object:171524} Tinker Town · {zone:1453} Stormwind
 	["Follow the road up to {zone:1455} and train with your class trainer. The {area:2257} leaves from {object:171524}, in the east of the city. Ride it to {zone:1453}."] = "Sigue el camino hasta {zone:1455} y entrena con tu instructor de clase. {area:2257} sale de {object:171524}, en el este de la ciudad. Tómalo hasta {zone:1453}.",
-	-- {object:660964} Misplaced Packages (no name in this language: may be words) · {object:171524} Tinker Town (no name in this language: may be words)
+	-- {object:660964} Misplaced Packages (no name in this language: may be words) · {object:171524} Tinker Town
 	["{object:660964}, by the mailbox in {object:171524}"] = "{object:660964}, junto al buzón de {object:171524}",
 	-- {npc:258098} Eldrun Stormbreaker · {object:32372} Great Forge (no name in this language: may be words)
 	["{npc:258098}, the shaman trainer, north of the {object:32372}"] = "{npc:258098}, el instructor de chamanes, al norte de {object:32372}",
 
 	-- Step 74: Defensive Stance
-	-- {object:28027} Dwarven District (no name in this language: may be words) · {npc:5480} Ilsa Corbin · {object:2100} Old Town (no name in this language: may be words) · {npc:6089} Harry Burlguard · {npc:6090} Bartleby · {object:2152} Pig and Whistle Tavern (no name in this language: may be words)
+	-- {object:28027} Dwarven District · {npc:5480} Ilsa Corbin · {object:2100} Old Town · {npc:6089} Harry Burlguard · {npc:6090} Bartleby · {object:2152} Pig and Whistle Tavern
 	["The tram arrives in the {object:28027}. {npc:5480} trains warriors in {object:2100}; {npc:6089} and {npc:6090} stand together by the {object:2152} there. {npc:6090} fights you for his mug."] = "El tranvía llega a {object:28027}. {npc:5480} entrena guerreros en {object:2100}; {npc:6089} y {npc:6090} están juntos junto a {object:2152}, allí. {npc:6090} pelea contigo por su jarra.",
 
 	-- Step 75: Desperate Prayer
@@ -368,7 +368,7 @@ return {
 	["{npc:376} is in the Cathedral of Light."] = "{npc:376} está en la catedral.",
 
 	-- Step 76: Gakin the Darkbinder
-	-- {npc:6122} Gakin the Darkbinder · {object:2164} Slaughtered Lamb (no name in this language: may be words) · {object:2101} Mage Quarter (no name in this language: may be words)
+	-- {npc:6122} Gakin the Darkbinder · {object:2164} Slaughtered Lamb · {object:2101} Mage Quarter
 	["{npc:6122} waits in the cellar of the {object:2164}, in the {object:2101}."] = "{npc:6122} espera en el sótano de {object:2164}, en {object:2101}.",
 
 	-- Step 77: Surena Caledon
@@ -376,12 +376,12 @@ return {
 	["Leave {zone:1453} by the main gate, go south to {area:87} and east along the road to the {area:62}. {npc:881} (level 9) stands by its farmhouse."] = "Sal de {zone:1453} por la puerta principal, ve al sur hasta {area:87} y al este por el camino hasta {area:62}. {npc:881} (nivel 9) está junto a su casa de campo.",
 
 	-- Step 78: The Binding
-	-- {npc:6122} Gakin the Darkbinder · {item:6928} Bloodstone Choker · {object:2164} Slaughtered Lamb (no name in this language: may be words) · {zone:1436} Westfall · {area:87} Goldshire
+	-- {npc:6122} Gakin the Darkbinder · {item:6928} Bloodstone Choker · {object:2164} Slaughtered Lamb · {zone:1436} Westfall · {area:87} Goldshire
 	["Back to {npc:6122}. Use the {item:6928} at the summoning circle in the {object:2164}'s cellar and defeat the voidwalker it calls. {zone:1436} is next, west of {area:87}."] = "De vuelta con {npc:6122}. Usa la {item:6928} en el círculo de invocación del sótano de {object:2164} y derrota al abisario que aparece. Sigue {zone:1436}, al oeste de {area:87}.",
 	["Subdue the voidwalker"] = "Somete al abisario",
 
 	-- Step 79: Jennea Cannon
-	-- {npc:5497} Jennea Cannon · {object:2101} Mage Quarter (no name in this language: may be words) · {quest:1861} Mirror Lake
+	-- {npc:5497} Jennea Cannon · {object:2101} Mage Quarter · {quest:1861} Mirror Lake
 	["{npc:5497} stands in the Wizard's Sanctum, the tower of the {object:2101}; she gives you a flask for the {quest:1861} waterfall."] = "{npc:5497} está en la torre de {object:2101}; te da un frasco para la cascada de {quest:1861}.",
 
 	-- Step 80: Mirror Lake

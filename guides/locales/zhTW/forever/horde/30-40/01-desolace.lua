@@ -13,7 +13,7 @@ return {
 	["From {area:484}, fly to {area:1637}."] = "從{area:484}飛往{area:1637}。",
 
 	-- Step 2: Alliance Relations
-	-- {npc:5639} Craven Drok · {npc:5640} Keldran · {object:172961} Valley of Spirits (no name in this language: may be words) · {npc:4949} Thrall · {object:172957} Valley of Wisdom (no name in this language: may be words)
+	-- {npc:5639} Craven Drok · {npc:5640} Keldran · {object:172961} Valley of Spirits · {npc:4949} Thrall · {object:172957} Valley of Wisdom
 	["{npc:5639} waits in the Drag; {npc:5640} stands in the {object:172961} on the west side of the city. Skyborne: {npc:4949} waits in Grommash Hold, in the {object:172957}."] = "{npc:5639}在The Drag等著；{npc:5640}站在城市西側的{object:172961}。天裔精靈：{npc:4949}在{object:172957}的Grommash Hold等著。",
 	-- {npc:4949} Thrall
 	["{npc:4949}, Grommash Hold, if you carry it"] = "{npc:4949}，Grommash Hold，如果你帶著它",
@@ -29,7 +29,7 @@ return {
 	-- Step 5: Orgrimmar class quests
 	-- {zone:1454} Orgrimmar
 	["{zone:1454} class quests"] = "{zone:1454}的職業任務",
-	-- {npc:5892} Searn Firewarder · {object:172957} Valley of Wisdom (no name in this language: may be words)
+	-- {npc:5892} Searn Firewarder · {object:172957} Valley of Wisdom
 	["{npc:5892} stands in the {object:172957}."] = "{npc:5892}站在{object:172957}。",
 
 	-- Step 6: Ratchet
@@ -198,7 +198,7 @@ return {
 	-- {area:272} Tarren Mill
 	["Back to {area:272}"] = "返回{area:272}",
 	["Hearth back (or ride north if it is on cooldown)."] = "用爐石回去（如果在冷卻中就向北騎）。",
-	-- {object:1729} Tainted Keg (no name in this language: may be words) · {object:1728} Dusty Rug
+	-- {object:1729} Tainted Keg · {object:1728} Dusty Rug
 	["Place the {object:1729} on the {object:1728} beside the inn"] = "把{object:1729}放在旅店旁的{object:1728}上",
 
 	-- Step 42: Henchman Valik
@@ -239,6 +239,6 @@ return {
 	-- Step 49: Fly to the Undercity
 	-- {area:1497} Undercity
 	["Fly to the {area:1497}"] = "飛往{area:1497}",
-	-- {area:1497} Undercity · {object:3202} Grom'gol (no name in this language: may be words)
+	-- {area:1497} Undercity · {object:3202} Grom'gol
 	["The next guide starts in the {area:1497}, at the {object:3202} zeppelin."] = "下一份指南從{area:1497}的{object:3202}飛艇開始。",
 }

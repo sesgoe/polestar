@@ -23,7 +23,7 @@ return {
 	["At 16 {npc:3599} in {area:186} sends you to {quest:2259} in {zone:1457}."] = "16级时，{area:186}的{npc:3599}会让你去{zone:1457}找{quest:2259}。",
 
 	-- Step 5: Renzik "The Shiv"
-	-- {npc:6946} Renzik "The Shiv" · {npc:332} Master Mathias Shaw · {quest:2300} SI:7 · {object:2100} Old Town (no name in this language: may be words) · {area:2257} Deeprun Tram · {zone:1455} Ironforge · {area:442} Auberdine · {area:17203} Stormwind Harbor
+	-- {npc:6946} Renzik "The Shiv" · {npc:332} Master Mathias Shaw · {quest:2300} SI:7 · {object:2100} Old Town · {area:2257} Deeprun Tram · {zone:1455} Ironforge · {area:442} Auberdine · {area:17203} Stormwind Harbor
 	["{npc:6946} stands beside {npc:332} at {quest:2300} in {object:2100}. Dwarves and Gnomes take the {area:2257} from {zone:1455}; Night Elves take the boat from {area:442} to {area:17203}."] = "{npc:6946}站在{object:2100}{quest:2300}的{npc:332}身旁。矮人和侏儒从{zone:1455}乘{area:2257}；暗夜精灵从{area:442}乘船前往{area:17203}。",
 
 	-- Step 6: Lucius

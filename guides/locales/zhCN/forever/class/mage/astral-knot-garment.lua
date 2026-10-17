@@ -10,11 +10,11 @@ return {
 	["A robe or a blouse for Human and Gnome mages in their late 20s."] = "为二十多级的人类和侏儒法师准备的长袍或短衫。",
 
 	-- Step 1: Bink (Ironforge)
-	-- {npc:5144} Bink · {zone:1455} Ironforge · {object:32362} Mystic Ward (no name in this language: may be words) · {area:2257} Deeprun Tram · {object:171524} Tinker Town (no name in this language: may be words) · {zone:1453} Stormwind
+	-- {npc:5144} Bink · {zone:1455} Ironforge · {object:32362} Mystic Ward · {area:2257} Deeprun Tram · {object:171524} Tinker Town · {zone:1453} Stormwind
 	["{npc:5144} teaches mages in {zone:1455}'s {object:32362}. Take the {area:2257} from {object:171524} to {zone:1453} afterwards."] = "{npc:5144}在{zone:1455}的{object:32362}教导法师。之后从{object:171524}乘{area:2257}前往{zone:1453}。",
 
 	-- Step 2: Jennea Cannon (Stormwind)
-	-- {npc:5497} Jennea Cannon · {object:2101} Mage Quarter (no name in this language: may be words)
+	-- {npc:5497} Jennea Cannon · {object:2101} Mage Quarter
 	["{npc:5497} stands in the Wizard's Sanctum, the tower of the {object:2101}."] = "{npc:5497}站在{object:2101}的法师塔里。",
 
 	-- Step 3: High Sorcerer Andromath
@@ -38,6 +38,6 @@ return {
 	["Carrion Recluses lurk in the woods of western {zone:1431} and each one drops the silk. The Black Widow Hatchlings further east drop it now and then."] = "{npc:949}潜伏在{zone:1431}西部的树林里，每只都会掉落蛛丝。更东边的{npc:930}偶尔也会掉落。",
 
 	-- Step 7: Wynne Larson
-	-- {npc:1309} Wynne Larson · {object:23296} Larson Clothiers (no name in this language: may be words) · {object:2101} Mage Quarter (no name in this language: may be words)
+	-- {npc:1309} Wynne Larson · {object:23296} Larson Clothiers · {object:2101} Mage Quarter
 	["{npc:1309} works at {object:23296} in the {object:2101}."] = "{npc:1309}在{object:2101}的{object:23296}工作。",
 }

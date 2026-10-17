@@ -13,7 +13,7 @@ return {
 	["The Troll priest spells: {quest:5652} at 10, {quest:5642} at 20."] = "食人妖牧師法術：10級的{quest:5652}，20級的{quest:5642}。",
 
 	-- Step 1: Hex of Weakness
-	-- {npc:6018} Ur'kyo · {object:172961} Valley of Spirits (no name in this language: may be words) · {zone:1454} Orgrimmar · {npc:3706} Tai'jin · {area:362} Razor Hill · {npc:3044} Miles Welsh · {zone:1456} Thunder Bluff
+	-- {npc:6018} Ur'kyo · {object:172961} Valley of Spirits · {zone:1454} Orgrimmar · {npc:3706} Tai'jin · {area:362} Razor Hill · {npc:3044} Miles Welsh · {zone:1456} Thunder Bluff
 	["At 10, go to {npc:6018} in the {object:172961}, on {zone:1454}'s west side. Priest trainers elsewhere ({npc:3706} in {area:362}, {npc:3044} in {zone:1456}) send you to him with a quest of the same name."] = "10級時，去{zone:1454}西側{object:172961}找{npc:6018}。其他地方的牧師訓練師（{area:362}的{npc:3706}、{zone:1456}的{npc:3044}）會用同名任務派你去找他。",
 
 	-- Step 2: Shadowguard

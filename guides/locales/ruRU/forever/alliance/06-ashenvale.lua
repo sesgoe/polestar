@@ -151,7 +151,7 @@ return {
 	-- Step 39: Captain Stoutfist
 	-- {npc:2104} Captain Stoutfist · {area:2103} Menethil Keep · {npc:1242} Karl Boran
 	["{npc:2104} stands in {area:2103}, a short walk from {npc:1242}."] = "{npc:2104} стоит здесь: {area:2103}, недалеко от NPC {npc:1242}.",
-	-- {object:2117} Stormwind Keep (no name in this language: may be words)
+	-- {object:2117} Stormwind Keep
 	["For Bolvar Fordragon in {object:2117}: keep it"] = "Для Верховного лорда Болвара Фордрагона ({object:2117}): сохраните",
 
 	-- Step 40: Young crocolisks
@@ -224,24 +224,24 @@ return {
 	-- Step 58: Ironforge
 	-- {zone:1437} Wetlands · {area:836} Dun Algaz · {zone:1432} Loch Modan · {zone:1426} Dun Morogh · {area:1537} Ironforge
 	["Ride east along the {zone:1437} road, south through {area:836} into {zone:1432} and west through the tunnel into {zone:1426} to {area:1537}."] = "Скачите на восток по дороге ({zone:1437}), на юг через {area:836} в зону {zone:1432} и на запад через туннель в зону {zone:1426} сюда: {area:1537}.",
-	-- {npc:1573} Gryth Thurden · {object:32372} Great Forge (no name in this language: may be words)
+	-- {npc:1573} Gryth Thurden · {object:32372} Great Forge
 	["{npc:1573}, in the {object:32372}"] = "{npc:1573}, {object:32372}",
-	-- {item:5352} Book: The Powers Below · {zone:1439} Darkshore · {npc:2786} Gerrig Bonegrip · {object:32383} Forlorn Cavern (no name in this language: may be words)
+	-- {item:5352} Book: The Powers Below · {zone:1439} Darkshore · {npc:2786} Gerrig Bonegrip · {object:32383} Forlorn Cavern
 	["Only with {item:5352} from {zone:1439}: {npc:2786}, the {object:32383}"] = "Только если у вас есть {item:5352} из зоны {zone:1439}: {npc:2786}, {object:32383}",
 
 	-- Step 59: Ironforge priests
 	-- {zone:1455} Ironforge
 	["{zone:1455} priests"] = "Жрецы: {zone:1455}",
-	-- {npc:11406} High Priest Rohan · {npc:258785} High Priestess Mims · {object:32386} Hall of Mysteries (no name in this language: may be words) · {object:32362} Mystic Ward (no name in this language: may be words)
+	-- {npc:11406} High Priest Rohan · {npc:258785} High Priestess Mims · {object:32386} Hall of Mysteries · {object:32362} Mystic Ward
 	["{npc:11406} and {npc:258785} are in the {object:32386}, in the {object:32362}."] = "{npc:11406} и {npc:258785} находятся здесь: {object:32386} ({object:32362}).",
 
 	-- Step 60: Cathedral of Light
 	["Cathedral of Light"] = "Собор Света",
-	-- {area:2257} Deeprun Tram · {object:171524} Tinker Town (no name in this language: may be words) · {zone:1453} Stormwind · {object:28027} Dwarven District (no name in this language: may be words) · {object:2098} Cathedral Square (no name in this language: may be words)
+	-- {area:2257} Deeprun Tram · {object:171524} Tinker Town · {zone:1453} Stormwind · {object:28027} Dwarven District · {object:2098} Cathedral Square
 	["Take the {area:2257} from {object:171524} to {zone:1453}'s {object:28027}, then walk to the {object:2098}."] = "Сядьте на поезд ({area:2257}) в месте {object:171524} до места {object:28027} ({zone:1453}), затем идите сюда: {object:2098}.",
 	-- {npc:4982} Thomas
 	["{npc:4982}, in the Cathedral of Light"] = "{npc:4982}, в Соборе Света",
-	-- {npc:1444} Brother Kristoff · {object:2098} Cathedral Square (no name in this language: may be words)
+	-- {npc:1444} Brother Kristoff · {object:2098} Cathedral Square
 	["{npc:1444}, in the {object:2098}"] = "{npc:1444}, {object:2098}",
 
 	-- Step 61: Stormwind Keep
@@ -257,13 +257,13 @@ return {
 	["For {npc:2228} in {area:271}: keep it"] = "Для NPC {npc:2228} ({area:271}): сохраните",
 
 	-- Step 63: Mage Quarter
-	-- {object:2164} The Slaughtered Lamb (no name in this language: may be words) · {object:2101} Mage Quarter (no name in this language: may be words)
+	-- {object:2164} The Slaughtered Lamb · {object:2101} Mage Quarter
 	["{object:2164} is in the {object:2101}."] = "{object:2164} находится здесь: {object:2101}.",
 
 	-- Step 64: Jorgen and Elling Trias
 	-- {npc:4959} Jorgen · {npc:482} Elling Trias
 	["{npc:4959} and {npc:482}"] = "{npc:4959} и {npc:482}",
-	-- {npc:482} Elling Trias · {object:2096} Trade District (no name in this language: may be words)
+	-- {npc:482} Elling Trias · {object:2096} Trade District
 	["{npc:482}, the cheese shop in the {object:2096}"] = "{npc:482}, сырная лавка ({object:2096})",
 
 	-- Step 65: Trade District

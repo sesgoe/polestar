@@ -11,7 +11,7 @@ return {
 	["Your epic mount at 60: summoned anywhere, with no gold spent on an epic horse."] = "Sua montaria épica no nível 60: evocada em qualquer lugar, sem gastar ouro num cavalo épico.",
 
 	-- Step 1: Mor'zul Bloodbringer (Stormwind)
-	-- {npc:5520} Spackle Thornberry · {object:2164} Slaughtered Lamb (no name in this language: may be words) · {quest:7562} Mor'zul Bloodbringer · {zone:1428} Burning Steppes
+	-- {npc:5520} Spackle Thornberry · {object:2164} Slaughtered Lamb · {quest:7562} Mor'zul Bloodbringer · {zone:1428} Burning Steppes
 	["At 60 {npc:5520} in the {object:2164} sends you to {quest:7562} in the {zone:1428}."] = "No nível 60, {npc:5520} no {object:2164} manda você a {quest:7562} nas {zone:1428}.",
 
 	-- Step 2: Mor'zul Bloodbringer (Ironforge)

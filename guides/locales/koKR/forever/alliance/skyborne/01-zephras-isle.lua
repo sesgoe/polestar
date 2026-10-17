@@ -314,7 +314,7 @@ return {
 	["{npc:270459}, beside {npc:259084}: for {npc:5504} in {zone:1453}"] = "{npc:259084} 옆의 {npc:270459}: {zone:1453}의 {npc:5504}용",
 
 	-- Step 57: Stormwind Keep
-	-- {object:2117} Stormwind Keep (no name in this language: may be words) · {zone:1436} Westfall
+	-- {object:2117} Stormwind Keep · {zone:1436} Westfall
 	["Bolvar Fordragon stands in the throne room of {object:2117}, at the north end of the city. Then leave by the main gate for {zone:1436}."] = "볼바르 폴드라곤은 도시 북쪽 끝 {object:2117}의 왕좌실에 서 있습니다. 그런 다음 정문으로 나가 {zone:1436}(으)로 가세요.",
 	-- {npc:234} Gryan Stoutmantle · {area:108} Sentinel Hill
 	["For {npc:234} at {area:108}"] = "{area:108}의 {npc:234}용",
@@ -324,7 +324,7 @@ return {
 	["{npc:5504}, {zone:1453}'s druid trainer, teaches you {spell:18960}. {npc:11802}'s welcome waits for your {spell:499} trip at the end of {zone:1439}."] = "{zone:1453}의 드루이드 상급자 {npc:5504}이(가) {spell:18960}을(를) 가르쳐 줍니다. {npc:11802}의 환영 인사는 {zone:1439} 끝의 {spell:499} 여정에서 기다립니다.",
 
 	-- Step 59: Jennea Cannon
-	-- {npc:5497} Jennea Cannon · {object:2101} Mage Quarter (no name in this language: may be words) · {quest:1861} Mirror Lake
+	-- {npc:5497} Jennea Cannon · {object:2101} Mage Quarter · {quest:1861} Mirror Lake
 	["{npc:5497} stands in the Wizard's Sanctum, the tower of the {object:2101}; she gives you a flask for the {quest:1861} waterfall."] = "{npc:5497}은(는) {object:2101}의 탑인 마법사의 성소에 있습니다. 그녀는 {quest:1861} 폭포에 쓸 병을 줍니다.",
 
 	-- Step 60: Mirror Lake

@@ -168,17 +168,17 @@ return {
 	["Pestlezugg's next quest needs the {npc:10041}, an elite boss. Skip it."] = "Следующее задание Пестычинса требует убить элитного босса ({npc:10041}). Пропустите.",
 
 	-- Step 33: Orgrimmar
-	-- {area:1637} Orgrimmar · {object:3202} Grom'gol (no name in this language: may be words) · {zone:1458} Undercity
+	-- {area:1637} Orgrimmar · {object:3202} Grom'gol · {zone:1458} Undercity
 	["Fly to {area:1637} and train before the {object:3202} zeppelin: the {zone:1458} stop later in this guide has no Hunter or Shaman trainer."] = "Летите сюда: {area:1637} и обучитесь до дирижабля ({object:3202}): там ({zone:1458}), куда вы попадете позже, нет учителей охотников и шаманов.",
 
 	-- Step 34: Thunder Bluff
-	-- {area:1638} Thunder Bluff · {npc:3033} Turak Runetotem · {area:1639} Elder Rise · {area:1637} Orgrimmar · {object:3202} Grom'gol (no name in this language: may be words)
+	-- {area:1638} Thunder Bluff · {npc:3033} Turak Runetotem · {area:1639} Elder Rise · {area:1637} Orgrimmar · {object:3202} Grom'gol
 	["Fly to {area:1638} and train with {npc:3033} on {area:1639}, then fly to {area:1637} for the {object:3202} zeppelin."] = "Летите сюда: {area:1638}, учитель: {npc:3033} ({area:1639}), затем летите сюда: {area:1637} к дирижаблю ({object:3202}).",
 
 	-- Step 35: Fly to Kargath
 	-- {area:340} Kargath
 	["Fly to {area:340}"] = "Летите сюда: {area:340}",
-	-- {area:1637} Orgrimmar · {object:3202} Grom'gol (no name in this language: may be words) · {area:340} Kargath · {zone:1418} Badlands
+	-- {area:1637} Orgrimmar · {object:3202} Grom'gol · {area:340} Kargath · {zone:1418} Badlands
 	["Fly to {area:1637}, take the zeppelin to {object:3202} and fly from there to {area:340}, built into the cliffs on the {zone:1418}' west edge."] = "Летите сюда: {area:1637}, садитесь на дирижабль ({object:3202}) и оттуда летите сюда: {area:340} – крепость в скалах у западного края ({zone:1418}).",
 
 	-- Step 36: Into the Searing Gorge
@@ -224,9 +224,9 @@ return {
 	["Theodora's next errand goes to Lotwil east of town and then into {area:1584}: skip it."] = "Следующее поручение Теодоры ведет к Лотвилю к востоку от города, а затем сюда: {area:1584}: пропустите.",
 
 	-- Step 44: Undercity
-	-- {npc:10879} Harbinger Balthazad · {object:36078} Trade Quarter (no name in this language: may be words)
+	-- {npc:10879} Harbinger Balthazad · {object:36078} Trade Quarter
 	["{npc:10879}, the {object:36078}, beside the bat master"] = "{npc:10879}, {object:36078}, рядом с распорядителем полетов",
-	-- {npc:6522} Andron Gant · {object:36073} Rogues' Quarter (no name in this language: may be words)
+	-- {npc:6522} Andron Gant · {object:36073} Rogues' Quarter
 	["{npc:6522}, the {object:36073}"] = "{npc:6522}, {object:36073}",
 	-- {npc:8390} Chemist Cuely · {zone:1447} Azshara
 	["{npc:8390}, the Apothecarium: the vials fill in {zone:1447} later"] = "{npc:8390}, Район Фармацевтов: склянки наполните позже ({zone:1447})",

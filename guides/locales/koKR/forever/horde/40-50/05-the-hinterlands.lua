@@ -45,7 +45,7 @@ return {
 	["Ride north back to {area:75} and fly to the {area:1497}."] = "북쪽의 {area:75}(으)로 돌아가 {area:1497}(으)로 날아가세요.",
 
 	-- Step 8: Undercity
-	-- {npc:7825} Oran Snakewrithe · {object:36126} Royal Quarter (no name in this language: may be words)
+	-- {npc:7825} Oran Snakewrithe · {object:36126} Royal Quarter
 	["{npc:7825}, the {object:36126}"] = "{object:36126}의 {npc:7825}",
 	-- {npc:6741} Innkeeper Norman · {zone:1456} Thunder Bluff
 	["{npc:6741}: for {zone:1456}, around level 50"] = "{npc:6741}: 50레벨쯤 {zone:1456}에서",

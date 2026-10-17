@@ -182,7 +182,7 @@ return {
 	["{npc:11406}: for Ogtinc in {zone:1447}, keep it"] = "{npc:11406}：交給{zone:1447}的奧汀克，保留此任務",
 
 	-- Step 42: Royal Historian Archesonus
-	-- {object:171709} High Seat (no name in this language: may be words)
+	-- {object:171709} High Seat
 	["Archesonus stands beside King Magni in the {object:171709}."] = "阿克瑟努斯站在{object:171709}的國王麥格尼身旁。",
 	-- {zone:1428} Burning Steppes
 	["The relics are in the {zone:1428}: keep it"] = "聖物在{zone:1428}：保留此任務",
@@ -191,7 +191,7 @@ return {
 	["Bind and train"] = "綁定爐石並訓練",
 
 	-- Step 44: Xiggs Fuselighter
-	-- {object:32359} Military Ward (no name in this language: may be words)
+	-- {object:32359} Military Ward
 	["Xiggs waits in the {object:32359}."] = "希格斯在{object:32359}等候。",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.

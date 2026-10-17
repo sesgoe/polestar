@@ -19,7 +19,7 @@ return {
 	["Prowler (86%) in {zone:1429}, or wherever the arrow points"] = "Merodeador (86%) en {zone:1429}, o donde indique la flecha",
 
 	-- Step 3: Charred Wolf Meat (1-50)
-	-- {spell:2538} Charred Wolf Meat · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
+	-- {spell:2538} Charred Wolf Meat · {object:29784} Basic Campfire · {skill:185} Cooking
 	["{spell:2538} is orange from 1 (yellow at 45, grey at 85): about 50 crafts to 50. Cook at any fire: {object:29784} comes with {skill:185}."] = "{spell:2538} es naranja desde 1 (amarillo en 45, gris en 85): unas 50 creaciones hasta 50. Cocina en cualquier fuego: {object:29784} viene con {skill:185}.",
 
 	-- Step 4: Roasted Boar Meat: ingredients
@@ -29,7 +29,7 @@ return {
 	["{npc:1689} (38%), {npc:1127} (36%) in {zone:1426}, or wherever the arrow points"] = "{npc:1689} (38%), {npc:1127} (36%) en {zone:1426}, o donde indique la flecha",
 
 	-- Step 5: Roasted Boar Meat (1-50)
-	-- {spell:2540} Roasted Boar Meat · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
+	-- {spell:2540} Roasted Boar Meat · {object:29784} Basic Campfire · {skill:185} Cooking
 	["{spell:2540} is orange from 1 (yellow at 45, grey at 85): about 50 crafts to 50. Cook at any fire: {object:29784} comes with {skill:185}."] = "{spell:2540} es naranja desde 1 (amarillo en 45, gris en 85): unas 50 creaciones hasta 50. Cocina en cualquier fuego: {object:29784} viene con {skill:185}.",
 
 	-- Step 6: Brilliant Smallfish: shopping
@@ -46,7 +46,7 @@ return {
 	["Catch about 50 {item:6291} here by fishing (see the {skill:356} guide)."] = "Pesca aquí unos 50 {item:6291} (consulta la guía de {skill:356}).",
 
 	-- Step 8: Brilliant Smallfish (1-50)
-	-- {item:6290} Brilliant Smallfish · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking · {item:6291} Raw Brilliant Smallfish · {zone:1438} Teldrassil
+	-- {item:6290} Brilliant Smallfish · {object:29784} Basic Campfire · {skill:185} Cooking · {item:6291} Raw Brilliant Smallfish · {zone:1438} Teldrassil
 	["{item:6290} is orange from 1 (yellow at 45, grey at 85): about 50 crafts to 50. Cook at any fire: {object:29784} comes with {skill:185}. {item:6291} is the common catch in {zone:1438}'s waters."] = "{item:6290} es naranja desde 1 (amarillo en 45, gris en 85): unas 50 creaciones hasta 50. Cocina en cualquier fuego: {object:29784} viene con {skill:185}. {item:6291} es la captura común en las aguas de {zone:1438}.",
 
 	-- Step 9: Roasted Boar Meat: ingredients
@@ -78,7 +78,7 @@ return {
 	["{npc:547} (35%), {npc:157} (34%) in {zone:1436}, or wherever the arrow points"] = "{npc:547} (35%), {npc:157} (34%) en {zone:1436}, o donde indique la flecha",
 
 	-- Step 18: Goretusk Liver Pie (50-100)
-	-- {item:724} Goretusk Liver Pie · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
+	-- {item:724} Goretusk Liver Pie · {object:29784} Basic Campfire · {skill:185} Cooking
 	["{item:724} is orange from 50 (yellow at 90, grey at 130): about 52 crafts to 100. Cook at any fire: {object:29784} comes with {skill:185}."] = "{item:724} es naranja desde 50 (amarillo en 90, gris en 130): unas 52 creaciones hasta 100. Cocina en cualquier fuego: {object:29784} viene con {skill:185}.",
 
 	-- Step 19: Loch Frenzy Delight: shopping
@@ -92,7 +92,7 @@ return {
 	["{npc:1193} (50%) in {zone:1432}, or wherever the arrow points"] = "{npc:1193} (50%) en {zone:1432}, o donde indique la flecha",
 
 	-- Step 21: Loch Frenzy Delight (50-100)
-	-- {item:6316} Loch Frenzy Delight · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
+	-- {item:6316} Loch Frenzy Delight · {object:29784} Basic Campfire · {skill:185} Cooking
 	["{item:6316} is orange from 50 (yellow at 90, grey at 130): about 52 crafts to 100. Cook at any fire: {object:29784} comes with {skill:185}."] = "{item:6316} es naranja desde 50 (amarillo en 90, gris en 130): unas 52 creaciones hasta 100. Cocina en cualquier fuego: {object:29784} viene con {skill:185}.",
 
 	-- Step 22: Rainbow Fin Albacore: shopping
@@ -108,7 +108,7 @@ return {
 	["Catch about 68 {item:6361} here by fishing (see the {skill:356} guide)."] = "Pesca aquí unos 68 {item:6361} (consulta la guía de {skill:356}).",
 
 	-- Step 24: Rainbow Fin Albacore (50-110)
-	-- {item:5095} Rainbow Fin Albacore · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking · {skill:356} Fishing · {area:442} Auberdine · {item:6361} Raw Rainbow Fin Albacore
+	-- {item:5095} Rainbow Fin Albacore · {object:29784} Basic Campfire · {skill:185} Cooking · {skill:356} Fishing · {area:442} Auberdine · {item:6361} Raw Rainbow Fin Albacore
 	["{item:5095} is orange from 50 (yellow at 90, grey at 130): about 68 crafts to 110. Cook at any fire: {object:29784} comes with {skill:185}. {skill:356} off the {area:442} docks catches {item:6361}."] = "{item:5095} es naranja desde 50 (amarillo en 90, gris en 130): unas 68 creaciones hasta 110. Cocina en cualquier fuego: {object:29784} viene con {skill:185}. Con {skill:356} desde los muelles de {area:442} se pesca {item:6361}.",
 
 	-- Step 25: Strider Stew: shopping
@@ -122,7 +122,7 @@ return {
 	["{npc:3244} (33%) in {zone:1413}, or wherever the arrow points"] = "{npc:3244} (33%) en {zone:1413}, o donde indique la flecha",
 
 	-- Step 27: Strider Stew (50-100)
-	-- {item:5477} Strider Stew · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
+	-- {item:5477} Strider Stew · {object:29784} Basic Campfire · {skill:185} Cooking
 	["{item:5477} is orange from 50 (yellow at 90, grey at 130): about 52 crafts to 100. Cook at any fire: {object:29784} comes with {skill:185}."] = "{item:5477} es naranja desde 50 (amarillo en 90, gris en 130): unas 52 creaciones hasta 100. Cocina en cualquier fuego: {object:29784} viene con {skill:185}.",
 
 	-- Step 28: Crocolisk Steak: shopping
@@ -136,7 +136,7 @@ return {
 	["{npc:1400} (50%) in {zone:1437}, or wherever the arrow points"] = "{npc:1400} (50%) en {zone:1437}, o donde indique la flecha",
 
 	-- Step 30: Crocolisk Steak (100-125)
-	-- {spell:3370} Crocolisk Steak · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
+	-- {spell:3370} Crocolisk Steak · {object:29784} Basic Campfire · {skill:185} Cooking
 	["{spell:3370} is orange from 100 (yellow at 120, grey at 160): about 26 crafts to 125. Cook at any fire: {object:29784} comes with {skill:185}."] = "{spell:3370} es naranja desde 100 (amarillo en 120, gris en 160): unas 26 creaciones hasta 125. Cocina en cualquier fuego: {object:29784} viene con {skill:185}.",
 
 	-- Step 31: Lean Venison: shopping
@@ -150,7 +150,7 @@ return {
 	["{npc:3818} (53%) in {zone:1440}, or wherever the arrow points"] = "{npc:3818} (53%) en {zone:1440}, o donde indique la flecha",
 
 	-- Step 33: Lean Venison (110-125)
-	-- {item:5480} Lean Venison · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
+	-- {item:5480} Lean Venison · {object:29784} Basic Campfire · {skill:185} Cooking
 	["{item:5480} is orange from 110 (yellow at 150, grey at 190): about 15 crafts to 125. Cook at any fire: {object:29784} comes with {skill:185}."] = "{item:5480} es naranja desde 110 (amarillo en 150, gris en 190): unas 15 creaciones hasta 125. Cocina en cualquier fuego: {object:29784} viene con {skill:185}.",
 
 	-- Step 34: Crispy Lizard Tail: shopping
@@ -164,7 +164,7 @@ return {
 	["{npc:3239} (59%), Owatanka (35%) in {zone:1413}, or wherever the arrow points"] = "{npc:3239} (59%), Owatanka (35%) en {zone:1413}, o donde indique la flecha",
 
 	-- Step 36: Crispy Lizard Tail (100-125)
-	-- {item:5479} Crispy Lizard Tail · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
+	-- {item:5479} Crispy Lizard Tail · {object:29784} Basic Campfire · {skill:185} Cooking
 	["{item:5479} is orange from 100 (yellow at 140, grey at 180): about 25 crafts to 125. Cook at any fire: {object:29784} comes with {skill:185}."] = "{item:5479} es naranja desde 100 (amarillo en 140, gris en 180): unas 25 creaciones hasta 125. Cocina en cualquier fuego: {object:29784} viene con {skill:185}.",
 
 	-- Step 37: Expert Cooking
@@ -176,7 +176,7 @@ return {
 	["Buy and read {item:16072} (Expert {skill:185})"] = "Compra y lee {item:16072} (Experto de {skill:185})",
 
 	-- Step 40: Crocolisk Steak (125-130)
-	-- {spell:3370} Crocolisk Steak · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
+	-- {spell:3370} Crocolisk Steak · {object:29784} Basic Campfire · {skill:185} Cooking
 	["{spell:3370} is yellow from 125 (yellow at 120, grey at 160): about 7 crafts to 130. Cook at any fire: {object:29784} comes with {skill:185}."] = "{spell:3370} es amarillo desde 125 (amarillo en 120, gris en 160): unas 7 creaciones hasta 130. Cocina en cualquier fuego: {object:29784} viene con {skill:185}.",
 
 	-- Step 41: Curiously Tasty Omelet: shopping
@@ -190,19 +190,19 @@ return {
 	["{npc:1018} (72%), {npc:1019} (67%) in {zone:1437}, or wherever the arrow points"] = "{npc:1018} (72%), {npc:1019} (67%) en {zone:1437}, o donde indique la flecha",
 
 	-- Step 43: Curiously Tasty Omelet (130-175)
-	-- {spell:3376} Curiously Tasty Omelet · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
+	-- {spell:3376} Curiously Tasty Omelet · {object:29784} Basic Campfire · {skill:185} Cooking
 	["{spell:3376} is orange from 130 (yellow at 170, grey at 210): about 46 crafts to 175. Cook at any fire: {object:29784} comes with {skill:185}."] = "{spell:3376} es naranja desde 130 (amarillo en 170, gris en 210): unas 46 creaciones hasta 175. Cocina en cualquier fuego: {object:29784} viene con {skill:185}.",
 
 	-- Step 46: Lean Venison (125-150)
-	-- {item:5480} Lean Venison · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
+	-- {item:5480} Lean Venison · {object:29784} Basic Campfire · {skill:185} Cooking
 	["{item:5480} is orange from 125 (yellow at 150, grey at 190): about 25 crafts to 150. Cook at any fire: {object:29784} comes with {skill:185}."] = "{item:5480} es naranja desde 125 (amarillo en 150, gris en 190): unas 25 creaciones hasta 150. Cocina en cualquier fuego: {object:29784} viene con {skill:185}.",
 
 	-- Step 49: Curiously Tasty Omelet (150-175)
-	-- {spell:3376} Curiously Tasty Omelet · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
+	-- {spell:3376} Curiously Tasty Omelet · {object:29784} Basic Campfire · {skill:185} Cooking
 	["{spell:3376} is orange from 150 (yellow at 170, grey at 210): about 26 crafts to 175. Cook at any fire: {object:29784} comes with {skill:185}."] = "{spell:3376} es naranja desde 150 (amarillo en 170, gris en 210): unas 26 creaciones hasta 175. Cocina en cualquier fuego: {object:29784} viene con {skill:185}.",
 
 	-- Step 52: Crispy Lizard Tail (125-140)
-	-- {item:5479} Crispy Lizard Tail · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
+	-- {item:5479} Crispy Lizard Tail · {object:29784} Basic Campfire · {skill:185} Cooking
 	["{item:5479} is orange from 125 (yellow at 140, grey at 180): about 15 crafts to 140. Cook at any fire: {object:29784} comes with {skill:185}."] = "{item:5479} es naranja desde 125 (amarillo en 140, gris en 180): unas 15 creaciones hasta 140. Cocina en cualquier fuego: {object:29784} viene con {skill:185}.",
 
 	-- Step 53: Hot Lion Chops: shopping
@@ -216,7 +216,7 @@ return {
 	["{npc:2385} (56%) in {zone:1424}, or wherever the arrow points"] = "{npc:2385} (56%) en {zone:1424}, o donde indique la flecha",
 
 	-- Step 55: Hot Lion Chops (140-175)
-	-- {spell:3398} Hot Lion Chops · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
+	-- {spell:3398} Hot Lion Chops · {object:29784} Basic Campfire · {skill:185} Cooking
 	["{spell:3398} is orange from 140 (yellow at 175, grey at 215): about 35 crafts to 175. Cook at any fire: {object:29784} comes with {skill:185}."] = "{spell:3398} es naranja desde 140 (amarillo en 175, gris en 215): unas 35 creaciones hasta 175. Cocina en cualquier fuego: {object:29784} viene con {skill:185}.",
 
 	-- Step 56: Roast Raptor: shopping
@@ -230,7 +230,7 @@ return {
 	["{npc:4352} (52%), {npc:4351} (51%) in {zone:1445}, or wherever the arrow points"] = "{npc:4352} (52%), {npc:4351} (51%) en {zone:1445}, o donde indique la flecha",
 
 	-- Step 58: Roast Raptor (175-215)
-	-- {item:12210} Roast Raptor · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
+	-- {item:12210} Roast Raptor · {object:29784} Basic Campfire · {skill:185} Cooking
 	["{item:12210} is orange from 175 (yellow at 215, grey at 255): about 40 crafts to 215. Cook at any fire: {object:29784} comes with {skill:185}."] = "{item:12210} es naranja desde 175 (amarillo en 215, gris en 255): unas 40 creaciones hasta 215. Cocina en cualquier fuego: {object:29784} viene con {skill:185}.",
 
 	-- Step 59: Heavy Kodo Stew: shopping
@@ -244,7 +244,7 @@ return {
 	["{npc:4701} (55%), {npc:4702} (54%), {npc:4700} (40%) in {zone:1443}, or wherever the arrow points"] = "{npc:4701} (55%), {npc:4702} (54%), {npc:4700} (40%) en {zone:1443}, o donde indique la flecha",
 
 	-- Step 61: Heavy Kodo Stew (215-225)
-	-- {item:12215} Heavy Kodo Stew · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
+	-- {item:12215} Heavy Kodo Stew · {object:29784} Basic Campfire · {skill:185} Cooking
 	["{item:12215} is orange from 215 (yellow at 240, grey at 280): about 10 crafts to 225. Cook at any fire: {object:29784} comes with {skill:185}."] = "{item:12215} es naranja desde 215 (amarillo en 240, gris en 280): unas 10 creaciones hasta 225. Cocina en cualquier fuego: {object:29784} viene con {skill:185}.",
 
 	-- Step 62: Dirge Quikcleave
@@ -275,7 +275,7 @@ return {
 	["Artisan {skill:185}"] = "Artesano de {skill:185}",
 
 	-- Step 71: Heavy Kodo Stew (225-240)
-	-- {item:12215} Heavy Kodo Stew · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
+	-- {item:12215} Heavy Kodo Stew · {object:29784} Basic Campfire · {skill:185} Cooking
 	["{item:12215} is orange from 225 (yellow at 240, grey at 280): about 15 crafts to 240. Cook at any fire: {object:29784} comes with {skill:185}."] = "{item:12215} es naranja desde 225 (amarillo en 240, gris en 280): unas 15 creaciones hasta 240. Cocina en cualquier fuego: {object:29784} viene con {skill:185}.",
 
 	-- Step 72: Monster Omelet: shopping
@@ -289,6 +289,6 @@ return {
 	["{npc:7099} (40%) in {zone:1448}, or wherever the arrow points"] = "{npc:7099} (40%) en {zone:1448}, o donde indique la flecha",
 
 	-- Step 74: Monster Omelet (240-300)
-	-- {item:12218} Monster Omelet · {object:29784} Basic Campfire (no name in this language: may be words) · {skill:185} Cooking
+	-- {item:12218} Monster Omelet · {object:29784} Basic Campfire · {skill:185} Cooking
 	["{item:12218} is orange from 240 (yellow at 265, grey at 305): about 105 crafts to 300. Cook at any fire: {object:29784} comes with {skill:185}."] = "{item:12218} es naranja desde 240 (amarillo en 265, gris en 305): unas 105 creaciones hasta 300. Cocina en cualquier fuego: {object:29784} viene con {skill:185}.",
 }

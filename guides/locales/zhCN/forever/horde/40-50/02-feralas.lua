@@ -7,21 +7,21 @@
 -- The comments are rewritten by sync.
 return {
 	-- Step 1: Fly to Grom'gol
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["Fly to {object:3202}"] = "飞往{object:3202}",
-	-- {area:1978} Misty Reed Post · {area:75} Stonard · {object:3202} Grom'gol (no name in this language: may be words)
+	-- {area:1978} Misty Reed Post · {area:75} Stonard · {object:3202} Grom'gol
 	["Ride back north-west from {area:1978} to {area:75} and fly to {object:3202}."] = "从{area:1978}向西北骑回{area:75}，然后飞往{object:3202}。",
 
 	-- Step 2: Zeppelin to Orgrimmar
 	-- {zone:1454} Orgrimmar
 	["Zeppelin to {zone:1454}"] = "乘飞艇前往{zone:1454}",
-	-- {zone:1454} Orgrimmar · {object:3202} Grom'gol (no name in this language: may be words)
+	-- {zone:1454} Orgrimmar · {object:3202} Grom'gol
 	["The {zone:1454} zeppelin leaves from the tower beside {object:3202}; it lands just outside {zone:1454}'s main gate."] = "前往{zone:1454}的飞艇从{object:3202}旁的塔上出发；它降落在{zone:1454}正门外。",
 	["Zeppelin tower"] = "飞艇塔",
 
 	-- Step 4: Riding at 40
 	["Riding at 40"] = "40级学骑术",
-	-- {npc:4752} Kildar · {object:172958} Valley of Honor (no name in this language: may be words) · {npc:3362} Ogunaro Wolfrunner
+	-- {npc:4752} Kildar · {object:172958} Valley of Honor · {npc:3362} Ogunaro Wolfrunner
 	["Riding needs level 40 and costs 100 gold; learning it gives you a mount. {npc:4752} teaches Orcs in the {object:172958}, by {npc:3362}'s kennel; no Skyborne riding trainer is known, so Skyborne try {npc:4752} too. Your race's other mounts are 20 gold each: Collectibles, Mounts · Level 40 has a guide for each."] = "骑术需要40级，花费100金；学会后会获得一匹坐骑。{npc:4752}在{object:172958}教授兽人，就在{npc:3362}的狼舍旁；目前不知道天裔的骑术训练师，所以天裔也试试找{npc:4752}。你种族的其他坐骑每匹20金：收藏指南“坐骑 · 40级”为每种坐骑都提供了指南。",
 	-- {npc:4752} Kildar
 	["{npc:4752}, riding trainer"] = "{npc:4752}，骑术训练师",
@@ -31,7 +31,7 @@ return {
 	["Galestriders: {npc:265756}, in {area:16638} on Zephras Isle."] = "疾风陆行鸟：{npc:265756}，在泽风岛的{area:16638}。",
 
 	-- Step 5: Riding at 40
-	-- {npc:7953} Xar'Ti · {area:367} Sen'jin Village · {zone:1411} Durotar · {npc:4752} Kildar · {zone:1454} Orgrimmar · {object:172958} Valley of Honor (no name in this language: may be words)
+	-- {npc:7953} Xar'Ti · {area:367} Sen'jin Village · {zone:1411} Durotar · {npc:4752} Kildar · {zone:1454} Orgrimmar · {object:172958} Valley of Honor
 	["Riding needs level 40 and costs 100 gold; learning it gives you a mount. In Classic each race learns it from its own race's trainer: yours is {npc:7953} in {area:367} on the {zone:1411} coast, with Zjolnir's raptors (20 gold each) beside him. Forever may let any race learn from any riding trainer (not confirmed): try {npc:4752} in {zone:1454}'s {object:172958} first, as he is the nearest, and skip this step if he teaches you."] = "骑术需要40级，花费100金；学会后会获得一匹坐骑。在经典版中，每个种族都向本种族的训练师学习：你的训练师是{zone:1411}海岸{area:367}的{npc:7953}，旁边是祖尼尔的迅猛龙（每匹20金）。Forever 可能允许任何种族向任何骑术训练师学习（未确认）：先试试{zone:1454}{object:172958}的{npc:4752}，因为他最近，如果他能教你就跳过此步骤。",
 	-- {npc:7953} Xar'Ti
 	["{npc:7953}, riding trainer"] = "{npc:7953}，骑术训练师",
@@ -39,7 +39,7 @@ return {
 	["Raptors: Zjolnir, beside {npc:7953} in {area:367}."] = "迅猛龙：祖尼尔，在{area:367}的{npc:7953}旁边。",
 
 	-- Step 6: Riding at 40
-	-- {npc:3690} Kar Stormsinger · {area:222} Bloodhoof Village · {npc:3685} Harb Clawhoof · {npc:4752} Kildar · {zone:1454} Orgrimmar · {object:172958} Valley of Honor (no name in this language: may be words)
+	-- {npc:3690} Kar Stormsinger · {area:222} Bloodhoof Village · {npc:3685} Harb Clawhoof · {npc:4752} Kildar · {zone:1454} Orgrimmar · {object:172958} Valley of Honor
 	["Riding needs level 40 and costs 100 gold; learning it gives you a mount. In Classic each race learns it from its own race's trainer: yours is {npc:3690} in {area:222}, with {npc:3685}'s kodos (20 gold each) beside him. Forever may let any race learn from any riding trainer (not confirmed): try {npc:4752} in {zone:1454}'s {object:172958} first, as he is the nearest, and skip this step if he teaches you."] = "骑术需要40级，花费100金；学会后会获得一匹坐骑。在经典版中，每个种族都向本种族的训练师学习：你的训练师是{area:222}的{npc:3690}，旁边是{npc:3685}的科多兽（每匹20金）。Forever 可能允许任何种族向任何骑术训练师学习（未确认）：先试试{zone:1454}{object:172958}的{npc:4752}，因为他最近，如果他能教你就跳过此步骤。",
 	-- {npc:3690} Kar Stormsinger
 	["{npc:3690}, riding trainer"] = "{npc:3690}，骑术训练师",
@@ -47,7 +47,7 @@ return {
 	["Kodos: {npc:3685}, beside {npc:3690} in {area:222}."] = "科多兽：{npc:3685}，在{area:222}的{npc:3690}旁边。",
 
 	-- Step 7: Riding at 40
-	-- {npc:4773} Velma Warnam · {area:159} Brill · {npc:4731} Zachariah Post · {npc:4752} Kildar · {zone:1454} Orgrimmar · {object:172958} Valley of Honor (no name in this language: may be words)
+	-- {npc:4773} Velma Warnam · {area:159} Brill · {npc:4731} Zachariah Post · {npc:4752} Kildar · {zone:1454} Orgrimmar · {object:172958} Valley of Honor
 	["Riding needs level 40 and costs 100 gold; learning it gives you a mount. In Classic each race learns it from its own race's trainer: yours is {npc:4773} in {area:159}, with {npc:4731}'s skeletal horses (20 gold each) beside her. Forever may let any race learn from any riding trainer (not confirmed): try {npc:4752} in {zone:1454}'s {object:172958} first, as he is the nearest, and skip this step if he teaches you."] = "骑术需要40级，花费100金；学会后会获得一匹坐骑。在经典版中，每个种族都向本种族的训练师学习：你的训练师是{area:159}的{npc:4773}，旁边是{npc:4731}的骸骨军马（每匹20金）。Forever 可能允许任何种族向任何骑术训练师学习（未确认）：先试试{zone:1454}{object:172958}的{npc:4752}，因为他最近，如果他能教你就跳过此步骤。",
 	-- {npc:4773} Velma Warnam
 	["{npc:4773}, riding trainer"] = "{npc:4773}，骑术训练师",
@@ -170,9 +170,9 @@ return {
 	["for the {zone:1425}, around level 48"] = "交给{zone:1425}，大约48级时",
 
 	-- Step 37: Zeppelin to Grom'gol
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["Zeppelin to {object:3202}"] = "乘飞艇前往{object:3202}",
-	-- {object:3202} Grom'gol (no name in this language: may be words) · {zone:1454} Orgrimmar
+	-- {object:3202} Grom'gol · {zone:1454} Orgrimmar
 	["The {object:3202} zeppelin leaves from the tower just north-east of {zone:1454}'s main gate."] = "前往{object:3202}的飞艇从{zone:1454}正门东北不远的塔上出发。",
 
 	-- Step 38: Fly to Stonard

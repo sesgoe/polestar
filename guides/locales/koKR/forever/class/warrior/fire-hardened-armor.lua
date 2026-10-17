@@ -11,7 +11,7 @@ return {
 	["A hauberk at 28, a coif, leggings or gauntlets by race, and a shield on the way."] = "28레벨에 사슬 갑옷, 종족에 따라 사슬 두건, 다리보호구 또는 건틀릿, 그리고 도중에 방패.",
 
 	-- Step 1: Yorus Barleybrew (Stormwind)
-	-- {npc:5479} Wu Shen · {object:2100} Old Town (no name in this language: may be words) · {quest:1698} Yorus Barleybrew
+	-- {npc:5479} Wu Shen · {object:2100} Old Town · {quest:1698} Yorus Barleybrew
 	["At 20, {npc:5479} in {object:2100}, beside the Pig and Whistle, sends you to {quest:1698} in Redridge."] = "20레벨에 돼지와 휘파람 선술집 옆 {object:2100}의 {npc:5479}이(가) 붉은마루 산맥의 {quest:1698}에게 보냅니다.",
 
 	-- Step 2: Yorus Barleybrew (Ironforge)
@@ -59,7 +59,7 @@ return {
 	["{item:6841}, from Roogug"] = "{item:6841}, 루구그에게서",
 
 	-- Step 9: Furen's Armor
-	-- {npc:5413} Furen Longbeard · {object:28027} Dwarven District (no name in this language: may be words)
+	-- {npc:5413} Furen Longbeard · {object:28027} Dwarven District
 	["Back to {npc:5413} in the {object:28027}. He sends you on to a smith of your own race."] = "{object:28027}의 {npc:5413}에게 돌아가십시오. 그가 당신 종족의 대장장이에게 보냅니다.",
 
 	-- Step 10: Grimand Elmore

@@ -11,7 +11,7 @@ return {
 
 	-- Step 1: Learn to ride
 	["Learn to ride"] = "Научитесь ездить верхом",
-	-- {npc:4752} Kildar · {npc:3362} Ogunaro Wolfrunner · {zone:1454} Orgrimmar · {object:172958} Valley of Honor (no name in this language: may be words) · {skill:762} Riding
+	-- {npc:4752} Kildar · {npc:3362} Ogunaro Wolfrunner · {zone:1454} Orgrimmar · {object:172958} Valley of Honor · {skill:762} Riding
 	["{npc:4752} and {npc:3362}'s kennel are in {zone:1454}'s {object:172958}. At 40 {npc:4752} teaches {skill:762} (100g per Blizzard's designers), and learning it gives you a mount. The Forever client lets every Horde race ride these."] = "{npc:4752} и псарня (хозяин: {npc:3362}) – здесь: {object:172958} ({zone:1454}). На 40-м уровне {npc:4752} обучает навыку {skill:762} (100з, по словам дизайнеров Blizzard), и вместе с ним вы получаете транспорт. В клиенте Forever на них может ездить любая раса Орды.",
 	-- {npc:4752} Kildar
 	["{npc:4752}, riding trainer"] = "{npc:4752}, учитель верховой езды",

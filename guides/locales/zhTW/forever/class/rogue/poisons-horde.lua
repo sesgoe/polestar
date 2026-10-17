@@ -13,7 +13,7 @@ return {
 	["Forever teaches {spell:2842} through this chain, not the trainer; the {item:7676} recipe comes with it."] = "Forever 透過這個任務鏈教授{spell:2842}，而不是由訓練師教授；{item:7676}的配方也會一起給你。",
 
 	-- Step 1: The Shattered Salute
-	-- {npc:3401} Shenthul · {object:172960} Cleft of Shadow (no name in this language: may be words) · {object:172982} Valley of Strength (no name in this language: may be words)
+	-- {npc:3401} Shenthul · {object:172960} Cleft of Shadow · {object:172982} Valley of Strength
 	["At 20 {npc:3401} stands in the {object:172960}, the canyon under the {object:172982}. Target him and type /salute."] = "20級時，{npc:3401}站在{object:172960}，也就是{object:172982}下方的峽谷。選取他並輸入 /salute。",
 	-- {npc:3401} Shenthul
 	["/salute {npc:3401}"] = "對{npc:3401}輸入 /salute",

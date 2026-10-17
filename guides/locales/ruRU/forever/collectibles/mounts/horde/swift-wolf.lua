@@ -12,7 +12,7 @@ return {
 	-- Step 1: Journeyman Riding
 	-- {skill:762} Riding
 	["Journeyman {skill:762}"] = "{skill:762} (Подмастерье)",
-	-- {npc:4752} Kildar · {npc:3362} Ogunaro Wolfrunner · {zone:1454} Orgrimmar · {object:172958} Valley of Honor (no name in this language: may be words) · {skill:762} Riding
+	-- {npc:4752} Kildar · {npc:3362} Ogunaro Wolfrunner · {zone:1454} Orgrimmar · {object:172958} Valley of Honor · {skill:762} Riding
 	["{npc:4752} and {npc:3362}'s kennel are in {zone:1454}'s {object:172958}. At 60 {npc:4752} teaches Journeyman {skill:762} (1,000g per Blizzard's designers); Blizzard says learning riding grants a mount. The Forever client sells each swift wolf for 200g at level 60."] = "{npc:4752} и псарня ({npc:3362}) – здесь: {zone:1454}, {object:172958}. На 60-м уровне {npc:4752} обучает навыку {skill:762} (Подмастерье; 1000 з по словам разработчиков Blizzard); по словам Blizzard, при обучении вы получаете транспорт. В клиенте Forever каждый стремительный волк стоит 200 з на 60-м уровне.",
 	-- {npc:4752} Kildar
 	["{npc:4752}, riding trainer"] = "{npc:4752} – учитель верховой езды",

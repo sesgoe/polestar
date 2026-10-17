@@ -11021,7 +11021,7 @@ do
 					note = "Fly from {area:2361} to {area:442}. The {object:177792} lies under the water off the north coast, west of the {area:443}.",
 					only = { races = { "NightElf" } },
 					goals = {
-						{ t = "fly", location = "Auberdine", area = 442 },
+						{ t = "fly", location = "Auberdine", node = 26, area = 442 },
 						{ t = "collect", item = 15883, itemName = "Half Pendant of Aquatic Agility", count = 1, map = 1439, x = 48.87, y = 11.32, f = "e", from = "Strange Lockbox", fromKind = "object", fromId = 177792 },
 					},
 				},
@@ -11030,7 +11030,7 @@ do
 					note = "Take the boat from {area:442} to {zone:1453} and fly to {area:108}. Ride north-west to the coast: the {object:177790} lies on the sea floor off the shore.",
 					only = { races = { "NightElf" } },
 					goals = {
-						{ t = "fly", location = "Sentinel Hill", area = 108 },
+						{ t = "fly", location = "Sentinel Hill", node = 4, area = 108 },
 						{ t = "collect", item = 15882, itemName = "Half Pendant of Aquatic Endurance", count = 1, map = 1436, x = 17.94, y = 33.18, f = "e", from = "Strange Lockbox", fromKind = "object", fromId = 177790 },
 					},
 				},
@@ -11042,7 +11042,7 @@ do
 						{ t = "collect", quest = 272, title = "Trial of the Sea Lion", item = 15885, itemName = "Pendant of the Sea Lion", count = 1, oi = 1, map = 1450, x = 36, y = 41.42, f = "e", note = "{item:15885}: join the halves at the shrine", from = "Shrine Of Remulos", fromKind = "object", fromId = 15885 },
 						{ t = "turnin", quest = 272, title = "Trial of the Sea Lion", npc = 11802, npcName = "Dendrite Starblaze", map = 1450, x = 56.21, y = 30.64, z = 524.5, f = "e" },
 						{ t = "accept", quest = 5061, title = "Aquatic Form", npc = 11802, npcName = "Dendrite Starblaze", minLevel = 16, qlvl = 16, pre = { 272 }, preTitles = { [272] = "Trial of the Sea Lion" }, map = 1450, x = 56.21, y = 30.64, z = 524.5, f = "e" },
-						{ t = "fly", location = "Rut'theran Village", area = 702 },
+						{ t = "fly", location = "Rut'theran Village", node = 27, area = 702 },
 					},
 				},
 				{
@@ -11100,7 +11100,7 @@ do
 						{ t = "collect", quest = 30, title = "Trial of the Sea Lion", item = 15885, itemName = "Pendant of the Sea Lion", count = 1, oi = 1, map = 1450, x = 36, y = 41.42, f = "e", note = "{item:15885}: join the halves at the shrine", from = "Shrine Of Remulos", fromKind = "object", fromId = 15885 },
 						{ t = "turnin", quest = 30, title = "Trial of the Sea Lion", npc = 11802, npcName = "Dendrite Starblaze", map = 1450, x = 56.21, y = 30.64, z = 524.5, f = "e" },
 						{ t = "accept", quest = 31, title = "Aquatic Form", npc = 11802, npcName = "Dendrite Starblaze", minLevel = 16, qlvl = 16, pre = { 30 }, preTitles = { [30] = "Trial of the Sea Lion" }, map = 1450, x = 56.21, y = 30.64, z = 524.5, f = "e" },
-						{ t = "fly", location = "Thunder Bluff", area = 1638 },
+						{ t = "fly", location = "Thunder Bluff", node = 22, area = 1638 },
 					},
 				},
 				{
@@ -11166,8 +11166,8 @@ do
 						{ t = "complete", quest = 5929, title = "Great Bear Spirit", map = 1450, x = 39.1, y = 27.5, f = "e", note = "Speak with the {quest:5929}" },
 						{ t = "turnin", quest = 5929, title = "Great Bear Spirit", npc = 11802, npcName = "Dendrite Starblaze", map = 1450, x = 56.21, y = 30.64, z = 524.5, f = "e" },
 						{ t = "accept", quest = 5931, title = "Back to Darnassus", npc = 11802, npcName = "Dendrite Starblaze", minLevel = 10, qlvl = 10, pre = { 5929 }, preTitles = { [5929] = "Great Bear Spirit" }, map = 1450, x = 56.21, y = 30.64, z = 524.5, f = "e" },
-						{ t = "getfp", location = "Moonglade", area = 493 },
-						{ t = "fly", location = "Rut'theran Village", area = 702 },
+						{ t = "getfp", location = "Moonglade", node = 49, area = 493 },
+						{ t = "fly", location = "Rut'theran Village", node = 27, area = 702 },
 					},
 				},
 				{
@@ -11183,7 +11183,7 @@ do
 					note = "Fly from {area:702} to {area:442}. The {object:177525} stands in the hills just east of the village: use the {item:15208} there, defeat Lunaclaw and speak to the {npc:12144}.",
 					only = { races = { "NightElf" } },
 					goals = {
-						{ t = "fly", location = "Auberdine", area = 442 },
+						{ t = "fly", location = "Auberdine", node = 26, area = 442 },
 						{ t = "use", item = 15208, itemName = "Cenarion Moondust", map = 1439, x = 43.5, y = 46, f = "e" },
 						{ t = "complete", quest = 6001, title = "Body and Heart" },
 					},
@@ -11193,7 +11193,7 @@ do
 					note = "Fly back to {area:702} and take the portal up to {npc:4217}.",
 					only = { races = { "NightElf" } },
 					goals = {
-						{ t = "fly", location = "Rut'theran Village", area = 702 },
+						{ t = "fly", location = "Rut'theran Village", node = 27, area = 702 },
 						{ t = "turnin", quest = 6001, title = "Body and Heart", npc = 4217, npcName = "Mathrengyl Bearwalker", map = 1457, x = 35.37, y = 8.4, z = 1340.1, f = "e", note = "{npc:4217}: {spell:5487}" },
 					},
 				},
@@ -11225,7 +11225,7 @@ do
 						{ t = "complete", quest = 5930, title = "Great Bear Spirit", map = 1450, x = 39.1, y = 27.5, f = "e", note = "Speak with the {quest:5930}" },
 						{ t = "turnin", quest = 5930, title = "Great Bear Spirit", npc = 11802, npcName = "Dendrite Starblaze", map = 1450, x = 56.21, y = 30.64, z = 524.5, f = "e" },
 						{ t = "accept", quest = 5932, title = "Back to Thunder Bluff", npc = 11802, npcName = "Dendrite Starblaze", minLevel = 10, qlvl = 10, pre = { 5930 }, preTitles = { [5930] = "Great Bear Spirit" }, map = 1450, x = 56.21, y = 30.64, z = 524.5, f = "e" },
-						{ t = "fly", location = "Thunder Bluff", area = 1638 },
+						{ t = "fly", location = "Thunder Bluff", node = 22, area = 1638 },
 					},
 				},
 				{
@@ -11620,7 +11620,7 @@ do
 					goals = {
 						{ t = "turnin", quest = 6121, title = "Lessons Anew", npc = 11802, npcName = "Dendrite Starblaze", map = 1450, x = 56.21, y = 30.64, z = 524.5, f = "e" },
 						{ t = "accept", quest = 6122, title = "The Principal Source", npc = 11802, npcName = "Dendrite Starblaze", minLevel = 14, qlvl = 14, pre = { 6121 }, preTitles = { [6121] = "Lessons Anew" }, map = 1450, x = 56.21, y = 30.64, z = 524.5, f = "e" },
-						{ t = "fly", location = "Auberdine", area = 442 },
+						{ t = "fly", location = "Auberdine", node = 26, area = 442 },
 					},
 				},
 				{
@@ -11672,7 +11672,7 @@ do
 					goals = {
 						{ t = "turnin", quest = 6124, title = "Curing the Sick", npc = 11802, npcName = "Dendrite Starblaze", map = 1450, x = 56.21, y = 30.64, z = 524.5, f = "e" },
 						{ t = "accept", quest = 6125, title = "Power over Poison", npc = 11802, npcName = "Dendrite Starblaze", minLevel = 14, qlvl = 14, pre = { 6124 }, preTitles = { [6124] = "Curing the Sick" }, map = 1450, x = 56.21, y = 30.64, z = 524.5, f = "e" },
-						{ t = "fly", location = "Rut'theran Village", area = 702 },
+						{ t = "fly", location = "Rut'theran Village", node = 27, area = 702 },
 					},
 				},
 				{
@@ -11698,7 +11698,7 @@ do
 					goals = {
 						{ t = "turnin", quest = 6126, title = "Lessons Anew", npc = 11802, npcName = "Dendrite Starblaze", map = 1450, x = 56.21, y = 30.64, z = 524.5, f = "e" },
 						{ t = "accept", quest = 6127, title = "The Principal Source", npc = 11802, npcName = "Dendrite Starblaze", minLevel = 14, qlvl = 14, pre = { 6126 }, preTitles = { [6126] = "Lessons Anew" }, map = 1450, x = 56.21, y = 30.64, z = 524.5, f = "e" },
-						{ t = "fly", location = "Thunder Bluff", area = 1638 },
+						{ t = "fly", location = "Thunder Bluff", node = 22, area = 1638 },
 					},
 				},
 				{
@@ -11706,7 +11706,7 @@ do
 					note = "From the {area:380} ride north to {area:384} and fill the {item:15842} at the {object:19464}.",
 					only = { races = { "Tauren" } },
 					goals = {
-						{ t = "fly", location = "Crossroads" },
+						{ t = "fly", location = "Crossroads", node = 25 },
 						{ t = "collect", quest = 6127, title = "The Principal Source", item = 15843, itemName = "Filled Dreadmist Peak Sampler", count = 1, oi = 1, map = 1413, x = 48.4, y = 18.89, f = "e", from = "Dreadmist Peak Pool", fromKind = "object", fromId = 19464 },
 					},
 				},
@@ -11752,7 +11752,7 @@ do
 					goals = {
 						{ t = "turnin", quest = 6129, title = "Curing the Sick", npc = 11802, npcName = "Dendrite Starblaze", map = 1450, x = 56.21, y = 30.64, z = 524.5, f = "e" },
 						{ t = "accept", quest = 6130, title = "Power over Poison", npc = 11802, npcName = "Dendrite Starblaze", minLevel = 14, qlvl = 14, pre = { 6129 }, preTitles = { [6129] = "Curing the Sick" }, map = 1450, x = 56.21, y = 30.64, z = 524.5, f = "e" },
-						{ t = "fly", location = "Thunder Bluff", area = 1638 },
+						{ t = "fly", location = "Thunder Bluff", node = 22, area = 1638 },
 					},
 				},
 				{

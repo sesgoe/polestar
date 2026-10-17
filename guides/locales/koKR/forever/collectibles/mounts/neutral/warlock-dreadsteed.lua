@@ -11,7 +11,7 @@ return {
 	["Your epic mount at 60: summoned anywhere, with no gold spent on an epic horse."] = "60레벨의 영웅 탈것으로, 어디서든 소환할 수 있으며 영웅 말에 골드를 쓸 필요가 없습니다.",
 
 	-- Step 1: Mor'zul Bloodbringer (Stormwind)
-	-- {npc:5520} Spackle Thornberry · {object:2164} Slaughtered Lamb (no name in this language: may be words) · {quest:7562} Mor'zul Bloodbringer · {zone:1428} Burning Steppes
+	-- {npc:5520} Spackle Thornberry · {object:2164} Slaughtered Lamb · {quest:7562} Mor'zul Bloodbringer · {zone:1428} Burning Steppes
 	["At 60 {npc:5520} in the {object:2164} sends you to {quest:7562} in the {zone:1428}."] = "60레벨에 {object:2164}의 {npc:5520}이(가) 당신을 {zone:1428}의 {quest:7562}에게 보냅니다.",
 
 	-- Step 2: Mor'zul Bloodbringer (Ironforge)
@@ -19,11 +19,11 @@ return {
 	["At 60 {npc:6382} in {zone:1455} sends you to {quest:7562} in the {zone:1428}."] = "60레벨에 {zone:1455}의 {npc:6382}이(가) 당신을 {zone:1428}의 {quest:7562}에게 보냅니다.",
 
 	-- Step 3: Mor'zul Bloodbringer (Orgrimmar)
-	-- {npc:5815} Kurgul · {object:172960} Cleft of Shadow (no name in this language: may be words) · {quest:7562} Mor'zul Bloodbringer · {zone:1428} Burning Steppes
+	-- {npc:5815} Kurgul · {object:172960} Cleft of Shadow · {quest:7562} Mor'zul Bloodbringer · {zone:1428} Burning Steppes
 	["At 60 {npc:5815} in the {object:172960} sends you to {quest:7562} in the {zone:1428}."] = "60레벨에 {object:172960}의 {npc:5815}이(가) 당신을 {zone:1428}의 {quest:7562}에게 보냅니다.",
 
 	-- Step 4: Mor'zul Bloodbringer (Undercity)
-	-- {npc:5753} Martha Strain · {object:36082} Magic Quarter (no name in this language: may be words) · {quest:7562} Mor'zul Bloodbringer · {zone:1428} Burning Steppes
+	-- {npc:5753} Martha Strain · {object:36082} Magic Quarter · {quest:7562} Mor'zul Bloodbringer · {zone:1428} Burning Steppes
 	["At 60 {npc:5753} in the {object:36082} sends you to {quest:7562} in the {zone:1428}."] = "60레벨에 {object:36082}의 {npc:5753}이(가) 당신을 {zone:1428}의 {quest:7562}에게 보냅니다.",
 
 	-- Step 5: Mor'zul Bloodbringer

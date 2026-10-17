@@ -12,11 +12,11 @@ return {
 
 	-- Step 2: Druid training
 	["Druid training"] = "Entraînement de druide",
-	-- {area:1537} Ironforge · {area:2257} Deeprun Tram · {object:171524} Tinker Town (no name in this language: may be words) · {zone:1453} Stormwind · {npc:5504} Sheldras Moontree
+	-- {area:1537} Ironforge · {area:2257} Deeprun Tram · {object:171524} Tinker Town · {zone:1453} Stormwind · {npc:5504} Sheldras Moontree
 	["{area:1537} has no druid trainer: take the {area:2257} from {object:171524} to {zone:1453} and train with {npc:5504}."] = "{area:1537} n'a pas de maître des druides : prenez le {area:2257} depuis {object:171524} jusqu'à {zone:1453} et entraînez-vous auprès de {npc:5504}.",
 
 	-- Step 3: Darkshire
-	-- {area:42} Darkshire · {npc:1573} Gryth Thurden · {area:1537} Ironforge · {object:32372} Great Forge (no name in this language: may be words) · {npc:352} Dungar Longdrink · {zone:1453} Stormwind · {object:2096} Trade District (no name in this language: may be words)
+	-- {area:42} Darkshire · {npc:1573} Gryth Thurden · {area:1537} Ironforge · {object:32372} Great Forge · {npc:352} Dungar Longdrink · {zone:1453} Stormwind · {object:2096} Trade District
 	["Fly to {area:42}: {npc:1573} in {area:1537}'s {object:32372}, or {npc:352} in {zone:1453}'s {object:2096}."] = "Prenez un vol pour {area:42} : {npc:1573} dans {object:32372} de {area:1537}, ou {npc:352} dans {object:2096} de {zone:1453}.",
 
 	-- Step 4: Nesingwary's Expedition
@@ -73,8 +73,8 @@ return {
 	-- {object:3202} Grom'gol (no name in this language: may be words) · {area:35} Booty Bay
 	["Follow the main road south the length of the jungle, past the {object:3202} turn-off, to {area:35} on the southern cape."] = "Suivez la route principale vers le sud sur toute la longueur de la jungle, après l'embranchement de {object:3202}, jusqu'à {area:35}, sur le cap sud.",
 	["Gyll, on the top floor by the docks"] = "Gyll, au dernier étage près des quais",
-	-- {npc:2832} Nixxrax Fillamug · {object:56910} The Salty Sailor Tavern (no name in this language: may be words)
-	["{npc:2832}, in the {object:56910}"] = "{npc:2832}, à la taverne du Loup de mer",
+	-- {npc:2832} Nixxrax Fillamug · {object:56910} The Salty Sailor Tavern
+	["{npc:2832}, in the {object:56910}"] = "{npc:2832}, à la {object:56910}",
 	-- {npc:2495} Drizzlik
 	["{npc:2495}, by the bank"] = "{npc:2495}, près de la banque",
 	-- {npc:773} Krazek

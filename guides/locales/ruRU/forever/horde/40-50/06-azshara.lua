@@ -13,7 +13,7 @@ return {
 	["From {area:3317}'s flight master, fly to the {area:1497}."] = "От распорядителя полетов ({area:3317}) летите в {area:1497}.",
 
 	-- Step 2: Oran Snakewrithe
-	-- {npc:7825} Oran Snakewrithe · {object:36082} Magic Quarter (no name in this language: may be words)
+	-- {npc:7825} Oran Snakewrithe · {object:36082} Magic Quarter
 	["{npc:7825} stands in the {object:36082}."] = "{npc:7825} стоит здесь: {object:36082}.",
 
 	-- Step 3: Zeppelin to Orgrimmar
@@ -77,9 +77,9 @@ return {
 	["Xylem's tower stands on the cliff just north of {area:1237}; the path winds up its north side."] = "Башня Ксилема стоит на скале чуть севернее места {area:1237}; тропа вьется по ее северной стороне.",
 
 	-- Step 18: To Grom'gol
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["To {object:3202}"] = "Путь: {object:3202}",
-	-- {area:1237} Valormok · {zone:1454} Orgrimmar · {object:3202} Grom'gol (no name in this language: may be words)
+	-- {area:1237} Valormok · {zone:1454} Orgrimmar · {object:3202} Grom'gol
 	["Fly from {area:1237} to {zone:1454}, walk out of the main gate to the zeppelin towers and take the zeppelin to {object:3202}."] = "Летите из места {area:1237} в {zone:1454}, выйдите из главных ворот к башням дирижаблей и летите на дирижабле: {object:3202}.",
 
 	-- Step 19: Grom'gol Base Camp
@@ -97,7 +97,7 @@ return {
 	["Only once all three robots are home"] = "Только когда все три робота дома",
 
 	-- Step 22: Back to Grom'gol
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["Back to {object:3202}"] = "Вернитесь: {object:3202}",
 
 	-- Step 23: Orgrimmar
@@ -105,7 +105,7 @@ return {
 	["Take the zeppelin back to {zone:1454}."] = "Летите на дирижабле обратно: {zone:1454}.",
 	-- {npc:6986} Dran Droffers
 	["{npc:6986}, the Drag"] = "{npc:6986}, Волок",
-	-- {npc:8659} Jes'rimon · {object:172960} Cleft of Shadow (no name in this language: may be words)
+	-- {npc:8659} Jes'rimon · {object:172960} Cleft of Shadow
 	["{npc:8659}, the {object:172960}"] = "{npc:8659}, {object:172960}",
 	-- {npc:8659} Jes'rimon · {quest:3504} Betrayed · {area:1237} Valormok
 	["Keep {npc:8659}'s payment and Ag'tor's {quest:3504}: they go back to {area:1237} on a later visit."] = "Сохраните плату ({npc:8659}) и задание Аг'тора «{quest:3504}»: они вернутся в {area:1237} при следующем визите.",

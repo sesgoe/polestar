@@ -13,7 +13,7 @@ return {
 	["The {item:5177} that lets you place water totems, and {spell:5394} with it."] = "让你能放置水图腾的{item:5177}，以及随之而来的{spell:5394}。",
 
 	-- Step 1: Searn Firewarder
-	-- {npc:5892} Searn Firewarder · {object:172957} Valley of Wisdom (no name in this language: may be words) · {npc:5901} Islen Waterseer · {zone:1413} Barrens
+	-- {npc:5892} Searn Firewarder · {object:172957} Valley of Wisdom · {npc:5901} Islen Waterseer · {zone:1413} Barrens
 	["At 20 {npc:5892} in the {object:172957} sends you to {npc:5901} in the {zone:1413}."] = "20级时，{object:172957}的{npc:5892}会让你去{zone:1413}找{npc:5901}。",
 
 	-- Step 2: Xanis Flameweaver

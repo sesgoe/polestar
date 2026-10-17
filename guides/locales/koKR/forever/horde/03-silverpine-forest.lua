@@ -9,13 +9,13 @@ return {
 	-- Step 1: To Orgrimmar
 	-- {area:1637} Orgrimmar
 	["To {area:1637}"] = "{area:1637}(으)로",
-	-- {area:380} Crossroads · {area:1637} Orgrimmar · {npc:3310} Doras · {object:172982} Valley of Strength (no name in this language: may be words)
+	-- {area:380} Crossroads · {area:1637} Orgrimmar · {npc:3310} Doras · {object:172982} Valley of Strength
 	["From the {area:380}, follow the road north-east to {area:1637} and walk in by the main gate. {npc:3310}, the wind rider master, stands on the tower in the {object:172982}."] = "{area:380}에서 길을 따라 북동쪽으로 {area:1637}까지 가서 정문으로 들어가세요. 와이번 조련사 {npc:3310}은(는) {object:172982}의 탑 위에 서 있습니다.",
 
 	-- Step 2: Orgrimmar class quests
 	-- {zone:1454} Orgrimmar
 	["{zone:1454} class quests"] = "{zone:1454} 직업 퀘스트",
-	-- {npc:6018} Ur'kyo · {object:172961} Valley of Spirits (no name in this language: may be words)
+	-- {npc:6018} Ur'kyo · {object:172961} Valley of Spirits
 	["{npc:6018} stands in the {object:172961} on the city's west side."] = "{npc:6018}은(는) 도시 서쪽의 {object:172961}에 서 있습니다.",
 
 	-- Step 3: Thunder Bluff
@@ -36,7 +36,7 @@ return {
 	-- Step 5: Zeppelin to Tirisfal Glades
 	-- {zone:1420} Tirisfal Glades
 	["Zeppelin to {zone:1420}"] = "{zone:1420}행 비행선",
-	-- {zone:1454} Orgrimmar · {zone:1420} Tirisfal Glades · {object:3202} Grom'gol (no name in this language: may be words)
+	-- {zone:1454} Orgrimmar · {zone:1420} Tirisfal Glades · {object:3202} Grom'gol
 	["The zeppelin towers stand just outside {zone:1454}'s main gate. Take the zeppelin to {zone:1420} (the other one goes to {object:3202})."] = "비행선 탑은 {zone:1454} 정문 바로 밖에 있습니다. {zone:1420}행 비행선을 타세요(다른 하나는 {object:3202}(으)로 갑니다).",
 	["Zeppelin tower"] = "비행선 탑",
 
@@ -158,11 +158,11 @@ return {
 	["Follow the road north out of Silverpine into {zone:1420} and east to the zeppelin towers outside the {area:153}. Take the zeppelin to {zone:1454}."] = "길을 따라 북쪽으로 은빛소나무 숲을 나가 {zone:1420}에 들어간 뒤, 동쪽으로 {area:153} 밖의 비행선 탑까지 가세요. {zone:1454}행 비행선을 타세요.",
 
 	-- Step 32: Valley of Strength
-	-- {npc:268701} Thatog · {object:172982} Valley of Strength (no name in this language: may be words) · {object:173016} Borstan's Firepit (no name in this language: may be words)
+	-- {npc:268701} Thatog · {object:172982} Valley of Strength · {object:173016} Borstan's Firepit
 	["Walk in through the main gate. {npc:268701} stands in the {object:172982}; {object:173016} is a few steps north."] = "정문으로 들어가세요. {npc:268701}은(는) {object:172982}에 서 있고, {object:173016}은(는) 몇 걸음 북쪽에 있습니다.",
 
 	-- Step 33: Cleft of Shadow
-	-- {object:172960} Cleft of Shadow (no name in this language: may be words) · {object:172982} Valley of Strength (no name in this language: may be words) · {npc:3216} Neeru Fireblade
+	-- {object:172960} Cleft of Shadow · {object:172982} Valley of Strength · {npc:3216} Neeru Fireblade
 	["The {object:172960} is the canyon under the {object:172982}; {npc:3216} stands at its far end."] = "{object:172960}은(는) {object:172982} 아래의 협곡입니다. {npc:3216}은(는) 그 맨 끝에 서 있습니다.",
 
 	-- Step 34: The Drag
@@ -170,11 +170,11 @@ return {
 	["{npc:3348} and {npc:3347} run the alchemy shop in the Drag; {npc:11046} is next door."] = "{npc:3348}와(과) {npc:3347}은(는) 골목길의 연금술 상점을 운영합니다. {npc:11046}은(는) 그 옆집에 있습니다.",
 
 	-- Step 35: Valley of Honor
-	-- {object:172958} Valley of Honor (no name in this language: may be words)
+	-- {object:172958} Valley of Honor
 	["The cattails and speargrass grow along the water in the {object:172958}, east of the Drag."] = "부들과 창풀은 골목길 동쪽, {object:172958}의 물가를 따라 자랍니다.",
 
 	-- Step 37: Valley of Wisdom
-	-- {npc:268684} Thra · {npc:268682} Migi · {object:172957} Valley of Wisdom (no name in this language: may be words) · {npc:3310} Doras · {object:172982} Valley of Strength (no name in this language: may be words)
+	-- {npc:268684} Thra · {npc:268682} Migi · {object:172957} Valley of Wisdom · {npc:3310} Doras · {object:172982} Valley of Strength
 	-- plural, as words: Smooth Boulders = {item:277952} Smooth Boulder
 	["{npc:268684} and {npc:268682} sit behind Grommash Hold in the {object:172957}; the Smooth Boulders lie around them. Train while you are in the city (Druids and Paladins have no trainer here). The next guide starts at {npc:3310}, the wind rider master in the {object:172982}."] = "{npc:268684}와(과) {npc:268682}은(는) {object:172957}의 그롬마쉬 요새 뒤에 앉아 있고, 매끈한 바위가 그 주변에 놓여 있습니다. 도시에 있는 동안 훈련을 받으세요(드루이드와 성기사는 이곳에 상급자가 없습니다). 다음 가이드는 {object:172982}의 와이번 조련사 {npc:3310}에게서 시작합니다.",
 	-- {npc:4949} Thrall

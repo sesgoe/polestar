@@ -19,7 +19,7 @@ return {
 	["{npc:2128} is the {area:159} mage trainer."] = "{npc:2128}은(는) {area:159}의 마법사 상급자입니다.",
 
 	-- Step 3: Anastasia Hartwell
-	-- {npc:4568} Anastasia Hartwell · {object:36082} Magic Quarter (no name in this language: may be words) · {item:7247} Chest of Containment Coffers · {item:7308} Cantation of Manifestation
+	-- {npc:4568} Anastasia Hartwell · {object:36082} Magic Quarter · {item:7247} Chest of Containment Coffers · {item:7308} Cantation of Manifestation
 	["{npc:4568} stands in the {object:36082}. The {item:7247} and the {item:7308} lie behind her."] = "{npc:4568}은(는) {object:36082}에 서 있습니다. {item:7247}와(과) {item:7308}은(는) 그녀 뒤에 있습니다.",
 
 	-- Step 4: The alchemist shop

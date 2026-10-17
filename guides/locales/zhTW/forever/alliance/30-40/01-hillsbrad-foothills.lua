@@ -111,7 +111,7 @@ return {
 	["The naga hold the shore south-east of {area:271}."] = "納迦佔據{area:271}東南方的海岸。",
 
 	-- Step 22: Farren
-	-- {object:2117} Stormwind Keep (no name in this language: may be words)
+	-- {object:2117} Stormwind Keep
 	["A report for {object:2117}"] = "給{object:2117}的報告",
 
 	-- Step 23: Snapjaws
@@ -146,22 +146,22 @@ return {
 	["From {npc:2432} in {area:271}"] = "來自{area:271}的{npc:2432}",
 
 	-- Step 29: Elling Trias
-	-- {object:2096} Trade District (no name in this language: may be words)
+	-- {object:2096} Trade District
 	["The cheese shop in the {object:2096}."] = "{object:2096}的乳酪店。",
 
 	-- Step 30: Dashel Stonefist
-	-- {npc:4961} Dashel Stonefist · {object:2100} Old Town (no name in this language: may be words)
+	-- {npc:4961} Dashel Stonefist · {object:2100} Old Town
 	["{npc:4961} waits in the Pig and Whistle tavern in {object:2100}; he and his two thugs fight you, but stop once beaten."] = "{npc:4961}在{object:2100}的酒館裡等候；他和他的兩個打手會跟你打，但被打敗後就會停手。",
 
 	-- Step 31: The Islander
-	-- {npc:5479} Wu Shen · {object:2100} Old Town (no name in this language: may be words) · {npc:6236} Klannoc Macleod · {area:720} Fray Island · {zone:1413} Barrens · {area:392} Ratchet
+	-- {npc:5479} Wu Shen · {object:2100} Old Town · {npc:6236} Klannoc Macleod · {area:720} Fray Island · {zone:1413} Barrens · {area:392} Ratchet
 	["{npc:5479} trains warriors in {object:2100}, beside the Pig and Whistle. {npc:6236} waits on {area:720} in the {zone:1413}, on the way to {area:392} much later (40-50/01)."] = "{npc:5479}在{object:2100}的酒館旁訓練戰士。{npc:6236}在{zone:1413}的{area:720}等候，要很久以後前往{area:392}的途中才會經過（40-50/01）。",
 
 	-- Step 33: Cathedral of Light
 	["Cathedral of Light"] = "光明大教堂",
 
 	-- Step 34: Mage Quarter
-	-- {npc:2708} Archmage Malin · {object:2164} Slaughtered Lamb (no name in this language: may be words) · {npc:211033} Garion Wendell · {npc:5081} Connor Rivers · {object:2101} Mage Quarter (no name in this language: may be words)
+	-- {npc:2708} Archmage Malin · {object:2164} Slaughtered Lamb · {npc:211033} Garion Wendell · {npc:5081} Connor Rivers · {object:2101} Mage Quarter
 	["{npc:2708} is in the {object:2164}; {npc:211033} near the canal; {npc:5081} south of the {object:2101}."] = "{npc:2708}在{object:2164}；{npc:211033}在運河附近；{npc:5081}在{object:2101}南邊。",
 
 	-- Step 36: Druid training
@@ -170,9 +170,9 @@ return {
 	["{zone:1455} has no druid trainer: train with {npc:5504} in {zone:1453} before the tram."] = "{zone:1455}沒有德魯伊訓練師：搭地鐵前先在{zone:1453}向{npc:5504}學習。",
 
 	-- Step 37: Deeprun Tram
-	-- {area:2257} Deeprun Tram · {object:28027} Dwarven District (no name in this language: may be words) · {zone:1455} Ironforge
+	-- {area:2257} Deeprun Tram · {object:28027} Dwarven District · {zone:1455} Ironforge
 	["Take the {area:2257} from the {object:28027} to {zone:1455}."] = "從{object:28027}搭乘{area:2257}前往{zone:1455}。",
-	-- {npc:2784} King Magni Bronzebeard · {object:171709} High Seat (no name in this language: may be words)
+	-- {npc:2784} King Magni Bronzebeard · {object:171709} High Seat
 	["{npc:2784}, the {object:171709}"] = "{npc:2784}，{object:171709}",
 	["Level 30 and 32 spells"] = "30級和32級法術",
 

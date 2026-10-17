@@ -9,13 +9,13 @@ return {
 	-- Step 1: To Orgrimmar
 	-- {area:1637} Orgrimmar
 	["To {area:1637}"] = "Nach {area:1637}",
-	-- {area:380} Crossroads · {area:1637} Orgrimmar · {npc:3310} Doras · {object:172982} Valley of Strength (no name in this language: may be words)
+	-- {area:380} Crossroads · {area:1637} Orgrimmar · {npc:3310} Doras · {object:172982} Valley of Strength
 	["From the {area:380}, follow the road north-east to {area:1637} and walk in by the main gate. {npc:3310}, the wind rider master, stands on the tower in the {object:172982}."] = "Folge von {area:380} aus der Straße nach Nordosten bis {area:1637} und geh durch das Haupttor hinein. {npc:3310}, der Windreitermeister, steht auf dem Turm im {object:172982}.",
 
 	-- Step 2: Orgrimmar class quests
 	-- {zone:1454} Orgrimmar
 	["{zone:1454} class quests"] = "Klassenquests in {zone:1454}",
-	-- {npc:6018} Ur'kyo · {object:172961} Valley of Spirits (no name in this language: may be words)
+	-- {npc:6018} Ur'kyo · {object:172961} Valley of Spirits
 	["{npc:6018} stands in the {object:172961} on the city's west side."] = "{npc:6018} steht im {object:172961} auf der Westseite der Stadt.",
 
 	-- Step 3: Thunder Bluff
@@ -158,11 +158,11 @@ return {
 	["Follow the road north out of Silverpine into {zone:1420} and east to the zeppelin towers outside the {area:153}. Take the zeppelin to {zone:1454}."] = "Folge der Straße nach Norden aus dem Silberwald nach {zone:1420} und nach Osten zu den Zeppelintürmen vor den {area:153}. Nimm den Zeppelin nach {zone:1454}.",
 
 	-- Step 32: Valley of Strength
-	-- {npc:268701} Thatog · {object:172982} Valley of Strength (no name in this language: may be words) · {object:173016} Borstan's Firepit (no name in this language: may be words)
+	-- {npc:268701} Thatog · {object:172982} Valley of Strength · {object:173016} Borstan's Firepit
 	["Walk in through the main gate. {npc:268701} stands in the {object:172982}; {object:173016} is a few steps north."] = "Geh durch das Haupttor hinein. {npc:268701} steht im {object:172982}; {object:173016} ist ein paar Schritte nördlich.",
 
 	-- Step 33: Cleft of Shadow
-	-- {object:172960} Cleft of Shadow (no name in this language: may be words) · {object:172982} Valley of Strength (no name in this language: may be words) · {npc:3216} Neeru Fireblade
+	-- {object:172960} Cleft of Shadow · {object:172982} Valley of Strength · {npc:3216} Neeru Fireblade
 	["The {object:172960} is the canyon under the {object:172982}; {npc:3216} stands at its far end."] = "{object:172960} ist die Schlucht unter dem {object:172982}; {npc:3216} steht an ihrem hinteren Ende.",
 
 	-- Step 34: The Drag
@@ -170,11 +170,11 @@ return {
 	["{npc:3348} and {npc:3347} run the alchemy shop in the Drag; {npc:11046} is next door."] = "{npc:3348} und {npc:3347} führen den Alchemieladen in der Gasse; {npc:11046} ist nebenan.",
 
 	-- Step 35: Valley of Honor
-	-- {object:172958} Valley of Honor (no name in this language: may be words)
+	-- {object:172958} Valley of Honor
 	["The cattails and speargrass grow along the water in the {object:172958}, east of the Drag."] = "Rohrkolben und Speergras wachsen am Wasser im {object:172958}, östlich der Gasse.",
 
 	-- Step 37: Valley of Wisdom
-	-- {npc:268684} Thra · {npc:268682} Migi · {object:172957} Valley of Wisdom (no name in this language: may be words) · {npc:3310} Doras · {object:172982} Valley of Strength (no name in this language: may be words)
+	-- {npc:268684} Thra · {npc:268682} Migi · {object:172957} Valley of Wisdom · {npc:3310} Doras · {object:172982} Valley of Strength
 	-- plural, as words: Smooth Boulders = {item:277952} Smooth Boulder
 	["{npc:268684} and {npc:268682} sit behind Grommash Hold in the {object:172957}; the Smooth Boulders lie around them. Train while you are in the city (Druids and Paladins have no trainer here). The next guide starts at {npc:3310}, the wind rider master in the {object:172982}."] = "{npc:268684} und {npc:268682} sitzen hinter Grommash Hold im {object:172957}; die Glatten Felsen liegen um sie herum. Trainiere, solange du in der Stadt bist (Druiden und Paladine haben hier keinen Lehrer). Der nächste Guide beginnt bei {npc:3310}, dem Windreitermeister im {object:172982}.",
 	-- {npc:4949} Thrall

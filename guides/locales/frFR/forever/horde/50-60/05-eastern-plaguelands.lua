@@ -9,7 +9,7 @@ return {
 	-- Step 1: Fly to Light's Hope Chapel
 	-- {area:2268} Light's Hope Chapel
 	["Fly to {area:2268}"] = "Prendre un vol pour {area:2268}",
-	-- {object:1661} The Undercity (no name in this language: may be words) · {object:36078} Trade Quarter (no name in this language: may be words)
+	-- {object:1661} The Undercity · {object:36078} Trade Quarter
 	["{object:1661}'s flight master is in the {object:36078}'s west tower, outside the walls."] = "Le maître de vol de {object:1661} se trouve dans la tour ouest de {object:36078}, hors des murs.",
 
 	-- Step 2: Light's Hope Chapel

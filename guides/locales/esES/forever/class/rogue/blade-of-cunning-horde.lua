@@ -16,7 +16,7 @@ return {
 	["At 10 {npc:3170}, the rogue trainer in {area:362}, sends you to {quest:1859} in {zone:1454}."] = "A nivel 10, {npc:3170}, el instructor de pícaros de {area:362}, te envía con {quest:1859} en {zone:1454}.",
 
 	-- Step 2: The Shattered Hand
-	-- {quest:1859} Therzok · {object:172960} Cleft of Shadow (no name in this language: may be words) · {object:172982} Valley of Strength (no name in this language: may be words) · {quest:1963} The Shattered Hand
+	-- {quest:1859} Therzok · {object:172960} Cleft of Shadow · {object:172982} Valley of Strength · {quest:1963} The Shattered Hand
 	["{quest:1859} stands in the {object:172960}, the canyon under the {object:172982}. Trolls: take {quest:1963} from him at 10."] = "{quest:1859} está en la {object:172960}, el cañón bajo el {object:172982}. Si eres trol, acepta {quest:1963} de él a nivel 10.",
 
 	-- Step 3: Tazan
@@ -28,7 +28,7 @@ return {
 	["Back to {npc:6446}"] = "Vuelve con {npc:6446}",
 
 	-- Step 5: Tazan's Key
-	-- {npc:6466} Gamon · {object:172982} Valley of Strength (no name in this language: may be words) · {item:7208} Tazan's Key · {item:7209} Tazan's Satchel
+	-- {npc:6466} Gamon · {object:172982} Valley of Strength · {item:7208} Tazan's Key · {item:7209} Tazan's Satchel
 	["{npc:6466} drinks in the inn in the {object:172982}. Pick his pocket for {item:7208}, then open {item:7209}."] = "{npc:6466} bebe en la posada del {object:172982}. Róbale {item:7208} y luego abre {item:7209}.",
 	-- {item:7209} Tazan's Satchel
 	["{item:7209}, once you have the key"] = "{item:7209}, cuando tengas la llave",
@@ -44,9 +44,9 @@ return {
 	["At 10 {npc:2130}, the rogue trainer in the {area:2119} in {area:159}, sends you to {quest:1885} in the {zone:1458}."] = "A nivel 10, {npc:2130}, el instructor de pícaros de la {area:2119} de {area:159}, te envía con {quest:1885} en {zone:1458}.",
 
 	-- Step 8: The Rogues' Quarter
-	-- {object:36073} Rogues' Quarter (no name in this language: may be words)
+	-- {object:36073} Rogues' Quarter
 	["The {object:36073}"] = "{object:36073}",
-	-- {quest:1885} Mennet Carkad · {object:36073} Rogues' Quarter (no name in this language: may be words)
+	-- {quest:1885} Mennet Carkad · {object:36073} Rogues' Quarter
 	["{quest:1885} stands in the {object:36073}."] = "{quest:1885} está en el {object:36073}.",
 
 	-- Step 9: Astor Hadren
@@ -64,7 +64,7 @@ return {
 	-- Step 12: Mennet Carkad and Varimathras
 	-- {npc:6467} Mennet Carkad · {npc:2425} Varimathras
 	["{npc:6467} and {npc:2425}"] = "{npc:6467} y {npc:2425}",
-	-- {npc:6467} Mennet Carkad · {npc:2425} Varimathras · {object:36126} Royal Quarter (no name in this language: may be words)
+	-- {npc:6467} Mennet Carkad · {npc:2425} Varimathras · {object:36126} Royal Quarter
 	["{npc:6467} sends the ledger on to {npc:2425} in the Hall of the Dark Lady, the {object:36126}."] = "{npc:6467} envía el libro de cuentas a {npc:2425}, en el salón del trono del {object:36126}.",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.

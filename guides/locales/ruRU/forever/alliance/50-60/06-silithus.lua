@@ -176,7 +176,7 @@ return {
 	["Ride back to {area:3137} and fly to {area:2255}."] = "Езжайте назад: {area:3137}, затем летите сюда: {area:2255}.",
 
 	-- Step 34: Ranshalla
-	-- {area:2250} Owl Wing Thicket · {npc:10300} Ranshalla · {object:177404} Altar of Elune (no name in this language: may be words)
+	-- {area:2250} Owl Wing Thicket · {npc:10300} Ranshalla · {object:177404} Altar of Elune
 	["Ride south to {area:2250}. Protect {npc:10300} while she lights the torches on the way to the {object:177404}."] = "Езжайте на юг: {area:2250}. Защищайте персонажа {npc:10300}, пока она зажигает факелы по пути сюда: {object:177404}.",
 
 	-- Step 35: Dire Maul (optional)
@@ -231,7 +231,7 @@ return {
 	-- Step 45: Stormwind
 	-- {area:702} Rut'theran Village · {area:442} Auberdine · {area:17203} Stormwind Harbor · {item:14047} Runecloth · {npc:14722} Clavicus Knavingham
 	["Go back down to {area:702}, take the boat to {area:442} and the boat on to {area:17203}. Bring sixty Silk, sixty Mageweave and sixty {item:14047} for {npc:14722}: buy what you lack at the Auction House."] = "Спуститесь обратно: {area:702}, плывите на корабле сюда: {area:442} – и дальше сюда: {area:17203}. Принесите {npc:14722} по шестьдесят шт. шелкового материала, магической ткани и предмета {item:14047}: недостающее купите на аукционе.",
-	-- {npc:14722} Clavicus Knavingham · {object:2096} Trade District (no name in this language: may be words)
+	-- {npc:14722} Clavicus Knavingham · {object:2096} Trade District
 	["{npc:14722}, in the {object:2096}"] = "{npc:14722} – здесь: {object:2096}",
 
 	-- Step 46: Ironforge
@@ -291,7 +291,7 @@ return {
 
 	-- Step 56: Shaman training
 	["Shaman training"] = "Обучение шамана",
-	-- {zone:1453} Stormwind · {area:2257} Deeprun Tram · {object:28027} Dwarven District (no name in this language: may be words) · {zone:1455} Ironforge · {npc:258098} Eldrun Stormbreaker
+	-- {zone:1453} Stormwind · {area:2257} Deeprun Tram · {object:28027} Dwarven District · {zone:1455} Ironforge · {npc:258098} Eldrun Stormbreaker
 	["{zone:1453} has no shaman trainer: take the {area:2257} from the {object:28027} to {zone:1455} and train your level 60 spells with {npc:258098}."] = "В городе {zone:1453} нет учителя шаманов: поезжайте на метро ({area:2257}) из места {object:28027} сюда: {zone:1455} – и изучите заклинания 60-го уровня у персонажа {npc:258098}.",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.

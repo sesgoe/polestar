@@ -13,7 +13,7 @@ return {
 	["The Troll priest spells: {quest:5652} at 10, {quest:5642} at 20."] = "Les sorts de prêtre troll : {quest:5652} au niveau 10, {quest:5642} au niveau 20.",
 
 	-- Step 1: Hex of Weakness
-	-- {npc:6018} Ur'kyo · {object:172961} Valley of Spirits (no name in this language: may be words) · {zone:1454} Orgrimmar · {npc:3706} Tai'jin · {area:362} Razor Hill · {npc:3044} Miles Welsh · {zone:1456} Thunder Bluff
+	-- {npc:6018} Ur'kyo · {object:172961} Valley of Spirits · {zone:1454} Orgrimmar · {npc:3706} Tai'jin · {area:362} Razor Hill · {npc:3044} Miles Welsh · {zone:1456} Thunder Bluff
 	["At 10, go to {npc:6018} in the {object:172961}, on {zone:1454}'s west side. Priest trainers elsewhere ({npc:3706} in {area:362}, {npc:3044} in {zone:1456}) send you to him with a quest of the same name."] = "Au niveau 10, allez voir {npc:6018} dans la {object:172961}, à l'ouest d'{zone:1454}. Les maîtres des prêtres d'ailleurs ({npc:3706} à {area:362}, {npc:3044} à {zone:1456}) vous envoient à lui avec une quête du même nom.",
 
 	-- Step 2: Shadowguard

@@ -93,11 +93,11 @@ return {
 	["Hearthstone on cooldown? Follow the road north-east."] = "炉石在冷却？沿道路向东北走。",
 	-- {npc:266} Wiley the Black · {area:69} Lakeshire
 	["For {npc:266} in {area:69}, Redridge"] = "交给赤脊山{area:69}的{npc:266}",
-	-- {npc:11026} Sprite Jumpsprocket · {zone:1453} Stormwind · {object:28027} Dwarven District (no name in this language: may be words)
+	-- {npc:11026} Sprite Jumpsprocket · {zone:1453} Stormwind · {object:28027} Dwarven District
 	["For {npc:11026} in {zone:1453}'s {object:28027}"] = "交给{zone:1453}{object:28027}的{npc:11026}",
 
 	-- Step 17: Defensive Stance
-	-- {zone:1453} Stormwind · {npc:5480} Ilsa Corbin · {object:2100} Old Town (no name in this language: may be words) · {npc:6089} Harry Burlguard · {npc:6090} Bartleby · {object:2152} Pig and Whistle Tavern (no name in this language: may be words)
+	-- {zone:1453} Stormwind · {npc:5480} Ilsa Corbin · {object:2100} Old Town · {npc:6089} Harry Burlguard · {npc:6090} Bartleby · {object:2152} Pig and Whistle Tavern
 	["Fly or ride to {zone:1453}. {npc:5480} trains warriors in {object:2100}; {npc:6089} and {npc:6090} stand together by the {object:2152} there. {npc:6090} fights you for his mug."] = "飞往或骑往{zone:1453}。{npc:5480}在{object:2100}训练战士；{npc:6089}和{npc:6090}一起站在那里的{object:2152}旁。{npc:6090}会为了他的杯子和你打一架。",
 
 	-- Step 18: High Priestess Laurena
@@ -106,11 +106,11 @@ return {
 
 	-- Step 19: Shaman training
 	["Shaman training"] = "萨满祭司训练",
-	-- {zone:1453} Stormwind · {area:2257} Deeprun Tram · {object:28027} Dwarven District (no name in this language: may be words) · {zone:1455} Ironforge · {npc:258098} Eldrun Stormbreaker
+	-- {zone:1453} Stormwind · {area:2257} Deeprun Tram · {object:28027} Dwarven District · {zone:1455} Ironforge · {npc:258098} Eldrun Stormbreaker
 	["Ride to {zone:1453}. It has no shaman trainer: take the {area:2257} from the {object:28027} to {zone:1455}, train with {npc:258098}, then ride the tram back for the boat."] = "骑往{zone:1453}。那里没有萨满祭司训练师：从{object:28027}乘{area:2257}前往{zone:1455}，在{npc:258098}处学习，然后乘地铁返回去坐船。",
 
 	-- Step 20: Stormwind
-	-- {zone:1453} Stormwind · {object:2100} Old Town (no name in this language: may be words) · {object:2101} Mage Quarter (no name in this language: may be words) · {npc:11026} Sprite Jumpsprocket · {object:28027} Dwarven District (no name in this language: may be words) · {npc:279} Morgan Pestle · {object:2096} Trade District (no name in this language: may be words)
+	-- {zone:1453} Stormwind · {object:2100} Old Town · {object:2101} Mage Quarter · {npc:11026} Sprite Jumpsprocket · {object:28027} Dwarven District · {npc:279} Morgan Pestle · {object:2096} Trade District
 	["Fly or ride to {zone:1453}. Trainers: {object:2100} (Warriors, Rogues), the Cathedral (Paladins, Priests), the {object:2101} (Mages, Warlocks), the Park (Druids). {npc:11026} works in the {object:28027}, {npc:279} in the {object:2096}."] = "飞往或骑往{zone:1453}。训练师：{object:2100}（战士、潜行者），大教堂（圣骑士、牧师），{object:2101}（法师、术士），公园（德鲁伊）。{npc:11026}在{object:28027}，{npc:279}在{object:2096}。",
 	["Level 12, 14 and 16 spells"] = "12、14和16级法术",
 	-- {item:2449} Earthroot · {zone:1439} Darkshore · {npc:1313} Maria Lumere
@@ -119,7 +119,7 @@ return {
 	["{npc:5497}, Wizard's Sanctum: {quest:1861}"] = "{npc:5497}，法师圣殿：{quest:1861}",
 
 	-- Step 21: Fishin' Time
-	-- {npc:5494} Catherine Leland · {object:2096} Trade District (no name in this language: may be words) · {npc:267118} Gilbert Gray
+	-- {npc:5494} Catherine Leland · {object:2096} Trade District · {npc:267118} Gilbert Gray
 	["{npc:5494} sells fishing supplies along the canal just west of the {object:2096}; {npc:267118} fishes at the harbor, on the way to the boat."] = "{npc:5494}在{object:2096}西边的运河旁出售钓鱼用品；{npc:267118}在港口钓鱼，就在去坐船的路上。",
 	-- {item:6529} Shiny Bauble · {npc:5494} Catherine Leland
 	["{item:6529}, from {npc:5494}"] = "{item:6529}，来自{npc:5494}",

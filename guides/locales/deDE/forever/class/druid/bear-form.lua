@@ -30,9 +30,9 @@ return {
 	["Speak with the {quest:5929}"] = "Sprich mit dem {quest:5929}",
 
 	-- Step 5: The Moonkin Stone
-	-- {object:177525} Moonkin Stone (no name in this language: may be words)
+	-- {object:177525} Moonkin Stone
 	["The {object:177525}"] = "Der {object:177525}",
-	-- {area:702} Rut'theran Village · {area:442} Auberdine · {object:177525} Moonkin Stone (no name in this language: may be words) · {item:15208} Cenarion Moondust · {npc:12144} Lunaclaw Spirit
+	-- {area:702} Rut'theran Village · {area:442} Auberdine · {object:177525} Moonkin Stone · {item:15208} Cenarion Moondust · {npc:12144} Lunaclaw Spirit
 	["Fly from {area:702} to {area:442}. The {object:177525} stands in the hills just east of the village: use the {item:15208} there, defeat Lunaclaw and speak to the {npc:12144}."] = "Flieg von {area:702} nach {area:442}. Der {object:177525} steht in den Hügeln direkt östlich des Dorfes: Benutze dort den {item:15208}, besiege Mondklaue und sprich mit dem {npc:12144}.",
 
 	-- Step 6: Body and Heart
@@ -56,7 +56,7 @@ return {
 	["Speak with the {quest:5930}"] = "Sprich mit dem {quest:5930}",
 
 	-- Step 11: The Moonkin Stone
-	-- {object:177525} Moonkin Stone (no name in this language: may be words) · {zone:1412} Mulgore · {zone:1413} Barrens · {item:15710} Cenarion Lunardust · {npc:12144} Lunaclaw Spirit
+	-- {object:177525} Moonkin Stone · {zone:1412} Mulgore · {zone:1413} Barrens · {item:15710} Cenarion Lunardust · {npc:12144} Lunaclaw Spirit
 	["The {object:177525} stands in the pass from {zone:1412} into the {zone:1413}. Use the {item:15710} there, defeat Lunaclaw and speak to the {npc:12144}."] = "Der {object:177525} steht im Pass von {zone:1412} ins {zone:1413}. Benutze dort den {item:15710}, besiege Mondklaue und sprich mit dem {npc:12144}.",
 
 	-- Step 12: Body and Heart

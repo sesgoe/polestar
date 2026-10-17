@@ -15,13 +15,13 @@ return {
 	["At 16 {npc:3170}, the rogue trainer in {area:362}, sends you to {npc:3401} in {zone:1454}."] = "16級時，{area:362}的盜賊訓練師{npc:3170}會派你去找{zone:1454}的{npc:3401}。",
 
 	-- Step 2: Find the Shattered Hand
-	-- {npc:6467} Mennet Carkad · {object:36073} Rogues' Quarter (no name in this language: may be words) · {npc:3401} Shenthul · {zone:1454} Orgrimmar · {quest:1998} Fenwick Thatros · {zone:1421} Silverpine Forest
+	-- {npc:6467} Mennet Carkad · {object:36073} Rogues' Quarter · {npc:3401} Shenthul · {zone:1454} Orgrimmar · {quest:1998} Fenwick Thatros · {zone:1421} Silverpine Forest
 	["At 16 {npc:6467} in the {object:36073} sends you to {npc:3401} in {zone:1454}. Take {quest:1998} from him too; it is done in {zone:1421} at the end of this guide."] = "16級時，{object:36073}的{npc:6467}會派你去找{zone:1454}的{npc:3401}。也向他接受{quest:1998}；它在本指南最後於{zone:1421}完成。",
 
 	-- Step 3: Shenthul and Zando'zan
 	-- {npc:3401} Shenthul · {quest:2379} Zando'zan
 	["{npc:3401} and {quest:2379}"] = "{npc:3401}與{quest:2379}",
-	-- {zone:1458} Undercity · {zone:1411} Durotar · {npc:3401} Shenthul · {quest:2379} Zando'zan · {object:172960} Cleft of Shadow (no name in this language: may be words) · {object:172982} Valley of Strength (no name in this language: may be words)
+	-- {zone:1458} Undercity · {zone:1411} Durotar · {npc:3401} Shenthul · {quest:2379} Zando'zan · {object:172960} Cleft of Shadow · {object:172982} Valley of Strength
 	["Undead take the zeppelin from the towers outside the {zone:1458} to {zone:1411}. {npc:3401} and {quest:2379} stand in the {object:172960}, the canyon under the {object:172982}."] = "不死族從{zone:1458}外的塔搭飛艇前往{zone:1411}。{npc:3401}和{quest:2379}站在{object:172960}，就是{object:172982}下方的峽谷。",
 
 	-- Step 4: Wrenix the Wretched

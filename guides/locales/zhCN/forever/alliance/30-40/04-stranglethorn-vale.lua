@@ -12,11 +12,11 @@ return {
 
 	-- Step 2: Druid training
 	["Druid training"] = "德鲁伊训练",
-	-- {area:1537} Ironforge · {area:2257} Deeprun Tram · {object:171524} Tinker Town (no name in this language: may be words) · {zone:1453} Stormwind · {npc:5504} Sheldras Moontree
+	-- {area:1537} Ironforge · {area:2257} Deeprun Tram · {object:171524} Tinker Town · {zone:1453} Stormwind · {npc:5504} Sheldras Moontree
 	["{area:1537} has no druid trainer: take the {area:2257} from {object:171524} to {zone:1453} and train with {npc:5504}."] = "{area:1537}没有德鲁伊训练师：从{object:171524}乘{area:2257}前往{zone:1453}，找{npc:5504}训练。",
 
 	-- Step 3: Darkshire
-	-- {area:42} Darkshire · {npc:1573} Gryth Thurden · {area:1537} Ironforge · {object:32372} Great Forge (no name in this language: may be words) · {npc:352} Dungar Longdrink · {zone:1453} Stormwind · {object:2096} Trade District (no name in this language: may be words)
+	-- {area:42} Darkshire · {npc:1573} Gryth Thurden · {area:1537} Ironforge · {object:32372} Great Forge · {npc:352} Dungar Longdrink · {zone:1453} Stormwind · {object:2096} Trade District
 	["Fly to {area:42}: {npc:1573} in {area:1537}'s {object:32372}, or {npc:352} in {zone:1453}'s {object:2096}."] = "飞往{area:42}：{area:1537}{object:32372}的{npc:1573}，或{zone:1453}{object:2096}的{npc:352}。",
 
 	-- Step 4: Nesingwary's Expedition
@@ -70,11 +70,11 @@ return {
 	-- Step 16: Down to Booty Bay
 	-- {area:35} Booty Bay
 	["Down to {area:35}"] = "南下{area:35}",
-	-- {object:3202} Grom'gol (no name in this language: may be words) · {area:35} Booty Bay
+	-- {object:3202} Grom'gol · {area:35} Booty Bay
 	["Follow the main road south the length of the jungle, past the {object:3202} turn-off, to {area:35} on the southern cape."] = "沿主路向南穿过整片丛林，经过{object:3202}岔路，到达南部海角的{area:35}。",
 	["Gyll, on the top floor by the docks"] = "盖尔，在码头旁的顶楼",
-	-- {npc:2832} Nixxrax Fillamug · {object:56910} The Salty Sailor Tavern (no name in this language: may be words)
-	["{npc:2832}, in the {object:56910}"] = "{npc:2832}，在咸水手酒馆",
+	-- {npc:2832} Nixxrax Fillamug · {object:56910} The Salty Sailor Tavern
+	["{npc:2832}, in the {object:56910}"] = "{npc:2832}，在{object:56910}",
 	-- {npc:2495} Drizzlik
 	["{npc:2495}, by the bank"] = "{npc:2495}，在银行旁",
 	-- {npc:773} Krazek
@@ -141,7 +141,7 @@ return {
 
 	-- Step 32: Skullsplitter trolls
 	["Skullsplitter trolls"] = "劈颅巨魔",
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["The Skullsplitter trolls hold the ruins east of the road between Nesingwary and {object:3202}."] = "劈颅巨魔占据奈辛瓦里和{object:3202}之间道路东边的废墟。",
 
 	-- Step 34: Booty Bay

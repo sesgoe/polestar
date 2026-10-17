@@ -13,7 +13,7 @@ return {
 	["From {area:3317}'s flight master, fly to the {area:1497}."] = "Flieg vom Flugmeister in {area:3317} nach {area:1497}.",
 
 	-- Step 2: Oran Snakewrithe
-	-- {npc:7825} Oran Snakewrithe · {object:36082} Magic Quarter (no name in this language: may be words)
+	-- {npc:7825} Oran Snakewrithe · {object:36082} Magic Quarter
 	["{npc:7825} stands in the {object:36082}."] = "{npc:7825} steht im {object:36082}.",
 
 	-- Step 3: Zeppelin to Orgrimmar
@@ -105,7 +105,7 @@ return {
 	["Take the zeppelin back to {zone:1454}."] = "Nimm den Zeppelin zurück nach {zone:1454}.",
 	-- {npc:6986} Dran Droffers
 	["{npc:6986}, the Drag"] = "{npc:6986}, die Gasse",
-	-- {npc:8659} Jes'rimon · {object:172960} Cleft of Shadow (no name in this language: may be words)
+	-- {npc:8659} Jes'rimon · {object:172960} Cleft of Shadow
 	["{npc:8659}, the {object:172960}"] = "{npc:8659}, {object:172960}",
 	-- {npc:8659} Jes'rimon · {quest:3504} Betrayed · {area:1237} Valormok
 	["Keep {npc:8659}'s payment and Ag'tor's {quest:3504}: they go back to {area:1237} on a later visit."] = "Behalte die Bezahlung von {npc:8659} und Ag'tors {quest:3504}: Sie gehen bei einem späteren Besuch zurück nach {area:1237}.",

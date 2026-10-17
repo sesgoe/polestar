@@ -30,9 +30,9 @@ return {
 	["Speak with the {quest:5929}"] = "{quest:5929}와(과) 대화하세요",
 
 	-- Step 5: The Moonkin Stone
-	-- {object:177525} Moonkin Stone (no name in this language: may be words)
+	-- {object:177525} Moonkin Stone
 	["The {object:177525}"] = "{object:177525}",
-	-- {area:702} Rut'theran Village · {area:442} Auberdine · {object:177525} Moonkin Stone (no name in this language: may be words) · {item:15208} Cenarion Moondust · {npc:12144} Lunaclaw Spirit
+	-- {area:702} Rut'theran Village · {area:442} Auberdine · {object:177525} Moonkin Stone · {item:15208} Cenarion Moondust · {npc:12144} Lunaclaw Spirit
 	["Fly from {area:702} to {area:442}. The {object:177525} stands in the hills just east of the village: use the {item:15208} there, defeat Lunaclaw and speak to the {npc:12144}."] = "{area:702}에서 {area:442}(으)로 날아가세요. {object:177525}은(는) 마을 바로 동쪽 언덕에 있습니다. 그곳에서 {item:15208}을(를) 사용하고, 초승달발톱을 쓰러뜨린 뒤 {npc:12144}와(과) 대화하세요.",
 
 	-- Step 6: Body and Heart
@@ -56,7 +56,7 @@ return {
 	["Speak with the {quest:5930}"] = "{quest:5930}와(과) 대화하세요",
 
 	-- Step 11: The Moonkin Stone
-	-- {object:177525} Moonkin Stone (no name in this language: may be words) · {zone:1412} Mulgore · {zone:1413} Barrens · {item:15710} Cenarion Lunardust · {npc:12144} Lunaclaw Spirit
+	-- {object:177525} Moonkin Stone · {zone:1412} Mulgore · {zone:1413} Barrens · {item:15710} Cenarion Lunardust · {npc:12144} Lunaclaw Spirit
 	["The {object:177525} stands in the pass from {zone:1412} into the {zone:1413}. Use the {item:15710} there, defeat Lunaclaw and speak to the {npc:12144}."] = "{object:177525}은(는) {zone:1412}에서 {zone:1413}(으)로 이어지는 고갯길에 있습니다. 그곳에서 {item:15710}을(를) 사용하고, 초승달발톱을 쓰러뜨린 뒤 {npc:12144}와(과) 대화하세요.",
 
 	-- Step 12: Body and Heart

@@ -43,7 +43,7 @@ return {
 
 	-- Step 9: Dun Morogh (1/3)
 	["18 areas to discover here, levels 4-12."] = "이곳에서 발견할 지역은 18곳, 레벨 4-12입니다.",
-	-- {area:2257} Deeprun Tram · {zone:1453} Stormwind City · {object:28027} Dwarven District (no name in this language: may be words) · {zone:1455} Ironforge
+	-- {area:2257} Deeprun Tram · {zone:1453} Stormwind City · {object:28027} Dwarven District · {zone:1455} Ironforge
 	["Take the {area:2257} from {zone:1453}'s {object:28027} to {zone:1455} (or fly to {zone:1455}), then leave the city through its gates."] = "{zone:1453}의 {object:28027}에서 {area:2257}을(를) 타고 {zone:1455}(으)로 가세요(또는 {zone:1455}(으)로 날아가세요). 그런 다음 성문을 통해 도시를 나가세요.",
 
 	-- Step 12: Loch Modan (1/2)

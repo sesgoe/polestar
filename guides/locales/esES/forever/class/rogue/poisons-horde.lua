@@ -13,7 +13,7 @@ return {
 	["Forever teaches {spell:2842} through this chain, not the trainer; the {item:7676} recipe comes with it."] = "Forever enseña {spell:2842} con esta cadena, no el instructor; la receta de {item:7676} viene con ella.",
 
 	-- Step 1: The Shattered Salute
-	-- {npc:3401} Shenthul · {object:172960} Cleft of Shadow (no name in this language: may be words) · {object:172982} Valley of Strength (no name in this language: may be words)
+	-- {npc:3401} Shenthul · {object:172960} Cleft of Shadow · {object:172982} Valley of Strength
 	["At 20 {npc:3401} stands in the {object:172960}, the canyon under the {object:172982}. Target him and type /salute."] = "A nivel 20 {npc:3401} está en {object:172960}, el cañón bajo {object:172982}. Selecciónalo y escribe /salute.",
 	-- {npc:3401} Shenthul
 	["/salute {npc:3401}"] = "/salute a {npc:3401}",

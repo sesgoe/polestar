@@ -36,13 +36,13 @@ return {
 	["Terrordale Spirits"] = "Espíritus del Valle del Terror ({npc:14564})",
 
 	-- Step 7: Grimand Elmore
-	-- {npc:1416} Grimand Elmore · {zone:1453} Stormwind · {object:28027} Dwarven District (no name in this language: may be words)
+	-- {npc:1416} Grimand Elmore · {zone:1453} Stormwind · {object:28027} Dwarven District
 	["{npc:1416} works in {zone:1453}'s {object:28027}."] = "{npc:1416} trabaja en {object:28027} de {zone:1453}.",
 
 	-- Step 8: Grimand Elmore's materials
 	-- {npc:1416} Grimand Elmore
 	["{npc:1416}'s materials"] = "Materiales de {npc:1416}",
-	-- {item:14047} Runecloth · {item:8836} Arthas' Tears · {zone:1448} Felwood · {skill:171} Alchemy · {zone:1453} Stormwind · {object:2096} Trade District (no name in this language: may be words)
+	-- {item:14047} Runecloth · {item:8836} Arthas' Tears · {zone:1448} Felwood · {skill:171} Alchemy · {zone:1453} Stormwind · {object:2096} Trade District
 	-- plural, as words: Arcanite Bars = {item:12360} Arcanite Bar
 	["{item:14047} drops from humanoids around level 50 and up; {item:8836} is an herb of the Plaguelands and {zone:1448}; Arcanite Bars are an {skill:171} transmute. The Auction House in {zone:1453}'s {object:2096} sells all three, and so do crafters."] = "El {item:14047} lo sueltan humanoides de nivel 50 en adelante; {item:8836} es una hierba de las Tierras de la Peste y de {zone:1448}; las Barras de arcanita son una transmutación de {skill:171}. La casa de subastas de {object:2096} de {zone:1453} vende las tres, y también los artesanos.",
 	-- plural, as words: Arcanite Bars = {item:12360} Arcanite Bar
@@ -68,7 +68,7 @@ return {
 	-- Step 12: Enriched Manna Biscuits
 	-- plural, as words: Enriched Manna Biscuits = {item:13724} Enriched Manna Biscuit
 	["Enriched Manna Biscuits"] = "Galletas enriquecidas con maná",
-	-- {object:2160} The Argent Dawn (no name in this language: may be words) · {object:92525} Argent Dawn (no name in this language: may be words) · {npc:10857} Argent Quartermaster Lightspark · {area:3197} Chillwind Camp · {npc:11536} Quartermaster Miranda Breechlock · {area:2268} Light's Hope Chapel · {npc:10856} Argent Quartermaster Hasana · {area:813} Bulwark
+	-- {object:2160} The Argent Dawn · {object:92525} Argent Dawn · {npc:10857} Argent Quartermaster Lightspark · {area:3197} Chillwind Camp · {npc:11536} Quartermaster Miranda Breechlock · {area:2268} Light's Hope Chapel · {npc:10856} Argent Quartermaster Hasana · {area:813} Bulwark
 	["{object:2160} quartermasters sell the biscuits in fives once the {object:92525} is Friendly with you: {npc:10857} at {area:3197}, {npc:11536} at {area:2268}, {npc:10856} at the {area:813}."] = "Los intendentes de {object:2160} venden las galletas de cinco en cinco cuando eres Amistoso con {object:92525}: {npc:10857} en el {area:3197}, {npc:11536} en la {area:2268}, {npc:10856} en {area:813}.",
 	-- {npc:10857} Argent Quartermaster Lightspark · {area:3197} Chillwind Camp
 	-- plural, as words: Enriched Manna Biscuits = {item:13724} Enriched Manna Biscuit
@@ -94,8 +94,8 @@ return {
 	["he hands you the {item:18746}"] = "te da el {item:18746}",
 
 	-- Step 18: The Great Ossuary
-	-- {area:2057} Scholomance · {area:2298} Caer Darrow · {zone:1422} Western Plaguelands · {item:18746} Divination Scryer · {object:179746} The Great Ossuary (no name in this language: may be words) · {npc:14516} Death Knight Darkreaver · {item:18799} Charger's Redeemed Soul · {item:18792} Blessed Arcanite Barding
-	["{area:2057} lies under {area:2298}, the island town in the south-east of the {zone:1422}. Use the {item:18746} in the heart of the {object:179746}'s basement, defeat the spirits it calls and then {npc:14516}, and give his Fallen Charger the {item:18799} and the {item:18792}. All are elite: bring a group. If the attempt fails, Lord Grayson gives you a new scryer through Again Into the {object:179746}."] = "{area:2057} está bajo {area:2298}, el pueblo de la isla al sureste de {zone:1422}. Usa el {item:18746} en el centro del sótano de El Gran Osario, derrota a los espíritus que invoca y luego a {npc:14516}, y dale a su Arremetedor Atracoscuro el {item:18799} y la {item:18792}. Todos son élite: lleva un grupo. Si el intento falla, Lord Grisillo te da un nuevo cristal con la misión El regreso a El Gran Osario.",
+	-- {area:2057} Scholomance · {area:2298} Caer Darrow · {zone:1422} Western Plaguelands · {item:18746} Divination Scryer · {object:179746} The Great Ossuary · {npc:14516} Death Knight Darkreaver · {item:18799} Charger's Redeemed Soul · {item:18792} Blessed Arcanite Barding
+	["{area:2057} lies under {area:2298}, the island town in the south-east of the {zone:1422}. Use the {item:18746} in the heart of the {object:179746}'s basement, defeat the spirits it calls and then {npc:14516}, and give his Fallen Charger the {item:18799} and the {item:18792}. All are elite: bring a group. If the attempt fails, Lord Grayson gives you a new scryer through Again Into the {object:179746}."] = "{area:2057} está bajo {area:2298}, el pueblo de la isla al sureste de {zone:1422}. Usa el {item:18746} en el centro del sótano de {object:179746}, derrota a los espíritus que invoca y luego a {npc:14516}, y dale a su Arremetedor Atracoscuro el {item:18799} y la {item:18792}. Todos son élite: lleva un grupo. Si el intento falla, Lord Grisillo te da un nuevo cristal con la misión El regreso a {object:179746}.",
 
 	-- No longer in the guide (its English changed or it went away): reuse or delete.
 	-- ["{area:2057} lies under {area:2298}, the island town in the south-east of the {zone:1422}. Use the {item:18746} in the heart of the {object:179746}'s basement, defeat the spirits it calls and then {npc:14516}, and give his Fallen Charger the {item:18799} and the {item:18792}. All are elite: bring a group. If the attempt fails, Lord Grayson gives you a new scryer through Again Into the {object:179746}."] = "{area:2057} está bajo {area:2298}, el pueblo de la isla al sureste de {zone:1422}. Usa el {item:18746} en el centro del sótano de {object:179746}, derrota a los espíritus que invoca y luego a {npc:14516}, y dale a su Arremetedor Atracoscuro el {item:18799} y la {item:18792}. Todos son élite: lleva un grupo. Si el intento falla, Lord Grisillo te da un nuevo cristal con la misión Again Into the {object:179746}.",

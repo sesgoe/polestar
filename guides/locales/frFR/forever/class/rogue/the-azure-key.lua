@@ -13,13 +13,13 @@ return {
 	-- Step 1: A Simple Request (Alliance)
 	-- {quest:8233} A Simple Request
 	["{quest:8233} (Alliance)"] = "{quest:8233} (Alliance)",
-	-- {npc:918} Osborne the Night Man · {zone:1453} Stormwind · {object:2100} Old Town (no name in this language: may be words) · {zone:1457} Darnassus · {npc:5165} Hulfdan Blackbeard · {zone:1455} Ironforge
+	-- {npc:918} Osborne the Night Man · {zone:1453} Stormwind · {object:2100} Old Town · {zone:1457} Darnassus · {npc:5165} Hulfdan Blackbeard · {zone:1455} Ironforge
 	["At 50 {npc:918} in {zone:1453}'s {object:2100} has it; so do Syurna in {zone:1457} and {npc:5165} and Fenthwick in {zone:1455}."] = "Au niveau 50, {npc:918}, dans {object:2100} de {zone:1453}, la propose ; Syurna à {zone:1457}, {npc:5165} et Fenthwick à {zone:1455} aussi.",
 
 	-- Step 2: A Simple Request (Horde)
 	-- {quest:8233} A Simple Request
 	["{quest:8233} (Horde)"] = "{quest:8233} (Horde)",
-	-- {npc:3328} Ormok · {object:172960} Cleft of Shadow (no name in this language: may be words) · {npc:4583} Miles Dexter · {zone:1458} Undercity · {object:36073} Rogues' Quarter (no name in this language: may be words)
+	-- {npc:3328} Ormok · {object:172960} Cleft of Shadow · {npc:4583} Miles Dexter · {zone:1458} Undercity · {object:36073} Rogues' Quarter
 	["At 50 {npc:3328} in the {object:172960} has it; so does {npc:4583} in the {zone:1458}'s {object:36073}."] = "Au niveau 50, {npc:3328}, dans {object:172960}, la propose ; {npc:4583}, dans {object:36073} de {zone:1458}, aussi.",
 
 	-- Step 3: Lord Jorach Ravenholdt

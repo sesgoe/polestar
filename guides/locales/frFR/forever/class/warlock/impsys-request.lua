@@ -11,7 +11,7 @@ return {
 	["A staff, off-hand or robe for your 50s; {npc:14470}'s own errand, not a step of the Dreadsteed chain."] = "Un bâton, une main gauche ou une robe pour vos niveaux 50 ; une mission propre à {npc:14470}, pas une étape de la chaîne du Destrier de l'effroi.",
 
 	-- Step 1: An Imp's Request (Stormwind)
-	-- {npc:461} Demisette Cloyce · {object:2164} Slaughtered Lamb (no name in this language: may be words) · {object:2101} Mage Quarter (no name in this language: may be words) · {npc:14470} Impsy · {zone:1448} Felwood
+	-- {npc:461} Demisette Cloyce · {object:2164} Slaughtered Lamb · {object:2101} Mage Quarter · {npc:14470} Impsy · {zone:1448} Felwood
 	["At 50 {npc:461} in the {object:2164}, in the {object:2101}, sends you to {npc:14470} in {zone:1448}."] = "Au niveau 50, {npc:461}, à {object:2164}, dans {object:2101}, vous envoie voir {npc:14470} en {zone:1448}.",
 
 	-- Step 2: An Imp's Request (Ironforge)
@@ -19,11 +19,11 @@ return {
 	["At 50 {npc:5172} in {zone:1455} sends you to {npc:14470} in {zone:1448}."] = "Au niveau 50, {npc:5172}, à {zone:1455}, vous envoie voir {npc:14470} en {zone:1448}.",
 
 	-- Step 3: An Imp's Request (Orgrimmar)
-	-- {npc:3326} Zevrost · {object:172960} Cleft of Shadow (no name in this language: may be words) · {npc:14470} Impsy · {zone:1448} Felwood
+	-- {npc:3326} Zevrost · {object:172960} Cleft of Shadow · {npc:14470} Impsy · {zone:1448} Felwood
 	["At 50 {npc:3326} in the {object:172960} sends you to {npc:14470} in {zone:1448}."] = "Au niveau 50, {npc:3326}, à {object:172960}, vous envoie voir {npc:14470} en {zone:1448}.",
 
 	-- Step 4: An Imp's Request (Undercity)
-	-- {npc:4563} Kaal Soulreaper · {object:36082} Magic Quarter (no name in this language: may be words) · {npc:14470} Impsy · {zone:1448} Felwood
+	-- {npc:4563} Kaal Soulreaper · {object:36082} Magic Quarter · {npc:14470} Impsy · {zone:1448} Felwood
 	["At 50 {npc:4563} in the {object:36082} sends you to {npc:14470} in {zone:1448}."] = "Au niveau 50, {npc:4563}, à {object:36082}, vous envoie voir {npc:14470} en {zone:1448}.",
 
 	-- Step 5: Felcloth

@@ -66,7 +66,7 @@ return {
 	["Further north, the goblins of the Venture Co. dig at the mine east of the road; miners, foremen, surveyors and tinkerers all drop the crystals."] = "再往北，風險投資公司的哥布林在道路東邊的礦坑挖掘；礦工、工頭、勘探員和修理工都會掉落水晶。",
 
 	-- Step 15: Grom'gol Base Camp
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["Ride north-west to {object:3202}."] = "向西北騎到{object:3202}。",
 	-- {zone:1425} Hinterlands
 	["for later: the {zone:1425}, around level 48"] = "留待之後：{zone:1425}，約48級",
@@ -80,14 +80,14 @@ return {
 	["West of the expedition, the Bloodscalp chiefs {npc:1061} and {npc:1062} stand together in the ruins of Zul'Kunda. Clear their guards first, then pull them."] = "遠征隊營地西邊，血頂酋長{npc:1061}和{npc:1062}一起站在祖昆達廢墟中。先清掉他們的守衛，再把他們拉過來。",
 
 	-- Step 18: Hearth to Grom'gol
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["Hearth to {object:3202}"] = "用爐石回到{object:3202}",
 	-- {object:2076} Bubbling Cauldron · {npc:2497} Nimboya
 	["the {object:2076}, beside {npc:2497}"] = "{object:2076}，在{npc:2497}旁邊",
 
 	-- Step 19: Jungle stalkers
 	["Jungle stalkers"] = "叢林捕獵者",
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["The stalker raptors hunt the jungle south of {object:3202}, out towards the west coast."] = "叢林捕獵者迅猛龍在{object:3202}南邊的叢林狩獵，一直延伸到西海岸。",
 
 	-- Step 20: Naga shore and the Holy Spring
@@ -115,11 +115,11 @@ return {
 	["The next trophy skulls stand in the small ruins just north of the warriors' camp."] = "下一批祖瑪維顱骨堆在劈顱戰士營地北邊不遠的小廢墟中。",
 
 	-- Step 25: Ziata'jai Ruins
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["The last skulls are in the ruins a short ride west, on the way back to {object:3202}."] = "最後一批顱骨堆在往西不遠的廢墟中，就在返回{object:3202}的路上。",
 
 	-- Step 26: Grom'gol Base Camp
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["Ride west to {object:3202}."] = "向西騎到{object:3202}。",
 	-- {object:2076} Bubbling Cauldron
 	["the {object:2076}"] = "{object:2076}",
@@ -129,7 +129,7 @@ return {
 	["Hearth to {area:35}"] = "用爐石回到{area:35}",
 
 	-- Step 28: Fly to Grom'gol
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["Fly to {object:3202}"] = "飛往{object:3202}",
 
 	-- Step 29: Nesingwary's Expedition

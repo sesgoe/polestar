@@ -11,7 +11,7 @@ return {
 
 	-- Step 1: Learn to ride
 	["Learn to ride"] = "學習騎術",
-	-- {npc:4752} Kildar · {npc:3362} Ogunaro Wolfrunner · {zone:1454} Orgrimmar · {object:172958} Valley of Honor (no name in this language: may be words) · {skill:762} Riding
+	-- {npc:4752} Kildar · {npc:3362} Ogunaro Wolfrunner · {zone:1454} Orgrimmar · {object:172958} Valley of Honor · {skill:762} Riding
 	["{npc:4752} and {npc:3362}'s kennel are in {zone:1454}'s {object:172958}. At 40 {npc:4752} teaches {skill:762} (100g per Blizzard's designers), and learning it gives you a mount. The Forever client lets every Horde race ride these."] = "{npc:4752}和{npc:3362}的狼舍在{zone:1454}的{object:172958}。40級時{npc:4752}教授{skill:762}（依暴雪設計師為100金），學會後會獲得一隻坐騎。Forever用戶端允許所有部落種族騎乘。",
 	-- {npc:4752} Kildar
 	["{npc:4752}, riding trainer"] = "騎術訓練師{npc:4752}",

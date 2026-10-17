@@ -111,7 +111,7 @@ return {
 	["The naga hold the shore south-east of {area:271}."] = "As nagas ocupam a costa a sudeste de {area:271}.",
 
 	-- Step 22: Farren
-	-- {object:2117} Stormwind Keep (no name in this language: may be words)
+	-- {object:2117} Stormwind Keep
 	["A report for {object:2117}"] = "Um relatório para {object:2117}",
 
 	-- Step 23: Snapjaws
@@ -146,22 +146,22 @@ return {
 	["From {npc:2432} in {area:271}"] = "Com {npc:2432} em {area:271}",
 
 	-- Step 29: Elling Trias
-	-- {object:2096} Trade District (no name in this language: may be words)
+	-- {object:2096} Trade District
 	["The cheese shop in the {object:2096}."] = "A loja de queijos em {object:2096}.",
 
 	-- Step 30: Dashel Stonefist
-	-- {npc:4961} Dashel Stonefist · {object:2100} Old Town (no name in this language: may be words)
+	-- {npc:4961} Dashel Stonefist · {object:2100} Old Town
 	["{npc:4961} waits in the Pig and Whistle tavern in {object:2100}; he and his two thugs fight you, but stop once beaten."] = "{npc:4961} espera na Taberna do Javatusco Saltitante, em {object:2100}; ele e seus dois capangas lutam com você, mas param quando derrotados.",
 
 	-- Step 31: The Islander
-	-- {npc:5479} Wu Shen · {object:2100} Old Town (no name in this language: may be words) · {npc:6236} Klannoc Macleod · {area:720} Fray Island · {zone:1413} Barrens · {area:392} Ratchet
+	-- {npc:5479} Wu Shen · {object:2100} Old Town · {npc:6236} Klannoc Macleod · {area:720} Fray Island · {zone:1413} Barrens · {area:392} Ratchet
 	["{npc:5479} trains warriors in {object:2100}, beside the Pig and Whistle. {npc:6236} waits on {area:720} in the {zone:1413}, on the way to {area:392} much later (40-50/01)."] = "{npc:5479} treina guerreiros em {object:2100}, ao lado da Taberna do Javatusco Saltitante. {npc:6236} espera em {area:720}, em {zone:1413}, no caminho para {area:392}, bem mais tarde (40-50/01).",
 
 	-- Step 33: Cathedral of Light
 	["Cathedral of Light"] = "Catedral da Luz",
 
 	-- Step 34: Mage Quarter
-	-- {npc:2708} Archmage Malin · {object:2164} Slaughtered Lamb (no name in this language: may be words) · {npc:211033} Garion Wendell · {npc:5081} Connor Rivers · {object:2101} Mage Quarter (no name in this language: may be words)
+	-- {npc:2708} Archmage Malin · {object:2164} Slaughtered Lamb · {npc:211033} Garion Wendell · {npc:5081} Connor Rivers · {object:2101} Mage Quarter
 	["{npc:2708} is in the {object:2164}; {npc:211033} near the canal; {npc:5081} south of the {object:2101}."] = "{npc:2708} está em {object:2164}; {npc:211033}, perto do canal; {npc:5081}, ao sul de {object:2101}.",
 
 	-- Step 36: Druid training
@@ -170,9 +170,9 @@ return {
 	["{zone:1455} has no druid trainer: train with {npc:5504} in {zone:1453} before the tram."] = "{zone:1455} não tem instrutor de druidas: treine com {npc:5504} em {zone:1453} antes do metrô.",
 
 	-- Step 37: Deeprun Tram
-	-- {area:2257} Deeprun Tram · {object:28027} Dwarven District (no name in this language: may be words) · {zone:1455} Ironforge
+	-- {area:2257} Deeprun Tram · {object:28027} Dwarven District · {zone:1455} Ironforge
 	["Take the {area:2257} from the {object:28027} to {zone:1455}."] = "Pegue o {area:2257} em {object:28027} até {zone:1455}.",
-	-- {npc:2784} King Magni Bronzebeard · {object:171709} High Seat (no name in this language: may be words)
+	-- {npc:2784} King Magni Bronzebeard · {object:171709} High Seat
 	["{npc:2784}, the {object:171709}"] = "{npc:2784}, {object:171709}",
 	["Level 30 and 32 spells"] = "Feitiços de nível 30 e 32",
 

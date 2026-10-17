@@ -224,7 +224,7 @@ return {
 	["Tame it with the {item:15908}"] = "用{item:15908}驯服它",
 
 	-- Step 56: The Moonkin Stone
-	-- {object:177525} Moonkin Stone (no name in this language: may be words)
+	-- {object:177525} Moonkin Stone
 	["The {object:177525}"] = "{object:177525}",
 	-- {zone:1412} Mulgore · {item:15710} Cenarion Lunardust
 	["The stone stands in the pass out of {zone:1412}, on your way east. Use the {item:15710} there and defeat Lunaclaw."] = "石头在离开{zone:1412}的山口里，就在你向东的路上。在那里使用{item:15710}并击败月爪枭兽。",

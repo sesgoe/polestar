@@ -12,7 +12,7 @@ return {
 	["The Gnome priest spells, new in Forever: one at 10, one at 20."] = "Forever新增的侏儒牧师法术：一个在10级，一个在20级。",
 
 	-- Step 1: Confounding Flash
-	-- {npc:258785} High Priestess Mims · {object:32386} Hall of Mysteries (no name in this language: may be words) · {zone:1455} Ironforge · {object:32362} Mystic Ward (no name in this language: may be words) · {npc:1226} Maxan Anvol · {area:131} Kharanos · {npc:377} Priestess Josetta · {area:87} Goldshire · {npc:376} High Priestess Laurena · {zone:1453} Stormwind
+	-- {npc:258785} High Priestess Mims · {object:32386} Hall of Mysteries · {zone:1455} Ironforge · {object:32362} Mystic Ward · {npc:1226} Maxan Anvol · {area:131} Kharanos · {npc:377} Priestess Josetta · {area:87} Goldshire · {npc:376} High Priestess Laurena · {zone:1453} Stormwind
 	["At 10, go to {npc:258785} in the {object:32386}, in {zone:1455}'s {object:32362}. {npc:1226} in {area:131}, {npc:377} in {area:87} and {npc:376} in {zone:1453} send you to her with a quest of the same name (its text may say {zone:1453}: Mims is in {zone:1455})."] = "10级时，去{zone:1455}{object:32362}的{object:32386}找{npc:258785}。{area:131}的{npc:1226}、{area:87}的{npc:377}和{zone:1453}的{npc:376}会用同名任务把你派去找她（任务文本可能写的是{zone:1453}：米姆斯在{zone:1455}）。",
 
 	-- Step 2: Contingency Plan

@@ -12,11 +12,11 @@ return {
 
 	-- Step 2: Druid training
 	["Druid training"] = "드루이드 수련",
-	-- {area:1537} Ironforge · {area:2257} Deeprun Tram · {object:171524} Tinker Town (no name in this language: may be words) · {zone:1453} Stormwind · {npc:5504} Sheldras Moontree
+	-- {area:1537} Ironforge · {area:2257} Deeprun Tram · {object:171524} Tinker Town · {zone:1453} Stormwind · {npc:5504} Sheldras Moontree
 	["{area:1537} has no druid trainer: take the {area:2257} from {object:171524} to {zone:1453} and train with {npc:5504}."] = "{area:1537}에는 드루이드 상급자가 없습니다. {object:171524}에서 {area:2257}을(를) 타고 {zone:1453}(으)로 가서 {npc:5504}에게 배우세요.",
 
 	-- Step 3: Darkshire
-	-- {area:42} Darkshire · {npc:1573} Gryth Thurden · {area:1537} Ironforge · {object:32372} Great Forge (no name in this language: may be words) · {npc:352} Dungar Longdrink · {zone:1453} Stormwind · {object:2096} Trade District (no name in this language: may be words)
+	-- {area:42} Darkshire · {npc:1573} Gryth Thurden · {area:1537} Ironforge · {object:32372} Great Forge (no name in this language: may be words) · {npc:352} Dungar Longdrink · {zone:1453} Stormwind · {object:2096} Trade District
 	["Fly to {area:42}: {npc:1573} in {area:1537}'s {object:32372}, or {npc:352} in {zone:1453}'s {object:2096}."] = "{area:42}(으)로 날아가세요: {area:1537} {object:32372}의 {npc:1573}, 또는 {zone:1453} {object:2096}의 {npc:352}.",
 
 	-- Step 4: Nesingwary's Expedition
@@ -70,11 +70,11 @@ return {
 	-- Step 16: Down to Booty Bay
 	-- {area:35} Booty Bay
 	["Down to {area:35}"] = "{area:35}(으)로 내려가기",
-	-- {object:3202} Grom'gol (no name in this language: may be words) · {area:35} Booty Bay
+	-- {object:3202} Grom'gol · {area:35} Booty Bay
 	["Follow the main road south the length of the jungle, past the {object:3202} turn-off, to {area:35} on the southern cape."] = "큰길을 따라 밀림을 끝까지 남쪽으로 가서 {object:3202} 갈림길을 지나 남쪽 곶의 {area:35}에 도착하세요.",
 	["Gyll, on the top floor by the docks"] = "가일, 부두 옆 꼭대기 층",
-	-- {npc:2832} Nixxrax Fillamug · {object:56910} The Salty Sailor Tavern (no name in this language: may be words)
-	["{npc:2832}, in the {object:56910}"] = "{npc:2832}, 뱃사공의 선술집 안",
+	-- {npc:2832} Nixxrax Fillamug · {object:56910} The Salty Sailor Tavern
+	["{npc:2832}, in the {object:56910}"] = "{npc:2832}, {object:56910} 안",
 	-- {npc:2495} Drizzlik
 	["{npc:2495}, by the bank"] = "{npc:2495}, 은행 옆",
 	-- {npc:773} Krazek
@@ -141,7 +141,7 @@ return {
 
 	-- Step 32: Skullsplitter trolls
 	["Skullsplitter trolls"] = "백골가루부족 트롤",
-	-- {object:3202} Grom'gol (no name in this language: may be words)
+	-- {object:3202} Grom'gol
 	["The Skullsplitter trolls hold the ruins east of the road between Nesingwary and {object:3202}."] = "백골가루부족 트롤은 네싱워리와 {object:3202} 사이 길 동쪽의 폐허를 차지하고 있습니다.",
 
 	-- Step 34: Booty Bay

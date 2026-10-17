@@ -12,7 +12,7 @@ return {
 	["An off-hand orb or a staff for the late 30s, your pick."] = "Un orbe de mano izquierda o un bastón para el final de la treintena, a tu elección.",
 
 	-- Step 1: Return to the Marsh (Stormwind)
-	-- {npc:5497} Jennea Cannon · {zone:1453} Stormwind · {object:2101} Mage Quarter (no name in this language: may be words) · {npc:6546} Tabetha · {zone:1455} Ironforge
+	-- {npc:5497} Jennea Cannon · {zone:1453} Stormwind · {object:2101} Mage Quarter · {npc:6546} Tabetha · {zone:1455} Ironforge
 	["{npc:5497} in the Wizard's Sanctum, {zone:1453}'s {object:2101}, sends you back to {npc:6546}; Bink in {zone:1455} gives the same quest."] = "{npc:5497}, en la torre de los magos de {object:2101} de {zone:1453}, te envía con {npc:6546}; Bink, en {zone:1455}, da la misma misión.",
 
 	-- Step 2: Return to the Marsh (Orgrimmar)
@@ -33,7 +33,7 @@ return {
 	["{npc:6546} draws the demon out of the orb beside her cottage. The {npc:6549} is elite: grouping up is advised. You have three minutes before it slips back into the orb."] = "{npc:6546} saca al demonio del orbe junto a su cabaña. El {npc:6549} es élite: se recomienda ir en grupo. Tienes tres minutos antes de que vuelva a meterse en el orbe.",
 
 	-- Step 6: Power in Uldaman
-	-- {area:1517} Uldaman · {zone:1418} Badlands · {object:178824} Meeting Stone (no name in this language: may be words) · {npc:7023} Obsidian Sentinel
+	-- {area:1517} Uldaman · {zone:1418} Badlands · {object:178824} Meeting Stone · {npc:7023} Obsidian Sentinel
 	["{area:1517} is a dungeon in the northern {zone:1418}, by the {object:178824}: a group of five. Defeat the {npc:7023} inside for its power source."] = "{area:1517} es una mazmorra al norte de {zone:1418}, junto a la {object:178824}: un grupo de cinco. Derrota al {npc:7023} del interior para conseguir su fuente de energía.",
 
 	-- Step 7: Mana Surges
